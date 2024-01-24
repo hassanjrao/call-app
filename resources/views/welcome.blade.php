@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -11,427 +11,267 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="{{ asset('js/script.js') }}" defer></script>
     <title>ConnectVista</title>
   </head>
   <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <div class="logo">
+          <a href="/"
+            ><img
+              src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/logo-2.svg"
+              alt="logo"
+          /></a>
+        </div>
+
+        <div class="nav-items">
+          <ul class="nav-item">
+            <li class="expand">
+              Products
+              <i class="fa-solid fa-chevron-down"></i>
+              <div class="dropdown">
+                <div class="dropdown__products">
+                  <h3>Products</h3>
+                  <ul>
+                    <li><a href="#">business Phone System</a></li>
+                    <li><a href="#">WhatsApp business</a></li>
+                    <li><a href="#">shared inbox</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown__features">
+                  <h3>Features</h3>
+                  <ul class="features__grid">
+                    <li><a href="#">Power dialer</a></li>
+                    <li><a href="/auto-rotate">Auto rotate</a></li>
+                    <li><a href="#">Smart DID Routing</a></li>
+                    <li><a href="#">Live Call Monitoring</a></li>
+                    <li><a href="#"> SMS</a></li>
+                    <li><a href="#">Powerful Reporting</a></li>
+                    <li><a href="#">Automatic Machine Detection</a></li>
+                    <li><a href="#">Sticky Agent </a></li>
+                    <li><a href="#">Speed To Dial</a></li>
+                    <li><a href="#">All Features </a></li>
+                  </ul>
+                </div>
+                <div class="span2">
+                  <p>
+                    <span>Let’s talk!</span> Explore our business calling
+                    software
+                  </p>
+                  <button>book a demo today</button>
+                </div>
+              </div>
+            </li>
+            <li class="expand">
+              Solution <i class="fa-solid fa-chevron-down"></i>
+
+              <div class="dropdown dropdown__2">
+                <div>
+                  <h3>By Need</h3>
+                  <ul>
+                    <li><a href="#">Office Phone System</a></li>
+                    <li><a href="#">Call center software</a></li>
+                    <li><a href="#">Voice Broadcasting</a></li>
+                    <li><a href="#">Predictive Dialer</a></li>
+                    <li><a href="#">Virtual Phone Number</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>By use Case</h3>
+                  <ul>
+                    <li><a href="#">Power dialer</a></li>
+                    <li><a href="#">Auto rotate</a></li>
+                    <li><a href="#">Smart DID Routing</a></li>
+                    <li><a href="#">Smart DID Routing</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>Industry</h3>
+                  <ul>
+                    <li><a href="#">Power dialer</a></li>
+                    <li><a href="#">Auto rotate</a></li>
+                    <li><a href="#">Smart DID Routing</a></li>
+                    <li><a href="#">Live Call Monitoring</a></li>
+                    <li><a href="#"> SMS</a></li>
+                    <li><a href="#">Powerful Reporting</a></li>
+                  </ul>
+                </div>
+                <div class="span2">
+                  <p>
+                    <span>Let’s talk!</span> Explore our business calling
+                    software
+                  </p>
+                  <button>book a demo today</button>
+                </div>
+              </div>
+            </li>
+            <li>Pricing</li>
+            <li class="expand">
+              integrations <i class="fa-solid fa-chevron-down"></i>
+
+              <div class="dropdown dropdown__3">
+                <div>
+                  <h3>INTEGRATIONS</h3>
+                  <ul>
+                    <li><a href="#">Office Phone System</a></li>
+                    <li><a href="#">Call center software</a></li>
+                    <li><a href="#">Voice Broadcasting</a></li>
+                    <li><a href="#">Predictive Dialer</a></li>
+                    <li><a href="#">Virtual Phone Number</a></li>
+                    <li><a href="#">Virtual Phone Number</a></li>
+                    <li><a href="#">Office Phone System</a></li>
+                    <li><a href="#">Call center software</a></li>
+                    <li><a href="#">Voice Broadcasting</a></li>
+                    <li><a href="#">Predictive Dialer</a></li>
+                    <li><a href="#">Virtual Phone Number</a></li>
+                    <li><a href="#">Virtual Phone Number</a></li>
+                    <li><a href="#">Office Phone System</a></li>
+                    <li><a href="#">Call center software</a></li>
+                    <li><a href="#">Voice Broadcasting</a></li>
+                    <li><a href="#">Predictive Dialer</a></li>
+                    <li><a href="#">Virtual Phone Number</a></li>
+                    <li><a href="#">Virtual Phone Number</a></li>
+                  </ul>
+                </div>
+
+                <footer class="span2">
+                  <p>
+                    <span>Let’s talk!</span> Explore our business calling
+                    software
+                  </p>
+                  <button>book a demo today</button>
+                </footer>
+              </div>
+            </li>
+            <li class="expand">
+              Resources <i class="fa-solid fa-chevron-down"></i>
+              <div class="dropdown dropdown__4">
+                <div>
+                  <h3>INTEGRATIONS</h3>
+                  <ul>
+                    <li><a href="#">Office Phone System</a></li>
+                    <li><a href="#">Call center software</a></li>
+                    <li><a href="#">Voice Broadcasting</a></li>
+                    <li><a href="#">Predictive Dialer</a></li>
+                    <li><a href="#">Virtual Phone Number</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3>INTEGRATIONS</h3>
+                  <ul>
+                    <li><a href="#">Office Phone System</a></li>
+                    <li><a href="#">Call center software</a></li>
+                    <li><a href="#">Voice Broadcasting</a></li>
+                    <li><a href="#">Predictive Dialer</a></li>
+                    <li><a href="#">Virtual Phone Number</a></li>
+                  </ul>
+                </div>
+
+                <footer class="span2">
+                  <p>
+                    <span>Let’s talk!</span> Explore our business calling
+                    software
+                  </p>
+                  <button>book a demo today</button>
+                </footer>
+              </div>
+            </li>
+          </ul>
+          <div class="nav-btn">
+            <button class="btn-demo">book a demo</button>
+            <a href="/signup" class="btn-trial">start free trial</a>
+          </div>
+        </div>
+
+        <div class="nav-mobile" id="menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
     <main class="container">
-      <header class="header">
-        <nav class="nav-bar">
-          <div class="logo">
-            <a href="/"
-              ><img
-                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/logo-2.svg"
-                alt="logo"
-            /></a>
-          </div>
-          <div class="nav-items">
-            <ul class="nav-item">
-              <li>Product</li>
-              <li>Solution</li>
-              <li>Pricing</li>
-              <li>integrations</li>
-              <li>Resources</li>
-            </ul>
-            <div class="nav-btn">
-              <button class="btn-demo">book a demo</button>
-              <button class="btn-trial">start free trial</button>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <div class="hero-container">
-        <div class="hero__title">
-          <h2>Make More Calls</h2>
-        </div>
-        <div class="hero__desc">
-          <p>
-            ConnectVista is the leading virtual phone system that assists in
-            increasing agent productivity, automating workflows, tracking team
-            performance, and reducing
-            <span
-              >communication costs<svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="205"
-                height="10"
-                viewBox="0 0 205 10"
-                fill="none"
-              >
-                <path
-                  d="M2 7.99998C34.8254 4.80714 182.526 -2.51409 203 6.00014"
-                  stroke="#E27749"
-                  stroke-width="3"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-          </p>
-        </div>
-        <div class="hero__btn">
-          <button>Try ConnectVista For Free</button>
-        </div>
-        <div class="hero__image">
-          <img
-            src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch_dashboard_v2.1.svg"
-            alt="hero"
-          />
+    @yield('content')
+  </main>
+
+    <footer class="footer-container">
+      <div class="footer-main">
+        <ul>
+          <li class="footer-heading">
+            <a href="/"> <h3>By Need</h3> </a>
+            <i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li><a href="/">Cloud PBX</a></li>
+          <li><a href="/">Virtual PBX</a></li>
+          <li><a href="/">Voip Phone System</a></li>
+          <li><a href="/">Business Phone Number</a></li>
+          <li><a href="/">Local Phone Number</a></li>
+          <li><a href="/">Online Phone Number</a></li>
+          <li><a href="/">International Phone Number</a></li>
+        </ul>
+        <ul>
+          <li class="footer-heading">
+            <a href="/"> <h3>By Need</h3> </a
+            ><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li><a href="/">Cloud PBX</a></li>
+          <li><a href="/">Virtual PBX</a></li>
+          <li><a href="/">Voip Phone System</a></li>
+          <li><a href="/">Business Phone Number</a></li>
+          <li><a href="/">Local Phone Number</a></li>
+          <li><a href="/">Online Phone Number</a></li>
+          <li><a href="/">International Phone Number</a></li>
+        </ul>
+        <ul>
+          <li class="footer-heading">
+            <a href="/"> <h3>By Need</h3> </a
+            ><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li><a href="/">Cloud PBX</a></li>
+          <li><a href="/">Virtual PBX</a></li>
+          <li><a href="/">Voip Phone System</a></li>
+          <li><a href="/">Business Phone Number</a></li>
+          <li><a href="/">Local Phone Number</a></li>
+          <li><a href="/">Online Phone Number</a></li>
+          <li><a href="/">International Phone Number</a></li>
+        </ul>
+        <ul>
+          <li class="footer-heading">
+            <a href="/"> <h3>By Need</h3> </a
+            ><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li><a href="/">Cloud PBX</a></li>
+          <li><a href="/">Virtual PBX</a></li>
+          <li><a href="/">Voip Phone System</a></li>
+          <li><a href="/">Business Phone Number</a></li>
+          <li><a href="/">Local Phone Number</a></li>
+          <li><a href="/">Online Phone Number</a></li>
+          <li><a href="/">International Phone Number</a></li>
+        </ul>
+        <ul>
+          <li class="footer-heading">
+            <a href="/"> <h3>By Need</h3> </a
+            ><i class="fa-solid fa-caret-down"></i>
+          </li>
+          <li><a href="/">Cloud PBX</a></li>
+          <li><a href="/">Virtual PBX</a></li>
+          <li><a href="/">Voip Phone System</a></li>
+          <li><a href="/">Business Phone Number</a></li>
+          <li><a href="/">Local Phone Number</a></li>
+          <li><a href="/">Online Phone Number</a></li>
+          <li><a href="/">International Phone Number</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>
+          COPYRIGHT © 2023 - CALLHIPPO STATUS DPA AUP SMS POLICY PRIVACY POLICY
+          TERMS & CONDITIONS SITEMAP
+        </p>
+        <div class="socials">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
         </div>
       </div>
-
-      <div class="trusted-container">
-        <div class="trusted-heading">
-          <p>Trusted by 4000+ companies</p>
-        </div>
-        <div class="trusted-content">
-          <img
-            src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/Amazon.svg"
-            alt="trusted"
-          /><img
-            src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/brighchamps.svg"
-            alt="trusted"
-          /><img
-            src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/oracle.svg"
-            alt="trusted"
-          /><img
-            src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/turing.svg"
-            alt="trusted"
-          />
-          <img
-            src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/valuelabs.svg"
-            alt="trusted"
-          /><img
-            src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/iresearch.svg"
-            alt="trusted"
-          />
-          <img
-            src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/intellipaat_logo.svg"
-            alt="trusted"
-          />
-        </div>
-      </div>
-
-      <div class="technologies-container">
-        <div class="technologies-heading">
-          <h3>Hop On to the Future of Virtual Telephony</h3>
-          <p>Technology that can exponentially increase your completed calls</p>
-        </div>
-        <div class="technologies-card__container">
-          <div class="technologies-card">
-            <div class="technologies-card__image">
-              <img
-                src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/call_connect_rates.svg"
-                alt="cardImage"
-              />
-            </div>
-
-            <div class="technologies-card__content">
-              <p>Industries Leading</p>
-              <h4>Call Connect Rates</h4>
-            </div>
-          </div>
-          <div class="technologies-card">
-            <div class="technologies-card__image">
-              <img
-                src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/uptime.svg"
-                alt="cardImage"
-              />
-            </div>
-
-            <div class="technologies-card__content">
-              <p>Industries Leading</p>
-              <h4>Call Connect Rates</h4>
-            </div>
-          </div>
-          <div class="technologies-card">
-            <div class="technologies-card__image">
-              <img
-                src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ziro_jitter.svg"
-                alt="cardImage"
-              />
-            </div>
-
-            <div class="technologies-card__content">
-              <p>Industries Leading</p>
-              <h4>Call Connect Rates</h4>
-            </div>
-          </div>
-          <div class="technologies-card">
-            <div class="technologies-card__image">
-              <img
-                src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/crm_helpdesk.svg"
-                alt="cardImage"
-              />
-            </div>
-
-            <div class="technologies-card__content">
-              <p>Industries Leading</p>
-              <h4>Call Connect Rates</h4>
-            </div>
-          </div>
-          <div class="technologies-card">
-            <div class="technologies-card__image">
-              <img
-                src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ai_enable.svg"
-                alt="cardImage"
-              />
-            </div>
-
-            <div class="technologies-card__content">
-              <p>Industries Leading</p>
-              <h4>Call Connect Rates</h4>
-            </div>
-          </div>
-          <div class="technologies-card">
-            <div class="technologies-card__image">
-              <img
-                src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/zero_latency.svg"
-                alt="cardImage"
-              />
-            </div>
-
-            <div class="technologies-card__content">
-              <p>Industries Leading</p>
-              <h4>Call Connect Rates</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="benefits-container">
-        <div class="benefits__heading">
-          <h3>CC2 Is the Technology That Powers ConnectVista</h3>
-        </div>
-        <div class="benefits-card__container">
-          <img
-            class="vs"
-            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ch-home-table-vs-icon.svg"
-            alt="Vs"
-          />
-          <div class="benefits-card">
-            <h3>Regular Phone System</h3>
-            <ul>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/error_icon.svg"
-                  alt="warning"
-                />
-                PBX Technology
-              </li>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/error_icon.svg"
-                  alt="warning"
-                />
-                No Uptime Guarantee
-              </li>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/error_icon.svg"
-                  alt="warning"
-                />
-                Single Global Server
-              </li>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/error_icon.svg"
-                  alt="warning"
-                />
-                Single Telephony Network
-              </li>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/error_icon.svg"
-                  alt="warning"
-                />
-                Improper Outbound CLI
-              </li>
-            </ul>
-          </div>
-          <div class="divider"></div>
-          <div class="benefits-card">
-            <h3>Regular Phone System</h3>
-            <ul>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/right_tick.svg"
-                  alt="check"
-                />
-                PBX Technology
-              </li>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/right_tick.svg"
-                  alt="check"
-                />
-                No Uptime Guarantee
-              </li>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/right_tick.svg"
-                  alt="check"
-                />
-                Single Global Server
-              </li>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/right_tick.svg"
-                  alt="check"
-                />
-                Single Telephony Network
-              </li>
-              <li>
-                <img
-                  src="https://callhippo.com/wp-content/uploads/customupload/img/right_tick.svg"
-                  alt="check"
-                />
-                Improper Outbound CLI
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="packs-container">
-        <div class="packs__heading">
-          <h2>Transform Your Sales Process & Customer Experiences</h2>
-          <p>
-            Use CallHippo To Monitor & Manage Your Business Operations From One
-            Place.
-          </p>
-        </div>
-
-        <div class="packs__cards">
-          <div class="pack">
-            <h4>For Sales Teams</h4>
-            <p>
-              Improve sales agents’ productivity and increase conversions.
-              Leverage advanced features to build a strong brand presence and
-              boost revenue.
-            </p>
-            <button>Schedule a Demo</button>
-          </div>
-          <div class="pack">
-            <h4>For Support Teams</h4>
-            <p>
-              Create enhanced customer experiences by solving queries in a
-              flash. Utilize Smart Call Forwarding to stay connected at any
-              time.
-            </p>
-            <button>Talk to Our Team</button>
-          </div>
-          <div class="pack">
-            <h4>For Call Centers/BPO</h4>
-            <p>
-              Level up your processes and connect with more prospects using IVR.
-              Be available round-the-clock with our robust features.
-            </p>
-            <button>Schedule a Demo</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="setup-container">
-        <div class="setup-wrapper">
-          <div class="setup-content">
-            <h5>
-              Set Up Your Phone System In Less Than <span>3 Minutes</span>
-            </h5>
-            <p class="desc">
-              From buying a number to making the first call, all it takes is 3
-              minutes to set up your virtual phone system.
-            </p>
-            <div class="numbers">
-              <p><span class="number">1</span> Buy Numbers</p>
-              <span>→</span>
-              <p><span class="number">2</span> Add Users</p>
-              <span>→</span>
-              <p><span class="number">3</span> Start Calling</p>
-              <span>→</span>
-              <p><span class="number">4</span>Track Calls</p>
-            </div>
-            <button>Start Free Trial</button>
-          </div>
-          <img
-            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/USA-cta-min_home.png"
-            alt="Mobile"
-          />
-        </div>
-      </div>
-
-      <footer class="footer-container">
-        <div class="footer-main">
-          <ul>
-            <li>
-              <a href="/"> <h3>By Need</h3> </a>
-            </li>
-            <li><a href="/">Cloud PBX</a></li>
-            <li><a href="/">Virtual PBX</a></li>
-            <li><a href="/">Voip Phone System</a></li>
-            <li><a href="/">Business Phone Number</a></li>
-            <li><a href="/">Local Phone Number</a></li>
-            <li><a href="/">Online Phone Number</a></li>
-            <li><a href="/">International Phone Number</a></li>
-          </ul>
-          <ul>
-            <li>
-              <a href="/"> <h3>By Need</h3> </a>
-            </li>
-            <li><a href="/">Cloud PBX</a></li>
-            <li><a href="/">Virtual PBX</a></li>
-            <li><a href="/">Voip Phone System</a></li>
-            <li><a href="/">Business Phone Number</a></li>
-            <li><a href="/">Local Phone Number</a></li>
-            <li><a href="/">Online Phone Number</a></li>
-            <li><a href="/">International Phone Number</a></li>
-          </ul>
-          <ul>
-            <li>
-              <a href="/"> <h3>By Need</h3> </a>
-            </li>
-            <li><a href="/">Cloud PBX</a></li>
-            <li><a href="/">Virtual PBX</a></li>
-            <li><a href="/">Voip Phone System</a></li>
-            <li><a href="/">Business Phone Number</a></li>
-            <li><a href="/">Local Phone Number</a></li>
-            <li><a href="/">Online Phone Number</a></li>
-            <li><a href="/">International Phone Number</a></li>
-          </ul>
-          <ul>
-            <li>
-              <a href="/"> <h3>By Need</h3> </a>
-            </li>
-            <li><a href="/">Cloud PBX</a></li>
-            <li><a href="/">Virtual PBX</a></li>
-            <li><a href="/">Voip Phone System</a></li>
-            <li><a href="/">Business Phone Number</a></li>
-            <li><a href="/">Local Phone Number</a></li>
-            <li><a href="/">Online Phone Number</a></li>
-            <li><a href="/">International Phone Number</a></li>
-          </ul>
-          <ul>
-            <li>
-              <a href="/"> <h3>By Need</h3> </a>
-            </li>
-            <li><a href="/">Cloud PBX</a></li>
-            <li><a href="/">Virtual PBX</a></li>
-            <li><a href="/">Voip Phone System</a></li>
-            <li><a href="/">Business Phone Number</a></li>
-            <li><a href="/">Local Phone Number</a></li>
-            <li><a href="/">Online Phone Number</a></li>
-            <li><a href="/">International Phone Number</a></li>
-          </ul>
-        </div>
-        <div class="copyright">
-          <p>
-            COPYRIGHT © 2023 - CALLHIPPO STATUS DPA AUP SMS POLICY PRIVACY
-            POLICY TERMS & CONDITIONS SITEMAP
-          </p>
-          <div class="socials">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-          </div>
-        </div>
-      </footer>
-    </main>
+    </footer>
   </body>
 </html>

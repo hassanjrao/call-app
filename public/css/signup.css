@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+.signin-container {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  gap: 15px;
+}
+
+.signin-container>.right-section {
+  flex: 1;
+  width: 50%;
+  background-color: #FFF6F2;
+  padding-top: 15px;
+
+}
+
+
+
+.signin-container>.right-section>.hero__image {
+  display: flex;
+  justify-content: center;
+}
+
+.signin-container>.right-section>.hero__image img {
+  width: 288px;
+  height: 309px;
+}
+
+ .signin-container .right-section .hero__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signin-container> .right-section> .hero__desc p {
+  text-align: center;
+  font-family: 'Inter',Helvetica,Arial,Lucida,sans-serif;
+  font-size: 1.2rem;
+  width: 48ch;
+  line-height: 1.6;
+  word-spacing: 1.2;
+  margin-bottom: 15px;
+}
+
+.signin-container> .right-section> .hero__desc p > span {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.signin-container> .right-section> .hero__desc p:nth-child(2)  {
+  font-weight: 600;
+
+}
+
+.right-section> .trusted-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 35px;
+}
+
+.signin-container> .right-section> .trusted-container .trusted-heading {
+  color: #959db9;
+  font-weight: 600;
+}
+
+.signin-container>.right-section>.trusted-container .trusted-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 35px;
+}
+
+.signin-container>.right-section>.trusted-container .trusted-content img {
+  height: 28px;
+}
+
+/* left Section */
+
+.signin-container>.left-section {
+  flex: 1;
+  margin-top: 45px;
+
+}
+
+.signin-container>.left-section .head {
+  display: flex;
+  justify-content: space-around;
+}
+
+.signin-container .left-section .head .logo img {
+  width: 182px;
+  height: 43px;
+}
+
+.signin-container>.left-section .head p {
+  margin-top: 13px;
+  font-weight: 500;
+}
+
+.signin-container>.left-section .head p> a {
+  color: var(--primary-color);
+}
+
+
+.signin-container>.left-section .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 70px;
+}
+
+.signin-container .left-section .content p {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.signin-container .left-section .content p> span {
+  color:var(--primary-color);
+}
+
+
+.signin-container .left-section .content input {
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px #CDCFD1 solid;
+  font-size: 1rem;
+}
+
+.signin-container .left-section .content button {
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: #fff;
+  border: transparent;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+/* Trusted Section */
+
