@@ -1,0 +1,38 @@
+.machine__container {
+    height: 100%;
+    width: 100vw;
+    gap: var(--gap);
+    background-color: #FCF3F6;
+}
+
+.stickyAgent__container {
+    height: 100%;
+    width: 100vw;
+    gap: var(--gap);
+    background-color: #FCF3F6;
+}
+
+.machine__container>.hero__items>.hero__content>.hero__btn {
+    justify-content: start;
+}
+
+.stickyAgent__container>.hero__items>.hero__content>.hero__btn {
+    justify-content: start;
+}
+
+.machine__container>.whyCall__container>.why__cards>.card>.span1 {
+    background: #EDF4FF;
+}
+
+.machine__container>.whyCall__container>.why__cards>.card>.span2 {
+    background: #FFE9EB;
+}
+
+.machine__container>.whyCall__container>.why__cards>.card>.span3 {
+    background: #F6F1FF;
+}
+
+
+.machine__container>.setup-container .setup-wrapper {
+    background-color: #0B0A1E;
+}

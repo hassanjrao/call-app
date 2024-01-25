@@ -1,5 +1,7 @@
 @import url("signup.css");
 @import url("autoRotate.css");
+@import url("machine.css");
+@import url("stickyAgent.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;

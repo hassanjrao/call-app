@@ -52,7 +52,6 @@
 
 .signin-container> .right-section> .hero__desc p:nth-child(2)  {
   font-weight: 600;
-
 }
 
 .right-section> .trusted-container {
@@ -141,5 +140,4 @@
   border-radius: 5px;
   font-size: 1.1rem;
 }
-/* Trusted Section */
 

@@ -6,7 +6,7 @@
 }
 
 /* Hero Section */
-.autoRotate__container>.hero__items {
+.hero__items {
     width: 1200px;
     margin-inline: auto;
     display: flex;
@@ -14,19 +14,19 @@
     justify-content: space-around;
 }
 
-.autoRotate__container>.hero__items>.hero__content {
+.hero__items>.hero__content {
     flex: 1;
 }
 
-.autoRotate__container>.hero__items>.hero__image {
+.hero__items>.hero__image {
     flex: 1;
 }
 
-.autoRotate__container>.hero__items>.hero__content {
+.hero__items>.hero__content {
     padding-left: 100px;
 }
 
-.autoRotate__container>.hero__items>.hero__content>.content {
+.hero__items>.hero__content>.content {
     font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
     font-size: 1.1rem;
     width: 53ch;
@@ -35,7 +35,7 @@
     color: #3a383c;
 }
 
-.autoRotate__container>.hero__items>.hero__content>.title {
+.hero__items>.hero__content>.title {
     font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 20px;
@@ -126,10 +126,15 @@
 }
 
 /* Experience Section */
+.experience {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
 .exp__container {
     width: 1200px;
     margin: 40px auto;
-    background-color: #FFFFFF;
+    
     padding: 30px 0;
 }
 
@@ -142,7 +147,7 @@
 
 
 .exp__container>.exp__header>.exp__text {
-  font-family: 'Inter',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
     font-size: 1.1rem;
     text-align: center;
     margin-bottom: 20px;
@@ -220,11 +225,21 @@
 }
 
 
+/* Setup Section */
+.autoRotate__container>.setup-container .setup-wrapper {
+    background-color: #0B0A1E;
+  }
+
 /* Benifits Section */
+.benefits {
+    width: 100%;
+    background-color: #FFFFFF;
+
+}
+
 .benefits__container {
     width: 1200px;
     margin: 40px auto;
-    background-color: #FFFFFF;
     padding: 30px 0;
 }
 
@@ -237,7 +252,7 @@
 
 
 .benefits__container>.benefits__header>.benefits__text {
-  font-family: 'Inter',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
     font-size: 1.1rem;
     text-align: center;
     margin-bottom: 20px;
@@ -286,7 +301,8 @@
 }
 
 .benefits__container>.benefits__cards>.benefits__card>.span3 {
-    background: #25C16F;;
+    background: #25C16F;
+    ;
 }
 
 .benefits__container>.benefits__cards>.benefits__card>span>img {
@@ -314,7 +330,7 @@
 
 /* Avantages Section */
 .avantages__container {
-    width: 1200px;
+    width: 1050px;
     margin: 40px auto;
     padding: 30px 0;
 }
@@ -329,7 +345,7 @@
 
 
 .avantages__container>.avantages__header>.avantages__text {
-  font-family: 'Inter',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
     font-size: 1.1rem;
     text-align: center;
     margin-bottom: 20px;
@@ -337,40 +353,37 @@
     line-height: 1.6;
 }
 
-.avantages__container > .avantages__cards {
+.avantages__container>.avantages__cards {
     padding: 50px !important;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 40px;
-  background-color: white;
-  box-shadow: 0px 4px 24px rgba(206, 196, 196, 0.45);
-  border-radius: 15px;
-}
-
-.avantages__container > .avantages__cards > .avantages__card {
     display: flex;
-  align-items: center;
-  gap: 10px;
-  flex-basis: 30%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    background-color: white;
+    box-shadow: 0px 4px 24px rgba(206, 196, 196, 0.45);
+    border-radius: 15px;
 }
 
-.avantages__container > .avantages__cards > .avantages__card > .card__text {
-display: flex;
-justify-content: center;
-align-items: center;
+.avantages__container>.avantages__cards>.avantages__card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-basis: 30%;
 }
 
-.avantages__container > .avantages__cards > .avantages__card > .card__text > h2 {
+.avantages__container>.avantages__cards>.avantages__card>.card__text {
+    text-align: center;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__text>h2 {
     font-weight: 600;
-  font-size: 18px;
-  text-transform: capitalize;
-  color: #000000;
-  line-height: 1.5;
-  padding-bottom: 0 !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000000;
+    line-height: 1.5;
 }
 
-.avantages__container>.avantages__cards>.avantages__card>span {
+.avantages__container>.avantages__cards>.avantages__card>.card__image>span {
     height: 70px;
     width: 70px;
     border-radius: 14px;
@@ -380,7 +393,153 @@ align-items: center;
     margin-bottom: 20px;
 }
 
-.avantages__container>.avantages__cards>.avantages__card>span>img {
+.avantages__container>.avantages__cards>.avantages__card>.card__image>span>img {
     width: 40px;
     height: 40px;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span1 {
+    background: #EDF4FF;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span2 {
+    background: #DDFFED;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span3 {
+    background: #A376FF1A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span4 {
+    background: #FEC1631A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span5 {
+    background: #4769FF1A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span6 {
+    background: #FFF5EF;
+}
+
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span7 {
+    background: #FFE9EB;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span8 {
+    background: #FFF1EB;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span9 {
+    background: #96DEDA1A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span10 {
+    background: #FF96F91A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span11 {
+    background: #D11C3D1A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span12 {
+    background: #7C98F91A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span13 {
+    background: #F6F1FF;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span14 {
+    background: #E3F5FF;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span15 {
+    background: #FD65851A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span16 {
+    background: #6B73FF1A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span17 {
+    background: #5FE1FE1A;
+}
+
+.avantages__container>.avantages__cards>.avantages__card>.card__image>.span18 {
+    background: #4769FF1A;
+}
+
+/* Hear From U section */
+.hearFromU {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.hearFromU__container {
+    width: 1050px;
+    margin: 0px auto;
+    padding: 30px 0;
+}
+
+.hearFromU__container>h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.hearFromU__container>.hearFromU__mainview {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hearFromU__container>.hearFromU__mainview> .hearFromU__content {
+    flex: 1;
+    position: relative;
+    padding: 30px;
+}
+
+
+.hearFromU__container > .hearFromU__mainview > .hearFromU__image > img {
+    width: 368px;
+    height: 398px;
+}
+
+
+.hearFromU__container>.hearFromU__mainview>.hearFromU__content> img {
+    position: absolute;
+  transform: translate(-2px, -45px);
+  opacity: 0.14;
+}
+
+.hearFromU__container>.hearFromU__mainview>.hearFromU__content> p {
+    font-family: 'Poppins',sans-serif !important;
+  font-size: 29px !important;
+  line-height: 48px !important;
+  color: #000 !important;
+  width: 32ch;
+  margin-bottom: 20px;
+}
+
+.hearFromU__container > .hearFromU__mainview >.hearFromU__content > .hearFromU__footer {
+    display: flex;
+  gap: 20px;
+
+}
+
+.hearFromU__container > .hearFromU__mainview >.hearFromU__content > .hearFromU__footer > .footer__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hearFromU__container > .hearFromU__mainview >.hearFromU__content > .hearFromU__footer > .footer__name p {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.hearFromU__container > .hearFromU__mainview >.hearFromU__content > .hearFromU__footer > .footer__name p >span {
+    font-size: 1rem;
+    font-weight: 100;
 }

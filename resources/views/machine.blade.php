@@ -1,22 +1,21 @@
 @extends('welcome')
 @section('content')
-    <div class="autoRotate__container">
+    <div class="machine__container">
         <section class="hero__items">
             <div class="hero__content">
 
-                <p class="title">Auto Rotate</p>
-                <p class="content">Enhance your calling strategy with auto rotate for each call. Display customers a
-                    different
-                    number each time and avoid spam markings. Boost connection rates by customizing the total call limit per
-                    day!</p>
+                <p class="title">Answering Machine Detection</p>
+                <p class="content">Effortlessly distinguish between live answers and answering machines. Optimize your
+                    calling strategy and ensure your agents spend more time engaging with customers and less time leaving
+                    voicemails.</p>
                 <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
             </div>
 
 
 
             <div class="hero__image">
-                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Callhippo-Auto-rotate.png"
-                    alt="auto-rotate">
+                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Answering-Machine-Detection.png"
+                    alt="machine">
             </div>
         </section>
         <section class="trusted-container">
@@ -42,72 +41,74 @@
         <section class="whyCall__container">
             <div class="why__header">
                 <h2 class="why__title">Why CallHippo?</h2>
-                <p class="why__text">Avoid getting your numbers marked spam with us! Enhance global reach with local numbers
-                    and cost-effective
-                    solutions. Elevate your communication game, boost productivity, and connect effortlessly worldwide.</p>
+                <p class="why__text">
+
+                    For years, CallHippo has been redefining customer experiences. As a leading cloud contact center
+                    software provider, we empower enterprises globally. Discover why CallHippo is the ultimate choice for
+                    your business.</p>
             </div>
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Pushing%20the%20Boundaries_Pushing%20the%20Boundaries.svg"
+                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Seamless-Communication-with-amd.svg"
                             alt="icon" /></span>
-                    <h5>Spam Prevention</h5>
-                    <p class="card__text">Change numbers with each call automatically! Prevent spam markings and enhance
-                        productivity by maintaining a fresh and legitimate appearance to customers.</p>
+                    <h5>Seamless Communication</h5>
+                    <p class="card__text">With our constant feature updates and enhancements, you can stay ahead of the
+                        curve in your sector and ensure that your company always has access to the newest resources for
+                        first-rate client interactions.</p>
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Cutting-Edge-Innovation.svg"
+                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Industry-Leading-Reliability-with-amd.svg"
                             alt="icon" /></span>
-                    <h5>Global Reach</h5>
-                    <p class="card__text">Establish a local presence worldwide with CallHippo's virtual phone numbers
-                        featuring local area codes. Connect with diverse audiences, expanding your reach seamlessly.</p>
+                    <h5>Industry-Leading Reliability</h5>
+                    <p class="card__text">Nothing less than the highest level of security and dependability should be
+                        provided to your company. You can rely on our stringent security measures to protect your data,
+                        along with our unparalleled stability, which boasts an astounding 99.99% uptime.</p>
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Transparent-Pricing.svg"
+                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/24-7-Support-with-amd.svg"
                             alt="icon" /></span>
-                    <h5>Cost Effective</h5>
-                    <p class="card__text">Optimize communication expenses with cost-effective VoIP features! Allocate
-                        resources efficiently, directing savings towards core business growth and development.</p>
+                    <h5>24/7 Support</h5>
+                    <p class="card__text">To help your staff fully utilize our cutting-edge features, we provide thorough
+                        training. Furthermore, our customer service representatives are available around the clock by phone
+                        or SMS if you need help.</p>
                 </div>
         </section>
         <section class="experience">
             <div class="exp__container">
                 <div class="exp__header">
-                    <h2 class="exp__title">Deliver Top-Notch Experience</h2>
-                    <p class="exp__text">Change numbers automatically from the CallHippo dialer to avoid being marked in the
-                        list of spammers. Boost credibility and improve business ROI instantly!</p>
+                    <h2 class="exp__title">Streamline Call Campaigns</h2>
+                    <p class="exp__text">Maximize your calling efforts by eliminating wasted time on voicemails. CallHippo’s
+                        Answering Machine Detection ensures your agents connect with live leads, enhancing productivity and
+                        increasing the likelihood of successful conversations.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-auto_answer_call.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Efficient-Lead-Management-with-amd.svg"
                                 alt="icon" /></span>
-                        <h5>No More Spam Numbers</h5>
-                        <p class="card__text">Say goodbye to spam numbers with our auto rotate feature. Protect your
-                            communication integrity as our advanced feature ensures each call displays a unique number,
-                            preventing spam markings.</p>
+                        <h5>Efficient Lead Management</h5>
+                        <p class="card__text">Spend less time leaving voicemails and more time connecting with potential
+                            customers who are ready to engage.</p>
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Increases-Retention.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Data-Driven-Insights-with-amd.svg"
                                 alt="icon" /></span>
-                        <h5>Automatic Number Management</h5>
-                        <p class="card__text">Automatic number management streamlines communication by dynamically assigning
-                            and
-                            rotating phone numbers. Enhance security, reduce spam risks, and optimize engagement to ensure a
-                            seamless and efficient connection experience for users.</p>
+                        <h5>Data-Driven Insights</h5>
+                        <p class="card__text">Get insightful data on the effectiveness of your call campaigns to adjust your
+                            tactics for the best outcomes.</p>
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Flexibility-and-Mobility.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improved-Conversion-Rates-with-amd.svg"
                                 alt="icon" /></span>
-                        <h5>Low Call Abandonment Rates</h5>
-                        <p class="card__text">Ensure a streamlined and efficient communication process. Auto rotate provides
-                            unique numbers, helping in promptly answering calls. Enhance customer satisfaction, and reflect
-                            positively on the reliability and responsiveness of your business.</p>
+                        <h5>Improved Conversion Rates</h5>
+                        <p class="card__text">Increase the chances of converting leads into customers by ensuring your
+                            agents engage with live contacts.</p>
                     </div>
                 </div>
             </div>
@@ -117,10 +118,11 @@
             <div class="setup-wrapper">
                 <div class="setup-content">
                     <h5>
-                        Set Up Your Phone System In Less Than <span>3 Minutes</span>
+                        Elevate customer interactions with
+                        <span>Answering Machine Detection</span>
                     </h5>
                     <p class="desc">
-                        From buying a number to setting up the auto-rotate feature, all it takes is 3 minutes!
+                        Empower your team with insights for efficient calling campaigns & lead management.
                     </p>
                     <button>Start Free Trial</button>
                 </div>
@@ -131,40 +133,35 @@
         <section class="benefits">
             <div class="benefits__container">
                 <div class="benefits__header">
-                    <h2 class="benefits__title">Benefits of Auto Rotate</h2>
-                    <p class="benefits__text">CallHippo’s auto rotate, a dynamic feature, changes identifiers with each
-                        call.
-                        Enhances privacy, prevents spam markings, and present a fresh and legitimate appearance to
-                        recipients.
-                        Optimize your communication efficiency today.</p>
+                    <h2 class="benefits__title">Benefits of Answering Machine Detection</h2>
+                    <p class="benefits__text">Unleash the power of precise call handling with Answering Machine Detection.
+                        Here’s how you can leverage the power of Answering Machine Detection.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improve-CSAT.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Saves-Time-with-amd.svg"
                                 alt="icon" /></span>
-                        <h5>Boost Call Connect Rates</h5>
-                        <p class="card__text">Auto rotate in calls boosts connection rates. Increase call connect rates with
-                            efficient strategies and personalized communication for a seamless connection experience.</p>
+                        <h5>Saves Time</h5>
+                        <p class="card__text">Reduce wasted minutes leaving voicemails and focus on connecting with live
+                            leads. Experience up to 30% more conversations with potential customers.</p>
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/call_center_analytics.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Boosts-Productivity-with-amd.svg"
                                 alt="icon" /></span>
-                        <h5>Enhanced Credibility</h5>
-                        <p class="card__text">Present a varied and legitimate appearance to customers and clients! With each
-                            call displaying a different number, avoid patterns associated with spam, fostering trust and
-                            professionalism.</p>
+                        <h5>Boosts Productivity</h5>
+                        <p class="card__text">Empower your agents to be more productive by ensuring they spend their time
+                            engaging with leads that are ready to convert.</p>
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Boost-Efficiency-with-SMS.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Enhanced-Campaign-ROI-with-amd.svg"
                                 alt="icon" /></span>
-                        <h5>Maximized Agent Productivity</h5>
-                        <p class="card__text">Maximize agent productivity by presenting a different number with each call,
-                            preventing spam markings. Enhance efficiency by connecting with more calls, ensuring optimal
-                            engagement and results.</p>
+                        <h5>Enhanced Campaign ROI</h5>
+                        <p class="card__text">Get more value from your call campaigns by targeting live leads, ultimately
+                            driving higher conversion rates and revenue.</p>
                     </div>
                 </div>
             </div>
@@ -172,9 +169,9 @@
         </section>
         <section class="avantages__container">
             <div class="avantages__header">
-                <h2 class="avantages__title">Dodge Spam, Boost Connection, Enhance Productivity</h2>
-                <p class="avantages__text">Auto rotate optimizes connections, prevents spam, and boosts productivity,
-                    ensuring a seamless and efficient calling experience for enhanced engagement and results.</p>
+                <h2 class="avantages__title">Harness The Power Of Answering Machine Detection</h2>
+                <p class="avantages__text">Streamline call campaigns through answering machine detection. Drive efficiency,
+                    save time, and increase conversions.</p>
             </div>
             <div class="avantages__cards">
                 <div class="avantages__card">
@@ -361,7 +358,8 @@
             </div>
         </section>
         <section class="hearFromU">
-            <div class="hearFromU__container"><h2>Hear From Our Customers</h2>
+            <div class="hearFromU__container">
+                <h2>Hear From Our Customers</h2>
                 <div class="hearFromU__mainview">
                     <div class="hearFromU__content">
                         <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
@@ -383,8 +381,9 @@
                         <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ch-home-user-image-new.png"
                             alt="person">
                     </div>
-                </div></div>
-            
+                </div>
+            </div>
+
         </section>
     </div>
 @endsection

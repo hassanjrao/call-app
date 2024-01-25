@@ -48,8 +48,8 @@
                     <li><a href="#">Live Call Monitoring</a></li>
                     <li><a href="#"> SMS</a></li>
                     <li><a href="#">Powerful Reporting</a></li>
-                    <li><a href="#">Automatic Machine Detection</a></li>
-                    <li><a href="#">Sticky Agent </a></li>
+                    <li><a href="/machine-detection">Automatic Machine Detection</a></li>
+                    <li><a href="/sticky-agent">Sticky Agent </a></li>
                     <li><a href="#">Speed To Dial</a></li>
                     <li><a href="#">All Features </a></li>
                   </ul>

@@ -24,3 +24,12 @@ Route::get('/signup', function() {
 Route::get('/auto-rotate', function() {
     return view('autoRotate');
 });
+
+Route::get('/machine-detection', function() {
+    return view('machine');
+});
+
+
+Route::get('/sticky-agent', function() {
+    return view('stickyAgent');
+});

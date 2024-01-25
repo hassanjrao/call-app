@@ -318,6 +318,33 @@
     </div>
   </div>
 
+  <section class="hearFromU">
+    <div class="hearFromU__container"><h2>Hear From Our Customers</h2>
+        <div class="hearFromU__mainview">
+            <div class="hearFromU__content">
+                <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
+                    alt="quote">
+                <p class="hearFromU__text">
+                    CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are
+                    clean and have the highest attestation score.</p>
+                <div class="hearFromU__footer">
+                    <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"
+                        alt="brand" class="footer__img">
+                    <div class="footer__name">
+                        <p>Rostyslav Khanyk
+                            <span>Head Of Sales, Brighterly</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hearFromU__image">
+                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ch-home-user-image-new.png"
+                    alt="person">
+            </div>
+        </div></div>
+    
+</section>
+
 <!-- <div class="pricing">
   <div class="pricing__top">
     <div class="path">
