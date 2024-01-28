@@ -1,0 +1,66 @@
+.machine__container,
+.stickyAgent__container,
+.sms__container,
+.speed__container,
+.smartDid__container,
+.VoIP__container,
+.software__container,
+.callCenter__container,
+.realEstate__container,
+.support__container {
+    height: 100%;
+    width: 100vw;
+    gap: var(--gap);
+    background-color: #FCF3F6;
+}
+
+
+.hero__items>.hero__content>.hero__btn {
+    justify-content: start;
+}
+
+.machine__container>.whyCall__container>.why__cards>.card>.span1 {
+    background: #EDF4FF;
+}
+
+.machine__container>.whyCall__container>.why__cards>.card>.span2,
+.smartDid__container>.whyCall__container>.why__cards>.card>.span2,
+.sms__container>.whyCall__container>.why__cards>.card>.span2,
+.VoIP__container>.whyCall__container>.why__cards>.card>.span2,
+.stickyAgent__container>.whyCall__container>.why__cards>.card>.span2,
+.callCenter__container>.whyCall__container>.why__cards>.card>.span2,
+.realEstate__container>.whyCall__container>.why__cards>.card>.span2 {
+    background: #FFE9EB;
+}
+
+.machine__container>.whyCall__container>.why__cards>.card>.span3,
+.smartDid__container>.whyCall__container>.why__cards>.card>.span3,
+.sms__container>.whyCall__container>.why__cards>.card>.span3,
+.VoIP__container>.whyCall__container>.why__cards>.card>.span3,
+.stickyAgent__container>.whyCall__container>.why__cards>.card>.span3,
+.callCenter__container>.whyCall__container>.why__cards>.card>.span3,
+.software__container>.whyCall__container>.why__cards>.card>.span3,
+.realEstate__container>.whyCall__container>.why__cards>.card>.span3 {
+    background: #F6F1FF;
+}
+
+
+
+
+
+
+.speed__container>.whyCall__container>.why__cards>.card>.span1 {
+    background: #4D6DDD;
+}
+
+.speed__container>.whyCall__container>.why__cards>.card>.span2 {
+    background: #FF5969;
+}
+
+.speed__container>.whyCall__container>.why__cards>.card>.span3 {
+    background: #3578FF;
+}
+
+.machine__container>.setup-container .setup-wrapper {
+    background-color: #0B0A1E;
+}

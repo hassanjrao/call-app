@@ -1,20 +1,20 @@
 @extends('welcome')
 @section('content')
-    <div class="stickyAgent__container">
+    <div class="realEstate__container">
         <section class="hero__items">
             <div class="hero__content">
 
-                <p class="title">Sticky Agent</p>
-                <p class="content">Connect customers to the same agent automatically. Eliminate wasted time re-explaining
-                    issues and increase loyalty while reducing lead mismanagement.</p>
+                <p class="title">VoIP for Real Estate</p>
+                <p class="content">With CallHippo’s advanced features, get access to the industry’s best phone system.
+                    Elevate your customer service and attract more prospects with 99.5% uptime.</p>
                 <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
             </div>
 
 
 
             <div class="hero__image">
-                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Sticky-Agent.png"
-                    alt="agent">
+                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Real-estate-phone-system.png"
+                    alt="estate">
             </div>
         </section>
         <section class="trusted-container">
@@ -42,67 +42,73 @@
                 <h2 class="why__title">Why CallHippo?</h2>
                 <p class="why__text">
 
-                    Transforming customer experiences for years. CallHippo is the leading cloud contact center software
-                    provider empowering enterprises worldwide. Discover why CallHippo is the ultimate choice for your
-                    business.</p>
+                    Real estate businesses often use call center systems to reach more people and seal more deals. Here are
+                    a few reasons why a call center for real estate investors is a must-have.</p>
             </div>
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Pushing%20the%20Boundaries_Pushing%20the%20Boundaries.svg"
+                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-package_powerful_feature.svg"
                             alt="icon" /></span>
-                    <h5>Pushing the Boundaries</h5>
-                    <p class="card__text">Stay ahead of the competition with our continuous feature updates and
-                        improvements, ensuring your business always has access to the latest tools for exceptional customer
-                        interactions.</p>
+                    <h5>Cutting-edge Features</h5>
+                    <p class="card__text">Streamline your real estate system with CallHippo’s sophisticated features
+                        including virtual phone numbers, IVR systems, call recording, power dialer, call conferencing, etc.
+                    </p>
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Industry-Leading%20Reliability_%20Industry-Leading%20Reliability.svg"
+                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Transparent-Pricing.svg"
                             alt="icon" /></span>
-                    <h5>Industry-Leading Reliability</h5>
-                    <p class="card__text">Your business deserves nothing less than the gold standard of reliability and
-                        security. Rely on unmatched stability, boasting an impressive 99.99% uptime and our rigorous
-                        security measures designed to safeguard your data.</p>
+                    <h5>Affordable Plans</h5>
+                    <p class="card__text">Save communication costs with transparent, affordable pricing plans. Reach more
+                        prospects at lower costs with CallHippo's real estate phone system.</p>
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Premium-Support.svg"
+                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/User-Friendly-Interface-with-SMS.svg"
                             alt="icon" /></span>
-                    <h5>Premium Support</h5>
-                    <p class="card__text">We offer comprehensive training, empowering your team to make the most of our
-                        advanced features. And when you need assistance, our 24/7 customer support team is always just a
-                        call or message away.</p>
+                    <h5>Quick Setup</h5>
+                    <p class="card__text">CallHippo real estate phone system can be set up in less than 3 minutes of your
+                        time. We offer 24/7 onboarding support to get the system up and running in the blink of an eye.</p>
                 </div>
         </section>
         <section class="experience">
             <div class="exp__container">
                 <div class="exp__header">
-                    <h2 class="exp__title">Improve First Call Resolution Rate</h2>
-                    <p class="exp__text">CallHippo’s sticky agent feature allows you to connect callers with agents who know their past interactions, enabling them to personalize their service and solve issues quickly. Here’s why you should invest in the sticky agent feature.</p>
+                    <h2 class="exp__title">Power up your reach</h2>
+                    <p class="exp__text">With innovative features, the CallHippo real estate phone system helps venture
+                        beyond geographical boundaries and close more deals in a short time.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Improved-Agent-Utilization.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Efficient-Lead-Management-with-amd.svg"
                                 alt="icon" /></span>
-                        <h5>Improved Agent Utilization</h5>
-                        <p class="card__text">Streamline your workforce resources by reducing the time spent on verifying details. Enable agents to focus on efficiently resolving customer needs, providing recommendations, and cultivating strong customer relationships.</p>
+                        <h5>Virtual Receptionist</h5>
+                        <p class="card__text">Greet your caller with a professional message and navigate them to the right
+                            agent based on their inputs. This helps enhance customer experience by delivering the
+                            information the caller is looking for in a short time.</p>
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Valuable-Insights.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-auto_answer_call.svg"
                                 alt="icon" /></span>
-                        <h5>Valuable Insights</h5>
-                        <p class="card__text">Gain useful analytics into agent performance, conversation trends, and opportunities to further boost customer satisfaction. Maintain regulatory compliance by easily accessing full customer conversation histories.</p>
+                        <h5>Power Dialer</h5>
+                        <p class="card__text">With an automated dialing feature, reach out to more customers, pitch your
+                            properties, and win more deals. Reduce the time involved in dialing and Improve the efficiency
+                            of your outbound calls.
+                        </p>
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Enhanced-Personalization.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Dashboards_and%20Analytics_feature_for_call_center.svg"
                                 alt="icon" /></span>
-                        <h5>Enhanced Personalization</h5>
-                        <p class="card__text">Make every interaction feel tailored and relevant through continuous conversations over time. Foster brand affinity and emotional connections between customers and agents who know them.</p>
+                        <h5>Call Analytics</h5>
+                        <p class="card__text">CallHippo phone system has advanced analytics that helps monitor the
+                            effectiveness of your phone system and call flow. The information helps make changes to the
+                            system so you don’t lose out on opportunities.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -112,11 +118,12 @@
             <div class="setup-wrapper">
                 <div class="setup-content">
                     <h5>
-                        Create Customer Familiarity with Familiar 
-                        <span>Agents</span>
+                        Set Up Your Real Estate Phone System
+                        <span>In Less Than 3 Minutes</span>
                     </h5>
                     <p class="desc">
-                        Personalize every interaction by automatically routing customers to agents who have helped them before.
+                        Configure the CallHippo phone system within 3 minutes and connect with your prospects quickly. Go
+                        live in minutes.
                     </p>
                     <button>Start Free Trial</button>
                 </div>
@@ -127,31 +134,37 @@
         <section class="benefits">
             <div class="benefits__container">
                 <div class="benefits__header">
-                    <h2 class="benefits__title">Benefits of Sticky Agent</h2>
-                    <p class="benefits__text">When it comes to transforming customer experience, the sticky agent is your secret weapon for unparalleled success. Here’s how you can benefit from it.</p>
+                    <h2 class="benefits__title">Benefits Of Real Estate Call Center Software</h2>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Saves-Time-with-amd.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Enhanced-Campaign-ROI-with-amd.svg"
                                 alt="icon" /></span>
-                        <h5>Saves Time</h5>
-                        <p class="card__text">Cut the average handling time by as much as 20%. Faster resolutions mean happier customers and more time for your agents to focus on what truly matters – building lasting connections.</p>
+                        <h5>Call Recording</h5>
+                        <p class="card__text">Document customer conversations and use them for training and quality
+                            monitoring purposes. Call recordings can also serve as a reference for dispute resolution and
+                            compliance purposes in the future.
+                        </p>
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Drives-Revenue.svg"
+                                src="https://callhippo.com/wp-content/uploads/customupload/img/Call-Routing_ic.svg"
                                 alt="icon" /></span>
-                        <h5>Drives Revenue</h5>
-                        <p class="card__text">Agents can recommend appropriate products or services by understanding customer needs over time, driving greater cross-sell and up-sell revenue while also driving valuable referrals for business success.</p>
+                        <h5>Smart Call Forwarding</h5>
+                        <p class="card__text">Engage with customers even when you are away or busy by directing incoming
+                            calls to another number. Stay connected to your prospects and customers even when you are not at
+                            the desk.</p>
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Increases-Retention.svg"
+                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Automatic_Call_Distribution_feature_for_call_center.svg"
                                 alt="icon" /></span>
-                        <h5>Increases Retention</h5>
-                        <p class="card__text">Agents who possess a deep understanding of customer history make customers feel valued and appreciated. This fosters enhanced loyalty, boosts customer lifetime value, and significantly improves long-term retention rates.</p>
+                        <h5>Automatic Call Distribution</h5>
+                        <p class="card__text">CallHippo real estate phone system follows automatic call distribution to
+                            route incoming calls to the most qualified agent. Improve your call resolution rates and enhance
+                            the efficiency of your business functioning.</p>
                     </div>
                 </div>
             </div>
@@ -159,9 +172,9 @@
         </section>
         <section class="avantages__container">
             <div class="avantages__header">
-                <h2 class="avantages__title">The Ultimate Call Center Software Solution</h2>
-                <p class="avantages__text">Equip your team with the essential tools and amplify communication and productivity through a unified
-                    Call Center Software dashboard.</p>
+                <h2 class="avantages__title">The Ultimate Call Center for Real Estate Investors</h2>
+                <p class="avantages__text">Empower your sales and customer support team with sophisticated functionalities
+                    and enhance the overall efficiency of your real estate business.</p>
             </div>
             <div class="avantages__cards">
                 <div class="avantages__card">

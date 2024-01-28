@@ -44,13 +44,13 @@
                   <ul class="features__grid">
                     <li><a href="#">Power dialer</a></li>
                     <li><a href="/auto-rotate">Auto rotate</a></li>
-                    <li><a href="#">Smart DID Routing</a></li>
+                    <li><a href="/smart-did-routing">Smart DID Routing</a></li>
                     <li><a href="#">Live Call Monitoring</a></li>
-                    <li><a href="#"> SMS</a></li>
+                    <li><a href="/sms"> SMS</a></li>
                     <li><a href="#">Powerful Reporting</a></li>
                     <li><a href="/machine-detection">Automatic Machine Detection</a></li>
                     <li><a href="/sticky-agent">Sticky Agent </a></li>
-                    <li><a href="#">Speed To Dial</a></li>
+                    <li><a href="/speed-to-dial">Speed To Dial</a></li>
                     <li><a href="#">All Features </a></li>
                   </ul>
                 </div>
@@ -71,7 +71,7 @@
                   <h3>By Need</h3>
                   <ul>
                     <li><a href="#">Office Phone System</a></li>
-                    <li><a href="#">Call center software</a></li>
+                    <li><a href="/call-center-software-solution/">Call center software</a></li>
                     <li><a href="#">Voice Broadcasting</a></li>
                     <li><a href="#">Predictive Dialer</a></li>
                     <li><a href="#">Virtual Phone Number</a></li>
@@ -80,21 +80,21 @@
                 <div>
                   <h3>By use Case</h3>
                   <ul>
-                    <li><a href="#">Power dialer</a></li>
-                    <li><a href="#">Auto rotate</a></li>
-                    <li><a href="#">Smart DID Routing</a></li>
-                    <li><a href="#">Smart DID Routing</a></li>
+                    <li><a href="/support-contact-center/">Sales & Support</a></li>
+                    <li><a href="#">Dialer</a></li>
+                    <li><a href="#">Phone-CRM Automation</a></li>
+                    <li><a href="#">Lead Generation</a></li>
                   </ul>
                 </div>
                 <div>
                   <h3>Industry</h3>
                   <ul>
-                    <li><a href="#">Power dialer</a></li>
-                    <li><a href="#">Auto rotate</a></li>
-                    <li><a href="#">Smart DID Routing</a></li>
-                    <li><a href="#">Live Call Monitoring</a></li>
-                    <li><a href="#"> SMS</a></li>
-                    <li><a href="#">Powerful Reporting</a></li>
+                    <li><a href="#">Edtech</a></li>
+                    <li><a href="/voip-system-for-real-estate/">Real Estate</a></li>
+                    <li><a href="#">Financial Services</a></li>
+                    <li><a href="#">Recruitment</a></li>
+                    <li><a href="/call-centre-solution-for-software-and-technology/"> Software & Technology</a></li>
+                    <li><a href="/voip-for-market-research/">Market Research</a></li>
                   </ul>
                 </div>
                 <div class="span2">
@@ -106,7 +106,7 @@
                 </div>
               </div>
             </li>
-            <li>Pricing</li>
+            <li><a href="/pricing">Pricing</a></li>
             <li class="expand">
               integrations <i class="fa-solid fa-chevron-down"></i>
 
