@@ -70,3 +70,7 @@ Route::get('/voip-system-for-real-estate', function () {
 Route::get('/support-contact-center', function () {
     return view('Solutions/By Use Case/support');
 });
+
+Route::get('/powerdialer', function() {
+    return view('powerDialer');
+});
