@@ -1542,4 +1542,48 @@ input:checked+.slider:before {
   .faq {
     padding: 25px;
   }
+
+  .hero__items>.hero__image {
+    display: none;
+  }
+
+  .hero__items>.hero__content {
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .autoRotate__container .hero__items,
+  .autoRotate__container .whyCall__container,
+  .autoRotate__container .exp__container,
+  .autoRotate__container .exp__container>.exp__header>.exp__text,
+  .setup-container .setup-wrapper .setup-content h5,
+  .setup-container .setup-wrapper .setup-content .desc,
+  .benefits__container,
+  .avantages__container,
+  .hearFromU__container {
+    width: 100%;
+  }
+
+  .exp__container>.exp__cards,
+  .benefits__cards {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+
+  .whyCall__container>.why__cards {
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+  }
+
+  .avantages__container>.avantages__cards {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
 }

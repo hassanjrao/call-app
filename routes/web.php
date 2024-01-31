@@ -29,6 +29,9 @@ Route::get('/machine-detection', function() {
     return view('Product/machine');
 });
 
+Route::get('/power-dialer', function() {
+    return view('Product/powerDialer');
+});
 
 Route::get('/sticky-agent', function() {
     return view('Product/stickyAgent');
@@ -71,6 +74,3 @@ Route::get('/support-contact-center', function () {
     return view('Solutions/By Use Case/support');
 });
 
-Route::get('/powerdialer', function() {
-    return view('powerDialer');
-});
