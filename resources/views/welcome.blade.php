@@ -37,7 +37,7 @@
                             <div class="dropdown__features">
                                 <h3>Features</h3>
                                 <ul class="features__grid">
-                                    <li><a href="/powerdialer">Power dialer</a></li>
+                                    <li><a href="/power-dialer">Power dialer</a></li>
                                     <li><a href="/auto-rotate">Auto rotate</a></li>
                                     <li><a href="/smart-did-routing">Smart DID Routing</a></li>
                                     <li><a href="#">Live Call Monitoring</a></li>
@@ -64,7 +64,7 @@
                         <div class="dropdown dropdown__2">
                             <div>
                                 <h3>By Need</h3>
-                                <ul>
+                                <ul class="features__grid">
                                     <li><a href="#">Office Phone System</a></li>
                                     <li><a href="/call-center-software-solution/">Call center software</a></li>
                                     <li><a href="#">Voice Broadcasting</a></li>
@@ -109,7 +109,7 @@
                         <div class="dropdown dropdown__3">
                             <div>
                                 <h3>INTEGRATIONS</h3>
-                                <ul>
+                                <ul class="features__grid">
                                     <li><a href="#">Office Phone System</a></li>
                                     <li><a href="#">Call center software</a></li>
                                     <li><a href="#">Voice Broadcasting</a></li>

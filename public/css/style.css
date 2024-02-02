@@ -4,6 +4,7 @@
 @import url("stickyAgent.css");
 @import url("pricing.css");
 @import url("powerdialer.css");
+@import url("integration.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -23,6 +24,19 @@ body {
   min-height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+p {
+  color: #333333;
+}
+
+button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
 }
 
 a {
@@ -101,7 +115,7 @@ nav .logo img {
   font-weight: 300;
 }
 
-.nav-items .nav-item li {
+.nav-items>.nav-item .expand {
   display: flex;
   gap: calc(var(--gap) - 5px);
   align-items: center;
@@ -648,6 +662,8 @@ nav .logo img {
   text-decoration: none;
   color: #000;
   text-transform: capitalize;
+  display: block;
+  width: 100%;
 }
 
 .dropdown div>ul {
@@ -692,6 +708,8 @@ nav .logo img {
   grid-template-rows: repeat(5, 1fr);
 }
 
+
+
 .dropdown>.span2 {
   display: flex;
   justify-content: space-between;
@@ -706,6 +724,7 @@ nav .logo img {
 
 .dropdown>.span2>p {
   font-size: 1.5rem;
+  color: #fff;
 }
 
 .dropdown>.span2>p>span {
@@ -1564,7 +1583,9 @@ input:checked+.slider:before {
   .setup-container .setup-wrapper .setup-content .desc,
   .benefits__container,
   .avantages__container,
-  .hearFromU__container {
+  .hearFromU__container,
+  .integration .benIntegration .cardWrapper,
+  .integration .featIntegration .cardWrapper {
     width: 100%;
   }
 
@@ -1583,6 +1604,54 @@ input:checked+.slider:before {
 
   .avantages__container>.avantages__cards {
     flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+
+  .powerDialer .benefitsGrid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .powerDialer .freeTrial {
+    width: 100%;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .powerDialer .featuresContainer .featuresGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing__bottom--wrapper .plan--wrapper {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 35px;
+  }
+
+  .pricing__bottom--wrapper .slogan {
+    text-align: center;
+  }
+
+  .faq {
+    padding: 25px;
+  }
+
+  .integration .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+  }
+
+  .integration .hero .left,
+  .integration .featIntegration .cardWrapper {
+    padding: 25px;
+  }
+
+  .integration .featIntegration .cardWrapper .card {
+    display: flex;
     flex-direction: column;
   }
 

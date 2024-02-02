@@ -1,0 +1,256 @@
+.integration {
+    background: url("https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/banner_background-01.svg");
+    background-size: cover;
+}
+
+.integration .hero {
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding-block: 35px;
+}
+
+.integration .hero .left {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.integration .hero .left>h3 {
+    font-size: 2rem;
+}
+
+.integration .hero .left>h5 {
+    font-size: 1rem;
+}
+
+.integration .hero .left>p {
+    font-weight: 400;
+    line-height: 1.7;
+    width: 90%;
+}
+
+.integration .hero .right {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 30px rgb(0 0 0 / 10%);
+    padding: 25px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.integration .hero .right>h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.integration .hero .right input {
+    height: 38px;
+    border: 1px solid #ccc;
+    background-color: rgb(245, 249, 254);
+}
+
+.integration .hero .right button {
+    height: 38px;
+}
+
+.integration .hero .right span {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+.integration .hero .right span::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 45%;
+    height: 1px;
+    background-color: rgb(190, 190, 190);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.integration .benIntegration {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-block: 25px;
+}
+
+.integration .benIntegration h3 {
+    width: 1200px;
+    margin-inline: auto;
+    margin-bottom: 15px;
+}
+
+.integration .benIntegration .cardWrapper {
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.integration .benIntegration .cardWrapper .card {
+    border: solid 1px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    padding: 15px;
+}
+
+.integration .benIntegration .cardWrapper .card .icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.integration .benIntegration .cardWrapper .card .icon i {
+    color: #fff;
+}
+
+.integration .benIntegration .cardWrapper .card h5 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.integration .benIntegration .cardWrapper .card p {
+    line-height: 1.7;
+    width: 90%;
+    font-size: 1.1rem;
+}
+
+.integration .featIntegration {
+    width: 100%;
+    background-color: #fff;
+    padding-block: 25px;
+}
+
+.integration .featIntegration .cardWrapper {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.integration .featIntegration .cardWrapper .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.integration .featIntegration .cardWrapper .card .left,
+.integration .featIntegration .cardWrapper .card .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap);
+}
+
+.integration .featIntegration .cardWrapper .card .left h4,
+.integration .featIntegration .cardWrapper .card .right h4 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.integration .featIntegration .cardWrapper .card .left p,
+.integration .featIntegration .cardWrapper .card .right p {
+    line-height: 1.5;
+    font-size: 1.1rem;
+    width: 95%;
+}
+
+.integration .featIntegration .cardWrapper .card img {
+    width: 100%;
+}
+
+.integration .other {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-block: 25px;
+}
+
+.integration .other h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.integration .other .cardWrapper {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 25px;
+    overflow-x: hidden;
+}
+
+.integration .other .cardWrapper .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+    border-radius: 6px;
+}
+
+.integration .other .cardWrapper .card .img {
+    width: 340px;
+    height: 136px;
+
+}
+
+.integration .other .cardWrapper .card .img>img {
+    width: 100%;
+}
+
+.integration .other .cardWrapper .card .bottom {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.integration .other .cardWrapper .card .bottom button {
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+
+.integration .trustedLogo {
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-block: 25px;
+}
+
+.integration .trustedLogo h3 {
+    font-size: 2rem;
+}
+
+.integration .trustedLogo .logoGrid {
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: var(--gap);
+}
+
+.integration .trustedLogo .logoGrid img {
+    width: 115px;
+}
