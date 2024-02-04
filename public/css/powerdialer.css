@@ -1,33 +1,33 @@
-.powerDialer {
+.powerDialer, .office{
     display: flex;
     flex-direction: column;
     gap: 40px;
     background: none;
 }
 
-.powerDialer .hero-container {
+ .hero-container {
     background: url("https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ch-new-homepage-section-bg.png");
 }
 
-.powerDialer .hero-container .hero__title {
+ .hero-container .hero__title {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.powerDialer .hero-container .hero__title>h2 {
+ .hero-container .hero__title>h2 {
     font-size: 3.5rem;
 }
 
-.powerDialer .hero-container .hero__desc>p,
-.powerDialer .whatsIs p {
+ .hero-container .hero__desc>p,
+ .whatsIs p {
     font-size: 1rem;
     font-weight: normal;
     color: #333333b9;
     line-height: 1.7em;
 }
 
-.powerDialer .whatsIs {
+ .whatsIs {
     width: 1200px;
     margin-inline: auto;
     text-align: center;
@@ -37,11 +37,11 @@
     padding: 15px;
 }
 
-.powerDialer .whatsIs h4 {
+ .whatsIs h4 {
     font-size: 2rem;
 }
 
-.powerDialer .benefitsGrid {
+ .benefitsGrid {
     width: 1200px;
     display: grid;
     margin: auto;
@@ -49,54 +49,54 @@
     gap: var(--gap);
 }
 
-.powerDialer .benefitsGrid .left {
+ .benefitsGrid .left {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.powerDialer .benefitsGrid .left h4 {
+ .benefitsGrid .left h4 {
     font-size: 1.8rem;
     width: 90%;
     line-height: 1.7em;
 }
 
-.powerDialer .benefitsGrid .left h4 span {
+ .benefitsGrid .left h4 span {
     border-bottom: 3px solid var(--primary-color);
     padding-bottom: 10px;
 }
 
-.powerDialer .benefitsGrid .left p {
+ .benefitsGrid .left p {
     font-weight: 400;
     width: 32ch;
     color: #334354;
     line-height: 1.5em;
 }
 
-.powerDialer .benefitsGrid .right {
+ .benefitsGrid .right {
     grid-column: span 2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
 
-.powerDialer .benefitsGrid .right .card {
+ .benefitsGrid .right .card {
     display: flex;
     flex-direction: column;
     gap: var(--gap);
 }
 
-.powerDialer .benefitsGrid .right .card>h4 {
+ .benefitsGrid .right .card>h4 {
     font-weight: 600;
     font-size: 1.1rem;
 }
 
-.powerDialer .benefitsGrid .right .card>p {
+ .benefitsGrid .right .card>p {
     color: #333333b9;
 }
 
 
-.powerDialer .benefitsGrid .right .card .icon {
+ .benefitsGrid .right .card .icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,35 +106,35 @@
     padding: 10px;
 }
 
-.powerDialer .benefitsGrid .right .card .icon i {
+ .benefitsGrid .right .card .icon i {
     color: #fff;
 }
 
-.powerDialer .benefitsGrid .right .card:nth-child(1) .icon {
+ .benefitsGrid .right .card:nth-child(1) .icon {
     background-color: #2EACFC;
 }
 
-.powerDialer .benefitsGrid .right .card:nth-child(2) .icon {
+ .benefitsGrid .right .card:nth-child(2) .icon {
     background-color: #FF5969;
 }
 
-.powerDialer .benefitsGrid .right .card:nth-child(3) .icon {
+ .benefitsGrid .right .card:nth-child(3) .icon {
     background-color: #3578FF;
 }
 
-.powerDialer .benefitsGrid .right .card:nth-child(4) .icon {
+ .benefitsGrid .right .card:nth-child(4) .icon {
     background-color: #F25930;
 }
 
-.powerDialer .benefitsGrid .right .card:nth-child(5) .icon {
+ .benefitsGrid .right .card:nth-child(5) .icon {
     background-color: #F47741;
 }
 
-.powerDialer .benefitsGrid .right .card:nth-child(6) .icon {
+ .benefitsGrid .right .card:nth-child(6) .icon {
     background-color: #6A88F7;
 }
 
-.powerDialer .freeTrial {
+ .freeTrial {
     width: 1200px;
     margin: auto;
     background-color: #0b0a1e;
@@ -144,7 +144,7 @@
     color: #fff;
 }
 
-.powerDialer .freeTrial .left {
+ .freeTrial .left {
     grid-column: span 2;
     display: flex;
     flex-direction: column;
@@ -153,28 +153,28 @@
     gap: 20px;
 }
 
-.powerDialer .freeTrial .left h3 {
+ .freeTrial .left h3 {
     font-size: 2rem;
 }
 
-.powerDialer .freeTrial .left h3 span {
+ .freeTrial .left h3 span {
     color: #ffd119;
 }
 
-.powerDialer .freeTrial .left>p {
+ .freeTrial .left>p {
     font-size: 1.3rem;
 }
 
-.powerDialer .freeTrial .left>ul {
+ .freeTrial .left>ul {
     display: flex;
     gap: 1rem;
 }
 
-.powerDialer .freeTrial .left>ul i {
+ .freeTrial .left>ul i {
     margin-right: 5px;
 }
 
-.powerDialer .freeTrial .left button {
+ .freeTrial .left button {
     padding: 15px 25px;
     width: max-content;
     cursor: pointer;
@@ -184,7 +184,7 @@
     border-radius: 5px;
 }
 
-.powerDialer .featuresContainer {
+ .featuresContainer {
     width: 1200px;
     margin: auto;
     display: flex;
@@ -195,68 +195,122 @@
     text-align: center;
 }
 
-.powerDialer .featuresContainer h3 {
+ .featuresContainer h3 {
     font-size: 2rem;
     margin-bottom: 15px;
 }
 
-.powerDialer .featuresContainer .featuresGrid {
+ .featuresContainer .featuresGrid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
 }
 
-.powerDialer .featuresContainer .featuresGrid .card {
+ .featuresContainer .featuresGrid .card {
     display: flex;
     flex-direction: column;
     gap: var(--gap);
 }
 
-.powerDialer .featuresContainer .featuresGrid .card img {
+ .featuresContainer .featuresGrid .card img {
     border-radius: 1.5rem;
 }
 
-.powerDialer .featuresContainer .featuresGrid .card h5 {
+ .featuresContainer .featuresGrid .card h5 {
     font-size: 1.7rem;
     font-weight: 500;
 }
 
-.powerDialer .featuresContainer .featuresGrid .card p {
+ .featuresContainer .featuresGrid .card p {
     font-size: 1.15rem;
     line-height: 1.7em;
     font-weight: 300;
     color: #333333b9;
 }
 
-.powerDialer .pricing__bottom--wrapper {
+ .pricing__bottom--wrapper {
     margin: auto;
 }
 
-.powerDialer .pricing__bottom--wrapper>h3 {
+ .pricing__bottom--wrapper>h3 {
     font-size: 2rem;
     padding-bottom: 10px;
     border-bottom: 3px solid var(--primary-color);
 }
 
-.powerDialer .pricing__bottom--wrapper .option {
+ .pricing__bottom--wrapper .option {
     display: none;
 }
 
-.powerDialer .pricing__bottom--wrapper .option.active {
+ .pricing__bottom--wrapper .option.active {
     display: flex;
     flex-direction: column;
     gap: 25px;
     align-items: center;
 }
 
-.powerDialer .pricing__bottom--wrapper .card {
+ .pricing__bottom--wrapper .card {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     cursor: pointer;
     background-color: #fff;
 }
 
-.powerDialer .pricing__bottom--wrapper .card:hover {
+ .pricing__bottom--wrapper .card:hover {
     transform: scale(1.01);
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.14),
         0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
+.related__head{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+.related__head h2{
+    font-size: 2rem;
+}
+  .post{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    background-color: #fff !important;
+    border-radius: 4px;
+    flex-basis: 32%;
+    list-style: none;
+  }
+
+  .post img{
+    object-fit: contain;
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+  .related__body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 28px;
+    padding: 0 !important;
+    padding: 0 0 23px 1em;
+  }
+  
+  .post h3{
+    padding: 16px 16px;
+      font-size: 16px;
+      line-height: 1.4;
+      color: #333;
+      flex: 1 0 auto;
+      font-weight: 600;
+      text-align: center;
+  }
+  .post a, a:hover{
+    text-decoration: none;
+  }
+  .post h3:hover{
+    color: #FF1849;
+  }
+  
+  .related__posts{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;}
+  

@@ -1,17 +1,18 @@
 @extends('welcome')
 @section('content')
-    <div class="container powerDialer">
+    <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
                 <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/round_circles_business_phone_sys_top.svg"
                     alt="">
-                <h2>Power Dialer</h2>
+                <h2>
+                    Virtual Phone Number
+
+                </h2>
             </div>
             <div class="hero__desc">
                 <p>
-                    With HivoCall, you can get a power dialer and have it up and running in less than 3 minutes from
-                    anywhere in the world. Powered by robust features, HivoCall’s powerful commercial phone system is
-                    one of the most comprehensive solutions for all your business communication needs.
+                    Buy Virtual Telephone Numbers For More Than 50+ Countries
 
                 </p>
             </div>
@@ -24,81 +25,80 @@
             </div>
         </div>
         <div class="whatsIs">
-            <h4>What Is Power Dialer?</h4>
+            <h4>                    
+                What Is A Virtual Phone Number?
+
+            </h4>
             <p>
-                A power dialer (also known as an auto dialer) is a piece of automated
-                telephone technology used to automatically dial a phone number after a
-                call has been completed. Once an operator finishes a call, the power
-                dialer software will call the next contact in the list. Power dialing
-                software comes in really handy when you are cold calling or running a
-                telemarketing process.
+                A virtual phone number keeps you connected and reachable irrespective of whether you’re in the office, working from home, or traveling across the globe.
             </p>
+            <p>
+                Here are some more reasons to switch to a virtual number.
+            </p>
+           
+            
         </div>
         <div class="benefitsGrid">
             <div class="left">
-                <h4>Benefits Of A Power Dialer <span>Software</span> </h4>
+                <h4>
+                    Benefits of Using Predictive Dialer
+                     
+                </h4>
                 <p>
-                    Power dialers are powerful tools that will boost and motivate your
-                    team as well as make your life easier at work skipping the inactive
-                    and unproductive leads.
+                    Increase agent productivity and connect rates while minimizing idle time with HivoCall’s Predictive Dialer.
+
                 </p>
+                
             </div>
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-user"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/cost_efficience_bphone_nb.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Cost-Effective
+
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Virtual phone numbers don’t require installing telephone lines throughout your office or investing in special hardware. Instead, you can use your existing phone or desktop systems to manage your business phone system.
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Global-Accessibility-with-callhippo.svg" alt=""></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Enhance Local Presence
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Virtual number allows you to establish a robust local presence in new markets and increases the chances of conversions. Furthermore, local virtual numbers enable you to call your customers per local rate, reducing phone bills.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Integration-with-callhippo.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        IVR Integration
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Virtual numbers are integrated with IVR technology, allowing you to share a pre-recorded message to give callers a faster and more personalized experience.
+
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Scalability-with-callhippo.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Higher Scalability
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        You’d probably hire more employees as your business grows for your sales and support teams. And when you do, you can add them to your existing virtual phone number.
+
                     </p>
                 </div>
-                <div class="card">
-                    <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
-
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-chart-simple"></i></div>
-
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
+                
+                
             </div>
         </div>
 
@@ -121,108 +121,6 @@
             <div class="right">
                 <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/business-phone-number-cta-min.png"
                     alt="freeTrial" />
-            </div>
-        </div>
-
-        <div class="featuresContainer">
-            <h3>Modern Power Dialer Software Features</h3>
-            <div class="featuresGrid">
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\1.jpg') }}" alt="cardTop" />
-                    <h5>Call Monitoring</h5>
-                    <p>
-                        Call monitoring refers to the process of listening to a
-                        representative’s calls with the objective of improving the quality
-                        of communication and customer service.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\2.jpg') }}" alt="cardTop" />
-                    <h5>Smart Switch</h5>
-                    <p>
-                        Multiple telephony providers before placing a call. You can now safely bid adieu to all your
-                        call connectivity issues.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\3.jpg') }}" alt="cardTop" />
-                    <h5>Call Transfer</h5>
-                    <p>
-                        The Call Transfer feature allows you to redirect a connected call from your phone number to a
-                        team member.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\4.jpg') }}" alt="cardTop" />
-                    <h5>Call Conference</h5>
-                    <p>
-                        It’s a feature that will enable you to add a third person to your two-way call and turn it into
-                        a 3-way conference.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\5.jpg') }}" alt="cardTop" />
-                    <h5>Call Queuing Software</h5>
-                    <p>
-                        A Call Queue places incoming call in a line when the agent is busy attending other customers.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\6.jpg') }}" alt="cardTop" />
-                    <h5>Call Barging</h5>
-                    <p>
-
-                        Call Barging is when a supervisor who is silently monitoring the call decides to enter the
-                        conference bridge.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\7.jpg') }}" alt="cardTop" />
-                    <h5>Call Recording</h5>
-                    <p>
-                        Record call on each of your numbers to better monitor your performance as a team.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\8.jpg') }}" alt="cardTop" />
-                    <h5>Voice Mail</h5>
-                    <p>
-                        Receive voicemails by email in your inbox. Play them directly from your email.
-
-
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\9.jpg') }}" alt="cardTop" />
-                    <h5>Call Monitoring</h5>
-                    <p>
-                        Track agents performance. Measure the % of missed calls, call load of each teammate, etc.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\10.jpg') }}" alt="cardTop" />
-                    <h5>Call Monitoring</h5>
-                    <p>
-                        On Hold Music from HivoCall is a great way to keep your callers happy and engaged while on hold
-                        or upload your own custom music.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\11.jpg') }}" alt="cardTop" />
-                    <h5>Call Analytics</h5>
-                    <p>
-                        Track agents performance. Measure the % of missed calls, call load of each teammate, etc.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\12.jpg') }}" alt="cardTop" />
-                    <h5>Call Hold Audio</h5>
-                    <p>
-                        On Hold Music from HivoCall is a great way to keep your callers happy and engaged while on hold
-                        or upload your own custom music.
-                    </p>
-                </div>
             </div>
         </div>
 
@@ -535,46 +433,65 @@
             <div class="accordion">
                 <div class="tape">
                     <h4 class="question">
-                        Can I try HivoCall Speech Analytics before subscribing to a plan?
+                        Are virtual phone numbers “real” telephone numbers?
                     </h4>
                     <p class="answer">
-                        Of course yes. We will put you on a pilot before you are ready to make a commitment. The purpose
-                        of the pilot is to help you try out the your hands on the system and understand the impact that
-                        HivoCall Speech Analytics can make on your business.
+                        Yes, virtual numbers are real telephone numbers that can be used to make and receive phone calls. However, the major difference between a virtual number and regular numbers is that the former is not linked to any specific device or location.
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Do you offer volume discount?
+                        Can I have multiple virtual phone numbers?
                     </h4>
                     <p class="answer">
-                        If you are a large contact centers, we will be glad to offer you volume discounts based on your
-                        transcribing hours required. Get in touch with us to know more about our bulk volume pricing.
+                        Yes, you can have as many virtual phone numbers as you want. However, you should choose a reliable VoIP provider to purchase multiple phone numbers to ensure privacy and security.
+
+                    </p>
+                </div>
+                <div class="tape">
+                    <h4 class="question">
+                        How can I get a virtual number in a different country?
+                    </h4>
+                    <p class="answer">
+                        Follow these steps to get a virtual number in a different country: <br>
+
+                        Sign up with HivoCall <br>
+                        Choose the country you want to get a virtual number of <br>
+                        Pick a number from the large pool of numbers <br>
+                        Select a plan as per your requirements  <br>
+                        You’re ready to make and receive calls                    
+                    </p>
+                </div>
+                <div class="tape">
+                    <h4 class="question">
+                        Do I need any hardware to use a virtual phone number?
+                    </h4>
+                    <p class="answer">
+                        Just like in regular numbers, you become the official owner of the virtual phone number you purchase from HivoCall.
 
 
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        What’s the minimum contract that I need to commit to?
+                        How do I use a virtual phone number?
                     </h4>
                     <p class="answer">
-                        HivoCall doesn’t ask you for annual commitments or minimum agent guarantees, though the RoI of
-                        the tool comes when you have more than 3 calling agents. You can stop your subscription any time
-                        you wish. In short, there’s no contract that we bind you to.
-                    </p>
-                </div>
-                <div class="tape">
-                    <h4 class="question">
-                        Which VoIP integrations do you support?
-                    </h4>
-                    <p class="answer">
-                        At the moment, HivoCall Speech Analytics works seamlessly with HivoCall’s VoIP telephony. Let
-                        us know the VoIP provider are you currently using, and we will build the integration for you
-                    </p>
-                </div>
+                        You can use your virtual number via the app provided by your vendor. Most virtual phone number providers offer a web, desktop, and mobile app for ease of access on multiple devices.
 
+
+                    </p>
+                </div><div class="tape">
+                    <h4 class="question">
+                        What is Virtual phone call?
+                    </h4>
+                    <p class="answer">
+                        A virtual phone call makes it possible for someone to make calls using an internet connection. These virtual calls are powered by VoIP technology which enables a multimedia communication system over the internet.
+
+                    </p>
+                </div>
             </div>
         </div>
+        
     </div>
 @endsection

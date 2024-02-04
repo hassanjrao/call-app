@@ -8,7 +8,7 @@
             </div>
             <div class="hero__desc">
                 <p>
-                    CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are clean
+                    HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are clean
                     and have the highest attestation score.
 
                 </p>

@@ -1,21 +1,20 @@
 @import url("signup.css");
 @import url("autoRotate.css");
-@import url("othersPages.css");
-@import url("stickyAgent.css");
 @import url("pricing.css");
 @import url("powerdialer.css");
 @import url("integration.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   font-family: "Outfit", sans-serif;
 }
 
+
 :root {
-  --primary-color: #e07749;
+  --primary-color: #FF1849;
   --secondary-color: #fff1ea;
   --gap: 10px;
 }
@@ -203,17 +202,17 @@ nav .logo img {
   background-size: 300% 100%;
   transition: all 0.5s ease-in-out;
   background-image: linear-gradient(to right,
-      #e27849,
-      #f44336,
-      #673ab7,
-      #f44336);
+      #FF1849,
+      #d81741,
+      #5119b1,
+      #8f0e2a);
   padding: 15px 42px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
 .hero__btn button:hover {
-  background-position: -50% 0;
+  background-position: -54% 0;
 }
 
 /* Trusted Section */
@@ -469,7 +468,7 @@ nav .logo img {
   width: fit-content;
   padding: 10px 20px;
   color: #fff;
-  background-color: #e27849;
+  background-color: #FF1849;
   border: 1px solid transparent;
   border-radius: 10px;
   font-size: 15px;
@@ -542,7 +541,7 @@ nav .logo img {
   padding: 15px 30px;
   font-size: 1rem;
   color: #fff;
-  background-color: #e27849;
+  background-color: #FF1849;
   border: solid 1px transparent;
   border-radius: 5px;
   cursor: pointer;
@@ -597,7 +596,7 @@ nav .logo img {
 }
 
 .footer-container .copyright .socials i:hover {
-  color: #e27849;
+  color: #FF1849;
 }
 
 /* DROPDOWN */
@@ -738,7 +737,7 @@ nav .logo img {
   cursor: pointer;
   border-radius: 700px;
   color: #fff;
-  background-color: #e27849;
+  background-color: #FF1849;
 }
 
 .dropdown__2 {
@@ -1091,8 +1090,10 @@ input:checked+.slider:before {
   font-size: 13px;
 }
 
-.pricing__bottom--wrapper .plan--wrapper .card .card-top>button,
+.pricing__bottom--wrapper .plan--wrapper .card .card-top>a,
 .trial button {
+  text-align: center;
+  vertical-align: middle;
   width: 200px;
   height: 45px;
   background-color: var(--primary-color);

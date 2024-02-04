@@ -1,17 +1,17 @@
 @extends('welcome')
 @section('content')
-    <div class="container powerDialer">
+    <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
                 <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/round_circles_business_phone_sys_top.svg"
                     alt="">
-                <h2>Power Dialer</h2>
+                <h2>Voice Broadcasting System
+                </h2>
             </div>
             <div class="hero__desc">
                 <p>
-                    With HivoCall, you can get a power dialer and have it up and running in less than 3 minutes from
-                    anywhere in the world. Powered by robust features, HivoCall’s powerful commercial phone system is
-                    one of the most comprehensive solutions for all your business communication needs.
+                    Reach maximum prospects at the click of a button – For optimized sales, Support or Quality assurance.
+
 
                 </p>
             </div>
@@ -24,23 +24,24 @@
             </div>
         </div>
         <div class="whatsIs">
-            <h4>What Is Power Dialer?</h4>
+            <h4>                    What Is Voice Broadcasting?
+
+            </h4>
             <p>
-                A power dialer (also known as an auto dialer) is a piece of automated
-                telephone technology used to automatically dial a phone number after a
-                call has been completed. Once an operator finishes a call, the power
-                dialer software will call the next contact in the list. Power dialing
-                software comes in really handy when you are cold calling or running a
-                telemarketing process.
+                Voice broadcasting is a mass communication / broadcasting technique which enables you to send automated voice messages via call to a large number of people at once. Voice broadcast service can be used to receive instant notifications and alerts. Users can easily record the customer responses by installing IVR in the call blast.
+
+
+
             </p>
+            
         </div>
         <div class="benefitsGrid">
             <div class="left">
-                <h4>Benefits Of A Power Dialer <span>Software</span> </h4>
+                <h4>Benefits Of A Voice <span>Broadcasting</span> 
+                    Software </h4>
                 <p>
-                    Power dialers are powerful tools that will boost and motivate your
-                    team as well as make your life easier at work skipping the inactive
-                    and unproductive leads.
+                    Besides the apparent benefits of voice broadcasting, it also has other services associated with it. Some of the biggest reasons why customer-facing companies should adopt it are:
+
                 </p>
             </div>
             <div class="right">
@@ -48,57 +49,74 @@
                 <div class="card">
                     <div class="icon"> <i class="fa-solid fa-user"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Schedule control
+
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Voice broadcasting software lets you decide when the calls should be made, the duration of the effort, or even schedule multiple calls to the same person (in an interval of a few days or so).
+
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Text-to-speech
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        It reads out the text you write over a call just like a human would do. You can even insert names and other relevant details of the prospect to personalize the call.
+
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Automation                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Automated voice broadcasting is a computerized process of cold calling. Hence, the margin of human error is eliminated seamlessly
+
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Improves Communication
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Voice broadcast Software can transfer that emotion into the message that you want your customer to understand.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
+                    <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Increased Employee Performance
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        When you remove the mundane tasks from the hands of your employees, like making thousands of calls and chasing down every lead, the morale will boost.
+
+                    </p>
+                </div><div class="card">
+                    <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
+
+                    <h4>
+                        Opt-out messages
+                    </h4>
+                    <p>
+                        Just like the unsubscribe option in emails, opt-out messages allow customers to choose whether they want to receive calls from your business.
+
                     </p>
                 </div>
-                <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-chart-simple"></i></div>
-
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
+                
             </div>
         </div>
 
@@ -124,108 +142,8 @@
             </div>
         </div>
 
-        <div class="featuresContainer">
-            <h3>Modern Power Dialer Software Features</h3>
-            <div class="featuresGrid">
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\1.jpg') }}" alt="cardTop" />
-                    <h5>Call Monitoring</h5>
-                    <p>
-                        Call monitoring refers to the process of listening to a
-                        representative’s calls with the objective of improving the quality
-                        of communication and customer service.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\2.jpg') }}" alt="cardTop" />
-                    <h5>Smart Switch</h5>
-                    <p>
-                        Multiple telephony providers before placing a call. You can now safely bid adieu to all your
-                        call connectivity issues.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\3.jpg') }}" alt="cardTop" />
-                    <h5>Call Transfer</h5>
-                    <p>
-                        The Call Transfer feature allows you to redirect a connected call from your phone number to a
-                        team member.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\4.jpg') }}" alt="cardTop" />
-                    <h5>Call Conference</h5>
-                    <p>
-                        It’s a feature that will enable you to add a third person to your two-way call and turn it into
-                        a 3-way conference.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\5.jpg') }}" alt="cardTop" />
-                    <h5>Call Queuing Software</h5>
-                    <p>
-                        A Call Queue places incoming call in a line when the agent is busy attending other customers.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\6.jpg') }}" alt="cardTop" />
-                    <h5>Call Barging</h5>
-                    <p>
-
-                        Call Barging is when a supervisor who is silently monitoring the call decides to enter the
-                        conference bridge.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\7.jpg') }}" alt="cardTop" />
-                    <h5>Call Recording</h5>
-                    <p>
-                        Record call on each of your numbers to better monitor your performance as a team.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\8.jpg') }}" alt="cardTop" />
-                    <h5>Voice Mail</h5>
-                    <p>
-                        Receive voicemails by email in your inbox. Play them directly from your email.
-
-
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\9.jpg') }}" alt="cardTop" />
-                    <h5>Call Monitoring</h5>
-                    <p>
-                        Track agents performance. Measure the % of missed calls, call load of each teammate, etc.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\10.jpg') }}" alt="cardTop" />
-                    <h5>Call Monitoring</h5>
-                    <p>
-                        On Hold Music from HivoCall is a great way to keep your callers happy and engaged while on hold
-                        or upload your own custom music.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\11.jpg') }}" alt="cardTop" />
-                    <h5>Call Analytics</h5>
-                    <p>
-                        Track agents performance. Measure the % of missed calls, call load of each teammate, etc.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\12.jpg') }}" alt="cardTop" />
-                    <h5>Call Hold Audio</h5>
-                    <p>
-                        On Hold Music from HivoCall is a great way to keep your callers happy and engaged while on hold
-                        or upload your own custom music.
-                    </p>
-                </div>
-            </div>
-        </div>
-
+        
+        
         <div class="pricing__bottom--wrapper">
 
             <h3>Pricing</h3>
@@ -535,46 +453,50 @@
             <div class="accordion">
                 <div class="tape">
                     <h4 class="question">
-                        Can I try HivoCall Speech Analytics before subscribing to a plan?
-                    </h4>
+                        What Is The Use Of A Voice Broadcasting System?                    </h4>
                     <p class="answer">
-                        Of course yes. We will put you on a pilot before you are ready to make a commitment. The purpose
-                        of the pilot is to help you try out the your hands on the system and understand the impact that
-                        HivoCall Speech Analytics can make on your business.
-                    </p>
-                </div>
-                <div class="tape">
-                    <h4 class="question">
-                        Do you offer volume discount?
-                    </h4>
-                    <p class="answer">
-                        If you are a large contact centers, we will be glad to offer you volume discounts based on your
-                        transcribing hours required. Get in touch with us to know more about our bulk volume pricing.
+                        Voice broadcasting is a mass communication technique that enables users to send automated voice message broadcasting via a call to many people at once. It can be used for various purposes such as conducting surveys, sending event invitations, providing reminders or notifications, and important corporate announcements.
+
 
 
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        What’s the minimum contract that I need to commit to?
-                    </h4>
+                        How much does voice broadcasting cost?                    </h4>
                     <p class="answer">
-                        HivoCall doesn’t ask you for annual commitments or minimum agent guarantees, though the RoI of
-                        the tool comes when you have more than 3 calling agents. You can stop your subscription any time
-                        you wish. In short, there’s no contract that we bind you to.
+                        HivoCall provides affordable voice broadcasting services by charging only $0.04 per call.
+
+
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Which VoIP integrations do you support?
-                    </h4>
+
+                        Is Voice Broadcasting Legal?                    </h4>
                     <p class="answer">
-                        At the moment, HivoCall Speech Analytics works seamlessly with HivoCall’s VoIP telephony. Let
-                        us know the VoIP provider are you currently using, and we will build the integration for you
+                        Yes, voice broadcasting is legal in most countries if the recipient has explicitly agreed to receive such messages. However, you cannot send broadcast messages to recipients who have denied permission. Also, make sure your calls are scheduled between 9 AM and 9 PM.
+
                     </p>
                 </div>
-
             </div>
         </div>
+        <div class="related__posts">
+            <div class="related__head">
+              <h2>Related Post
+              </h2>
+            </div>
+            <div class="related__body">
+              <div class="post">
+                <img decoding="async" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/05/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.png" alt="Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential" height="180" width="343">
+                <a href="https://callhippo.com/blog/general/free-auto-dialer-softwares" target="_blank" rel="noopener" data-wpel-link="internal"><h3>Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential</h3> </a>
+              </div>
+              <div class="post">
+                <img decoding="async" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/03/How-Your-Business-Can-Benefit-From-Voice-Broadcasting-FB.png" alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
+                <a href="https://callhippo.com/blog/callcenter/5-ways-getting-dialer-software-can-transform-call-center-productivity" target="_blank" rel="noopener" data-wpel-link="internal"><h3>How Your Business Can Benefit From Voice Broadcasting?</h3> </a>
+              </div>
+            </div>
+            
+          </div>
     </div>
 @endsection

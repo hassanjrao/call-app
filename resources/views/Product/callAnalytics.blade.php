@@ -1,17 +1,20 @@
 @extends('welcome')
 @section('content')
-    <div class="container powerDialer">
+    <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
                 <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/round_circles_business_phone_sys_top.svg"
                     alt="">
-                <h2>Power Dialer</h2>
+                <h2>
+                    Call Analytics
+
+                </h2>
             </div>
             <div class="hero__desc">
                 <p>
-                    With HivoCall, you can get a power dialer and have it up and running in less than 3 minutes from
-                    anywhere in the world. Powered by robust features, HivoCall’s powerful commercial phone system is
-                    one of the most comprehensive solutions for all your business communication needs.
+                    Renovate and assess the efficiency of your existing marketing policy with HivoCall bespoke Call Analytics feature. Track records on call volume, call duration, routing of incoming and outbound calls all with the click of a button! Sign up now.
+
+
 
                 </p>
             </div>
@@ -24,81 +27,77 @@
             </div>
         </div>
         <div class="whatsIs">
-            <h4>What Is Power Dialer?</h4>
+            <h4>                    
+                What Is Call Analytics software?
+
+            </h4>
             <p>
-                A power dialer (also known as an auto dialer) is a piece of automated
-                telephone technology used to automatically dial a phone number after a
-                call has been completed. Once an operator finishes a call, the power
-                dialer software will call the next contact in the list. Power dialing
-                software comes in really handy when you are cold calling or running a
-                telemarketing process.
+                Call analytics uses the power of artificial intelligence to capture data from phone calls in contact centers. Apart from being able to find out callers’ details like phone number, name, and the advertising source that drove the call to the contact center, call analytics also helps identify if the caller was a genuine lead. It also helps advertisers understand the product or service their prospects need and if they were converted to customers by the end of the call.
             </p>
+            
         </div>
         <div class="benefitsGrid">
             <div class="left">
-                <h4>Benefits Of A Power Dialer <span>Software</span> </h4>
-                <p>
-                    Power dialers are powerful tools that will boost and motivate your
-                    team as well as make your life easier at work skipping the inactive
-                    and unproductive leads.
-                </p>
+                <h4>
+                    Benefits Of A Call <span>Analytics</span>
+                     
+                </h4>
+                
             </div>
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-user"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/recognize-sources-of-calls-with-callhippo-call-analytics.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Recognize Sources of calls
+
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Call analytics technology lets you recognize sources of incoming calls that your company acquires.
+
+
+
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/real-time-tracking-with-callhippo-call-analytics.svg" alt=""></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Real-Time tracking
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Phone call tracking enables making more ingenious assessments for real-time phone tracking dashboards.
+
+
+
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Caller-insights-with-callhippo-call-analytics.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Caller Insights
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        The broader view offered by a cloud-based speech analytics package sanctions for better-quality and precise insights into client behaviors.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/improve-sales-with-callhippo-call-analytics.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Improve Sales
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Prospective customers who call in response to your marketing and sales determinations must be in emphasis to conduct greater sales.
+
                     </p>
                 </div>
-                <div class="card">
-                    <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
-
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-chart-simple"></i></div>
-
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
+                
+                
             </div>
         </div>
 
@@ -123,9 +122,10 @@
                     alt="freeTrial" />
             </div>
         </div>
-
         <div class="featuresContainer">
-            <h3>Modern Power Dialer Software Features</h3>
+            <h3>
+                More Call Analytics Features
+            </h3>
             <div class="featuresGrid">
                 <div class="card">
                     <img src="{{ asset('img\PowerDialer\1.jpg') }}" alt="cardTop" />
@@ -225,6 +225,8 @@
                 </div>
             </div>
         </div>
+
+        
 
         <div class="pricing__bottom--wrapper">
 
@@ -535,46 +537,57 @@
             <div class="accordion">
                 <div class="tape">
                     <h4 class="question">
-                        Can I try HivoCall Speech Analytics before subscribing to a plan?
+                        How can call analytics help your business?
                     </h4>
                     <p class="answer">
-                        Of course yes. We will put you on a pilot before you are ready to make a commitment. The purpose
-                        of the pilot is to help you try out the your hands on the system and understand the impact that
-                        HivoCall Speech Analytics can make on your business.
-                    </p>
-                </div>
-                <div class="tape">
-                    <h4 class="question">
-                        Do you offer volume discount?
-                    </h4>
-                    <p class="answer">
-                        If you are a large contact centers, we will be glad to offer you volume discounts based on your
-                        transcribing hours required. Get in touch with us to know more about our bulk volume pricing.
+                        Call analytics is a must-have business tool that can improve bottom-line results by measuring important call metrics and identifying trends. It helps marketers understand customer requirements better to improve their product and service offerings and improve service quality.
+
+
 
 
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        What’s the minimum contract that I need to commit to?
+                        What industries should use call analytics solutions?
                     </h4>
                     <p class="answer">
-                        HivoCall doesn’t ask you for annual commitments or minimum agent guarantees, though the RoI of
-                        the tool comes when you have more than 3 calling agents. You can stop your subscription any time
-                        you wish. In short, there’s no contract that we bind you to.
+                        Call analytics solutions are helpful for any industry that relies on inbound calls for operations. Some industries that frequently use call analytics include B2B marketing, e-commerce, financial services, healthcare, automotive, and tourism.
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Which VoIP integrations do you support?
+                        What data can call analytics capture?
                     </h4>
                     <p class="answer">
-                        At the moment, HivoCall Speech Analytics works seamlessly with HivoCall’s VoIP telephony. Let
-                        us know the VoIP provider are you currently using, and we will build the integration for you
+                        Call analytics can provide real-time business insights and track metrics such as: <br>
+
+                        Campaign, keyword, advert, or webpage that led to a call <br>
+                        Day and time of the call <br>
+                        Call duration <br>
+                        Caller’s name and phone number <br>
+                        Monitor if the call was answered or went to voicemail <br>
+                        Call abandonment rate <br>
                     </p>
                 </div>
-
             </div>
         </div>
+        <div class="related__posts">
+            <div class="related__head">
+              <h2>Related Post
+              </h2>
+            </div>
+            <div class="related__body">
+              <div class="post">
+                <img decoding="async" loading="lazy" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/08/What-Is-Call-Analytics-and-Why-Should-Marketers-Use-It-Fb.jpg" alt="What Is Call Analytics and Why Should Marketers Use It?" height="180" width="343">                
+                <a href="#" rel="noopener" data-wpel-link="internal"><h3>What Is Call Analytics and Why Should Marketers Use It?</h3> </a>
+              </div>
+              <div class="post">
+                <img decoding="async" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/03/How-Your-Business-Can-Benefit-From-Voice-Broadcasting-FB.png" alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
+                <a href="#"><h3>How Your Business Can Benefit From Voice Broadcasting?</h3> </a>
+              </div>
+            </div>
+            
+          </div>
     </div>
 @endsection

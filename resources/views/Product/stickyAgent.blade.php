@@ -39,11 +39,11 @@
         </section>
         <section class="whyCall__container">
             <div class="why__header">
-                <h2 class="why__title">Why CallHippo?</h2>
+                <h2 class="why__title">Why HivoCall?</h2>
                 <p class="why__text">
 
-                    Transforming customer experiences for years. CallHippo is the leading cloud contact center software
-                    provider empowering enterprises worldwide. Discover why CallHippo is the ultimate choice for your
+                    Transforming customer experiences for years. HivoCall is the leading cloud contact center software
+                    provider empowering enterprises worldwide. Discover why HivoCall is the ultimate choice for your
                     business.</p>
             </div>
             <div class="why__cards">
@@ -79,7 +79,7 @@
             <div class="exp__container">
                 <div class="exp__header">
                     <h2 class="exp__title">Improve First Call Resolution Rate</h2>
-                    <p class="exp__text">CallHippo’s sticky agent feature allows you to connect callers with agents who know
+                    <p class="exp__text">HivoCall’s sticky agent feature allows you to connect callers with agents who know
                         their past interactions, enabling them to personalize their service and solve issues quickly. Here’s
                         why you should invest in the sticky agent feature.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
@@ -372,7 +372,7 @@
                         <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
                             alt="quote">
                         <p class="hearFromU__text">
-                            CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are
+                            HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
                             <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"

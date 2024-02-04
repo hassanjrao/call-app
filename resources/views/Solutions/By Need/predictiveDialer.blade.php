@@ -1,17 +1,18 @@
 @extends('welcome')
 @section('content')
-    <div class="container powerDialer">
+    <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
                 <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/round_circles_business_phone_sys_top.svg"
                     alt="">
-                <h2>Power Dialer</h2>
+                <h2>
+                    Predictive Dialer
+
+                </h2>
             </div>
             <div class="hero__desc">
                 <p>
-                    With HivoCall, you can get a power dialer and have it up and running in less than 3 minutes from
-                    anywhere in the world. Powered by robust features, HivoCall’s powerful commercial phone system is
-                    one of the most comprehensive solutions for all your business communication needs.
+                    Unleash the power of automation and precision with HivoCall’s Predictive Dialer. Say goodbye to manual dialing and hello to a seamless, data-driven calling experience that maximizes agent productivity and ensures every connection counts.
 
                 </p>
             </div>
@@ -24,81 +25,81 @@
             </div>
         </div>
         <div class="whatsIs">
-            <h4>What Is Power Dialer?</h4>
+            <h4>                    
+                What Is A Predictive Dialer?
+
+            </h4>
             <p>
-                A power dialer (also known as an auto dialer) is a piece of automated
-                telephone technology used to automatically dial a phone number after a
-                call has been completed. Once an operator finishes a call, the power
-                dialer software will call the next contact in the list. Power dialing
-                software comes in really handy when you are cold calling or running a
-                telemarketing process.
+                A cloud predictive dialer is an automated dialer that uses several parameters to place an automated outbound calls. It calls different numbers (as provided by you) until it detects a connection and then passes it to a live agent.
+
             </p>
+            <p>
+                Predictive dialer software automatically screen out numbers that go straight to the voicemail, are busy, don’t answer, and so on, thereby saving hours of your agents’ time each month.
+            </p>
+            <p>
+                The primary difference between a power dialer and a predictive dialer is that a power dialer calls a list of numbers sequentially. In contrast, a predictive dialer uses a set of parameters to determine when an agent will be available to take the call and dials the number accordingly.
+
+            </p>
+            
         </div>
         <div class="benefitsGrid">
             <div class="left">
-                <h4>Benefits Of A Power Dialer <span>Software</span> </h4>
+                <h4>
+                    Benefits of Using Predictive Dialer
+                     
+                </h4>
                 <p>
-                    Power dialers are powerful tools that will boost and motivate your
-                    team as well as make your life easier at work skipping the inactive
-                    and unproductive leads.
+                    Increase agent productivity and connect rates while minimizing idle time with HivoCall’s Predictive Dialer.
+
                 </p>
+                
             </div>
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-user"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Schedule-control-with-voice-broadcasting.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Maximized Agent Productivity
+
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        The Predictive Dialer eliminates downtime between calls, ensuring your agents are engaged with leads and customers consistently, resulting in a substantial boost in productivity.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Text-to-speech-with-voice-broadcasting.svg" alt=""></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Optimized Call Connect Rate
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        With intelligent call pacing, the Predictive Dialer ensures that agents are connected with live calls, minimizing the instances of voicemails or missed opportunities.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Automation-with-voice-broadcasting.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Reduced Idle Time
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        By virtually eliminating manual tasks like dialing and waiting for calls to connect, agents can focus solely on effective communication, drastically reducing idle time.
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improves-Communication-with-voice-broadcasting.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Enhanced Lead Management
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        The Predictive Dialer intelligently organizes and prioritizes leads, ensuring your team is always contacting the most promising prospects, thus increasing conversion rates.
                     </p>
                 </div>
-                <div class="card">
-                    <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
-
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-chart-simple"></i></div>
-
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
+                
+                
             </div>
         </div>
 
@@ -121,108 +122,6 @@
             <div class="right">
                 <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/business-phone-number-cta-min.png"
                     alt="freeTrial" />
-            </div>
-        </div>
-
-        <div class="featuresContainer">
-            <h3>Modern Power Dialer Software Features</h3>
-            <div class="featuresGrid">
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\1.jpg') }}" alt="cardTop" />
-                    <h5>Call Monitoring</h5>
-                    <p>
-                        Call monitoring refers to the process of listening to a
-                        representative’s calls with the objective of improving the quality
-                        of communication and customer service.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\2.jpg') }}" alt="cardTop" />
-                    <h5>Smart Switch</h5>
-                    <p>
-                        Multiple telephony providers before placing a call. You can now safely bid adieu to all your
-                        call connectivity issues.
-                    </p>
-                </div>
-
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\3.jpg') }}" alt="cardTop" />
-                    <h5>Call Transfer</h5>
-                    <p>
-                        The Call Transfer feature allows you to redirect a connected call from your phone number to a
-                        team member.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\4.jpg') }}" alt="cardTop" />
-                    <h5>Call Conference</h5>
-                    <p>
-                        It’s a feature that will enable you to add a third person to your two-way call and turn it into
-                        a 3-way conference.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\5.jpg') }}" alt="cardTop" />
-                    <h5>Call Queuing Software</h5>
-                    <p>
-                        A Call Queue places incoming call in a line when the agent is busy attending other customers.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\6.jpg') }}" alt="cardTop" />
-                    <h5>Call Barging</h5>
-                    <p>
-
-                        Call Barging is when a supervisor who is silently monitoring the call decides to enter the
-                        conference bridge.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\7.jpg') }}" alt="cardTop" />
-                    <h5>Call Recording</h5>
-                    <p>
-                        Record call on each of your numbers to better monitor your performance as a team.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\8.jpg') }}" alt="cardTop" />
-                    <h5>Voice Mail</h5>
-                    <p>
-                        Receive voicemails by email in your inbox. Play them directly from your email.
-
-
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\9.jpg') }}" alt="cardTop" />
-                    <h5>Call Monitoring</h5>
-                    <p>
-                        Track agents performance. Measure the % of missed calls, call load of each teammate, etc.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\10.jpg') }}" alt="cardTop" />
-                    <h5>Call Monitoring</h5>
-                    <p>
-                        On Hold Music from HivoCall is a great way to keep your callers happy and engaged while on hold
-                        or upload your own custom music.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\11.jpg') }}" alt="cardTop" />
-                    <h5>Call Analytics</h5>
-                    <p>
-                        Track agents performance. Measure the % of missed calls, call load of each teammate, etc.
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="{{ asset('img\PowerDialer\12.jpg') }}" alt="cardTop" />
-                    <h5>Call Hold Audio</h5>
-                    <p>
-                        On Hold Music from HivoCall is a great way to keep your callers happy and engaged while on hold
-                        or upload your own custom music.
-                    </p>
-                </div>
             </div>
         </div>
 
@@ -535,46 +434,35 @@
             <div class="accordion">
                 <div class="tape">
                     <h4 class="question">
-                        Can I try HivoCall Speech Analytics before subscribing to a plan?
-                    </h4>
+                        What is the function of a predictive dialer?                    </h4>
                     <p class="answer">
-                        Of course yes. We will put you on a pilot before you are ready to make a commitment. The purpose
-                        of the pilot is to help you try out the your hands on the system and understand the impact that
-                        HivoCall Speech Analytics can make on your business.
+                        A predictive dialer is an automated phone dialer system that makes calls even before agents conclude the current call or become available for the next. The predictive dialer’s purpose is to reduce agent idle time while enhancing productivity by eliminating the need for agents to spend time dialing numbers.
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Do you offer volume discount?
+                        What is the difference between a predictive dialer and an auto dialer?
                     </h4>
                     <p class="answer">
-                        If you are a large contact centers, we will be glad to offer you volume discounts based on your
-                        transcribing hours required. Get in touch with us to know more about our bulk volume pricing.
-
-
+                        The key distinction between a predictive dialer and an auto dialer is that, where auto dialer software use simple algorithms to place calls only after the current call has been completed, predictive dialers use machine learning and place calls even while the current call is still active.
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        What’s the minimum contract that I need to commit to?
+                        When should you use the predictive dialers?
                     </h4>
                     <p class="answer">
-                        HivoCall doesn’t ask you for annual commitments or minimum agent guarantees, though the RoI of
-                        the tool comes when you have more than 3 calling agents. You can stop your subscription any time
-                        you wish. In short, there’s no contract that we bind you to.
+                        Predictive dialer is an ideal automated phone dialer system for businesses with high call volumes. Using a predictive dialer, these organizations can greatly increase productivity by minimizing idle time and increasing agents efficiency.
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Which VoIP integrations do you support?
-                    </h4>
+                        How does a predictive dialer work?                    </h4>
                     <p class="answer">
-                        At the moment, HivoCall Speech Analytics works seamlessly with HivoCall’s VoIP telephony. Let
-                        us know the VoIP provider are you currently using, and we will build the integration for you
-                    </p>
+                        A predictive dialer is a type of automated dialer that places phone calls even before the agents become available. It's designed to increase agents' efficiency by calling as many leads as possible. The system quickly moves on to the next lead after an unanswered call.                    </p>
                 </div>
-
             </div>
         </div>
+        
     </div>
 @endsection

@@ -41,7 +41,7 @@
         </section>
         <section class="whyCall__container">
             <div class="why__header">
-                <h2 class="why__title">Why CallHippo?</h2>
+                <h2 class="why__title">Why HivoCall?</h2>
                 <p class="why__text">Avoid getting your numbers marked spam with us! Enhance global reach with local numbers
                     and cost-effective
                     solutions. Elevate your communication game, boost productivity, and connect effortlessly worldwide.</p>
@@ -60,7 +60,7 @@
                             src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Cutting-Edge-Innovation.svg"
                             alt="icon" /></span>
                     <h5>Global Reach</h5>
-                    <p class="card__text">Establish a local presence worldwide with CallHippo's virtual phone numbers
+                    <p class="card__text">Establish a local presence worldwide with HivoCall's virtual phone numbers
                         featuring local area codes. Connect with diverse audiences, expanding your reach seamlessly.</p>
                 </div>
                 <div class="card">
@@ -76,7 +76,7 @@
             <div class="exp__container">
                 <div class="exp__header">
                     <h2 class="exp__title">Deliver Top-Notch Experience</h2>
-                    <p class="exp__text">Change numbers automatically from the CallHippo dialer to avoid being marked in the
+                    <p class="exp__text">Change numbers automatically from the HivoCall dialer to avoid being marked in the
                         list of spammers. Boost credibility and improve business ROI instantly!</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
@@ -132,7 +132,7 @@
             <div class="benefits__container">
                 <div class="benefits__header">
                     <h2 class="benefits__title">Benefits of Auto Rotate</h2>
-                    <p class="benefits__text">CallHippo’s auto rotate, a dynamic feature, changes identifiers with each
+                    <p class="benefits__text">HivoCall’s auto rotate, a dynamic feature, changes identifiers with each
                         call.
                         Enhances privacy, prevents spam markings, and present a fresh and legitimate appearance to
                         recipients.
@@ -367,7 +367,7 @@
                         <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
                             alt="quote">
                         <p class="hearFromU__text">
-                            CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are
+                            HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
                             <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"

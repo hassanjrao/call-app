@@ -255,7 +255,7 @@
     <div class="packs__heading">
       <h2>Transform Your Sales Process & Customer Experiences</h2>
       <p>
-        Use CallHippo To Monitor & Manage Your Business Operations From One
+        Use HivoCall To Monitor & Manage Your Business Operations From One
         Place.
       </p>
     </div>
@@ -325,7 +325,7 @@
                 <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
                     alt="quote">
                 <p class="hearFromU__text">
-                    CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are
+                  HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                     clean and have the highest attestation score.</p>
                 <div class="hearFromU__footer">
                     <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"

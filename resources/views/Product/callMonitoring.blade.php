@@ -1,17 +1,18 @@
 @extends('welcome')
 @section('content')
-    <div class="container powerDialer">
+    <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
                 <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/round_circles_business_phone_sys_top.svg"
                     alt="">
-                <h2>Power Dialer</h2>
+                <h2>
+                    Call Monitoring
+
+                </h2>
             </div>
             <div class="hero__desc">
                 <p>
-                    With HivoCall, you can get a power dialer and have it up and running in less than 3 minutes from
-                    anywhere in the world. Powered by robust features, HivoCall’s powerful commercial phone system is
-                    one of the most comprehensive solutions for all your business communication needs.
+                    All of us have heard the automated message when we call up customer service for complaint resolution: “This call may be monitored or recorded for quality assurance purposes.” We believe that call monitoring is all about control and training. However, this feature can be used for various businesses and departments.
 
                 </p>
             </div>
@@ -24,81 +25,80 @@
             </div>
         </div>
         <div class="whatsIs">
-            <h4>What Is Power Dialer?</h4>
+            <h4>                    
+                What Is Call Monitoring?
+
+            </h4>
             <p>
-                A power dialer (also known as an auto dialer) is a piece of automated
-                telephone technology used to automatically dial a phone number after a
-                call has been completed. Once an operator finishes a call, the power
-                dialer software will call the next contact in the list. Power dialing
-                software comes in really handy when you are cold calling or running a
-                telemarketing process.
+                Call monitoring refers to the process of listening to a representative’s calls with the objective of improving the quality of communication and customer service. It is widely used in customer support and telemarketing settings to increase call center agent efficiency and deliver a high-quality customer experience.
+
             </p>
+            
         </div>
         <div class="benefitsGrid">
             <div class="left">
-                <h4>Benefits Of A Power Dialer <span>Software</span> </h4>
+                <h4>
+                    Benefits Of Call <span>Monitoring</span> Software
+                </h4>
                 <p>
-                    Power dialers are powerful tools that will boost and motivate your
-                    team as well as make your life easier at work skipping the inactive
-                    and unproductive leads.
+                    In a nutshell, right call monitoring software helps you ensure that your call center workforce is effective, compliant, and productive in providing excellent customer service.
+
                 </p>
+                <p>
+                    Here are some of the key benefits of call monitoring
+
+
+                </p>
+                
             </div>
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-user"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Increased-agent-morale-with-call-monitoring.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Increased agent morale
+
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Working in a call center, especially outbound where agents need to make sales, can be difficult. The agents need to know what they’re doing wrong and how they can improve.
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Boost-sales-with-call-monitoring.svg" alt=""></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Boost sales
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Call monitoring helps you run your outbound call center like a well-oiled machine. By tracking your agents’ calls, you can determine what exactly they’re doing wrong and how to maximize their potential to increase sales.
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Enhanced-customer-satisfaction-with-call-monitoring.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Enhanced customer satisfaction
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Call monitoring lets you train your agents to be customer-centric and focus on the customers’ satisfaction. Satisfied customers turn into recurring customers, which adds revenue to your business.
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improve-agent-performance-with-call-monitoring.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Improve agent performance
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Once by using call monitoring, you’ve identified the deficits in an agent’s performance, you can organize curated training sessions to address them
                     </p>
                 </div>
-                <div class="card">
-                    <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
-
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-chart-simple"></i></div>
-
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
+                
+                
             </div>
         </div>
 
@@ -123,9 +123,10 @@
                     alt="freeTrial" />
             </div>
         </div>
-
         <div class="featuresContainer">
-            <h3>Modern Power Dialer Software Features</h3>
+            <h3>
+                Call Center Call Monitoring Features
+            </h3>
             <div class="featuresGrid">
                 <div class="card">
                     <img src="{{ asset('img\PowerDialer\1.jpg') }}" alt="cardTop" />
@@ -225,6 +226,8 @@
                 </div>
             </div>
         </div>
+
+        
 
         <div class="pricing__bottom--wrapper">
 
@@ -535,46 +538,45 @@
             <div class="accordion">
                 <div class="tape">
                     <h4 class="question">
-                        Can I try HivoCall Speech Analytics before subscribing to a plan?
+                        What are the capabilities of call monitoring software?
                     </h4>
                     <p class="answer">
-                        Of course yes. We will put you on a pilot before you are ready to make a commitment. The purpose
-                        of the pilot is to help you try out the your hands on the system and understand the impact that
-                        HivoCall Speech Analytics can make on your business.
+                        There are various capabilities available in call center monitoring software. Call center monitoring software tracks your calls and delivers caller information in real-time to your manager, service provider, or supervisors. Some allow you to monitor particular calls, such as those for customer service or threats in the workplace. Others are more general-purpose and can be used to monitor your calls with other companies or individuals.
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Do you offer volume discount?
+                        Who uses call monitoring system?
+
                     </h4>
                     <p class="answer">
-                        If you are a large contact centers, we will be glad to offer you volume discounts based on your
-                        transcribing hours required. Get in touch with us to know more about our bulk volume pricing.
-
-
+                        Businesses with a focus on sales and customer service implement call center monitoring software. It helps them constantly evaluate and optimize their practices.
                     </p>
                 </div>
-                <div class="tape">
-                    <h4 class="question">
-                        What’s the minimum contract that I need to commit to?
-                    </h4>
-                    <p class="answer">
-                        HivoCall doesn’t ask you for annual commitments or minimum agent guarantees, though the RoI of
-                        the tool comes when you have more than 3 calling agents. You can stop your subscription any time
-                        you wish. In short, there’s no contract that we bind you to.
-                    </p>
-                </div>
-                <div class="tape">
-                    <h4 class="question">
-                        Which VoIP integrations do you support?
-                    </h4>
-                    <p class="answer">
-                        At the moment, HivoCall Speech Analytics works seamlessly with HivoCall’s VoIP telephony. Let
-                        us know the VoIP provider are you currently using, and we will build the integration for you
-                    </p>
-                </div>
-
+                
             </div>
         </div>
+        <div class="related__posts">
+            <div class="related__head">
+              <h2>Related Post
+              </h2>
+            </div>
+            <div class="related__body">
+              <div class="post">
+                <img decoding="async" loading="lazy" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2023/04/10-Best-Call-Monitoring-Software-For-2023_fb-1024x538.jpg" alt="Best Call Monitoring Software For 2023" height="180" width="343">                
+                <a href="#" rel="noopener" data-wpel-link="internal"><h3>Call Center Monitoring: Best Practices &amp; 5 Providers</h3></a>
+              </div>
+              <div class="post">
+                <img decoding="async" loading="lazy" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2023/05/call-center-quality-monitoring-1024x538.png" alt="Call Center Monitoring" height="180" width="343">
+                <a href="#"><h3>Call Center Monitoring: Best Practices &amp; 5 Providers</h3> </a>
+              </div>
+              <div class="post">
+                <img decoding="async" loading="lazy" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2020/11/Tips-to-Improve-Your-Call-Quality-Monitoring_FB.jpg" alt="Ways to Improve Your Call Quality Monitoring Process
+                " height="180" width="343">
+                <a href="#"><h3>Ways to Improve Your Call Quality Monitoring Process</h3></a>
+              </div>
+            </div>
+            
+          </div>
     </div>
 @endsection

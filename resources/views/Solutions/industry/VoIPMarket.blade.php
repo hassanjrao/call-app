@@ -38,10 +38,10 @@
         </section>
         <section class="whyCall__container">
             <div class="why__header">
-                <h2 class="why__title">Why CallHippo?</h2>
+                <h2 class="why__title">Why HivoCall?</h2>
                 <p class="why__text">
 
-                    Connect with the right audience and industry efficiently with CallHippo. Utilize its advanced features to enhance communication. Ensure streamlined data collection and analysis for insightful market research.</p>
+                    Connect with the right audience and industry efficiently with HivoCall. Utilize its advanced features to enhance communication. Ensure streamlined data collection and analysis for insightful market research.</p>
             </div>
             <div class="why__cards">
                 <div class="card">
@@ -56,14 +56,14 @@
                             src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Transparent-Pricing.svg"
                             alt="icon" /></span>
                     <h5>Cost-Effective</h5>
-                    <p class="card__text">Conducting large-scale market research projects with traditional phone systems is expensive. CallHippo’s VoIP solutions leverage the internet to significantly reduce calling expenses.</p>
+                    <p class="card__text">Conducting large-scale market research projects with traditional phone systems is expensive. HivoCall’s VoIP solutions leverage the internet to significantly reduce calling expenses.</p>
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
                             src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Seamless-Scalability.svg"
                             alt="icon" /></span>
                     <h5>Scalability and Flexibility</h5>
-                    <p class="card__text">Accommodate the growing needs of research projects without the hassle of physical infrastructure upgrades. Whether you're expanding your team or targeting new demographics, CallHippo provides the flexibility to adjust your communication infrastructure accordingly.</p>
+                    <p class="card__text">Accommodate the growing needs of research projects without the hassle of physical infrastructure upgrades. Whether you're expanding your team or targeting new demographics, HivoCall provides the flexibility to adjust your communication infrastructure accordingly.</p>
                 </div>
         </section>
         <section class="experience">
@@ -120,7 +120,7 @@
             <div class="benefits__container">
                 <div class="benefits__header">
                     <h2 class="benefits__title">Benefits of VoIP for Market Research</h2>
-                    <p class="benefits__text">CallHippo’s VoIP for market research empowers cost-effective global communication, scalability, and advanced analytics. Enhance outreach, streamline data management, and optimize resources for insightful, efficient research campaigns.</p>
+                    <p class="benefits__text">HivoCall’s VoIP for market research empowers cost-effective global communication, scalability, and advanced analytics. Enhance outreach, streamline data management, and optimize resources for insightful, efficient research campaigns.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
                 <div class="benefits__cards">
@@ -346,7 +346,7 @@
                         <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
                             alt="quote">
                         <p class="hearFromU__text">
-                            CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are
+                            HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
                             <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"

@@ -5,13 +5,13 @@
             <div class="hero__title">
                 <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/round_circles_business_phone_sys_top.svg"
                     alt="">
-                <h2>Power Dialer</h2>
+                <h2>Business Phone System
+                </h2>
             </div>
             <div class="hero__desc">
                 <p>
-                    With HivoCall, you can get a power dialer and have it up and running in less than 3 minutes from
-                    anywhere in the world. Powered by robust features, HivoCall’s powerful commercial phone system is
-                    one of the most comprehensive solutions for all your business communication needs.
+                    With HivoCall, you can buy a business phone system and have it up and running in less than 3 minutes from anywhere in the world. Powered by robust features, HivoCall’s powerful commercial phone system is one of the most comprehensive solutions for all your business communication needs.
+
 
                 </p>
             </div>
@@ -24,79 +24,90 @@
             </div>
         </div>
         <div class="whatsIs">
-            <h4>What Is Power Dialer?</h4>
+            <h4>
+                What Is A Business Phone System?
+            </h4>
             <p>
-                A power dialer (also known as an auto dialer) is a piece of automated
-                telephone technology used to automatically dial a phone number after a
-                call has been completed. Once an operator finishes a call, the power
-                dialer software will call the next contact in the list. Power dialing
-                software comes in really handy when you are cold calling or running a
-                telemarketing process.
+                A business phone system refers to a multiline telephone system, typically used in business environments for better call management. It comes with a host of handy features including, but not limited to, call transferring, conference calling, call metering and accounting,
+
             </p>
         </div>
         <div class="benefitsGrid">
             <div class="left">
-                <h4>Benefits Of A Power Dialer <span>Software</span> </h4>
+                <h4>Benefits Of A Business <span>Telephone </span> 
+                    System
+                </h4>
                 <p>
-                    Power dialers are powerful tools that will boost and motivate your
-                    team as well as make your life easier at work skipping the inactive
-                    and unproductive leads.
+                    A good business phone system would radically change how you connect with customers and keep you ahead of the competition. Also, you can save money through business phone systems.
+
+                </p>
+                <p>
+                    Here are some more benefits of investing in a business phone system.
+
                 </p>
             </div>
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-user"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/cost_efficience_bphone_nb.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Cost-Efficiency
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        As a result, you can say goodbye to messy wires, complex instruments, long-distance carrier charges, and expensive hardware.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/phone-battery.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>Service Mobility</h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        You can forward calls to your phone or use an app to make and receive calls on the go.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/versality_feature.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        The Versatility of Features
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        By using a business telephone system, you can multi-task and be more productive.
+
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Security.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Simple Conference Calls
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Get call conferencing as an added benefit to the services that you’ve already paid for.
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
+                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/client_interaction_bphone_nb.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Efficient Client Interaction
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Interact flexibly via multiple channels and networks, and share important documents instantly with e-fax.
+
+
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-chart-simple"></i></div>
+                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/reliable_bphone_nb.svg" alt=""></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>Reliable</h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Improve customer reach with advanced call-forwarding and connect via desk phone, cell phone, laptop or any other mobile device.
+
+
                     </p>
                 </div>
             </div>
@@ -535,42 +546,39 @@
             <div class="accordion">
                 <div class="tape">
                     <h4 class="question">
-                        Can I try HivoCall Speech Analytics before subscribing to a plan?
+                        What is a business phone system?            
                     </h4>
                     <p class="answer">
-                        Of course yes. We will put you on a pilot before you are ready to make a commitment. The purpose
-                        of the pilot is to help you try out the your hands on the system and understand the impact that
-                        HivoCall Speech Analytics can make on your business.
+                        A business phone system is a multi-line telephone network that facilitates the handling of large call volumes and offers advanced features for inbound or outbound call management. Such systems can range from a few telephones to a large and complex private branch exchange, depending on the type of organization and its unique needs.
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Do you offer volume discount?
+                        What is the best business phone systems for small business?
                     </h4>
                     <p class="answer">
-                        If you are a large contact centers, we will be glad to offer you volume discounts based on your
-                        transcribing hours required. Get in touch with us to know more about our bulk volume pricing.
+                        The definition of the best business phone system varies depending on the type of business you have and its unique requirements. However, factors such as the type of clients you cater to, your business objectives, revenue streams, integration, and the features needed can help you decide on the best small business phone system for your needs.
 
 
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        What’s the minimum contract that I need to commit to?
+                        What are the types of business phone systems?
                     </h4>
                     <p class="answer">
-                        HivoCall doesn’t ask you for annual commitments or minimum agent guarantees, though the RoI of
-                        the tool comes when you have more than 3 calling agents. You can stop your subscription any time
-                        you wish. In short, there’s no contract that we bind you to.
+                        Business phone systems can be broadly classified into three categories namely, KSU (the basic phone systems), PBX (private branch exchange) systems, and VoIP (Voice Over Internet Protocol) business phone systems. Out of the three, VoIPs are the most advanced systems that help users connect from anywhere and by using any device with the internet.
+
+
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Which VoIP integrations do you support?
+                        How do I set up a business phone system?
                     </h4>
                     <p class="answer">
-                        At the moment, HivoCall Speech Analytics works seamlessly with HivoCall’s VoIP telephony. Let
-                        us know the VoIP provider are you currently using, and we will build the integration for you
+                        Setting up a virtual phone system for small business is easy if you have the necessary BPS software installed. Once you log in to the admin dashboard and set up your business hours and days, you are ready to configure team extensions and voice mail. Align your team members, design your call flows, and you are all set.
+
                     </p>
                 </div>
 

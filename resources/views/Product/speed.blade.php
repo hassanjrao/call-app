@@ -6,7 +6,7 @@
 
                 <p class="title">Speed To Dial</p>
                 <p class="content">Measure how quickly a call connects, ensuring fast communication. Reach time-critical
-                    leads at lightning-fast speed with CallHippo! Empower teams to reach prospects efficiently.</p>
+                    leads at lightning-fast speed with HivoCall! Empower teams to reach prospects efficiently.</p>
                 <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
             </div>
 
@@ -39,10 +39,10 @@
         </section>
         <section class="whyCall__container">
             <div class="why__header">
-                <h2 class="why__title">Why CallHippo?</h2>
+                <h2 class="why__title">Why HivoCall?</h2>
                 <p class="why__text">
 
-                    Elevate call efficiency using CallHippo’s Speed to Dial feature. Save time, enhance productivity, and
+                    Elevate call efficiency using HivoCall’s Speed to Dial feature. Save time, enhance productivity, and
                     swiftly connect with potential clients. Simplify processes for seamless communication and streamlined
                     business expansion.</p>
             </div>
@@ -75,7 +75,7 @@
             <div class="exp__container">
                 <div class="exp__header">
                     <h2 class="exp__title">Deliver Top-Notch Experience</h2>
-                    <p class="exp__text">Make automated outgoing calls from the CallHippo dialer to a list of numbers
+                    <p class="exp__text">Make automated outgoing calls from the HivoCall dialer to a list of numbers
                         uploaded under a specific campaign from any CRM.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
@@ -132,7 +132,7 @@
             <div class="benefits__container">
                 <div class="benefits__header">
                     <h2 class="benefits__title">Benefits of Speed To Dial</h2>
-                    <p class="benefits__text">CallHippo’s speed to dial feature enhances communication efficiency, making it
+                    <p class="benefits__text">HivoCall’s speed to dial feature enhances communication efficiency, making it
                         an ideal solution for diverse business requirements. With speed to dial, you can streamline call
                         processes, saving time and improving productivity.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
@@ -366,7 +366,7 @@
                         <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
                             alt="quote">
                         <p class="hearFromU__text">
-                            CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are
+                            HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
                             <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"

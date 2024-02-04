@@ -5,7 +5,7 @@
             <div class="hero__content">
 
                 <p class="title">Quick support center</p>
-                <p class="content">With CallHippo’s inbound contact center, your support team can provide exceptional
+                <p class="content">With HivoCall’s inbound contact center, your support team can provide exceptional
                     customer experiences. Our cloud-based solution seamlessly integrates with your preferred CRM and
                     Helpdesk, enabling 24/7 support from any location and device.</p>
                 <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
@@ -40,10 +40,10 @@
         </section>
         <section class="whyCall__container">
             <div class="why__header">
-                <h2 class="why__title">Why CallHippo?</h2>
+                <h2 class="why__title">Why HivoCall?</h2>
                 <p class="why__text">
                     Effortlessly manage high volumes of incoming calls with intelligent call routing and IVR using
-                    CallHippo. Our solution
+                    HivoCall. Our solution
                     automatically saves call details in your CRM, saving hundreds of hours for your support team.</p>
             </div>
             <div class="why__cards">
@@ -53,7 +53,7 @@
                             alt="icon" /></span>
                     <h5>Advanced Features</h5>
                     <p class="card__text">Empower your customers with an easy-to-use, agent-free navigation system by
-                        leveraging CallHippo's multi-level IVR feature.
+                        leveraging HivoCall's multi-level IVR feature.
                     </p>
                 </div>
                 <div class="card">
@@ -62,14 +62,14 @@
                             alt="icon" /></span>
                     <h5>Optimized Cost</h5>
                     <p class="card__text">Experience significant savings automation by syncing your CRM and helpdesk with
-                        Callhippo’s platform. Easily automate call logging and information tracking.</p>
+                        HivoCall’s platform. Easily automate call logging and information tracking.</p>
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
                             src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ssc_assured_quality.svg"
                             alt="icon" /></span>
                     <h5>Assured Quality</h5>
-                    <p class="card__text">Callhippo enables call monitoring, allowing you to listen in, whisper, or barge in
+                    <p class="card__text">HivoCall enables call monitoring, allowing you to listen in, whisper, or barge in
                         as needed, to mitigate escalations and improve the quality of your customer service.</p>
                 </div>
         </section>
@@ -79,7 +79,7 @@
                     <h2 class="exp__title">Minimize customer response time</h2>
                     <p class="exp__text">Reduce customer wait times and enhance customer satisfaction, transform first-call
                         resolution from a goal
-                        to a reality with CallHippo’s smart call routing feature</p>
+                        to a reality with HivoCall’s smart call routing feature</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
                 <div class="exp__cards">
@@ -89,14 +89,14 @@
                                 alt="icon" /></span>
                         <h5>Quick self-service</h5>
                         <p class="card__text">Empower your customers with an easy-to-use, agent-free navigation system by
-                            leveraging CallHippo's multi-level IVR feature.</p>
+                            leveraging HivoCall's multi-level IVR feature.</p>
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
                                 src="https://callhippo.com/wp-content/uploads/customupload/img/Call-Routing_ic.svg"
                                 alt="icon" /></span>
                         <h5>Deep Integrations</h5>
-                        <p class="card__text">Eliminate manual tasks by automating workflows with CallHippo. Our platform
+                        <p class="card__text">Eliminate manual tasks by automating workflows with HivoCall. Our platform
                             seamlessly integrates with over 100 CRM and business tools.
                         </p>
                     </div>
@@ -349,7 +349,7 @@
                         <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
                             alt="quote">
                         <p class="hearFromU__text">
-                            CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are
+                            HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
                             <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"

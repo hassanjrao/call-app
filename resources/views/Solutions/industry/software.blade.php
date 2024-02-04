@@ -5,7 +5,7 @@
             <div class="hero__content">
 
                 <p class="title">Call Centre Solution for Software & Technology</p>
-                <p class="content">Streamline your operations, delight customers, and boost sales with CallHippo’s advanced
+                <p class="content">Streamline your operations, delight customers, and boost sales with HivoCall’s advanced
                     call center software. Enjoy unparalleled efficiency with 99.5% uptime.</p>
                 <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
             </div>
@@ -39,11 +39,11 @@
         </section>
         <section class="whyCall__container">
             <div class="why__header">
-                <h2 class="why__title">Why CallHippo?</h2>
+                <h2 class="why__title">Why HivoCall?</h2>
                 <p class="why__text">
 
                     Elevate your operations, enhance customer interactions, and drive unparalleled business growth with our
-                    tailored, innovative services. Discover what makes CallHippo the perfect call center solution for IT
+                    tailored, innovative services. Discover what makes HivoCall the perfect call center solution for IT
                     companies.</p>
             </div>
             <div class="why__cards">
@@ -53,7 +53,7 @@
                             alt="icon" /></span>
                     <h5>Global Reach</h5>
                     <p class="card__text">Scale your business across borders by purchasing local and toll-free numbers from
-                        90+ countries with CallHippo. Build a truly global presence for your brand without burning a hole in
+                        90+ countries with HivoCall. Build a truly global presence for your brand without burning a hole in
                         your pocket.</p>
                 </div>
                 <div class="card">
@@ -61,7 +61,7 @@
                             src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-package_powerful_feature.svg"
                             alt="icon" /></span>
                     <h5>Robust Features</h5>
-                    <p class="card__text">Leverage CallHippo's advanced feature suite, encompassing cutting-edge
+                    <p class="card__text">Leverage HivoCall's advanced feature suite, encompassing cutting-edge
                         capabilities such as call recording, IVR, real-time analytics, and more. Upgrade your plan for more
                         advanced features or buy add-ons as your business grows.</p>
                 </div>
@@ -79,7 +79,7 @@
             <div class="exp__container">
                 <div class="exp__header">
                     <h2 class="exp__title">Foster Lasting Customer Relationships</h2>
-                    <p class="exp__text">Stay ahead of the competition with CallHippo’s innovative call center solution for
+                    <p class="exp__text">Stay ahead of the competition with HivoCall’s innovative call center solution for
                         software and technology designed to deliver unparalleled customer experiences.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
@@ -108,7 +108,7 @@
                                 src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Real-time-Insights-with-SMS.svg"
                                 alt="icon" /></span>
                         <h5>Advanced Integration</h5>
-                        <p class="card__text">Seamlessly integrate CallHippo into your existing technology infrastructure
+                        <p class="card__text">Seamlessly integrate HivoCall into your existing technology infrastructure
                             for a streamlined and cohesive customer service and sales experience. Boost agent productivity
                             and enhance operational efficiency.</p>
                     </div>
@@ -124,7 +124,7 @@
                         <span>Today</span>
                     </h5>
                     <p class="desc">
-                        Experience the power of CallHippo's innovative Call Centre Solution designed to revolutionize how
+                        Experience the power of HivoCall's innovative Call Centre Solution designed to revolutionize how
                         you connect with your customers.
                     </p>
                     <button>Start Free Trial</button>
@@ -156,7 +156,7 @@
                                 src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Drives-Revenue.svg"
                                 alt="icon" /></span>
                         <h5>Increased Sales</h5>
-                        <p class="card__text">CallHippo’s call center solution for IT companies allows you to automatically
+                        <p class="card__text">HivoCall’s call center solution for IT companies allows you to automatically
                             dial numbers from a list for your outbound campaigns. Save agents’ time and boost productivity
                             by connecting them with customers who pick up the call.</p>
                     </div>
@@ -165,7 +165,7 @@
                                 src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Enhance-Loyalty-with-SMS.svg"
                                 alt="icon" /></span>
                         <h5>Enhanced Remote Support</h5>
-                        <p class="card__text">Enable efficient remote IT support for clients through CallHippo’s advanced
+                        <p class="card__text">Enable efficient remote IT support for clients through HivoCall’s advanced
                             features. Ensure timely and effective resolution of technical issues, regardless of location,
                             and provide a seamless customer experience.</p>
                     </div>
@@ -370,7 +370,7 @@
                         <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
                             alt="quote">
                         <p class="hearFromU__text">
-                            CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are
+                            HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
                             <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"

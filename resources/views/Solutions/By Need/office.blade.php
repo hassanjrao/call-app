@@ -1,17 +1,15 @@
 @extends('welcome')
 @section('content')
-    <div class="container powerDialer">
+    <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
                 <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/round_circles_business_phone_sys_top.svg"
                     alt="">
-                <h2>Power Dialer</h2>
+                <h2>Office Phone System</h2>
             </div>
             <div class="hero__desc">
                 <p>
-                    With HivoCall, you can get a power dialer and have it up and running in less than 3 minutes from
-                    anywhere in the world. Powered by robust features, HivoCall’s powerful commercial phone system is
-                    one of the most comprehensive solutions for all your business communication needs.
+                    With HivoCall, you can get a power dialer and have it up and running in less than 3 minutes from anywhere in the world. Powered by robust features, HivoCall’s powerful commercial phone system is one of the most comprehensive solutions for all your business communication needs.
 
                 </p>
             </div>
@@ -24,23 +22,22 @@
             </div>
         </div>
         <div class="whatsIs">
-            <h4>What Is Power Dialer?</h4>
+            <h4>                    What Is Office Phone System?
+            </h4>
             <p>
-                A power dialer (also known as an auto dialer) is a piece of automated
-                telephone technology used to automatically dial a phone number after a
-                call has been completed. Once an operator finishes a call, the power
-                dialer software will call the next contact in the list. Power dialing
-                software comes in really handy when you are cold calling or running a
-                telemarketing process.
+                Regardless of the size of your business, you need to own an office phone system to mark your presence in a new market. Whether it is handling customer service calls or making promotional calls to clients, a cost-effective yet productive office phone is extremely important.
+
             </p>
+            <p>
+                Small to medium scale businesses can benefit from the office phone system in ways that are beyond elucidation. Unlike the traditional telephony system, a virtual phone system for office allows you to set working hours, convert emails into voicemails, and more.
+            </p> 
         </div>
         <div class="benefitsGrid">
             <div class="left">
-                <h4>Benefits Of A Power Dialer <span>Software</span> </h4>
+                <h4>Benefits Of The Office <span>Telephone</span> System </h4>
                 <p>
-                    Power dialers are powerful tools that will boost and motivate your
-                    team as well as make your life easier at work skipping the inactive
-                    and unproductive leads.
+                    HivoCall offers virtual international phone numbers for over 50 countries across the world.
+                    Let’s take a look at how an office phone system from HivoCall can be beneficial for your business:
                 </p>
             </div>
             <div class="right">
@@ -48,57 +45,51 @@
                 <div class="card">
                     <div class="icon"> <i class="fa-solid fa-user"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>Cost-Efficiency
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        With VoIP office phone system of HivoCall, you can make international calls as low as $0.002 over a single click. It saves time and cost simultaneously.
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Secure Your Information
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        The cloud-integration is of great use when it comes to secure the business information. The cloud space keeps your information secure and at the same time readily available to use at any time.
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Build a Brand Image
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Using an office support phone number for professional use not only saves a lot of money on your operational cost but also put up a professional brand image amongst the crowd.
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Better Customer Response
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
+                        Office support phone number comes with various features such as call conferencing; on-hold and IVR. All these features assist a business to render quick and professional customer services.
 
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
-                    </p>
-                </div>
-                <div class="card">
-                    <div class="icon"> <i class="fa-solid fa-chart-simple"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
-                    <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
                     </p>
                 </div>
+                
             </div>
         </div>
 
@@ -125,7 +116,9 @@
         </div>
 
         <div class="featuresContainer">
-            <h3>Modern Power Dialer Software Features</h3>
+            <h3>
+                Modern Office Phone System Features
+            </h3>
             <div class="featuresGrid">
                 <div class="card">
                     <img src="{{ asset('img\PowerDialer\1.jpg') }}" alt="cardTop" />
@@ -534,45 +527,50 @@
             </h3>
             <div class="accordion">
                 <div class="tape">
+                    
                     <h4 class="question">
-                        Can I try HivoCall Speech Analytics before subscribing to a plan?
+                        
+                        What features are included in HivoCall office phone system?                    
                     </h4>
                     <p class="answer">
-                        Of course yes. We will put you on a pilot before you are ready to make a commitment. The purpose
-                        of the pilot is to help you try out the your hands on the system and understand the impact that
-                        HivoCall Speech Analytics can make on your business.
-                    </p>
-                </div>
-                <div class="tape">
-                    <h4 class="question">
-                        Do you offer volume discount?
-                    </h4>
-                    <p class="answer">
-                        If you are a large contact centers, we will be glad to offer you volume discounts based on your
-                        transcribing hours required. Get in touch with us to know more about our bulk volume pricing.
+                        HivoCall provides innovative and advanced functionality through its office phone systems. Some of the best features include PowerDialer, automatic call distribution, IVR, call monitoring, call conference, call routing, call recording, and call analytics.
 
 
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        What’s the minimum contract that I need to commit to?
-                    </h4>
+                        How long does it take to activate HivoCall office phone system?                    </h4>
                     <p class="answer">
-                        HivoCall doesn’t ask you for annual commitments or minimum agent guarantees, though the RoI of
-                        the tool comes when you have more than 3 calling agents. You can stop your subscription any time
-                        you wish. In short, there’s no contract that we bind you to.
+                        As HivoCall is a cloud-based solution it ensures simple and hassle-free implementation. You can set up your office phone system in less than three minutes and start making or receiving calls.
+
                     </p>
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Which VoIP integrations do you support?
+                        How can we forward a call through HivoCall office phone system?
                     </h4>
                     <p class="answer">
-                        At the moment, HivoCall Speech Analytics works seamlessly with HivoCall’s VoIP telephony. Let
-                        us know the VoIP provider are you currently using, and we will build the integration for you
+                        HivoCall’s smart call forwarding feature enables you to forward calls to any landline, mobile phone number, or satellite phone. You need to enable call forwarding services and add the number where your calls should be routed. It is a great feature that ensures you do not miss even a single business call!
+
+
                     </p>
                 </div>
+                <div class="tape">
+                    <h4 class="question">
+                        How to use an office phone?                    </h4>
+                    <p class="answer">
+                        It would be best if you have a few things to install a business phone system, such as a strong Internet connection, router, modem, and other vital VoIP equipment. In addition, you’ll create call flow paths, record IVR systems, and assign agents to extensions and call groups during the setup process.
+                    </p>
+                </div>
+                <div class="tape">
+                    <h4 class="question">
+                        Can I make global phone calls with an office phone system?
+                    </h4>
+                    <p class="answer">
+                        Yes, office phone systems can help businesses connect easily with global clients, partners, and vendors. They can help you plan business engagements better with features such as call planner and build a global presence.                    </p>
+                </div>
+                
 
             </div>
         </div>

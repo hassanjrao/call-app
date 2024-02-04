@@ -39,11 +39,11 @@
         </section>
         <section class="whyCall__container">
             <div class="why__header">
-                <h2 class="why__title">Why CallHippo?</h2>
+                <h2 class="why__title">Why HivoCall?</h2>
                 <p class="why__text">
 
                     As the leading cloud contact center software provider, we empower businesses worldwide. Discover why
-                    CallHippo is the ultimate choice for your SMS communication needs. Discover why CallHippo SMS service is
+                    HivoCall is the ultimate choice for your SMS communication needs. Discover why HivoCall SMS service is
                     your go-to solution for comprehensive customer communication.</p>
             </div>
             <div class="why__cards">
@@ -60,7 +60,7 @@
                             src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Built-in-SMS-Capability-with-SMS.svg"
                             alt="icon" /></span>
                     <h5>Built-in SMS Capability</h5>
-                    <p class="card__text">With CallHippo, you get a powerful SMS feature right out of the box. So, no
+                    <p class="card__text">With HivoCall, you get a powerful SMS feature right out of the box. So, no
                         requirement for integrating with third-party tools.</p>
                 </div>
                 <div class="card">
@@ -69,14 +69,14 @@
                             alt="icon" /></span>
                     <h5>Personalized Support</h5>
                     <p class="card__text">Our dedicated support team is available around the clock to assist you in making
-                        the most out of CallHippo's SMS capabilities.</p>
+                        the most out of HivoCall's SMS capabilities.</p>
                 </div>
         </section>
         <section class="experience">
             <div class="exp__container">
                 <div class="exp__header">
                     <h2 class="exp__title">Experience Effortless Communication with SMS</h2>
-                    <p class="exp__text">CallHippo’s built-in SMS capability allows you to connect with customers
+                    <p class="exp__text">HivoCall’s built-in SMS capability allows you to connect with customers
                         seamlessly, utilizing their preferred communication channel. Here’s why you should utilize this
                         feature.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
@@ -132,7 +132,7 @@
             <div class="benefits__container">
                 <div class="benefits__header">
                     <h2 class="benefits__title">Benefits of Business SMS</h2>
-                    <p class="benefits__text">CallHippo’s SMS feature is a reliable and powerful method for unmatched
+                    <p class="benefits__text">HivoCall’s SMS feature is a reliable and powerful method for unmatched
                         success when it comes to revolutionizing the customer experience. This is how it will help you.</p>
                     <div class="hero__btn"> <button>Start Free Trial</button></div>
                 </div>
@@ -365,7 +365,7 @@
                         <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
                             alt="quote">
                         <p class="hearFromU__text">
-                            CallHippo went an extra mile and suggested a perfect solution. As of now, all of our numbers are
+                            HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
                             <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"

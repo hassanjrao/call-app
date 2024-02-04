@@ -70,7 +70,7 @@
                             <h4>Basic</h4>
                             <h4><span>$</span>0</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
+                            <a href="/pay">Sign Up Now</a>                        
                         </div>
 
                         <div class="card-bottom">
@@ -91,8 +91,7 @@
                             <h4>Starter</h4>
                             <h4><span>$</span>18</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
-                        </div>
+<a href="/pay">Sign Up Now</a>                        </div>
 
                         <div class="card-bottom">
                             <p>Everything in Basic +
@@ -118,8 +117,7 @@
                             <h4>Professional</h4>
                             <h4><span>$</span>30</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
-                        </div>
+<a href="/pay">Sign Up Now</a>                        </div>
 
                         <div class="card-bottom">
                             <p>Everything in Starter +
@@ -151,8 +149,7 @@
                             <h4>Ultimate</h4>
                             <h4><span>$</span>42</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
-                        </div>
+<a href="/pay">Sign Up Now</a>                        </div>
 
                         <div class="card-bottom">
                             <p>Everything in Professional +</p>

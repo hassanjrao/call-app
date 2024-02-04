@@ -80,3 +80,32 @@ Route::get('/custom-crm-integration', function () {
     return view('Integration/CustomCRM');
 });
 
+// End Integration
+
+
+Route::get('/office-phone-system', function () {
+    return view('Solutions/By Need/office');
+});
+
+Route::get('/voice-broadcasting', function () {
+    return view('Solutions/By Need/voiceBroadcasting');
+});
+Route::get('/call-analytics', function () {
+    return view('Product\callAnalytics');
+});
+Route::get('/call-monitoring', function () {
+    return view('Product\callMonitoring');
+});
+Route::get('/predictive-dialer', function () {
+    return view('Solutions/By Need/predictiveDialer');
+});
+Route::get('/virtual-phone-number', function () {
+    return view('Solutions/By Need/virtualPhoneNumber');
+});
+
+Route::get('/pay', function () {
+    return view('pay');
+});
+Route::get('/business-phone-system', function () {
+    return view('Product.businessPhoneSym');
+});
