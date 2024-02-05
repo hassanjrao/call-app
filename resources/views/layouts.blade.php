@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/SVG/logoDark.svg">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -16,10 +17,12 @@
     <header class="header">
         <nav class="nav-bar">
             <div class="logo">
-                {{-- <a href="/"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/logo-2.svg"
-                        alt="logo" /></a> --}}
-                <a href="/"><img src="{{ asset("img/PowerDialer/rsz_2hivocall.png") }}" style=" width:182px; height:43px"
-                    alt="logo" /></a>
+
+                <a href="/"> <img src='{{ asset('img/SVG/logoDark.svg') }}' alt="logo">
+                    <h1>
+                        HivoCall
+                    </h1>
+                </a>
             </div>
 
             <div class="nav-items">
@@ -69,7 +72,7 @@
                                     <li><a href="/office-phone-system">Office Phone System</a></li>
                                     <li><a href="/call-center-software-solution/">Call center software</a></li>
                                     <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
-                                    
+
                                 </ul>
                             </div>
                             <div>
@@ -78,7 +81,7 @@
                                     <li><a href="/predictive-dialer">Predictive Dialer</a></li>
                                     <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
                                     <li><a href="/support-contact-center/">Sales & Support</a></li>
-                                    
+
                                 </ul>
                             </div>
                             <div>
@@ -256,7 +259,7 @@
                 <li><a href="/">Join Our Affiliate Program</a></li>
                 <li><a href="/">Become a Partner</a></li>
                 <li><a href="/">Refer a Friend</a></li>
-                
+
             </ul>
         </div>
         <div class="copyright">

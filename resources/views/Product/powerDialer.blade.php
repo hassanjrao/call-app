@@ -1,10 +1,9 @@
-@extends('welcome')
+@extends('layouts')
 @section('content')
     <div class="container powerDialer">
         <div class="hero-container">
             <div class="hero__title">
-                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/round_circles_business_phone_sys_top.svg"
-                    alt="">
+                <img src="img/icons/3points.svg" alt="">
                 <h2>Power Dialer</h2>
             </div>
             <div class="hero__desc">
@@ -16,11 +15,10 @@
                 </p>
             </div>
             <div class="hero__btn">
-                <button>Try ConnectVista For Free</button>
+                <button>Try HivoCall For Free</button>
             </div>
             <div class="hero__image">
-                <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch_dashboard_v2.1.svg"
-                    alt="hero" />
+                <img src="{{ asset('img/SVG/BgHero1.png') }}" alt="hero" />
             </div>
         </div>
         <div class="whatsIs">

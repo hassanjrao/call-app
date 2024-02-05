@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('layouts')
 @section('content')
     <div class="software__container">
         <section class="hero__items">

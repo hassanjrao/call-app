@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('layouts')
 @section('content')
     <div class="autoRotate__container">
         <section class="hero__items">
@@ -361,7 +361,8 @@
             </div>
         </section>
         <section class="hearFromU">
-            <div class="hearFromU__container"><h2>Hear From Our Customers</h2>
+            <div class="hearFromU__container">
+                <h2>Hear From Our Customers</h2>
                 <div class="hearFromU__mainview">
                     <div class="hearFromU__content">
                         <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
@@ -383,8 +384,9 @@
                         <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ch-home-user-image-new.png"
                             alt="person">
                     </div>
-                </div></div>
-            
+                </div>
+            </div>
+
         </section>
     </div>
 @endsection

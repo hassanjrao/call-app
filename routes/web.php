@@ -74,7 +74,7 @@ Route::get('/support-contact-center', function () {
     return view('Solutions/By Use Case/support');
 });
 
-// Integrqation
+// Integration
 
 Route::get('/custom-crm-integration', function () {
     return view('Integration/CustomCRM');

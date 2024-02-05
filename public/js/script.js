@@ -88,3 +88,41 @@ labels.forEach(function (label, index) {
     });
   });
 });
+
+
+// Grabbing 
+const cardWrapper = document.querySelector('.integration .other .cardWrapper ');
+
+let isMouseDown = false;
+let startX;
+let scrollLeft;
+
+cardWrapper.addEventListener('mousedown', (e) => {
+  isMouseDown = true;
+  startX = e.pageX - cardWrapper.offsetLeft;
+  scrollLeft = cardWrapper.scrollLeft;
+  cardWrapper.classList.add('grabbing');
+});
+
+cardWrapper.addEventListener('mouseleave', () => {
+  if (isMouseDown) {
+    isMouseDown = false;
+    cardWrapper.classList.remove('grabbing');
+  }
+});
+
+cardWrapper.addEventListener('mouseup', () => {
+  if (isMouseDown) {
+    isMouseDown = false;
+    cardWrapper.classList.remove('grabbing');
+  }
+});
+
+cardWrapper.addEventListener('mousemove', (e) => {
+  if (!isMouseDown) return;
+  e.preventDefault();
+
+  const x = e.pageX - cardWrapper.offsetLeft;
+  const walk = x - startX;
+  cardWrapper.scrollLeft = scrollLeft - walk;
+});

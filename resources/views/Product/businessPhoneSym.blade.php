@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('layouts')
 @section('content')
     <div class="container powerDialer">
         <div class="hero-container">

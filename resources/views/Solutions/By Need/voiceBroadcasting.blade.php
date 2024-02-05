@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('layouts')
 @section('content')
     <div class="container office">
         <div class="hero-container">
@@ -24,23 +24,27 @@
             </div>
         </div>
         <div class="whatsIs">
-            <h4>                    What Is Voice Broadcasting?
+            <h4> What Is Voice Broadcasting?
 
             </h4>
             <p>
-                Voice broadcasting is a mass communication / broadcasting technique which enables you to send automated voice messages via call to a large number of people at once. Voice broadcast service can be used to receive instant notifications and alerts. Users can easily record the customer responses by installing IVR in the call blast.
+                Voice broadcasting is a mass communication / broadcasting technique which enables you to send automated
+                voice messages via call to a large number of people at once. Voice broadcast service can be used to receive
+                instant notifications and alerts. Users can easily record the customer responses by installing IVR in the
+                call blast.
 
 
 
             </p>
-            
+
         </div>
         <div class="benefitsGrid">
             <div class="left">
-                <h4>Benefits Of A Voice <span>Broadcasting</span> 
+                <h4>Benefits Of A Voice <span>Broadcasting</span>
                     Software </h4>
                 <p>
-                    Besides the apparent benefits of voice broadcasting, it also has other services associated with it. Some of the biggest reasons why customer-facing companies should adopt it are:
+                    Besides the apparent benefits of voice broadcasting, it also has other services associated with it. Some
+                    of the biggest reasons why customer-facing companies should adopt it are:
 
                 </p>
             </div>
@@ -54,7 +58,8 @@
 
                     </h4>
                     <p>
-                        Voice broadcasting software lets you decide when the calls should be made, the duration of the effort, or even schedule multiple calls to the same person (in an interval of a few days or so).
+                        Voice broadcasting software lets you decide when the calls should be made, the duration of the
+                        effort, or even schedule multiple calls to the same person (in an interval of a few days or so).
 
 
 
@@ -67,7 +72,8 @@
                         Text-to-speech
                     </h4>
                     <p>
-                        It reads out the text you write over a call just like a human would do. You can even insert names and other relevant details of the prospect to personalize the call.
+                        It reads out the text you write over a call just like a human would do. You can even insert names
+                        and other relevant details of the prospect to personalize the call.
 
 
 
@@ -77,9 +83,10 @@
                     <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
 
                     <h4>
-                        Automation                    </h4>
+                        Automation </h4>
                     <p>
-                        Automated voice broadcasting is a computerized process of cold calling. Hence, the margin of human error is eliminated seamlessly
+                        Automated voice broadcasting is a computerized process of cold calling. Hence, the margin of human
+                        error is eliminated seamlessly
 
 
 
@@ -92,7 +99,8 @@
                         Improves Communication
                     </h4>
                     <p>
-                        Voice broadcast Software can transfer that emotion into the message that you want your customer to understand.
+                        Voice broadcast Software can transfer that emotion into the message that you want your customer to
+                        understand.
                     </p>
                 </div>
                 <div class="card">
@@ -102,21 +110,24 @@
                         Increased Employee Performance
                     </h4>
                     <p>
-                        When you remove the mundane tasks from the hands of your employees, like making thousands of calls and chasing down every lead, the morale will boost.
+                        When you remove the mundane tasks from the hands of your employees, like making thousands of calls
+                        and chasing down every lead, the morale will boost.
 
                     </p>
-                </div><div class="card">
+                </div>
+                <div class="card">
                     <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
 
                     <h4>
                         Opt-out messages
                     </h4>
                     <p>
-                        Just like the unsubscribe option in emails, opt-out messages allow customers to choose whether they want to receive calls from your business.
+                        Just like the unsubscribe option in emails, opt-out messages allow customers to choose whether they
+                        want to receive calls from your business.
 
                     </p>
                 </div>
-                
+
             </div>
         </div>
 
@@ -142,8 +153,8 @@
             </div>
         </div>
 
-        
-        
+
+
         <div class="pricing__bottom--wrapper">
 
             <h3>Pricing</h3>
@@ -453,9 +464,12 @@
             <div class="accordion">
                 <div class="tape">
                     <h4 class="question">
-                        What Is The Use Of A Voice Broadcasting System?                    </h4>
+                        What Is The Use Of A Voice Broadcasting System? </h4>
                     <p class="answer">
-                        Voice broadcasting is a mass communication technique that enables users to send automated voice message broadcasting via a call to many people at once. It can be used for various purposes such as conducting surveys, sending event invitations, providing reminders or notifications, and important corporate announcements.
+                        Voice broadcasting is a mass communication technique that enables users to send automated voice
+                        message broadcasting via a call to many people at once. It can be used for various purposes such as
+                        conducting surveys, sending event invitations, providing reminders or notifications, and important
+                        corporate announcements.
 
 
 
@@ -463,7 +477,7 @@
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        How much does voice broadcasting cost?                    </h4>
+                        How much does voice broadcasting cost? </h4>
                     <p class="answer">
                         HivoCall provides affordable voice broadcasting services by charging only $0.04 per call.
 
@@ -473,9 +487,11 @@
                 <div class="tape">
                     <h4 class="question">
 
-                        Is Voice Broadcasting Legal?                    </h4>
+                        Is Voice Broadcasting Legal? </h4>
                     <p class="answer">
-                        Yes, voice broadcasting is legal in most countries if the recipient has explicitly agreed to receive such messages. However, you cannot send broadcast messages to recipients who have denied permission. Also, make sure your calls are scheduled between 9 AM and 9 PM.
+                        Yes, voice broadcasting is legal in most countries if the recipient has explicitly agreed to receive
+                        such messages. However, you cannot send broadcast messages to recipients who have denied permission.
+                        Also, make sure your calls are scheduled between 9 AM and 9 PM.
 
                     </p>
                 </div>
@@ -483,20 +499,31 @@
         </div>
         <div class="related__posts">
             <div class="related__head">
-              <h2>Related Post
-              </h2>
+                <h2>Related Post
+                </h2>
             </div>
             <div class="related__body">
-              <div class="post">
-                <img decoding="async" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/05/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.png" alt="Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential" height="180" width="343">
-                <a href="https://callhippo.com/blog/general/free-auto-dialer-softwares" target="_blank" rel="noopener" data-wpel-link="internal"><h3>Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential</h3> </a>
-              </div>
-              <div class="post">
-                <img decoding="async" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/03/How-Your-Business-Can-Benefit-From-Voice-Broadcasting-FB.png" alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
-                <a href="https://callhippo.com/blog/callcenter/5-ways-getting-dialer-software-can-transform-call-center-productivity" target="_blank" rel="noopener" data-wpel-link="internal"><h3>How Your Business Can Benefit From Voice Broadcasting?</h3> </a>
-              </div>
+                <div class="post">
+                    <img decoding="async"
+                        src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/05/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.png"
+                        alt="Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential" height="180"
+                        width="343">
+                    <a href="https://callhippo.com/blog/general/free-auto-dialer-softwares" target="_blank"
+                        rel="noopener" data-wpel-link="internal">
+                        <h3>Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential</h3>
+                    </a>
+                </div>
+                <div class="post">
+                    <img decoding="async"
+                        src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/03/How-Your-Business-Can-Benefit-From-Voice-Broadcasting-FB.png"
+                        alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
+                    <a href="https://callhippo.com/blog/callcenter/5-ways-getting-dialer-software-can-transform-call-center-productivity"
+                        target="_blank" rel="noopener" data-wpel-link="internal">
+                        <h3>How Your Business Can Benefit From Voice Broadcasting?</h3>
+                    </a>
+                </div>
             </div>
-            
-          </div>
+
+        </div>
     </div>
 @endsection

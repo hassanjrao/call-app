@@ -59,21 +59,25 @@
 
 .integration .hero .right span {
     text-transform: uppercase;
-    position: relative;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
-.integration .hero .right span::before {
+.integration .hero .right span::before,
+.integration .hero .right span::after {
     content: "";
-    position: absolute;
     display: block;
-    width: 45%;
+    width: 25%;
     height: 1px;
     background-color: rgb(190, 190, 190);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+}
+
+
+.integration .other .cardWrapper.grabbing {
+    cursor: grabbing;
 }
 
 .integration .benIntegration {
