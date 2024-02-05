@@ -13,7 +13,7 @@
 
 
             <div class="hero__image">
-                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Speed-To-Dial-CallHippo.png"
+                <img src="{{ asset('img/heros/Speed-To-Dial.png') }}"
                     alt="speed">
             </div>
         </section>
@@ -22,18 +22,18 @@
                 <p>Trusted by 4000+ companies</p>
             </div>
             <div class="trusted-content">
-                <img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/Amazon.svg"
+                <img src="{{ asset('img/companies/Amazon.svg') }}"
                     alt="trusted" /><img
-                    src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/brighchamps.svg"
+                    src="{{ asset('img/companies/brighchamps.svg') }}"
                     alt="trusted" /><img
-                    src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/oracle.svg"
+                    src="{{ asset('img/companies/oracle.svg') }}"
                     alt="trusted" /><img
-                    src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/turing.svg" alt="trusted" />
-                <img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/valuelabs.svg"
+                    src="{{ asset('img/companies/turing.svg') }}" alt="trusted" />
+                <img src="{{ asset('img/companies/valuelabs.svg') }}"
                     alt="trusted" /><img
-                    src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/iresearch.svg"
+                    src="{{ asset('img/companies/iresearch.svg') }}"
                     alt="trusted" />
-                <img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/intellipaat_logo.svg"
+                <img src="{{ asset('img/companies/intellipaat_logo.svg') }}"
                     alt="trusted" />
             </div>
         </section>
@@ -124,7 +124,7 @@
                     </p>
                     <button>Start Free Trial</button>
                 </div>
-                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/USA-cta-min_home.png"
+                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
             </div>
         </section>
@@ -176,8 +176,7 @@
             </div>
             <div class="avantages__cards">
                 <div class="avantages__card">
-                    <div class="card__image"><span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-international_Phone_numbers.svg"
+                    <div class="card__image"><span class="span1"><img class="icon" src="img/avantages-icons/1.svg"
                                 alt="icon" /></span></div>
                     <div class="card__text">
                         <h2>International Phone numbers</h2>
@@ -187,8 +186,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-bulk_sms.svg"
+                        <span class="span2"><img class="icon" src="img/avantages-icons/2.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -198,8 +196,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-call_center_analytics.svg"
+                        <span class="span3"><img class="icon" src="img/avantages-icons/3.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -208,8 +205,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span4"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-forword_to_voice_mail.svg"
+                        <span class="span4"><img class="icon" src="img/avantages-icons/4.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -218,8 +214,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span5"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Toll-free-numbers.svg"
+                        <span class="span5"><img class="icon" src="img/avantages-icons/5.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -228,8 +223,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span6"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Appointment-Scheduler.svg"
+                        <span class="span6"><img class="icon" src="img/avantages-icons/6.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -238,8 +232,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span7"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-call-monitoring.svg"
+                        <span class="span7"><img class="icon" src="img/avantages-icons/7.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -248,8 +241,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span8"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Office-Hours.svg"
+                        <span class="span8"><img class="icon" src="img/avantages-icons/8.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -258,8 +250,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span9"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Record-Calls.svg"
+                        <span class="span9"><img class="icon" src="img/avantages-icons/9.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -268,8 +259,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span10"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Auto-Dialer.svg"
+                        <span class="span10"><img class="icon" src="img/avantages-icons/10.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -278,8 +268,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span11"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Call-Whispering.svg"
+                        <span class="span11"><img class="icon" src="img/avantages-icons/11.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -288,8 +277,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span12"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Caller-Id.svg"
+                        <span class="span12"><img class="icon" src="img/avantages-icons/12.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -298,8 +286,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span13"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Virtual-Call-Center.svg"
+                        <span class="span13"><img class="icon" src="img/avantages-icons/13.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -308,8 +295,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span14"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Predictive-Dialer.svg"
+                        <span class="span14"><img class="icon" src="img/avantages-icons/14.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -318,8 +304,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span15"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Share-Phone-Number.svg"
+                        <span class="span15"><img class="icon" src="img/avantages-icons/15.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -328,8 +313,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span16"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Call-Queues.svg"
+                        <span class="span16"><img class="icon" src="img/avantages-icons/16.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -338,8 +322,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span17"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Forward-to-your-phone.svg"
+                        <span class="span17"><img class="icon" src="img/avantages-icons/17.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -348,8 +331,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span18"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-SMS_Bot.svg"
+                        <span class="span18"><img class="icon" src="img/avantages-icons/18.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -363,13 +345,13 @@
                 <h2>Hear From Our Customers</h2>
                 <div class="hearFromU__mainview">
                     <div class="hearFromU__content">
-                        <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch-home-quote.svg"
+                        <img src="{{ asset('img/icons/quot.svg') }}"
                             alt="quote">
                         <p class="hearFromU__text">
                             HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
-                            <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"
+                            <img src="{{ asset('img/brands/brighterly-new.png') }}"
                                 alt="brand" class="footer__img">
                             <div class="footer__name">
                                 <p>Rostyslav Khanyk
@@ -379,7 +361,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ch-home-user-image-new.png"
+                        <img src="{{asset('img/SVG/portrait.png')}}"
                             alt="person">
                     </div>
                 </div>

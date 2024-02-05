@@ -232,7 +232,7 @@
                     </div>
                 </div>
                 <div class="right">
-                    <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/mobile_app_design.png"
+                    <img src="{{ asset('img/SVG/mobile_app_design.png') }}"
                         alt="phone">
                 </div>
             </div>

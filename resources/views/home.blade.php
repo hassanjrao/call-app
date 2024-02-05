@@ -30,15 +30,18 @@
             <p>Trusted by 4000+ companies</p>
         </div>
         <div class="trusted-content">
-            <img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/Amazon.svg" alt="trusted" /><img
-                src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/brighchamps.svg"
-                alt="trusted" /><img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/oracle.svg"
-                alt="trusted" /><img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/turing.svg"
-                alt="trusted" />
-            <img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/valuelabs.svg"
+            <img src="{{ asset('img/companies/Amazon.svg') }}"
                 alt="trusted" /><img
-                src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/iresearch.svg" alt="trusted" />
-            <img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/intellipaat_logo.svg"
+                src="{{ asset('img/companies/brighchamps.svg') }}"
+                alt="trusted" /><img
+                src="{{ asset('img/companies/oracle.svg') }}"
+                alt="trusted" /><img
+                src="{{ asset('img/companies/turing.svg') }}" alt="trusted" />
+            <img src="{{ asset('img/companies/valuelabs.svg') }}"
+                alt="trusted" /><img
+                src="{{ asset('img/companies/iresearch.svg') }}"
+                alt="trusted" />
+            <img src="{{ asset('img/companies/intellipaat_logo.svg') }}"
                 alt="trusted" />
         </div>
     </div>
@@ -232,7 +235,7 @@
                 </div>
                 <button>Start Free Trial</button>
             </div>
-            <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/USA-cta-min_home.png"
+            <img src="{{ asset('img/SVG/business-phone-number.png') }}"
                 alt="Mobile" />
         </div>
     </div>
@@ -242,12 +245,13 @@
             <h2>Hear From Our Customers</h2>
             <div class="hearFromU__mainview">
                 <div class="hearFromU__content">
-                    <img src="img/icons/quot.svg" alt="quote">
+                    <img src="{{ asset('img/icons/quot.svg') }}"
+                        alt="quote">
                     <p class="hearFromU__text">
                         HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                         clean and have the highest attestation score.</p>
                     <div class="hearFromU__footer">
-                        <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/brighterly-new.png"
+                        <img src="{{ asset('img/brands/brighterly-new.png') }}"
                             alt="brand" class="footer__img">
                         <div class="footer__name">
                             <p>Rostyslav Khanyk
@@ -257,7 +261,8 @@
                     </div>
                 </div>
                 <div class="hearFromU__image">
-                    <img src="img/SVG/portrait.png" alt="person">
+                    <img src="{{asset('img/SVG/portrait.png')}}"
+                        alt="person">
                 </div>
             </div>
         </div>

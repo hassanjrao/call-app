@@ -3,7 +3,7 @@
     <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
-                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/round_circles_business_phone_sys_top.svg"
+                <img src="img/icons/3points.svg"
                     alt="">
                 <h2>
                     Predictive Dialer
@@ -20,7 +20,7 @@
                 <button>Try ConnectVista For Free</button>
             </div>
             <div class="hero__image">
-                <img src="https://callhippo.com/wp-content/uploads/customupload/img/homepage/ch_dashboard_v2.1.svg"
+                <img src="{{ asset('img/SVG/BgHero1.png') }}"
                     alt="hero" />
             </div>
         </div>
@@ -120,7 +120,7 @@
             </div>
 
             <div class="right">
-                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/business-phone-number-cta-min.png"
+                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="freeTrial" />
             </div>
         </div>

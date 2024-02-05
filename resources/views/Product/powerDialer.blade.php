@@ -117,7 +117,7 @@
             </div>
 
             <div class="right">
-                <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/business-phone-number-cta-min.png"
+                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="freeTrial" />
             </div>
         </div>

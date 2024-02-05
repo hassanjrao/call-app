@@ -3,7 +3,7 @@
     <div class="signin-container">
         <div class="right-section">
             <div class="hero__image">
-                <img src="	https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ch-home-user-image-new.png"
+                <img src="	{{ asset('img/SVG/portrait.png') }}"
                     alt="hero" />
             </div>
             <div class="hero__desc">
@@ -24,13 +24,13 @@
                     <p>Trusted by 4000+ companies</p>
                 </div>
                 <div class="trusted-content">
-                    <img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/Amazon.svg"
+                    <img src="{{ asset('img/companies/Amazon.svg') }}"
+                alt="trusted" /><img
+                src="{{ asset('img/companies/oracle.svg') }}"
                         alt="trusted" /><img
-                        src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/oracle.svg"
-                        alt="trusted" /><img
-                        src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/turing.svg"
+                        src="{{ asset('img/companies/turing.svg') }}"
                         alt="trusted" />
-                    <img src="https://callhippo.com/wp-content/uploads/customupload/logo_trustedby/iresearch.svg"
+                    <img src="{{ asset('img/companies/iresearch.svg') }}"
                         alt="trusted" />
 
                 </div>
@@ -39,8 +39,12 @@
         <div class="left-section">
             <div class="head">
                 <div class="logo">
-                    <a href="/"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/logo-2.svg"
-                            alt="logo" /></a>
+
+                    <a href="/"> <img src='{{ asset('img/SVG/logoDark.svg') }}' alt="logo">
+                        <h1>
+                            HivoCall
+                        </h1>
+                    </a>
                 </div>
                 <p>Already have an account ? <a href="/">Sign in</a></p>
             </div>

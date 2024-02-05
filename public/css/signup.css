@@ -76,6 +76,7 @@
   gap: 35px;
 }
 
+
 .signin-container>.right-section>.trusted-container .trusted-content img {
   height: 28px;
 }
@@ -92,7 +93,9 @@
   display: flex;
   justify-content: space-around;
 }
-
+.signin-container .left-section .head .logo {
+  display: flex;
+}
 .signin-container .left-section .head .logo img {
   width: 182px;
   height: 43px;
