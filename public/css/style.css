@@ -6,6 +6,8 @@
 @import url("notFound.css");
 @import url("ressources.css");
 @import url("blog/index.css");
+@import url("demo/index.css");
+@import url("pay.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -1033,9 +1035,6 @@ nav .logo img {
     text-align: center;
   }
 
-  .faq {
-    padding: 25px;
-  }
 
   .hero__items>.hero__image {
     display: none;

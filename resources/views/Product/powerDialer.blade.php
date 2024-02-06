@@ -117,8 +117,7 @@
             </div>
 
             <div class="right">
-                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
-                    alt="freeTrial" />
+                <img src="{{ asset('img/SVG/business-phone-number.png') }}" alt="freeTrial" />
             </div>
         </div>
 
@@ -533,7 +532,7 @@
             <div class="accordion">
                 <div class="tape">
                     <h4 class="question">
-                        Can I try HivoCall Speech Analytics before subscribing to a plan?
+                        Can I try HivoCall Speech Analytics before subscribing to a plan? <i class="fa-solid fa-plus"></i>
                     </h4>
                     <p class="answer">
                         Of course yes. We will put you on a pilot before you are ready to make a commitment. The purpose
@@ -543,7 +542,7 @@
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Do you offer volume discount?
+                        Do you offer volume discount? <i class="fa-solid fa-plus"></i>
                     </h4>
                     <p class="answer">
                         If you are a large contact centers, we will be glad to offer you volume discounts based on your
@@ -554,7 +553,7 @@
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        What’s the minimum contract that I need to commit to?
+                        What’s the minimum contract that I need to commit to? <i class="fa-solid fa-plus"></i>
                     </h4>
                     <p class="answer">
                         HivoCall doesn’t ask you for annual commitments or minimum agent guarantees, though the RoI of
@@ -564,7 +563,7 @@
                 </div>
                 <div class="tape">
                     <h4 class="question">
-                        Which VoIP integrations do you support?
+                        Which VoIP integrations do you support? <i class="fa-solid fa-plus"></i>
                     </h4>
                     <p class="answer">
                         At the moment, HivoCall Speech Analytics works seamlessly with HivoCall’s VoIP telephony. Let

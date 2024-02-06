@@ -113,6 +113,9 @@ Route::get('/business-phone-system', function () {
 
 
 
+Route::get('/schedule-a-demo', function () {
+    return view('demo');
+});
 
 
 // Ressources

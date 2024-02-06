@@ -332,3 +332,50 @@ a:hover {
     margin: 0 auto;
     padding: 20px;
 }
+
+.faq {
+    padding-block: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.faq h3 {
+    font-size: 2rem;
+}
+
+.faq .accordion {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.faq .accordion .tape {
+    border-radius: 1rem;
+}
+
+.faq .accordion .tape .question {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq .accordion .tape .question,
+.faq .accordion .tape .answer {
+    padding: 15px;
+}
+
+.faq .accordion .tape .answer {
+    border: 1px solid var(--secondary-color);
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.faq .accordion .tape .answer.active {
+    display: block;
+    opacity: 1;
+}
