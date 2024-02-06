@@ -57,7 +57,7 @@
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Schedule-control-with-voice-broadcasting.svg" alt=""></div>
+                    <div class="icon"> <img src='{{ asset( "img/icons/Schedule-control-with-voice-broadcasting.svg") }}' alt=""></div>
 
                     <h4>
                         Maximized Agent Productivity
@@ -68,7 +68,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Text-to-speech-with-voice-broadcasting.svg" alt=""></i></div>
+                    <div class="icon"><img src='{{ asset( "img/icons/Text-to-speech-with-voice-broadcasting.svg") }}' alt=""></i></div>
 
                     <h4>
                         Optimized Call Connect Rate
@@ -78,7 +78,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Automation-with-voice-broadcasting.svg" alt=""></div>
+                    <div class="icon"><img src='{{ asset( "img/icons/Saves-Time-with-amd.svg") }}' alt=""></div>
 
                     <h4>
                         Reduced Idle Time
@@ -89,7 +89,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improves-Communication-with-voice-broadcasting.svg" alt=""></div>
+                    <div class="icon"> <img src='{{ asset( "img/icons/Improves-Communication-with-voice-broadcasting.svg") }}' alt=""></div>
 
                     <h4>
                         Enhanced Lead Management

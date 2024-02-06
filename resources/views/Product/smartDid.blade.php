@@ -49,7 +49,7 @@
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Seamless-Scalability.svg"
+                            src="{{ asset("img/icons/Seamless-Scalability.svg") }} "
                             alt="icon" /></span>
                     <h5>Seamless Scalability</h5>
                     <p class="card__text">Effortlessly scale your contact center operations to handle growing call volumes.
@@ -57,7 +57,7 @@
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Actionable-Insights.svg"
+                            src="{{ asset("img/icons/Actionable-Insights.svg") }} "
                             alt="icon" /></span>
                     <h5>Actionable Insights</h5>
                     <p class="card__text">Make data-driven decisions to improve operations with 360-degree visibility into
@@ -66,7 +66,7 @@
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Cutting-Edge-Innovation.svg"
+                            src="{{ asset("img/icons/Cutting-Edge-Innovation (1).svg") }} "
                             alt="icon" /></span>
                     <h5>Cutting-Edge Innovation</h5>
                     <p class="card__text">Stay ahead of the curve with a business phone solution continuously enhanced with
@@ -86,8 +86,7 @@
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/call_center_analytics.svg"
-                                alt="icon" /></span>
+                                src="{{ asset("img/icons/call_center_analytics.svg") }} "/></span>
                         <h5>Expanded Global Access</h5>
                         <p class="card__text">Dynamically route international calls without needing to add new local numbers
                             in every country. Local presence dialer allows you to connect with prospects globally while only
@@ -95,7 +94,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Drives-Revenue.svg"
+                                src="{{ asset("img/icons/icon-Drives-Revenue.svg") }} "
                                 alt="icon" /></span>
                         <h5>Improved Conversions</h5>
                         <p class="card__text">Higher answer rates mean more conversations and opportunities to convert
@@ -104,8 +103,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improve-CSAT.svg"
-                                alt="icon" /></span>
+                                src="{{ asset("img/icons/Improve-CSAT.svg") }} "/></span>
                         <h5>Higher Answer Rates</h5>
                         <p class="card__text">By displaying a local number for the recipient's location, you can increase
                             answer rates by up to 23%. Customers are more likely to answer calls from familiar local
@@ -143,8 +141,7 @@
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/analytics.svg"
-                                alt="icon" /></span>
+                                src="{{ asset("img/icons/analytics.svg") }} "/></span>
                         <h5>Enhanced credibility</h5>
                         <p class="card__text">Build strong customer relationships with local numbers that resonate with your
                             target market. Leverage the power of familiarity to establish trust, driving higher engagement
@@ -152,7 +149,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Streamlined-Communication.svg"
+                                src="{{ asset("img/icons/Streamlined-Communication.svg") }} "
                                 alt="icon" /></span>
                         <h5>International reach</h5>
                         <p class="card__text">No need for physical presence everywhere. With our local presence feature,
@@ -161,7 +158,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improved-Continuity.svg"
+                                src="{{ asset("img/icons/Improved-Continuity.svg") }} "
                                 alt="icon" /></span>
                         <h5>Better personalization</h5>
                         <p class="card__text">Tailor your communication approach to each market's unique preferences and

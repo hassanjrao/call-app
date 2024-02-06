@@ -13,7 +13,7 @@
 
 
             <div class="hero__image">
-                <img src="{{ asset('img/heros/Bussiness-SMS.png') }}"
+                <img src="{{ asset('img/heros/Business-SMS.png') }}"
                     alt="sms">
             </div>
         </section>
@@ -49,7 +49,7 @@
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/User-Friendly-Interface-with-SMS.svg"
+                            src="{{ asset("img/icons/User-Friendly-Interface-with-SMS.svg") }} "
                             alt="icon" /></span>
                     <h5>User-Friendly Interface</h5>
                     <p class="card__text">Our intuitive platform ensures that your team can start sending SMS messages
@@ -57,7 +57,7 @@
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Built-in-SMS-Capability-with-SMS.svg"
+                            src="{{ asset("img/icons/Built-in-SMS-Capability-with-SMS.svg") }} "
                             alt="icon" /></span>
                     <h5>Built-in SMS Capability</h5>
                     <p class="card__text">With HivoCall, you get a powerful SMS feature right out of the box. So, no
@@ -65,7 +65,7 @@
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Personalized-Support-with-SMS.svg"
+                            src="{{ asset("img/icons/Personalized-Support-with-SMS.svg") }} "
                             alt="icon" /></span>
                     <h5>Personalized Support</h5>
                     <p class="card__text">Our dedicated support team is available around the clock to assist you in making
@@ -84,7 +84,7 @@
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Effortless-Communication-with-SMS.svg"
+                                src="{{ asset("img/icons/Effortless-Communication-with-SMS.svg") }} "
                                 alt="icon" /></span>
                         <h5>Effortless Communication</h5>
                         <p class="card__text">Enable your agents to reach out to customers effortlessly through their
@@ -93,7 +93,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Real-time-Insights-with-SMS.svg"
+                                src="{{ asset("img/icons/Real-time-Insights-with-SMS.svg") }} "
                                 alt="icon" /></span>
                         <h5>Real-time Insights</h5>
                         <p class="card__text">Gain valuable analytics into message response rates, customer preferences, and
@@ -102,7 +102,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Personalized-Interactions-with-SMS.svg"
+                                src="{{ asset("img/icons/Personalized-Interactions-with-SMS.svg") }} "
                                 alt="icon" /></span>
                         <h5>Personalized Interactions</h5>
                         <p class="card__text">Tailor every message to suit individual customer needs. Foster brand affinity
@@ -139,7 +139,7 @@
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Boost-Efficiency-with-SMS.svg"
+                                src="{{ asset("img/icons/Boost-Efficiency-with-SMS.svg") }} "
                                 alt="icon" /></span>
                         <h5>Boost Efficiency</h5>
                         <p class="card__text">Cut response times by up to 30%. Swift resolutions mean happier customers and
@@ -147,7 +147,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Drive-Revenue-with-SMS.svg"
+                                src="{{ asset("img/icons/Drive-Revenue-with-SMS.svg") }} "
                                 alt="icon" /></span>
                         <h5>Drive Revenue</h5>
                         <p class="card__text">Leverage targeted messaging for promotions, updates, and offers. Increase
@@ -155,7 +155,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Enhance-Loyalty-with-SMS.svg"
+                                src="{{ asset("img/icons/Enhance-Loyalty-with-SMS.svg") }} "
                                 alt="icon" /></span>
                         <h5>Enhance Loyalty</h5>
                         <p class="card__text">Consumers feel valued and appreciated when they receive timely, tailored

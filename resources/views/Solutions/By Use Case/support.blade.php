@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts')
 @section('content')
     <div class="support__container">
         <section class="hero__items">
@@ -49,8 +49,9 @@
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/scc_avanced_features.svg"
-                            alt="icon" /></span>
+                        src='{{ asset( "img/icons/scc_avanced_features.svg") }}'
+                        alt="icon" /></span>
+
                     <h5>Advanced Features</h5>
                     <p class="card__text">Empower your customers with an easy-to-use, agent-free navigation system by
                         leveraging HivoCall's multi-level IVR feature.
@@ -58,16 +59,16 @@
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/scc_optimized_cost.svg"
-                            alt="icon" /></span>
+                        src='{{ asset( "img/icons/scc_optimized_cost.svg") }}'
+                        alt="icon" /></span>
                     <h5>Optimized Cost</h5>
                     <p class="card__text">Experience significant savings automation by syncing your CRM and helpdesk with
                         HivoCall’s platform. Easily automate call logging and information tracking.</p>
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ssc_assured_quality.svg"
-                            alt="icon" /></span>
+                        src='{{ asset( "img/icons/ssc_assured_quality.svg") }}'  
+                        alt="icon" /></span>
                     <h5>Assured Quality</h5>
                     <p class="card__text">HivoCall enables call monitoring, allowing you to listen in, whisper, or barge in
                         as needed, to mitigate escalations and improve the quality of your customer service.</p>
@@ -85,16 +86,16 @@
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/rdial.svg"
-                                alt="icon" /></span>
+                            src='{{ asset( "img/icons/rdial.svg") }}'
+                            alt="icon" /></span>
                         <h5>Quick self-service</h5>
                         <p class="card__text">Empower your customers with an easy-to-use, agent-free navigation system by
                             leveraging HivoCall's multi-level IVR feature.</p>
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://callhippo.com/wp-content/uploads/customupload/img/Call-Routing_ic.svg"
-                                alt="icon" /></span>
+                            src='{{ asset( "img/icons/Call-Routing_ic.svg") }}'
+                            alt="icon" /></span>
                         <h5>Deep Integrations</h5>
                         <p class="card__text">Eliminate manual tasks by automating workflows with HivoCall. Our platform
                             seamlessly integrates with over 100 CRM and business tools.
@@ -102,8 +103,8 @@
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/analytics.svg"
-                                alt="icon" /></span>
+                            src='{{ asset( "img/icons/analytics.svg") }}'
+                            alt="icon" /></span>
                         <h5>Track service quality</h5>
                         <p class="card__text">Improve support quality by monitoring contact center operations and gaining an
                             eagle-eye view of performance.

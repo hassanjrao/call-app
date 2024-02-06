@@ -54,7 +54,7 @@
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Increased-agent-morale-with-call-monitoring.svg" alt=""></div>
+                    <div class="icon"> <img src="{{ asset("img/icons/Increased-agent-morale-with-call-monitoring.svg") }} " alt=""></div>
 
                     <h4>
                         Increased agent morale
@@ -66,7 +66,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Boost-sales-with-call-monitoring.svg" alt=""></i></div>
+                    <div class="icon"><img src="{{ asset("img/icons/Boost-sales-with-call-monitoring.svg") }} " alt=""></i></div>
 
                     <h4>
                         Boost sales
@@ -77,7 +77,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Enhanced-customer-satisfaction-with-call-monitoring.svg" alt=""></div>
+                    <div class="icon"><img src="{{ asset("img/icons/Enhanced-customer-satisfaction-with-call-monitoring.svg") }} " alt=""></div>
 
                     <h4>
                         Enhanced customer satisfaction
@@ -88,7 +88,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improve-agent-performance-with-call-monitoring.svg" alt=""></div>
+                    <div class="icon"> <img src="{{ asset("img/icons/Improve-agent-performance-with-call-monitoring.svg") }} " alt=""></div>
 
                     <h4>
                         Improve agent performance
@@ -563,15 +563,15 @@
             </div>
             <div class="related__body">
               <div class="post">
-                <img decoding="async" loading="lazy" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2023/04/10-Best-Call-Monitoring-Software-For-2023_fb-1024x538.jpg" alt="Best Call Monitoring Software For 2023" height="180" width="343">                
+                <img decoding="async" loading="lazy" src="{{ asset("img/webp/10-Best-Call-Monitoring-Software-For-2023_fb-1024x538.webp") }} "" alt="Best Call Monitoring Software For 2023" height="180" width="343">                
                 <a href="#" rel="noopener" data-wpel-link="internal"><h3>Call Center Monitoring: Best Practices &amp; 5 Providers</h3></a>
               </div>
               <div class="post">
-                <img decoding="async" loading="lazy" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2023/05/call-center-quality-monitoring-1024x538.png" alt="Call Center Monitoring" height="180" width="343">
+                <img decoding="async" loading="lazy" src="{{ asset("img/webp/call-center-quality-monitoring-1024x538.webp") }} " Center Monitoring" height="180" width="343">
                 <a href="#"><h3>Call Center Monitoring: Best Practices &amp; 5 Providers</h3> </a>
               </div>
               <div class="post">
-                <img decoding="async" loading="lazy" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2020/11/Tips-to-Improve-Your-Call-Quality-Monitoring_FB.jpg" alt="Ways to Improve Your Call Quality Monitoring Process
+                <img decoding="async" loading="lazy" src="{{ asset("img/webp/Tips-to-Improve-Your-Call-Quality-Monitoring_FB.webp") }} " alt="Ways to Improve Your Call Quality Monitoring Process
                 " height="180" width="343">
                 <a href="#"><h3>Ways to Improve Your Call Quality Monitoring Process</h3></a>
               </div>

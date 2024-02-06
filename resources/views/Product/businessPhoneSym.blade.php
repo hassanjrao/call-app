@@ -59,7 +59,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/phone-battery.svg" alt=""></div>
+                    <div class="icon"> <img src="{{ asset("img/icons/phone-battery.svg") }}" alt=""></div>
 
                     <h4>Service Mobility</h4>
                     <p>
@@ -67,7 +67,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/versality_feature.svg" alt=""></div>
+                    <div class="icon"><img src="{{ asset("img/icons/versality_feature.svg") }} " alt=""></div>
 
                     <h4>
                         The Versatility of Features
@@ -79,7 +79,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Security.svg" alt=""></div>
+                    <div class="icon"><img src="{{ asset("img/icons/Security.svg") }} " alt=""></div>
 
                     <h4>
                         Simple Conference Calls
@@ -89,7 +89,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/client_interaction_bphone_nb.svg" alt=""></div>
+                    <div class="icon"><img src="{{ asset("img/icons/client_interaction_bphone_nb.svg") }} " alt=""></div>
 
                     <h4>
                         Efficient Client Interaction
@@ -101,7 +101,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/reliable_bphone_nb.svg" alt=""></div>
+                    <div class="icon"> <img src="{{ asset("img/icons/reliable_bphone_nb.svg") }} " alt=""></div>
 
                     <h4>Reliable</h4>
                     <p>

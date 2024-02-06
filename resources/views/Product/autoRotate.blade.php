@@ -42,7 +42,7 @@
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Pushing%20the%20Boundaries_Pushing%20the%20Boundaries.svg"
+                            src="{{ asset("img/icons/Pushing the Boundaries_Pushing the Boundaries.svg") }}"
                             alt="icon" /></span>
                     <h5>Spam Prevention</h5>
                     <p class="card__text">Change numbers with each call automatically! Prevent spam markings and enhance
@@ -50,7 +50,7 @@
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Cutting-Edge-Innovation.svg"
+                            src="{{ asset("img/icons/Cutting-Edge-Innovation.svg") }}"
                             alt="icon" /></span>
                     <h5>Global Reach</h5>
                     <p class="card__text">Establish a local presence worldwide with HivoCall's virtual phone numbers
@@ -58,8 +58,8 @@
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Transparent-Pricing.svg"
-                            alt="icon" /></span>
+                        src="{{ asset("img/icons/rm-Transparent-Pricing.svg") }}"
+                        alt="icon" /></span>
                     <h5>Cost Effective</h5>
                     <p class="card__text">Optimize communication expenses with cost-effective VoIP features! Allocate
                         resources efficiently, directing savings towards core business growth and development.</p>
@@ -76,7 +76,7 @@
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-auto_answer_call.svg"
+                            src="{{ asset("img/icons/rm-auto_answer_call.svg") }}"
                                 alt="icon" /></span>
                         <h5>No More Spam Numbers</h5>
                         <p class="card__text">Say goodbye to spam numbers with our auto rotate feature. Protect your
@@ -85,7 +85,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Increases-Retention.svg"
+                            src="{{ asset("img/icons/icon-Increases-Retention.svg") }}"
                                 alt="icon" /></span>
                         <h5>Automatic Number Management</h5>
                         <p class="card__text">Automatic number management streamlines communication by dynamically assigning
@@ -95,7 +95,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Flexibility-and-Mobility.svg"
+                            src="{{ asset("img/icons/Flexibility-and-Mobility.svg") }}"
                                 alt="icon" /></span>
                         <h5>Low Call Abandonment Rates</h5>
                         <p class="card__text">Ensure a streamlined and efficient communication process. Auto rotate provides
@@ -135,7 +135,7 @@
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improve-CSAT.svg"
+                            src="{{ asset("img/icons/Improve-CSAT.svg") }}"
                                 alt="icon" /></span>
                         <h5>Boost Call Connect Rates</h5>
                         <p class="card__text">Auto rotate in calls boosts connection rates. Increase call connect rates with
@@ -143,7 +143,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/call_center_analytics.svg"
+                            src="{{ asset("img/icons/call_center_analytics.svg") }}"
                                 alt="icon" /></span>
                         <h5>Enhanced Credibility</h5>
                         <p class="card__text">Present a varied and legitimate appearance to customers and clients! With each
@@ -152,7 +152,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Boost-Efficiency-with-SMS.svg"
+                            src="{{ asset("img/icons/Boost-Efficiency-with-SMS.svg") }}"
                                 alt="icon" /></span>
                         <h5>Maximized Agent Productivity</h5>
                         <p class="card__text">Maximize agent productivity by presenting a different number with each call,

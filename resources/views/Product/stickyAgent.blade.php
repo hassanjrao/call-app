@@ -49,7 +49,7 @@
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Pushing%20the%20Boundaries_Pushing%20the%20Boundaries.svg"
+                            src="{{ asset("img/icons/Pushing the Boundaries_Pushing the Boundaries.svg") }} "
                             alt="icon" /></span>
                     <h5>Pushing the Boundaries</h5>
                     <p class="card__text">Stay ahead of the competition with our continuous feature updates and
@@ -58,7 +58,7 @@
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Industry-Leading%20Reliability_%20Industry-Leading%20Reliability.svg"
+                            src="{{ asset("img/icons/Industry-Leading Reliability_ Industry-Leading Reliability.svg") }} "
                             alt="icon" /></span>
                     <h5>Industry-Leading Reliability</h5>
                     <p class="card__text">Your business deserves nothing less than the gold standard of reliability and
@@ -67,7 +67,7 @@
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Premium-Support.svg"
+                            src="{{ asset("img/icons/icon-Premium-Support.svg") }} "
                             alt="icon" /></span>
                     <h5>Premium Support</h5>
                     <p class="card__text">We offer comprehensive training, empowering your team to make the most of our
@@ -87,7 +87,7 @@
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Improved-Agent-Utilization.svg"
+                                src="{{ asset("img/icons/icon-Improved-Agent-Utilization.svg") }} "
                                 alt="icon" /></span>
                         <h5>Improved Agent Utilization</h5>
                         <p class="card__text">Streamline your workforce resources by reducing the time spent on verifying
@@ -96,7 +96,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Valuable-Insights.svg"
+                                src="{{ asset("img/icons/icon-Valuable-Insights.svg") }} "
                                 alt="icon" /></span>
                         <h5>Valuable Insights</h5>
                         <p class="card__text">Gain useful analytics into agent performance, conversation trends, and
@@ -105,7 +105,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Enhanced-Personalization.svg"
+                                src="{{ asset("img/icons/icon-Enhanced-Personalization.svg") }} "
                                 alt="icon" /></span>
                         <h5>Enhanced Personalization</h5>
                         <p class="card__text">Make every interaction feel tailored and relevant through continuous
@@ -144,7 +144,7 @@
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Saves-Time-with-amd.svg"
+                                src="{{ asset("img/icons/Saves-Time-with-amd.svg") }} "
                                 alt="icon" /></span>
                         <h5>Saves Time</h5>
                         <p class="card__text">Cut the average handling time by as much as 20%. Faster resolutions mean
@@ -153,7 +153,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Drives-Revenue.svg"
+                                src="{{ asset("img/icons/icon-Drives-Revenue.svg") }} "
                                 alt="icon" /></span>
                         <h5>Drives Revenue</h5>
                         <p class="card__text">Agents can recommend appropriate products or services by understanding
@@ -162,7 +162,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Increases-Retention.svg"
+                                src="{{ asset("img/icons/icon-Increases-Retention.svg") }} "
                                 alt="icon" /></span>
                         <h5>Increases Retention</h5>
                         <p class="card__text">Agents who possess a deep understanding of customer history make customers

@@ -48,15 +48,15 @@
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-package_powerful_feature.svg"
-                            alt="icon" /></span>
+                        src="{{ asset("img/icons/rm-package_powerful_feature.svg") }} "
+                        alt="icon" /></span>
                     <h5>Packed with powerful features</h5>
                     <p class="card__text">Experience the ultimate call center software with CallHippo - offering call
                         routing, conferencing, CRM integrations, and automated SMS capabilities, and more.</p>
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Transparent-Pricing.svg"
+                        src="{{ asset("img/icons/rm-Transparent-Pricing.svg") }} "
                             alt="icon" /></span>
                     <h5>Transparent Pricing</h5>
                     <p class="card__text">Avoid the confusion of hidden charges and complex pricing tiers with our
@@ -64,7 +64,7 @@
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Dependable-support.svg"
+                        src="{{ asset("img/icons/rm-Dependable-support.svg") }} "
                             alt="icon" /></span>
                     <h5>Dependable support</h5>
                     <p class="card__text">With our expert team by your side, enjoy hassle-free setup and support for any
@@ -83,8 +83,8 @@
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/rdial.svg"
-                                alt="icon" /></span>
+                            src="{{ asset("img/icons/rdial.svg") }} "
+                            alt="icon" /></span>
                         <h5>IVR</h5>
                         <p class="card__text">Interactive voice responses help callers reach the right department based on
                             their needs. Based on caller input, the software effectively routes calls to the right
@@ -92,8 +92,8 @@
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://callhippo.com/wp-content/uploads/customupload/img/Call-Routing_ic.svg"
-                                alt="icon" /></span>
+                            src="{{ asset("img/icons/Call-Routing_ic.svg") }} "
+                            alt="icon" /></span>
                         <h5>Skill-Based Call Routing</h5>
                         <p class="card__text">To ensure the best customer experience, contact center solutions offer
                             skill-based routing features that automatically route calls to the right
@@ -102,8 +102,8 @@
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/analytics.svg"
-                                alt="icon" /></span>
+                            src="{{ asset("img/icons/analytics.svg") }} "
+                            alt="icon" /></span>
                         <h5>Call Monitoring</h5>
                         <p class="card__text">This feature allows call center managers to listen to call in real-time and
                             provide feedback. Managers can also whisper, barge, and record calls for better agent feedback.
@@ -141,8 +141,8 @@
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-auto_answer_call.svg"
-                                alt="icon" /></span>
+                            src="{{ asset("img/icons/rm-auto_answer_call.svg") }} "
+                            alt="icon" /></span>
                         <h5>Auto-Dialer</h5>
                         <p class="card__text">This call center phone system saves agents time by automatically dialing the
                             numbers for them on outbound calls. Reduce the number of manual errors in the dialing process.
@@ -150,8 +150,8 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Dashboards_and%20Analytics_feature_for_call_center.svg"
-                                alt="icon" /></span>
+                            src="{{ asset("img/icons/Dashboards_and Analytics_feature_for_call_center.svg") }} "
+                            alt="icon" /></span>
                         <h5>Dashboards & Analytics</h5>
                         <p class="card__text">Get access to a real-time dashboard to monitor the performance of teams and
                             individual agents. Generate reports on various KPIs, including agents’ performance, conversion
@@ -159,8 +159,8 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Automatic_Call_Distribution_feature_for_call_center.svg"
-                                alt="icon" /></span>
+                            src="{{ asset("img/icons/Automatic_Call_Distribution_feature_for_call_center.svg") }} "
+                            alt="icon" /></span>
                         <h5>Automatic Call Distribution</h5>
                         <p class="card__text">CallHippo’s call center management uses automatic call distribution (ACD)
                             extensively to route calls to the best-suited agents through routing.</p>
@@ -178,7 +178,7 @@
             </div>
             <div class="avantages__cards">
                 <div class="avantages__card">
-                    <div class="card__image"><span class="span1"><img class="icon" src="img/avantages-icons/1.svg"
+                    <div class="card__image"><span class="span1"><img class="icon" src='{{ asset( "img/avantages-icons/1.svg") }}'
                                 alt="icon" /></span></div>
                     <div class="card__text">
                         <h2>International Phone numbers</h2>
@@ -188,7 +188,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span2"><img class="icon" src="img/avantages-icons/2.svg"
+                        <span class="span2"><img class="icon" src='{{ asset( "img/avantages-icons/2.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -198,7 +198,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span3"><img class="icon" src="img/avantages-icons/3.svg"
+                        <span class="span3"><img class="icon" src='{{ asset( "img/avantages-icons/3.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -207,7 +207,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span4"><img class="icon" src="img/avantages-icons/4.svg"
+                        <span class="span4"><img class="icon" src='{{ asset( "img/avantages-icons/4.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -216,7 +216,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span5"><img class="icon" src="img/avantages-icons/5.svg"
+                        <span class="span5"><img class="icon" src='{{ asset( "img/avantages-icons/5.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -225,7 +225,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span6"><img class="icon" src="img/avantages-icons/6.svg"
+                        <span class="span6"><img class="icon" src='{{ asset( "img/avantages-icons/6.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -234,7 +234,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span7"><img class="icon" src="img/avantages-icons/7.svg"
+                        <span class="span7"><img class="icon" src='{{ asset( "img/avantages-icons/7.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -243,7 +243,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span8"><img class="icon" src="img/avantages-icons/8.svg"
+                        <span class="span8"><img class="icon" src='{{ asset( "img/avantages-icons/8.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -252,7 +252,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span9"><img class="icon" src="img/avantages-icons/9.svg"
+                        <span class="span9"><img class="icon" src='{{ asset( "img/avantages-icons/9.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -261,7 +261,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span10"><img class="icon" src="img/avantages-icons/10.svg"
+                        <span class="span10"><img class="icon" src='{{ asset( "img/avantages-icons/10.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -270,7 +270,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span11"><img class="icon" src="img/avantages-icons/11.svg"
+                        <span class="span11"><img class="icon" src='{{ asset( "img/avantages-icons/11.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -279,7 +279,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span12"><img class="icon" src="img/avantages-icons/12.svg"
+                        <span class="span12"><img class="icon" src='{{ asset( "img/avantages-icons/12.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -288,7 +288,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span13"><img class="icon" src="img/avantages-icons/13.svg"
+                        <span class="span13"><img class="icon" src='{{ asset( "img/avantages-icons/13.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -297,7 +297,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span14"><img class="icon" src="img/avantages-icons/14.svg"
+                        <span class="span14"><img class="icon" src='{{ asset( "img/avantages-icons/14.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -306,7 +306,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span15"><img class="icon" src="img/avantages-icons/15.svg"
+                        <span class="span15"><img class="icon" src='{{ asset( "img/avantages-icons/15.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -315,7 +315,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span16"><img class="icon" src="img/avantages-icons/16.svg"
+                        <span class="span16"><img class="icon" src='{{ asset( "img/avantages-icons/16.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -324,7 +324,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span17"><img class="icon" src="img/avantages-icons/17.svg"
+                        <span class="span17"><img class="icon" src='{{ asset( "img/avantages-icons/17.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -333,7 +333,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span18"><img class="icon" src="img/avantages-icons/18.svg"
+                        <span class="span18"><img class="icon" src='{{ asset( "img/avantages-icons/18.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">

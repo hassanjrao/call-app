@@ -55,46 +55,61 @@
                 <div class="card">
                     <div class="icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Save Time
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        When the dialing process is taken care of, you can clearly save time.
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"><i class="fa-solid fa-universal-access"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Increase Your Sales
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Using a power dialer, your sales representatives will be able to drive more pipeline and drastically increase sales conversions.
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"> <i class="fa-solid fa-filter-circle-dollar"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Manage Leads
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Power dialer software for lead management can organize lead and sales information, customer history, and contact data.
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"><i class="fa-solid fa-thumbs-up"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Improves Customer Satisfaction
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        Since agents have access to detailed customer data and use the best-predetermined call strategy for each customer, all customers benefit from personalized experiences that lead to greater long-term loyalty.
+
+
                     </p>
                 </div>
                 <div class="card">
                     <div class="icon"> <i class="fa-solid fa-chart-simple"></i></div>
 
-                    <h4>Increased Agents’ Productivity</h4>
+                    <h4>
+                        Analytics
+                    </h4>
                     <p>
-                        Power dialer will call by itself and your agents won’t need to
-                        manually dial their next lead’s number
+                        You can work to improve the overall efficiency of your sales team or provide extra training to salespeople who need some extra guidance when you can view a detailed history of how your team performs.
+
+
                     </p>
                 </div>
             </div>

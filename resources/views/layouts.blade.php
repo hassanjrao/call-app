@@ -72,6 +72,10 @@
                                     <li><a href="/office-phone-system">Office Phone System</a></li>
                                     <li><a href="/call-center-software-solution/">Call center software</a></li>
                                     <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
+                                    <li><a href="/predictive-dialer">Predictive Dialer</a></li>
+                                    <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
+                                    <li><a href="/support-contact-center/">Sales & Support</a></li>
+
 
                                 </ul>
                             </div>
@@ -80,7 +84,11 @@
                                 <ul>
                                     <li><a href="/predictive-dialer">Predictive Dialer</a></li>
                                     <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
-                                    <li><a href="/support-contact-center/">Sales & Support</a></li>
+                                    <li><a href="/support-contact-center">Sales & Support</a></li>
+                                    <li><a href="/office-phone-system">Office Phone System</a></li>
+                                    <li><a href="/call-center-software-solution/">Call center software</a></li>
+                                    <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
+
 
                                 </ul>
                             </div>
@@ -113,7 +121,7 @@
                             <div>
                                 <h3>INTEGRATIONS</h3>
                                 <ul>
-                                    <li><a href="#">Custom CRM</a></li>
+                                    <li><a href="/custom-crm-integration">Custom CRM</a></li>
                                     <li><a href="#">Pipedrive</a></li>
                                     <li><a href="#">Zoho CRM</a></li>
                                     <li><a href="#">Zapier</a></li>

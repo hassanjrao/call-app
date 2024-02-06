@@ -47,7 +47,7 @@
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/recognize-sources-of-calls-with-callhippo-call-analytics.svg" alt=""></div>
+                    <div class="icon"> <img src="{{ asset("img/icons/recognize-sources-of-calls-with-callhippo-call-analytics.svg") }} " alt=""></div>
 
                     <h4>
                         Recognize Sources of calls
@@ -62,7 +62,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/real-time-tracking-with-callhippo-call-analytics.svg" alt=""></i></div>
+                    <div class="icon"><img src="{{ asset("img/icons/real-time-tracking-with-callhippo-call-analytics.svg") }} " alt=""></i></div>
 
                     <h4>
                         Real-Time tracking
@@ -76,7 +76,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Caller-insights-with-callhippo-call-analytics.svg" alt=""></div>
+                    <div class="icon"><img src="{{ asset("img/icons/Caller-insights-with-callhippo-call-analytics.svg") }} " alt=""></div>
 
                     <h4>
                         Caller Insights
@@ -86,7 +86,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/improve-sales-with-callhippo-call-analytics.svg" alt=""></div>
+                    <div class="icon"> <img src="{{ asset("img/icons/improve-sales-with-callhippo-call-analytics.svg") }} " alt=""></div>
 
                     <h4>
                         Improve Sales
@@ -579,11 +579,11 @@
             </div>
             <div class="related__body">
               <div class="post">
-                <img decoding="async" loading="lazy" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/08/What-Is-Call-Analytics-and-Why-Should-Marketers-Use-It-Fb.jpg" alt="What Is Call Analytics and Why Should Marketers Use It?" height="180" width="343">                
+                <img decoding="async" loading="lazy" src="{{ asset("img/webp/What-Is-Call-Analytics-and-Why-Should-Marketers-Use-It-Fb.webp") }} " alt="What Is Call Analytics and Why Should Marketers Use It?" height="180" width="343">                
                 <a href="#" rel="noopener" data-wpel-link="internal"><h3>What Is Call Analytics and Why Should Marketers Use It?</h3> </a>
               </div>
               <div class="post">
-                <img decoding="async" src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/03/How-Your-Business-Can-Benefit-From-Voice-Broadcasting-FB.png" alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
+                <img decoding="async" src="{{ asset("img/webp/How-Your-Business-Can-Benefit-From-Voice-Broadcasting-FB.webp") }} " alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
                 <a href="#"><h3>How Your Business Can Benefit From Voice Broadcasting?</h3> </a>
               </div>
             </div>

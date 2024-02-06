@@ -53,7 +53,7 @@
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/cost_efficience_bphone_nb.svg" alt=""></div>
+                    <div class="icon"> <img src='{{ asset( "img/icons/cost_efficience_bphone_nb.svg") }}' alt=""></div>
 
                     <h4>
                         Cost-Effective
@@ -65,7 +65,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Global-Accessibility-with-callhippo.svg" alt=""></i></div>
+                    <div class="icon"><img src='{{ asset( "img/icons/Global-Accessibility-with-callhippo.svg") }}' alt=""></i></div>
 
                     <h4>
                         Enhance Local Presence
@@ -75,7 +75,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Integration-with-callhippo.svg" alt=""></div>
+                    <div class="icon"><img src='{{ asset( "img/icons/Integration-with-callhippo.svg") }}' alt=""></div>
 
                     <h4>
                         IVR Integration
@@ -87,7 +87,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Scalability-with-callhippo.svg" alt=""></div>
+                    <div class="icon"> <img src='{{ asset( "img/icons/Scalability-with-callhippo.svg") }}' alt=""></div>
 
                     <h4>
                         Higher Scalability

@@ -505,19 +505,19 @@
             <div class="related__body">
                 <div class="post">
                     <img decoding="async"
-                        src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/05/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.png"
+                        src="src='{{ asset( "img/webp/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.webp") }}'
                         alt="Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential" height="180"
                         width="343">
-                    <a href="https://callhippo.com/blog/general/free-auto-dialer-softwares" target="_blank"
+                    <a href="#" target="_blank"
                         rel="noopener" data-wpel-link="internal">
                         <h3>Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential</h3>
                     </a>
                 </div>
                 <div class="post">
                     <img decoding="async"
-                        src="https://webcdn.callhippo.com/blog/wp-content/uploads/2021/03/How-Your-Business-Can-Benefit-From-Voice-Broadcasting-FB.png"
+                    src='{{ asset( "img/webp/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.webp") }}'
                         alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
-                    <a href="https://callhippo.com/blog/callcenter/5-ways-getting-dialer-software-can-transform-call-center-productivity"
+                    <a href="#"
                         target="_blank" rel="noopener" data-wpel-link="internal">
                         <h3>How Your Business Can Benefit From Voice Broadcasting?</h3>
                     </a>

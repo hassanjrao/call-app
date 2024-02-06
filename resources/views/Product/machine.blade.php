@@ -50,7 +50,7 @@
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Seamless-Communication-with-amd.svg"
+                            src="{{ asset("img/icons/Seamless-Communication-with-amd.svg") }} "
                             alt="icon" /></span>
                     <h5>Seamless Communication</h5>
                     <p class="card__text">With our constant feature updates and enhancements, you can stay ahead of the
@@ -59,7 +59,7 @@
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Industry-Leading-Reliability-with-amd.svg"
+                            src="{{ asset("img/icons/Industry-Leading-Reliability-with-amd.svg") }} "
                             alt="icon" /></span>
                     <h5>Industry-Leading Reliability</h5>
                     <p class="card__text">Nothing less than the highest level of security and dependability should be
@@ -68,7 +68,7 @@
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/24-7-Support-with-amd.svg"
+                            src="{{ asset("img/icons/24-7-Support-with-amd.svg") }} "
                             alt="icon" /></span>
                     <h5>24/7 Support</h5>
                     <p class="card__text">To help your staff fully utilize our cutting-edge features, we provide thorough
@@ -88,7 +88,7 @@
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Efficient-Lead-Management-with-amd.svg"
+                                src="{{ asset("img/icons/Efficient-Lead-Management-with-amd.svg") }} "
                                 alt="icon" /></span>
                         <h5>Efficient Lead Management</h5>
                         <p class="card__text">Spend less time leaving voicemails and more time connecting with potential
@@ -96,7 +96,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Data-Driven-Insights-with-amd.svg"
+                                src="{{ asset("img/icons/Data-Driven-Insights-with-amd.svg") }} "
                                 alt="icon" /></span>
                         <h5>Data-Driven Insights</h5>
                         <p class="card__text">Get insightful data on the effectiveness of your call campaigns to adjust your
@@ -104,7 +104,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Improved-Conversion-Rates-with-amd.svg"
+                                src="{{ asset("img/icons/Improved-Conversion-Rates-with-amd.svg") }} "
                                 alt="icon" /></span>
                         <h5>Improved Conversion Rates</h5>
                         <p class="card__text">Increase the chances of converting leads into customers by ensuring your
@@ -141,15 +141,15 @@
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Saves-Time-with-amd.svg"
-                                alt="icon" /></span>
+                            src="{{ asset("img/icons/Saves-Time-with-amd.svg") }} "
+                            alt="icon" /></span>
                         <h5>Saves Time</h5>
                         <p class="card__text">Reduce wasted minutes leaving voicemails and focus on connecting with live
                             leads. Experience up to 30% more conversations with potential customers.</p>
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Boosts-Productivity-with-amd.svg"
+                                src="{{ asset("img/icons/Boosts-Productivity-with-amd.svg") }} "
                                 alt="icon" /></span>
                         <h5>Boosts Productivity</h5>
                         <p class="card__text">Empower your agents to be more productive by ensuring they spend their time
@@ -157,7 +157,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Enhanced-Campaign-ROI-with-amd.svg"
+                                src="{{ asset("img/icons/Boosts-Productivity-with-amd.svg") }} "
                                 alt="icon" /></span>
                         <h5>Enhanced Campaign ROI</h5>
                         <p class="card__text">Get more value from your call campaigns by targeting live leads, ultimately

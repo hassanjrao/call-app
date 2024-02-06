@@ -49,14 +49,14 @@
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/rdial.svg" alt="icon" /></span>
+                            src="{{ asset("img/icons/rdial.svg") }} " alt="icon" /></span>
                     <h5>Sequential Dialling</h5>
                     <p class="card__text">You can dial contacts one at a time, ensuring targeted agent-customer interactions
                         and eliminating all the redundant guesswork.</p>
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Build-Customer-Relationships.svg"
+                            src="{{ asset("img/icons/Build-Customer-Relationships.svg") }} "
                             alt="icon" /></span>
                     <h5>Team Collaboration</h5>
                     <p class="card__text">Speed to dial feature is ideal for teams! It allows multiple agents to utilize the
@@ -64,7 +64,7 @@
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/ch-new-homepage-section-bg.png"
+                            src="{{ asset("img/icons/ch-new-homepage-section-bg.png") }} "
                             alt="icon" /></span>
                     <h5>CRM Integration</h5>
                     <p class="card__text">It seamlessly integrates with CRM systems, automatically pulling new leads, saving
@@ -82,7 +82,7 @@
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Dashboards_and%20Analytics_feature_for_call_center.svg"
+                                src="{{ asset("img/icons/Dashboards_and Analytics_feature_for_call_center.svg") }} "
                                 alt="icon" /></span>
                         <h5>Call Scheduling</h5>
                         <p class="card__text">Call scheduling streamlines efficient time management by allowing users to
@@ -92,7 +92,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Enhanced-Campaign-ROI-with-amd.svg"
+                                src="{{ asset("img/icons/Enhanced-Campaign-ROI-with-amd.svg") }} "
                                 alt="icon" /></span>
                         <h5>Call Recording</h5>
                         <p class="card__text">With call recording, get secure and easily accessible recording of phone
@@ -101,7 +101,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/analytics.svg"
+                                src="{{ asset("img/icons/analytics.svg") }} "
                                 alt="icon" /></span>
                         <h5>Call Monitoring</h5>
                         <p class="card__text">Call monitoring enables call center supervisors to monitor live calls and
@@ -140,7 +140,7 @@
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Time-Efficiency.svg"
+                                src="{{ asset("img/icons/Time-Efficiency.svg") }} "
                                 alt="icon" /></span>
                         <h5>Real-Time Connection</h5>
                         <p class="card__text">Establish real-time connections with clients and prospects. With minimal
@@ -148,7 +148,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Streamlined-Communication.svg"
+                                src="{{ asset("img/icons/Streamlined-Communication.svg") }} "
                                 alt="icon" /></span>
                         <h5>Streamlined Communication</h5>
                         <p class="card__text">By streamlining the calling process, speed to dial improves internal
@@ -156,7 +156,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Flexibility-and-Mobility.svg"
+                                src="{{ asset("img/icons/Flexibility-and-Mobility.svg") }} "
                                 alt="icon" /></span>
                         <h5>Low Call Abandonment Rates</h5>
                         <p class="card__text">Minimize wait times and ensure that calls are connected promptly. Maximize

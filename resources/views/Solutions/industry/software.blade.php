@@ -49,8 +49,8 @@
             <div class="why__cards">
                 <div class="card">
                     <span class="span1"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Seamless-Scalability.svg"
-                            alt="icon" /></span>
+                        src='{{ asset( "img/icons/Seamless-Scalability.svg") }}' 
+                                                   alt="icon" /></span>
                     <h5>Global Reach</h5>
                     <p class="card__text">Scale your business across borders by purchasing local and toll-free numbers from
                         90+ countries with HivoCall. Build a truly global presence for your brand without burning a hole in
@@ -58,8 +58,8 @@
                 </div>
                 <div class="card">
                     <span class="span2"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-package_powerful_feature.svg"
-                            alt="icon" /></span>
+                        src='{{ asset( "img/icons/rm-package_powerful_feature.svg") }}'
+                                                    alt="icon" /></span>
                     <h5>Robust Features</h5>
                     <p class="card__text">Leverage HivoCall's advanced feature suite, encompassing cutting-edge
                         capabilities such as call recording, IVR, real-time analytics, and more. Upgrade your plan for more
@@ -67,8 +67,8 @@
                 </div>
                 <div class="card">
                     <span class="span3"><img class="icon"
-                            src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/rm-Dependable-support.svg"
-                            alt="icon" /></span>
+                        src='{{ asset( "img/icons/rm-Dependable-support.svg") }}'     
+                                               alt="icon" /></span>
                     <h5>Exceptional Support</h5>
                     <p class="card__text">Benefit from our dedicated customer support team, available round-the-clock to
                         provide guidance, troubleshoot issues, and ensure a smooth experience. Get the most out of your
@@ -86,8 +86,8 @@
                 <div class="exp__cards">
                     <div class="exp__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/call_center_analytics.svg"
-                                alt="icon" /></span>
+                            src='{{ asset( "img/icons/call_center_analytics.svg") }}'   
+                                                         alt="icon" /></span>
                         <h5>Skill-Based Call Routing</h5>
                         <p class="card__text">Connect customers to the most suitable agents, ensuring efficient query
                             resolution and enhancing overall customer satisfaction. Increase service efficiency and leave
@@ -95,8 +95,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Valuable-Insights.svg"
-                                alt="icon" /></span>
+                            src='{{ asset( "img/icons/icon-Valuable-Insights.svg") }}'                                alt="icon" /></span>
                         <h5>Call Monitoring</h5>
                         <p class="card__text">Gain valuable insights into agent performance and customer interactions and
                             identify areas for improvement to deliver exceptional service consistently. Comply with privacy
@@ -105,8 +104,7 @@
                     </div>
                     <div class="exp__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Real-time-Insights-with-SMS.svg"
-                                alt="icon" /></span>
+                            src='{{ asset( "img/icons/Real-time-Insights-with-SMS.svg") }}'                                alt="icon" /></span>
                         <h5>Advanced Integration</h5>
                         <p class="card__text">Seamlessly integrate HivoCall into your existing technology infrastructure
                             for a streamlined and cohesive customer service and sales experience. Boost agent productivity
@@ -144,8 +142,8 @@
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <span class="span1"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/analytics.svg"
-                                alt="icon" /></span>
+                            src='{{ asset( "img/icons/analytics.svg") }}'     
+                                                       alt="icon" /></span>
                         <h5>Data-Driven Insights</h5>
                         <p class="card__text">Gain real-time insights into customer behavior and call trends through our
                             advanced analytics and reporting tools. Make informed decisions and optimize your business
@@ -153,8 +151,8 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span2"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/icon-Drives-Revenue.svg"
-                                alt="icon" /></span>
+                            src='{{ asset( "img/icons/icon-Drives-Revenue.svg") }}'
+                                                            alt="icon" /></span>
                         <h5>Increased Sales</h5>
                         <p class="card__text">HivoCall’s call center solution for IT companies allows you to automatically
                             dial numbers from a list for your outbound campaigns. Save agents’ time and boost productivity
@@ -162,8 +160,7 @@
                     </div>
                     <div class="benefits__card">
                         <span class="span3"><img class="icon"
-                                src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/chsiteimages/Enhance-Loyalty-with-SMS.svg"
-                                alt="icon" /></span>
+                            src='{{ asset( "img/icons/Enhance-Loyalty-with-SMS.svg") }}'                                alt="icon" /></span>
                         <h5>Enhanced Remote Support</h5>
                         <p class="card__text">Enable efficient remote IT support for clients through HivoCall’s advanced
                             features. Ensure timely and effective resolution of technical issues, regardless of location,
@@ -176,11 +173,13 @@
         <section class="avantages__container">
             <div class="avantages__header">
                 <h2 class="avantages__title">The Ultimate Call Center Software Solution</h2>
-                <p class="avantages__text">Equip your team with essential tools and boost efficiency through a unified call center software dashboard, fostering enhanced communication and productivity.</p>
+                <p class="avantages__text">Empower your team with the necessary tools and enhance communication and
+                    productivity with a unified
+                    Call Center Software dashboard.</p>
             </div>
             <div class="avantages__cards">
                 <div class="avantages__card">
-                    <div class="card__image"><span class="span1"><img class="icon" src="img/avantages-icons/1.svg"
+                    <div class="card__image"><span class="span1"><img class="icon" src='{{ asset( "img/avantages-icons/1.svg") }}'
                                 alt="icon" /></span></div>
                     <div class="card__text">
                         <h2>International Phone numbers</h2>
@@ -190,7 +189,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span2"><img class="icon" src="img/avantages-icons/2.svg"
+                        <span class="span2"><img class="icon" src='{{ asset( "img/avantages-icons/2.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -200,7 +199,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span3"><img class="icon" src="img/avantages-icons/3.svg"
+                        <span class="span3"><img class="icon" src='{{ asset( "img/avantages-icons/3.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -209,7 +208,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span4"><img class="icon" src="img/avantages-icons/4.svg"
+                        <span class="span4"><img class="icon" src='{{ asset( "img/avantages-icons/4.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -218,7 +217,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span5"><img class="icon" src="img/avantages-icons/5.svg"
+                        <span class="span5"><img class="icon" src='{{ asset( "img/avantages-icons/5.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -227,7 +226,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span6"><img class="icon" src="img/avantages-icons/6.svg"
+                        <span class="span6"><img class="icon" src='{{ asset( "img/avantages-icons/6.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -236,7 +235,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span7"><img class="icon" src="img/avantages-icons/7.svg"
+                        <span class="span7"><img class="icon" src='{{ asset( "img/avantages-icons/7.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -245,7 +244,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span8"><img class="icon" src="img/avantages-icons/8.svg"
+                        <span class="span8"><img class="icon" src='{{ asset( "img/avantages-icons/8.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -254,7 +253,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span9"><img class="icon" src="img/avantages-icons/9.svg"
+                        <span class="span9"><img class="icon" src='{{ asset( "img/avantages-icons/9.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -263,7 +262,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span10"><img class="icon" src="img/avantages-icons/10.svg"
+                        <span class="span10"><img class="icon" src='{{ asset( "img/avantages-icons/10.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -272,7 +271,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span11"><img class="icon" src="img/avantages-icons/11.svg"
+                        <span class="span11"><img class="icon" src='{{ asset( "img/avantages-icons/11.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -281,7 +280,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span12"><img class="icon" src="img/avantages-icons/12.svg"
+                        <span class="span12"><img class="icon" src='{{ asset( "img/avantages-icons/12.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -290,7 +289,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span13"><img class="icon" src="img/avantages-icons/13.svg"
+                        <span class="span13"><img class="icon" src='{{ asset( "img/avantages-icons/13.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -299,7 +298,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span14"><img class="icon" src="img/avantages-icons/14.svg"
+                        <span class="span14"><img class="icon" src='{{ asset( "img/avantages-icons/14.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -308,7 +307,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span15"><img class="icon" src="img/avantages-icons/15.svg"
+                        <span class="span15"><img class="icon" src='{{ asset( "img/avantages-icons/15.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -317,7 +316,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span16"><img class="icon" src="img/avantages-icons/16.svg"
+                        <span class="span16"><img class="icon" src='{{ asset( "img/avantages-icons/16.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -326,7 +325,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span17"><img class="icon" src="img/avantages-icons/17.svg"
+                        <span class="span17"><img class="icon" src='{{ asset( "img/avantages-icons/17.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -335,7 +334,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span18"><img class="icon" src="img/avantages-icons/18.svg"
+                        <span class="span18"><img class="icon" src='{{ asset( "img/avantages-icons/18.svg") }}'
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
