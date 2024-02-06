@@ -12,7 +12,7 @@ const answers = document.querySelectorAll(
   ".faq .accordion .tape .answer "
 );
 const choices = document.querySelectorAll(
-  ".powerDialer .pricing__bottom--wrapper .option"
+  " .pricing__bottom--wrapper .option"
 );
 
 questions.forEach((question) => {

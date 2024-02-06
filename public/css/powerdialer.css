@@ -253,6 +253,7 @@
 }
 
 .pricing__bottom--wrapper .option.active {
+    width: 1200px;
     display: flex;
     flex-direction: column;
     gap: 25px;

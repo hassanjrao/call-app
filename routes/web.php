@@ -106,6 +106,53 @@ Route::get('/virtual-phone-number', function () {
 Route::get('/pay', function () {
     return view('pay');
 });
+
 Route::get('/business-phone-system', function () {
     return view('Product.businessPhoneSym');
+});
+
+
+
+
+
+// Ressources
+
+// ----------------- Case Studies -----------------------
+
+Route::get('/ebook', function () {
+    return view('Ressources.CaseStudies.ebook');
+});
+
+Route::get('/blog/business-guide', function () {
+    return view('Ressources.CaseStudies.businessGuide');
+});
+
+
+// ----------------- Blogs -----------------------
+
+Route::get('/blog', function () {
+    return view('Ressources.blogs.index');
+});
+
+
+Route::get('/blog/category/business', function () {
+    return view('Ressources.blogs.business');
+});
+Route::get('/blog/category/call-center', function () {
+    return view('Ressources.blogs.callCenter');
+});
+Route::get('/blog/category/telephony', function () {
+    return view('Ressources.blogs.telephony');
+});
+Route::get('/blog/category/virtual-numbers', function () {
+    return view('Ressources.blogs.virtualNumbers');
+});
+
+
+
+
+
+// Errors 
+Route::fallback(function () {
+    return view('errors.404');
 });

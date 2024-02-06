@@ -148,9 +148,9 @@
                             <div>
                                 <h3>CASE STUDIES</h3>
                                 <ul>
-                                    <li><a href="#">E-Books & Guides</a></li>
+                                    <li><a href="/ebook">E-Books & Guides</a></li>
                                     <li><a href="#">Knowledge Base</a></li>
-                                    <li><a href="#">Business Guide</a></li>
+                                    <li><a href="/blog/category/business">Business Guide</a></li>
                                     <li><a href="#">Call Center Guide</a></li>
                                     <li><a href="#">Customer Reviews</a></li>
                                 </ul>
@@ -158,11 +158,11 @@
                             <div>
                                 <h3>BLOGS</h3>
                                 <ul>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Call Center</a></li>
+                                    <li><a href="/blog/category/business">Business</a></li>
+                                    <li><a href="/blog/category/call-center">Call Center</a></li>
                                     <li><a href="#">Virtual Numbers</a></li>
-                                    <li><a href="#">Telephony</a></li>
-                                    <li><a href="#">Discover Our Blog</a></li>
+                                    <li><a href="/blog/category/telephony">Telephony</a></li>
+                                    <li><a href="/blog">Discover Our Blog</a></li>
                                 </ul>
                             </div>
 
@@ -255,7 +255,7 @@
                 </li>
                 <li style="color: #FFF1EA">Learn to Make More Calls:</li>
                 <li><a href="/">+1 254 455 5666</a></li>
-                <li><a href="/">support@callhippo.com</a></li>
+                <li><a href="/">support@hivoCall.com</a></li>
                 <li><a href="/">Join Our Affiliate Program</a></li>
                 <li><a href="/">Become a Partner</a></li>
                 <li><a href="/">Refer a Friend</a></li>

@@ -1,0 +1,70 @@
+.ebook {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding-block: 35px;
+    background-color: var(--secondary-color);
+}
+
+.ebook .heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ebook .heading h2 {
+    font-size: 3rem;
+}
+
+.ebook .content {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.ebook .content .card {
+    display: flex;
+    gap: 30px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 0px 1px, rgba(0, 0, 0, 0.3) 0px 0px 40px 0px;
+}
+
+.ebook .content .card .right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.ebook .content .card .right h3 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.ebook .content .card .right .date {
+    color: #a1a1a1;
+    font-size: 15px;
+}
+
+.ebook .content .card .right .desc {
+    width: 90%;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 15px;
+}
+
+.ebook .content .card .right button {
+    margin-top: 10px;
+    width: fit-content;
+    padding: 10px 25px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-transform: capitalize;
+
+}
