@@ -161,6 +161,7 @@
                                     <li><a href="/ebook">E-Books & Guides</a></li>
                                     {{-- <li><a href="#">Knowledge Base</a></li> --}}
                                     <li><a href="/blog/business-guide">Business Guide</a></li>
+                                    <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
                                     {{-- <li><a href="#">Call Center Guide</a></li>
                                     <li><a href="#">Customer Reviews</a></li> --}}
                                 </ul>
