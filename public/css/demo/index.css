@@ -1,0 +1,54 @@
+.demo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    gap: var(--gap);
+}
+
+.demo .heading h2 {
+    font-size: 2.5rem;
+}
+
+.demo form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--gap);
+}
+
+.demo form .controlGrp,
+.demo form .selectGrp {
+    display: flex;
+    gap: var(--gap);
+}
+
+.demo form .selectGrp {
+    flex-direction: column;
+}
+
+.demo form .controlGrp div {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+}
+
+.demo form .controlGrp input,
+.demo form .selectGrp select {
+    height: 45px;
+    padding: 10px;
+    border-radius: 1rem;
+    border: solid 1px var(--hover-color);
+}
+
+.demo form .controlGrp input:focus,
+.demo form .selectGrp select:focus {
+    outline: none;
+}
+
+.demo form button {
+    padding-block: 15px;
+    margin-top: 15px;
+}

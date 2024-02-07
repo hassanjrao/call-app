@@ -79,6 +79,18 @@ Route::get('/support-contact-center', function () {
 Route::get('/custom-crm-integration', function () {
     return view('Integration/CustomCRM');
 });
+Route::get('/salesforce-integration', function () {
+return view('Integration/SalesForce');
+});
+
+Route::get('/shopify-integration', function () {
+return view('Integration/Shopify');
+});
+
+Route::get('/slack-integration', function () {
+return view('Integration/Slack');
+});
+
 
 // End Integration
 
@@ -106,6 +118,57 @@ Route::get('/virtual-phone-number', function () {
 Route::get('/pay', function () {
     return view('pay');
 });
+
+
 Route::get('/business-phone-system', function () {
     return view('Product.businessPhoneSym');
+});
+
+
+
+Route::get('/schedule-a-demo', function () {
+    return view('demo');
+});
+
+
+// Ressources
+
+// ----------------- Case Studies -----------------------
+
+Route::get('/ebook', function () {
+    return view('Ressources.CaseStudies.ebook');
+});
+
+Route::get('/blog/business-guide', function () {
+    return view('Ressources.CaseStudies.businessGuide');
+});
+
+
+// ----------------- Blogs -----------------------
+
+Route::get('/blog', function () {
+    return view('Ressources.blogs.index');
+});
+
+
+Route::get('/blog/category/business', function () {
+    return view('Ressources.blogs.business');
+});
+Route::get('/blog/category/call-center', function () {
+    return view('Ressources.blogs.callCenter');
+});
+Route::get('/blog/category/telephony', function () {
+    return view('Ressources.blogs.telephony');
+});
+Route::get('/blog/category/virtual-numbers', function () {
+    return view('Ressources.blogs.virtualNumbers');
+});
+
+
+
+
+
+// Errors 
+Route::fallback(function () {
+    return view('errors.404');
 });

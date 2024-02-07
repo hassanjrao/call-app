@@ -35,8 +35,8 @@
                                 <h3>Products</h3>
                                 <ul>
                                     <li><a href="/business-phone-system">business Phone System</a></li>
-                                    <li><a href="#">WhatsApp business</a></li>
-                                    <li><a href="#">shared inbox</a></li>
+                                    {{-- <li><a href="#">WhatsApp business</a></li>
+                                    <li><a href="#">shared inbox</a></li> --}}
                                 </ul>
                             </div>
                             <div class="dropdown__features">
@@ -58,7 +58,7 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <button>book a demo today</button>
+                                <a href="/schedule-a-demo">book a demo today</a>
                             </div>
                         </div>
                     </li>
@@ -97,8 +97,8 @@
                                 <ul>
                                     <li><a href="#">Edtech</a></li>
                                     <li><a href="/voip-system-for-real-estate/">Real Estate</a></li>
-                                    <li><a href="#">Financial Services</a></li>
-                                    <li><a href="#">Recruitment</a></li>
+                                    {{-- <li><a href="#">Financial Services</a></li>
+                                    <li><a href="#">Recruitment</a></li> --}}
                                     <li><a href="/call-centre-solution-for-software-and-technology/"> Software &
                                             Technology</a></li>
                                     <li><a href="/voip-for-market-research/">Market Research</a></li>
@@ -109,7 +109,7 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <button>book a demo today</button>
+                                <a href="/schedule-a-demo">book a demo today</a>
                             </div>
                         </div>
                     </li>
@@ -122,22 +122,24 @@
                                 <h3>INTEGRATIONS</h3>
                                 <ul>
                                     <li><a href="/custom-crm-integration">Custom CRM</a></li>
-                                    <li><a href="#">Pipedrive</a></li>
-                                    <li><a href="#">Zoho CRM</a></li>
-                                    <li><a href="#">Zapier</a></li>
-                                    <li><a href="#">HubSpot</a></li>
-                                    <li><a href="#">Slack</a></li>
-                                    <li><a href="#">Salesforce</a></li>
-                                    <li><a href="#">Shopify</a></li>
-                                    <li><a href="#">Zendesk</a></li>
-                                    <li><a href="#">Nocrm</a></li>
-                                    <li><a href="#">Re:amaze</a></li>
-                                    <li><a href="#">ActiveCampaign</a></li>
-                                    <li><a href="#">Intercom</a></li>
-                                    <li><a href="#">Outreach</a></li>
-                                    <li><a href="#">Microsoft Teams</a></li>
-                                    <li><a href="#">Freshdesk</a></li>
-                                    <li><a href="#">Leadsquared</a></li>
+                                    <li><a href="/shopify-integration">Shopify</a></li>
+                                    <li><a href="/salesforce-integration">Salesforce</a></li>
+                                    <li><a href="/slack-integration">Slack</a></li>
+
+
+                                    <li><a href="/custom-crm-integration">Pipedrive</a></li>
+                                    <li><a href="/shopify-integration">Zoho CRM</a></li>
+                                    <li><a href="/slack-integration">Zapier</a></li>
+                                    <li><a href="/custom-crm-integration">HubSpot</a></li>
+                                    <li><a href="/slack-integration">Zendesk</a></li>
+                                    <li><a href="/salesforce-integration">Nocrm</a></li>
+                                    <li><a href="/custom-crm-integration">Re:amaze</a></li>
+                                    <li><a href="/slack-integration">ActiveCampaign</a></li>
+                                    <li><a href="/salesforce-integration">Intercom</a></li>
+                                    <li><a href="/custom-crm-integration">Outreach</a></li>
+                                    <li><a href="/slack-integration">Microsoft Teams</a></li>
+                                    <li><a href="/shopify-integration">Freshdesk</a></li>
+                                    <li><a href="/custom-crm-integration">Leadsquared</a></li>
                                 </ul>
                             </div>
 
@@ -146,7 +148,7 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <button>book a demo today</button>
+                                <a href="/schedule-a-demo">book a demo today</a>
                             </footer>
                         </div>
                     </li>
@@ -156,21 +158,21 @@
                             <div>
                                 <h3>CASE STUDIES</h3>
                                 <ul>
-                                    <li><a href="#">E-Books & Guides</a></li>
-                                    <li><a href="#">Knowledge Base</a></li>
-                                    <li><a href="#">Business Guide</a></li>
-                                    <li><a href="#">Call Center Guide</a></li>
-                                    <li><a href="#">Customer Reviews</a></li>
+                                    <li><a href="/ebook">E-Books & Guides</a></li>
+                                    {{-- <li><a href="#">Knowledge Base</a></li> --}}
+                                    <li><a href="/blog/business-guide">Business Guide</a></li>
+                                    {{-- <li><a href="#">Call Center Guide</a></li>
+                                    <li><a href="#">Customer Reviews</a></li> --}}
                                 </ul>
                             </div>
                             <div>
                                 <h3>BLOGS</h3>
                                 <ul>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Call Center</a></li>
-                                    <li><a href="#">Virtual Numbers</a></li>
-                                    <li><a href="#">Telephony</a></li>
-                                    <li><a href="#">Discover Our Blog</a></li>
+                                    <li><a href="/blog/category/business">Business</a></li>
+                                    <li><a href="/blog/category/call-center">Call Center</a></li>
+                                    {{-- <li><a href="#">Virtual Numbers</a></li> --}}
+                                    <li><a href="/blog/category/telephony">Telephony</a></li>
+                                    <li><a href="/blog">Discover Our Blog</a></li>
                                 </ul>
                             </div>
 
@@ -179,13 +181,13 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <button>book a demo today</button>
+                                <a href="/schedule-a-demo">book a demo today</a>
                             </footer>
                         </div>
                     </li>
                 </ul>
                 <div class="nav-btn">
-                    <button class="btn-demo">book a demo</button>
+                    <a class="btn-demo" href="/schedule-a-demo">book a demo</a>
                     <a href="/signup" class="btn-trial">start free trial</a>
                 </div>
             </div>
@@ -254,6 +256,9 @@
                 <li><a href="/">About Us</a></li>
                 <li><a href="/">Contact Us</a></li>
                 <li><a href="/">API Documentation</a></li>
+                <li><a href="/">Company Address:</a></li>
+                <li><a href="">127 N HIGGINS AVE STE 307D <br>
+                    MISSOULA, MT 59802</a></li>
             </ul>
             <ul>
                 <li class="footer-heading">
@@ -263,7 +268,7 @@
                 </li>
                 <li style="color: #FFF1EA">Learn to Make More Calls:</li>
                 <li><a href="/">+1 254 455 5666</a></li>
-                <li><a href="/">support@callhippo.com</a></li>
+                <li><a href="/">Support@hivocall.com</a></li>
                 <li><a href="/">Join Our Affiliate Program</a></li>
                 <li><a href="/">Become a Partner</a></li>
                 <li><a href="/">Refer a Friend</a></li>

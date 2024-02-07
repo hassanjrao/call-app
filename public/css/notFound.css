@@ -1,0 +1,36 @@
+.notFound {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-block: 25px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    align-items: center;
+}
+
+
+
+.notFound .content {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.notFound .content>h2 {
+    font-size: 3rem;
+}
+
+.notFound .content .urls {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.notFound .content .urls a {
+    padding: 10px 15px;
+    background-color: var(--hover-color);
+    border-radius: 1rem;
+    cursor: pointer;
+}

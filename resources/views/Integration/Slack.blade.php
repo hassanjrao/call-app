@@ -4,13 +4,13 @@
 
     <div class="hero">
         <div class="left">
-            <h3>HivoCall + Custom CRM</h3>
-            <h5>Manage Your Sales & Support With Easiest CRM Integration </h5>
-            <p>Enhance your Sales and Support processes effortlessly by integrating HivoCall with any CRM. Enjoy
-                smooth communication with clients directly from your CRM, as all call activities, texts, call
-                recordings, and voicemails will be automatically logged under “Contacts and Deals.” Don’t miss out
-                on this opportunity!</p>
-            <p>Signup with HivoCall to experience the benefits of HivoCall + Custom CRM integration</p>
+            <h3>HivoCall + Slack integration</h3>
+            <h5>Manage Your All Business Calling Activities With Slack Integration.
+            </h5>
+            <p>Say hello to unified call and message logs, instant communication with the team, data synchronization, and flexibility in accessing HivoCall-Slack Integration. Ensure seamless call log access, listening to call recordings and making as well as receiving calls directly from Slack with just one click! Sign up today.
+
+            </p>
+            <p>Signup with HivoCall to experience the benefits of HivoCall + Slack integration</p>
 
         </div>
         <form class="right">
@@ -24,28 +24,27 @@
 
 
     <div class="benIntegration">
-        <h3>Benefits of CRM integration
+        <h3>Slack Integration Feature
         </h3>
         <div class="cardWrapper">
             <div class="card">
                 <span class="icon"><i class="fa-solid fa-network-wired"></i> </span>
-                <h5>Deliver Personalized Interactions with Ease
+                <h5>Personalize Every Interaction
+
                 </h5>
                 <p>
-                    With HivoCall's custom embedded dialer, customer contact history and information are
-                    instantly
-                    displayed when a call is connected. Empower your agents with this valuable data to
-                    personalize
-                    interactions and deliver optimal service, making every customer interaction a seamless and
-                    personalized experience.
+                    Integration of Slack with HivoCall allows you to distinguish the teams as per their department, which ensures smooth flow of information between the teams.
+
+
                 </p>
             </div>
             <div class="card">
                 <span class="icon"><i class="fa-solid fa-rocket"></i> </span>
-                <h5>Enhance Agent Productivity
+                <h5>Boost Agent Productivity
+
                 </h5>
                 <p>
-                    Empower your agents by eliminating the need to switch between applications. With our customized integration, they can seamlessly perform HivoCall actions right within their crm. Agents can create activities and update notes without ever leaving the crm platform, streamlining their workflow and boosting overall productivity.
+                    Integrating Slack with HivoCall allows to monitor the communication activities of the team members, also maintain transparency in the system.
 
 
                 </p>
@@ -53,12 +52,11 @@
             <div class="card">
                 <span class="icon"><i class="fa-solid fa-sun"></i></span>
 
-                <h5>Enhance Agent Workflow Efficiency
+                <h5>Streamline Agent Workflow
 
                 </h5>
                 <p>
-                    With customized automated workflows, you can say goodbye to the hassle of manual data entry in multiple systems. Save valuable time for your agents by setting up specific HivoCall events to automatically trigger actions in your crm.
-
+                    Every team keeps the exchanged data stored in one place letting people to also quickly access the records whenever required. This saves the time and efforts of the employees.
                 </p>
             </div>
             <div class="card">
@@ -66,18 +64,17 @@
                     <i class="fa-solid fa-rotate"></i>
                 </span>
 
-                <h5>Seamless Data Synchronization
+                <h5>Data Synchronization
                 </h5>
                 <p>
-                    Experience automatic real-time synchronization of contacts and activities between your crm and HivoCall with the efficient system. By ensuring agents have the latest information, they can provide top-notch customer service and meet your customers' needs effectively.
-                </p>
+                    HivoCall integration with Slack provides a way through which they can stay in touch anytime and anywhere by text or voice calls.
             </div>
         </div>
     </div>
 
 
     <div class="trial">
-        <h3>Considering your CRM integration with HivoCall?
+        <h3>Considering your Slack integration with HivoCall?
 
         </h3>
 
@@ -89,14 +86,13 @@
         <div class="cardWrapper">
             <div class="card">
                 <div class="left">
-                    <h4>Initiate Calls from Any CRM Effortlessly
+                    <h4>Make Calls from Slack
+
                     </h4>
                     <p>
-                        Leverage Click-to-Dial functionality within your crm to reach your contacts faster. Keep
-                        track
-                        of assignment changes made through HivoCall, and seamlessly log them directly into your crm
-                        for
-                        streamlined communication management.
+                        Call your contacts easily. To do so, just visit the profile of the person you want to call and click the HivoCall icon next to the phone number of that contact.
+
+
                     </p>
                 </div>
                 <div class="right">
@@ -112,22 +108,19 @@
                 <div class="right">
 
 
-                    <h4>Seamless Call Activity Tracking in your CRM
-
+                    <h4>Track all your calling activities on Slack
                     </h4>
                     <p>
-                        By integrating HivoCall with your crm, stay on top of all your call activities, whether from crm or the HivoCall dashboard. Every call log, message, and other activities are automatically recorded in the activity section of the respective contact, streamlining your communication management. Say goodbye to window-switching and manage everything seamlessly in one place!
-
-
+                        You can track all the calling activities of your team from the Slack channel. It will help you in analyzing the efficiency and productivity of your teammates.
                     </p>
                 </div>
             </div>
             <div class="card">
                 <div class="left">
-                    <h4>Access Call Recordings and Voicemails
+                    <h4>Access Call Recordings
                     </h4>
                     <p>
-                        Say goodbye to the hassle of searching for specific recordings or voicemails. With the custom crm integration, you can access all your call recordings and voicemails directly from the crm, making your work easier and more efficient.
+                        You can access all your call recordings from the Slack Channel. These recordings can help you in analyzing the quality of the conversation and improve it in the future.
 
 
                     </p>
