@@ -21,7 +21,7 @@
             <button>Try HivoCall For Free</button>
         </div>
         <div class="hero__image">
-            <img src="{{ asset('img/SVG/BgHero1.png') }}" alt="hero" />
+            <img loading="lazy" src="{{ asset('img/SVG/BgHero1.png') }}" alt="hero" />
         </div>
     </div>
 
@@ -30,19 +30,13 @@
             <p>Trusted by 4000+ companies</p>
         </div>
         <div class="trusted-content">
-            <img src="{{ asset('img/companies/Amazon.svg') }}"
-                alt="trusted" /><img
-                src="{{ asset('img/companies/brighchamps.svg') }}"
-                alt="trusted" /><img
-                src="{{ asset('img/companies/oracle.svg') }}"
-                alt="trusted" /><img
+            <img loading="lazy" src="{{ asset('img/companies/Amazon.svg') }}" alt="trusted" /><img loading="lazy"
+                src="{{ asset('img/companies/brighchamps.svg') }}" alt="trusted" /><img loading="lazy"
+                src="{{ asset('img/companies/oracle.svg') }}" alt="trusted" /><img loading="lazy"
                 src="{{ asset('img/companies/turing.svg') }}" alt="trusted" />
-            <img src="{{ asset('img/companies/valuelabs.svg') }}"
-                alt="trusted" /><img
-                src="{{ asset('img/companies/iresearch.svg') }}"
-                alt="trusted" />
-            <img src="{{ asset('img/companies/intellipaat_logo.svg') }}"
-                alt="trusted" />
+            <img loading="lazy" src="{{ asset('img/companies/valuelabs.svg') }}" alt="trusted" /><img loading="lazy"
+                src="{{ asset('img/companies/iresearch.svg') }}" alt="trusted" />
+            <img loading="lazy" src="{{ asset('img/companies/intellipaat_logo.svg') }}" alt="trusted" />
         </div>
     </div>
 
@@ -54,7 +48,7 @@
         <div class="technologies-card__container">
             <div class="technologies-card">
                 <div class="technologies-card__image">
-                    <img src="./img/icons/speed.svg" alt="cardImage" />
+                    <img loading="lazy" src="./img/icons/speed.svg" alt="cardImage" />
                 </div>
 
                 <div class="technologies-card__content">
@@ -64,7 +58,7 @@
             </div>
             <div class="technologies-card">
                 <div class="technologies-card__image">
-                    <img src="./img/icons/rates.svg" alt="cardImage" />
+                    <img loading="lazy" src="./img/icons/rates.svg" alt="cardImage" />
                 </div>
 
                 <div class="technologies-card__content">
@@ -74,7 +68,7 @@
             </div>
             <div class="technologies-card">
                 <div class="technologies-card__image">
-                    <img src="./img/icons/connect.svg" alt="cardImage" />
+                    <img loading="lazy" src="./img/icons/connect.svg" alt="cardImage" />
                 </div>
 
                 <div class="technologies-card__content">
@@ -84,7 +78,7 @@
             </div>
             <div class="technologies-card">
                 <div class="technologies-card__image">
-                    <img src="./img/icons/puzzle.svg" alt="cardImage" />
+                    <img loading="lazy" src="./img/icons/puzzle.svg" alt="cardImage" />
                 </div>
 
                 <div class="technologies-card__content">
@@ -94,7 +88,7 @@
             </div>
             <div class="technologies-card">
                 <div class="technologies-card__image">
-                    <img src="./img/icons/ai.svg" alt="cardImage" />
+                    <img loading="lazy" src="./img/icons/ai.svg" alt="cardImage" />
                 </div>
 
                 <div class="technologies-card__content">
@@ -104,7 +98,7 @@
             </div>
             <div class="technologies-card">
                 <div class="technologies-card__image">
-                    <img src="./img/icons/wifi.svg" alt="cardImage" />
+                    <img loading="lazy" src="./img/icons/wifi.svg" alt="cardImage" />
                 </div>
 
                 <div class="technologies-card__content">
@@ -120,7 +114,7 @@
             <h3>CC2 Is the Technology That Powers HivoCall</h3>
         </div>
         <div class="benefits-card__container">
-            <img class="vs" src="./img/SVG/Vs.png" alt="Vs" />
+            <img loading="lazy" class="vs" src="./img/SVG/Vs.png" alt="Vs" />
             <div class="benefits-card">
                 <h3>Regular Phone System</h3>
                 <ul>
@@ -235,8 +229,7 @@
                 </div>
                 <button>Start Free Trial</button>
             </div>
-            <img src="{{ asset('img/SVG/business-phone-number.png') }}"
-                alt="Mobile" />
+            <img src="{{ asset('img/SVG/business-phone-number.png') }}" alt="Mobile" />
         </div>
     </div>
 
@@ -245,14 +238,12 @@
             <h2>Hear From Our Customers</h2>
             <div class="hearFromU__mainview">
                 <div class="hearFromU__content">
-                    <img src="{{ asset('img/icons/quot.svg') }}"
-                        alt="quote">
+                    <img src="{{ asset('img/icons/quot.svg') }}" alt="quote">
                     <p class="hearFromU__text">
                         HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                         clean and have the highest attestation score.</p>
                     <div class="hearFromU__footer">
-                        <img src="{{ asset('img/brands/brighterly-new.png') }}"
-                            alt="brand" class="footer__img">
+                        <img src="{{ asset('img/brands/brighterly-new.png') }}" alt="brand" class="footer__img">
                         <div class="footer__name">
                             <p>Rostyslav Khanyk
                                 <span>Head Of Sales, Brighterly</span>
@@ -261,8 +252,7 @@
                     </div>
                 </div>
                 <div class="hearFromU__image">
-                    <img src="{{asset('img/SVG/portrait.png')}}"
-                        alt="person">
+                    <img src="{{ asset('img/SVG/portrait.png') }}" alt="person">
                 </div>
             </div>
         </div>

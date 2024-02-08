@@ -15,6 +15,28 @@ const choices = document.querySelectorAll(
   " .pricing__bottom--wrapper .option"
 );
 
+const mobileMenuToggle = document.querySelectorAll("#mobileExpand");
+const mobileMenuContent = document.querySelectorAll(".mobile");
+
+mobileMenuToggle.forEach((option) => {
+  option.addEventListener("click", function () {
+    const content = this.nextElementSibling;
+
+    if (content.classList.contains("active")) {
+      content.classList.remove("active");
+      this.classList.remove("active");
+    } else {
+      mobileMenuContent.forEach((cn) => cn.classList.remove("active"));
+      mobileMenuToggle.forEach((tn) => tn.classList.remove("active"));
+
+      content.classList.add("active");
+      this.classList.add("active");
+    }
+  });
+});
+
+
+
 questions.forEach((question) => {
   question.addEventListener("click", function () {
     const answer = this.nextElementSibling;

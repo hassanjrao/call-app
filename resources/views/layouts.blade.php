@@ -28,8 +28,32 @@
             <div class="nav-items">
                 <ul class="nav-item">
                     <li class="expand">
-                        Products
-                        <i class="fa-solid fa-chevron-down"></i>
+                        <a id="mobileExpand">Products <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mobile">
+                            <div class="top">
+                                <h3>Products</h3>
+                                <ul class="content">
+                                    <li><a href="#">business Phone System</a></li>
+                                    <li><a href="#">WhatsApp business</a></li>
+                                    <li><a href="#">shared inbox</a></li>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <h3>Features</h3>
+                                <ul class="content">
+                                    <li><a href="#">Power dialer</a></li>
+                                    <li><a href="#">Auto rotate</a></li>
+                                    <li><a href="#">Smart DID Routing</a></li>
+                                    <li><a href="#">Live Call Monitoring</a></li>
+                                    <li><a href="#"> SMS</a></li>
+                                    <li><a href="#">Powerful Reporting</a></li>
+                                    <li><a href="#">Automatic Machine Detection</a></li>
+                                    <li><a href="#">Sticky Agent </a></li>
+                                    <li><a href="#">Speed To Dial</a></li>
+                                    <li><a href="#">All Features </a></li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="dropdown">
                             <div class="dropdown__products">
                                 <h3>Products</h3>
@@ -61,10 +85,46 @@
                                 <a href="/schedule-a-demo">book a demo today</a>
                             </div>
                         </div>
+
                     </li>
                     <li class="expand">
-                        Solution <i class="fa-solid fa-chevron-down"></i>
+                        <a id="mobileExpand">Solution <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mobile">
+                            <div class="top">
+                                <h3>By Need</h3>
+                                <ul class="content">
+                                    <li><a href="/office-phone-system">Office Phone System</a></li>
+                                    <li><a href="/call-center-software-solution/">Call center software</a></li>
+                                    <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
+                                    <li><a href="/predictive-dialer">Predictive Dialer</a></li>
+                                    <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
+                                    <li><a href="/support-contact-center/">Sales & Support</a></li>
+                            </div>
+                            <div class="bottom">
+                                <h3>By use Case</h3>
+                                <ul class="content">
+                                    <li><a href="/predictive-dialer">Predictive Dialer</a></li>
+                                    <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
+                                    <li><a href="/support-contact-center">Sales & Support</a></li>
+                                    <li><a href="/office-phone-system">Office Phone System</a></li>
+                                    <li><a href="/call-center-software-solution/">Call center software</a></li>
+                                    <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
 
+
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <h3>Industry</h3>
+                                <ul class="content">
+                                    <li><a href="#">Edtech</a></li>
+                                    <li><a href="/voip-system-for-real-estate/">Real Estate</a></li>
+
+                                    <li><a href="/call-centre-solution-for-software-and-technology/"> Software &
+                                            Technology</a></li>
+                                    <li><a href="/voip-for-market-research/">Market Research</a></li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="dropdown dropdown__2">
                             <div>
                                 <h3>By Need</h3>
@@ -97,8 +157,7 @@
                                 <ul>
                                     <li><a href="#">Edtech</a></li>
                                     <li><a href="/voip-system-for-real-estate/">Real Estate</a></li>
-                                    {{-- <li><a href="#">Financial Services</a></li>
-                                    <li><a href="#">Recruitment</a></li> --}}
+
                                     <li><a href="/call-centre-solution-for-software-and-technology/"> Software &
                                             Technology</a></li>
                                     <li><a href="/voip-for-market-research/">Market Research</a></li>
@@ -115,8 +174,34 @@
                     </li>
                     <li><a href="/pricing">Pricing</a></li>
                     <li class="expand">
-                        integrations <i class="fa-solid fa-chevron-down"></i>
+                        <a id="mobileExpand">Integration <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mobile">
+                            <div class="top">
+                                <h3>INTEGRATIONS</h3>
+                                <ul class="content">
+                                    <li><a href="/custom-crm-integration">Custom CRM</a></li>
+                                    <li><a href="/shopify-integration">Shopify</a></li>
+                                    <li><a href="/salesforce-integration">Salesforce</a></li>
+                                    <li><a href="/slack-integration">Slack</a></li>
 
+
+                                    <li><a href="/custom-crm-integration">Pipedrive</a></li>
+                                    <li><a href="/shopify-integration">Zoho CRM</a></li>
+                                    <li><a href="/slack-integration">Zapier</a></li>
+                                    <li><a href="/custom-crm-integration">HubSpot</a></li>
+                                    <li><a href="/slack-integration">Zendesk</a></li>
+                                    <li><a href="/salesforce-integration">Nocrm</a></li>
+                                    <li><a href="/custom-crm-integration">Re:amaze</a></li>
+                                    <li><a href="/slack-integration">ActiveCampaign</a></li>
+                                    <li><a href="/salesforce-integration">Intercom</a></li>
+                                    <li><a href="/custom-crm-integration">Outreach</a></li>
+                                    <li><a href="/slack-integration">Microsoft Teams</a></li>
+                                    <li><a href="/shopify-integration">Freshdesk</a></li>
+                                    <li><a href="/custom-crm-integration">Leadsquared</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
                         <div class="dropdown dropdown__3">
                             <div>
                                 <h3>INTEGRATIONS</h3>
@@ -153,7 +238,30 @@
                         </div>
                     </li>
                     <li class="expand">
-                        Resources <i class="fa-solid fa-chevron-down"></i>
+                        <a id="mobileExpand">Ressources <i class="fa-solid fa-chevron-down"></i></a>
+                        <div class="mobile">
+                            <div class="top">
+                                <h3>CASE STUDIES</h3>
+                                <ul class="content">
+                                    <li><a href="/ebook">E-Books & Guides</a></li>
+                                    {{-- <li><a href="#">Knowledge Base</a></li> --}}
+                                    <li><a href="/blog/business-guide">Business Guide</a></li>
+                                    <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
+                                    {{-- <li><a href="#">Call Center Guide</a></li>
+                                    <li><a href="#">Customer Reviews</a></li> --}}
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <h3>BLOGS</h3>
+                                <ul class="content">
+                                    <li><a href="/blog/category/business">Business</a></li>
+                                    <li><a href="/blog/category/call-center">Call Center</a></li>
+                                    {{-- <li><a href="#">Virtual Numbers</a></li> --}}
+                                    <li><a href="/blog/category/telephony">Telephony</a></li>
+                                    <li><a href="/blog">Discover Our Blog</a></li>
+                                </ul>
+                            </div>
+                        </div>
                         <div class="dropdown dropdown__4">
                             <div>
                                 <h3>CASE STUDIES</h3>
@@ -259,7 +367,7 @@
                 <li><a href="/">API Documentation</a></li>
                 <li><a href="/">Company Address:</a></li>
                 <li><a href="">127 N HIGGINS AVE STE 307D <br>
-                    MISSOULA, MT 59802</a></li>
+                        MISSOULA, MT 59802</a></li>
             </ul>
             <ul>
                 <li class="footer-heading">
@@ -288,6 +396,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function toggleAccordion() {
+            var accordionContent = document.getElementById("accordionContent");
+            if (accordionContent.style.display === "block") {
+                accordionContent.style.display = "none";
+            } else {
+                accordionContent.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>
