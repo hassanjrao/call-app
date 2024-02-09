@@ -158,4 +158,12 @@
   .signin-container .right-section {
     display: none;
   }
+
+  .signin-container .left-section .head .logo {
+    text-align: center;
+  }
+
+  .signin-container>.left-section .head p {
+    display: none;
+  }
 }

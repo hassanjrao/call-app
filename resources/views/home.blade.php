@@ -18,7 +18,7 @@
             </p>
         </div>
         <div class="hero__btn">
-            <button>Try HivoCall For Free</button>
+            <button> <a href="signup">Try HivoCall For Free</a> </button>
         </div>
         <div class="hero__image">
             <img loading="lazy" src="{{ asset('img/SVG/BgHero1.png') }}" alt="hero" />
@@ -186,7 +186,7 @@
                     Leverage advanced features to build a strong brand presence and
                     boost revenue.
                 </p>
-                <button>Schedule a Demo</button>
+                <button><a href="/schedule-a-demo">Schedule a Demo</a></button>
             </div>
             <div class="pack">
                 <h4>For Support Teams</h4>
@@ -195,7 +195,7 @@
                     flash. Utilize Smart Call Forwarding to stay connected at any
                     time.
                 </p>
-                <button>Talk to Our Team</button>
+                <button> <a href="/schedule-a-demo">Talk to Our Team</a> </button>
             </div>
             <div class="pack">
                 <h4>For Call Centers/BPO</h4>
@@ -203,7 +203,7 @@
                     Level up your processes and connect with more prospects using IVR.
                     Be available round-the-clock with our robust features.
                 </p>
-                <button>Schedule a Demo</button>
+                <button> <a href="/schedule-a-demo"> Schedule a Demo</a></button>
             </div>
         </div>
     </div>
@@ -227,11 +227,54 @@
                     <span>→</span>
                     <p><span class="number">4</span>Track Calls</p>
                 </div>
-                <button>Start Free Trial</button>
+                <button><a href="/signup">Start Free Trial</a></button>
             </div>
             <img src="{{ asset('img/SVG/business-phone-number.png') }}" alt="Mobile" />
         </div>
     </div>
+
+    <section class="platform">
+        <div class="heading">
+            <h3>CallHippo for Multiple Platforms
+            </h3>
+            <p>Stay connected no matter where you are. CallHippo is your constant companion, available on iOS, Android, as a
+                WebApp, and Google Chrome Extension.
+
+            </p>
+        </div>
+        <div class="platformGrid">
+            <a href="/signup" class="box">
+                <img src="{{ asset('img/platform/platform_web.png') }}" alt="web">
+                <p>Available on</p>
+                <span>Web</span>
+            </a>
+            <a href="/https://www.apple.com/app-store/hivocall" class="box">
+                <img src="{{ asset('img/platform/MacOS_logo.svg') }}" alt="Mac">
+                <p>Mac</p>
+                <span>Desktop</span>
+            </a>
+            <a href="/https://apps.microsoft.com/search?query=hivocall&hl=en-us&gl=US" class="box">
+                <img src="{{ asset('img/platform/windows.svg') }}" alt="windows">
+                <p>Windows</p>
+                <span>Desktop</span>
+            </a>
+            <a href="/https://play.google.com/store/" class="box">
+                <img src="{{ asset('img/platform/android.png') }}" alt="android">
+                <p>Download on</p>
+                <span>Android</span>
+            </a>
+            <a href="/https://www.apple.com/app-store/" class="box">
+                <img src="{{ asset('img/platform/ios.png') }}" alt="Ios">
+                <p>Download</p>
+                <span>IOS</span>
+            </a>
+            <a href="/https://chromewebstore.google.com/search/hivocall" class="box">
+                <img src="{{ asset('img/platform/chrome.svg') }}" alt="web">
+                <p>Get extension on</p>
+                <span>chrome Store</span>
+            </a>
+        </div>
+    </section>
 
     <section class="hearFromU">
         <div class="hearFromU__container">
@@ -240,19 +283,23 @@
                 <div class="hearFromU__content">
                     <img src="{{ asset('img/icons/quot.svg') }}" alt="quote">
                     <p class="hearFromU__text">
-                        HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
-                        clean and have the highest attestation score.</p>
+                        HivoCall exceeded expectations by proposing an ideal solution. Presently, all our figures boast
+                        pristine clarity and achieve the pinnacle of attestation scores.
+
+
+
+                    </p>
                     <div class="hearFromU__footer">
-                        <img src="{{ asset('img/brands/brighterly-new.png') }}" alt="brand" class="footer__img">
+
                         <div class="footer__name">
-                            <p>Rostyslav Khanyk
-                                <span>Head Of Sales, Brighterly</span>
+                            <p>Emily Smith
+                                <span>Marketing Manager, Evergreen Technologies</span>
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="hearFromU__image">
-                    <img src="{{ asset('img/SVG/portrait.png') }}" alt="person">
+                    <img src="{{ asset('img/portrait.png') }}" alt="person">
                 </div>
             </div>
         </div>

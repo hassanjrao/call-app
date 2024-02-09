@@ -376,7 +376,7 @@
                     </a><i class="fa-solid fa-caret-down"></i>
                 </li>
                 <li style="color: #FFF1EA">Learn to Make More Calls:</li>
-                <li><a href="/">+1 254 455 5666</a></li>
+                <li><a href="tel:+1 (406) 220-5458">+1 (406) 220-5458</a></li>
                 <li><a href="/">Support@hivocall.com</a></li>
                 <li><a href="/">Join Our Affiliate Program</a></li>
                 <li><a href="/">Become a Partner</a></li>
