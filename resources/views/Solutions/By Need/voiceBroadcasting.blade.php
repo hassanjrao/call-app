@@ -3,7 +3,7 @@
     <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
-                <img src="img/SVG/round_circles.svg"
+                <img loading="lazy" src="img/SVG/round_circles.svg"
                     alt="">
                 <h2>Voice Broadcasting System
                 </h2>
@@ -19,7 +19,7 @@
                 <button>Try ConnectVista For Free</button>
             </div>
             <div class="hero__image">
-                <img src="{{ asset('img/SVG/BgHero1.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/BgHero1.png') }}"
                     alt="hero" />
             </div>
         </div>
@@ -148,7 +148,7 @@
             </div>
 
             <div class="right">
-                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="freeTrial" />
             </div>
         </div>
@@ -504,7 +504,7 @@
             </div>
             <div class="related__body">
                 <div class="post">
-                    <img decoding="async"
+                    <img loading="lazy" decoding="async"
                         src="src='{{ asset( "img/webp/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.webp") }}'
                         alt="Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential" height="180"
                         width="343">
@@ -514,7 +514,7 @@
                     </a>
                 </div>
                 <div class="post">
-                    <img decoding="async"
+                    <img loading="lazy" decoding="async"
                     src='{{ asset( "img/webp/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.webp") }}'
                         alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
                     <a href="#"

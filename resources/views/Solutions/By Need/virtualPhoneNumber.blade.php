@@ -3,7 +3,7 @@
     <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
-                <img src="img/icons/3points.svg"
+                <img loading="lazy" src="img/icons/3points.svg"
                     alt="">
                 <h2>
                     Virtual Phone Number
@@ -20,7 +20,7 @@
                 <button>Try ConnectVista For Free</button>
             </div>
             <div class="hero__image">
-                <img src="{{ asset('img/SVG/BgHero1.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/BgHero1.png') }}"
                     alt="hero" />
             </div>
         </div>
@@ -53,7 +53,7 @@
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <img src='{{ asset( "img/icons/cost_efficience_bphone_nb.svg") }}' alt=""></div>
+                    <div class="icon"> <img loading="lazy" src='{{ asset( "img/icons/cost_efficience_bphone_nb.svg") }}' alt=""></div>
 
                     <h4>
                         Cost-Effective
@@ -65,7 +65,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src='{{ asset( "img/icons/Global-Accessibility-with-callhippo.svg") }}' alt=""></i></div>
+                    <div class="icon"><img loading="lazy" src='{{ asset( "img/icons/Global-Accessibility-with-callhippo.svg") }}' alt=""></i></div>
 
                     <h4>
                         Enhance Local Presence
@@ -75,7 +75,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src='{{ asset( "img/icons/Integration-with-callhippo.svg") }}' alt=""></div>
+                    <div class="icon"><img loading="lazy" src='{{ asset( "img/icons/Integration-with-callhippo.svg") }}' alt=""></div>
 
                     <h4>
                         IVR Integration
@@ -87,7 +87,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src='{{ asset( "img/icons/Scalability-with-callhippo.svg") }}' alt=""></div>
+                    <div class="icon"> <img loading="lazy" src='{{ asset( "img/icons/Scalability-with-callhippo.svg") }}' alt=""></div>
 
                     <h4>
                         Higher Scalability
@@ -119,7 +119,7 @@
             </div>
 
             <div class="right">
-                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="freeTrial" />
             </div>
         </div>

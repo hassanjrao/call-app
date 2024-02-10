@@ -18,7 +18,7 @@
         <nav class="nav-bar">
             <div class="logo">
 
-                <a href="/"> <img src='{{ asset('img/SVG/logoDark.svg') }}' alt="logo">
+                <a href="/"> <img loading="lazy" src='{{ asset('img/SVG/logoDark.svg') }}' alt="logo">
                     <h1>
                         HivoCall
                     </h1>
@@ -116,7 +116,6 @@
                             <div class="bottom">
                                 <h3>Industry</h3>
                                 <ul class="content">
-                                    <li><a href="#">Edtech</a></li>
                                     <li><a href="/voip-system-for-real-estate/">Real Estate</a></li>
 
                                     <li><a href="/call-centre-solution-for-software-and-technology/"> Software &
@@ -155,7 +154,6 @@
                             <div>
                                 <h3>Industry</h3>
                                 <ul>
-                                    <li><a href="#">Edtech</a></li>
                                     <li><a href="/voip-system-for-real-estate/">Real Estate</a></li>
 
                                     <li><a href="/call-centre-solution-for-software-and-technology/"> Software &
@@ -185,19 +183,17 @@
                                     <li><a href="/slack-integration">Slack</a></li>
 
 
-                                    <li><a href="/custom-crm-integration">Pipedrive</a></li>
-                                    <li><a href="/shopify-integration">Zoho CRM</a></li>
-                                    <li><a href="/slack-integration">Zapier</a></li>
-                                    <li><a href="/custom-crm-integration">HubSpot</a></li>
-                                    <li><a href="/slack-integration">Zendesk</a></li>
-                                    <li><a href="/salesforce-integration">Nocrm</a></li>
-                                    <li><a href="/custom-crm-integration">Re:amaze</a></li>
-                                    <li><a href="/slack-integration">ActiveCampaign</a></li>
-                                    <li><a href="/salesforce-integration">Intercom</a></li>
-                                    <li><a href="/custom-crm-integration">Outreach</a></li>
-                                    <li><a href="/slack-integration">Microsoft Teams</a></li>
-                                    <li><a href="/shopify-integration">Freshdesk</a></li>
-                                    <li><a href="/custom-crm-integration">Leadsquared</a></li>
+                                    <li><a href="/piperdrive-integration">Pipedrive</a></li>
+                                    <li><a href="/zoho-crm-integration">Zoho CRM</a></li>
+                                    <li><a href="/zapier-integration">Zapier</a></li>
+                                    <li><a href="/hubspot-integration">HubSpot</a></li>
+                                    <li><a href="/zendesk-integration">Zendesk</a></li>
+                                    <li><a href="/nocrm-integration">Nocrm</a></li>
+                                    <li><a href="/activecampaign-integration">ActiveCampaign</a></li>
+                                    <li><a href="/intercom-integration">Intercom</a></li>
+                                    <li><a href="/outreach-integration">Outreach</a></li>
+                                    <li><a href="/teams-integration">Microsoft Teams</a></li>
+                                    <li><a href="/freshdesk-integration">Freshdesk</a></li>
                                 </ul>
                             </div>
 
@@ -212,19 +208,17 @@
                                     <li><a href="/slack-integration">Slack</a></li>
 
 
-                                    <li><a href="/custom-crm-integration">Pipedrive</a></li>
-                                    <li><a href="/shopify-integration">Zoho CRM</a></li>
-                                    <li><a href="/slack-integration">Zapier</a></li>
-                                    <li><a href="/custom-crm-integration">HubSpot</a></li>
-                                    <li><a href="/slack-integration">Zendesk</a></li>
-                                    <li><a href="/salesforce-integration">Nocrm</a></li>
-                                    <li><a href="/custom-crm-integration">Re:amaze</a></li>
-                                    <li><a href="/slack-integration">ActiveCampaign</a></li>
-                                    <li><a href="/salesforce-integration">Intercom</a></li>
-                                    <li><a href="/custom-crm-integration">Outreach</a></li>
-                                    <li><a href="/slack-integration">Microsoft Teams</a></li>
-                                    <li><a href="/shopify-integration">Freshdesk</a></li>
-                                    <li><a href="/custom-crm-integration">Leadsquared</a></li>
+                                    <li><a href="/piperdrive-integration">Pipedrive</a></li>
+                                    <li><a href="/zoho-crm-integration">Zoho CRM</a></li>
+                                    <li><a href="/zapier-integration">Zapier</a></li>
+                                    <li><a href="/hubspot-integration">HubSpot</a></li>
+                                    <li><a href="/zendesk-integration">Zendesk</a></li>
+                                    <li><a href="/nocrm-integration">Nocrm</a></li>
+                                    <li><a href="/activecampaign-integration">ActiveCampaign</a></li>
+                                    <li><a href="/intercom-integration">Intercom</a></li>
+                                    <li><a href="/outreach-integration">Outreach</a></li>
+                                    <li><a href="/microsoft-team-integration">Microsoft Teams</a></li>
+                                    <li><a href="/freshdesk-integration">Freshdesk</a></li>
                                 </ul>
                             </div>
 
@@ -319,13 +313,13 @@
                     </a>
                     <i class="fa-solid fa-caret-down"></i>
                 </li>
-                <li><a href="/">Cloud PBX</a></li>
-                <li><a href="/">Virtual PBX</a></li>
-                <li><a href="/">Voip Phone System</a></li>
-                <li><a href="/">Business Phone Number</a></li>
-                <li><a href="/">Local Phone Number</a></li>
-                <li><a href="/">Online Phone Number</a></li>
-                <li><a href="/">International Phone Number</a></li>
+                <li><a href="/office-phone-system">Office Phone System</a></li>
+                <li><a href="/call-center-software-solution">Call Center Software</a></li>
+                <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
+                <li><a href="/predictive-dialer">Predictive Dialer</a></li>
+                <li><a href="/speed-to-dial">Speed To Dial</a></li>
+                <li><a href="/voip-system-for-real-estate">Real Estate</a></li>
+                <li><a href="/call-analytics">Call Analytics</a></li>
             </ul>
             <ul>
                 <li class="footer-heading">
@@ -333,14 +327,12 @@
                         <h3>Features</h3>
                     </a><i class="fa-solid fa-caret-down"></i>
                 </li>
-                <li><a href="/">Call Queuing</a></li>
-                <li><a href="/">Call Tracking</a></li>
-                <li><a href="/">Auto Call Distribution</a></li>
-                <li><a href="/">Intract Voice Response</a></li>
-                <li><a href="/">Power Dialer</a></li>
-                <li><a href="/">Warm Transfer</a></li>
-                <li><a href="/">Call Barging</a></li>
-                <li><a href="/">Speech Analytics</a></li>
+                <li><a href="/call-monitoring">Call Monitoring</a></li>
+                <li><a href="/voip-for-market-research">Market Research</a></li>
+                <li><a href="/blog/category/virtual-numbers">Virtual Phone Number</a></li>
+                <li><a href="/power-dialer">Power Dialer</a></li>
+                <li><a href="/support-contact-center">Sales & Support</a></li>
+                <li><a href="/call-centre-solution-for-software-and-technology">Software & Technology</a></li>
 
             </ul>
             <ul>
@@ -349,25 +341,26 @@
                         <h3>Resources</h3>
                     </a><i class="fa-solid fa-caret-down"></i>
                 </li>
-                <li><a href="/">E-book </a></li>
-                <li><a href="/">Customer Stories</a></li>
-                <li><a href="/">Comparisons</a></li>
-                <li><a href="/">Find Call Centers</a></li>
-                <li><a href="/">Glossary</a></li>
+                <li><a href="/ebook">E-book </a></li>
+                <li><a href="//blog/category/call-center">Call Center</a></li>
+                <li><a href="/blog/category/business">Business</a></li>
+                <li><a href="/blog">Our Blog</a></li>
+                <li><a href="/blog/category/virtual-numbers">Virtual Phone Number</a></li>
             </ul>
             <ul>
                 <li class="footer-heading">
                     <a href="/">
-                        <h3>Company</h3>
+                        <h3>Integration</h3>
                     </a><i class="fa-solid fa-caret-down"></i>
                 </li>
-                <li><a href="/"> Knowledge Base</a></li>
-                <li><a href="/">About Us</a></li>
-                <li><a href="/">Contact Us</a></li>
-                <li><a href="/">API Documentation</a></li>
-                <li><a href="/">Company Address:</a></li>
-                <li><a href="">127 N HIGGINS AVE STE 307D <br>
-                        MISSOULA, MT 59802</a></li>
+                <li><a href="/custom-crm-integration">Custom CRM</a></li>
+                <li><a href="/slack-integration">Slack</a></li>
+                <li><a href="/microsoft-team-integration-integration">Microsoft Teams</a></li>
+                <li><a href="/shopify-integration">Shopify</a></li>
+                <li><a href="/outreach-integration">Outreach</a></li>
+                <li><a href="/freshdesk-integration">Freshdesk</a></li>
+                <li><a href="/activecampaign-integration">ActiveCampaign</a></li>
+                
             </ul>
             <ul>
                 <li class="footer-heading">
@@ -377,10 +370,9 @@
                 </li>
                 <li style="color: #FFF1EA">Learn to Make More Calls:</li>
                 <li><a href="tel:+1 (406) 220-5458">+1 (406) 220-5458</a></li>
-                <li><a href="/">Support@hivocall.com</a></li>
-                <li><a href="/">Join Our Affiliate Program</a></li>
-                <li><a href="/">Become a Partner</a></li>
-                <li><a href="/">Refer a Friend</a></li>
+                <li><a href="/">Contact Us</a></li>
+                <li><a href="/">Contact Us</a></li>
+                <li><a href="/demo">Book A Demo</a></li>
 
             </ul>
         </div>

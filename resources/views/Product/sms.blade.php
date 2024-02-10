@@ -13,7 +13,7 @@
 
 
             <div class="hero__image">
-                <img src="{{ asset('img/heros/Business-SMS.png') }}"
+                <img loading="lazy" src="{{ asset('img/heros/Business-SMS.png') }}"
                     alt="sms">
             </div>
         </section>
@@ -22,18 +22,18 @@
                 <p>Trusted by 4000+ companies</p>
             </div>
             <div class="trusted-content">
-                <img src="{{ asset('img/companies/Amazon.svg') }}"
+                <img loading="lazy" src="{{ asset('img/companies/Amazon.svg') }}"
                     alt="trusted" /><img
                     src="{{ asset('img/companies/brighchamps.svg') }}"
                     alt="trusted" /><img
                     src="{{ asset('img/companies/oracle.svg') }}"
                     alt="trusted" /><img
                     src="{{ asset('img/companies/turing.svg') }}" alt="trusted" />
-                <img src="{{ asset('img/companies/valuelabs.svg') }}"
+                <img loading="lazy" src="{{ asset('img/companies/valuelabs.svg') }}"
                     alt="trusted" /><img
                     src="{{ asset('img/companies/iresearch.svg') }}"
                     alt="trusted" />
-                <img src="{{ asset('img/companies/intellipaat_logo.svg') }}"
+                <img loading="lazy" src="{{ asset('img/companies/intellipaat_logo.svg') }}"
                     alt="trusted" />
             </div>
         </section>
@@ -124,7 +124,7 @@
                     </p>
                     <button>Start Free Trial</button>
                 </div>
-                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
             </div>
         </section>
@@ -344,13 +344,13 @@
                 <h2>Hear From Our Customers</h2>
                 <div class="hearFromU__mainview">
                     <div class="hearFromU__content">
-                        <img src="{{ asset('img/icons/quot.svg') }}"
+                        <img loading="lazy" src="{{ asset('img/icons/quot.svg') }}"
                             alt="quote">
                         <p class="hearFromU__text">
                             HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
-                            <img src="{{ asset('img/brands/brighterly-new.png') }}"
+                            <img loading="lazy" src="{{ asset('img/brands/brighterly-new.png') }}"
                                 alt="brand" class="footer__img">
                             <div class="footer__name">
                                 <p>Rostyslav Khanyk
@@ -360,7 +360,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img src="{{asset('img/SVG/portrait.png')}}"
+                        <img loading="lazy" src="{{asset('img/SVG/portrait.png')}}"
                             alt="person">
                     </div>
                 </div>

@@ -6,7 +6,7 @@
         </div>
         <div class="blogGrid">
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -15,7 +15,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -24,7 +24,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -33,7 +33,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -42,7 +42,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -51,7 +51,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -60,7 +60,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
 
                 <div class="body">
@@ -70,7 +70,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -79,7 +79,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -88,7 +88,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>

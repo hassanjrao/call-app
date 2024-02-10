@@ -582,7 +582,7 @@
             <h3>Call & SMS Charges</h3>
             <div class="card--wrapper">
                 <div class="card">
-                    <img class="" src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/Incoming_call.svg" alt="Call Charges" width="25" height="25" loading="lazy">
+                    <img loading="lazy" class="" src="https://d1x9dsge91xf6g.cloudfront.net/callhippo/images/Incoming_call.svg" alt="Call Charges" width="25" height="25" loading="lazy">
                     <h5>Incoming call charge</h5>
                     <p>Click here to know number charges and incoming call charges</p>
                 </div>
@@ -603,15 +603,15 @@
                     <h3>Run Your Business From
                         Anywhere With Our Web & Mobile Apps</h3>
                     <div class="findUs">
-                        <img src="{{ asset('img/IOS.png') }}" alt="">
-                        <img src="{{ asset('img/Google_Play.png') }}" alt="">
-                        <img src="{{ asset('img/chore_web_store.png') }}" alt="">
-                        <img src="{{ asset('img/windows-beta-badge.png') }}" alt="">
-                        <img src="{{ asset('img/macos.png') }}" alt="">
+                        <img loading="lazy" src="{{ asset('img/IOS.png') }}" alt="">
+                        <img loading="lazy" src="{{ asset('img/Google_Play.png') }}" alt="">
+                        <img loading="lazy" src="{{ asset('img/chore_web_store.png') }}" alt="">
+                        <img loading="lazy" src="{{ asset('img/windows-beta-badge.png') }}" alt="">
+                        <img loading="lazy" src="{{ asset('img/macos.png') }}" alt="">
                     </div>
                 </div>
                 <div class="right">
-                    <img src="{{ asset('img/SVG/mobile_app_design.png') }}" alt="phone">
+                    <img loading="lazy" src="{{ asset('img/SVG/mobile_app_design.png') }}" alt="phone">
                 </div>
             </div>
 

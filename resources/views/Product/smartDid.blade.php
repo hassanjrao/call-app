@@ -13,7 +13,7 @@
 
 
             <div class="hero__image">
-                <img src="{{ asset('img/heros/Smart-DID-Routing.png') }}"
+                <img loading="lazy" src="{{ asset('img/heros/Smart-DID-Routing.png') }}"
                     alt="smart">
             </div>
         </section>
@@ -22,18 +22,18 @@
                 <p>Trusted by 4000+ companies</p>
             </div>
             <div class="trusted-content">
-                <img src="{{ asset('img/companies/Amazon.svg') }}"
-                    alt="trusted" /><img
+                <img loading="lazy" src="{{ asset('img/companies/Amazon.svg') }}"
+                    alt="trusted" /><img loading="lazy"
                     src="{{ asset('img/companies/brighchamps.svg') }}"
-                    alt="trusted" /><img
+                    alt="trusted" /><img loading="lazy"
                     src="{{ asset('img/companies/oracle.svg') }}"
-                    alt="trusted" /><img
+                    alt="trusted" /><img loading="lazy"
                     src="{{ asset('img/companies/turing.svg') }}" alt="trusted" />
-                <img src="{{ asset('img/companies/valuelabs.svg') }}"
-                    alt="trusted" /><img
+                <img loading="lazy" src="{{ asset('img/companies/valuelabs.svg') }}"
+                    alt="trusted" /><img loading="lazy"
                     src="{{ asset('img/companies/iresearch.svg') }}"
                     alt="trusted" />
-                <img src="{{ asset('img/companies/intellipaat_logo.svg') }}"
+                <img loading="lazy" src="{{ asset('img/companies/intellipaat_logo.svg') }}"
                     alt="trusted" />
             </div>
         </section>
@@ -48,7 +48,7 @@
             </div>
             <div class="why__cards">
                 <div class="card">
-                    <span class="span1"><img class="icon"
+                    <span class="span1"><img loading="lazy" class="icon"
                             src="{{ asset("img/icons/Seamless-Scalability.svg") }} "
                             alt="icon" /></span>
                     <h5>Seamless Scalability</h5>
@@ -56,7 +56,7 @@
                         Our flexible cloud platform allows you to instantly expand as your business needs change.</p>
                 </div>
                 <div class="card">
-                    <span class="span2"><img class="icon"
+                    <span class="span2"><img loading="lazy" class="icon"
                             src="{{ asset("img/icons/Actionable-Insights.svg") }} "
                             alt="icon" /></span>
                     <h5>Actionable Insights</h5>
@@ -65,7 +65,7 @@
                         gamification to boost productivity.</p>
                 </div>
                 <div class="card">
-                    <span class="span3"><img class="icon"
+                    <span class="span3"><img loading="lazy" class="icon"
                             src="{{ asset("img/icons/Cutting-Edge-Innovation (1).svg") }} "
                             alt="icon" /></span>
                     <h5>Cutting-Edge Innovation</h5>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
-                        <span class="span1"><img class="icon"
+                        <span class="span1"><img loading="lazy" class="icon"
                                 src="{{ asset("img/icons/call_center_analytics.svg") }} "/></span>
                         <h5>Expanded Global Access</h5>
                         <p class="card__text">Dynamically route international calls without needing to add new local numbers
@@ -93,7 +93,7 @@
                             using the numbers in your account.</p>
                     </div>
                     <div class="exp__card">
-                        <span class="span2"><img class="icon"
+                        <span class="span2"><img loading="lazy" class="icon"
                                 src="{{ asset("img/icons/icon-Drives-Revenue.svg") }} "
                                 alt="icon" /></span>
                         <h5>Improved Conversions</h5>
@@ -102,7 +102,7 @@
                         </p>
                     </div>
                     <div class="exp__card">
-                        <span class="span3"><img class="icon"
+                        <span class="span3"><img loading="lazy" class="icon"
                                 src="{{ asset("img/icons/Improve-CSAT.svg") }} "/></span>
                         <h5>Higher Answer Rates</h5>
                         <p class="card__text">By displaying a local number for the recipient's location, you can increase
@@ -126,7 +126,7 @@
                     </p>
                     <button>Start Free Trial</button>
                 </div>
-                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
             </div>
         </section>
@@ -140,7 +140,7 @@
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
-                        <span class="span1"><img class="icon"
+                        <span class="span1"><img loading="lazy" class="icon"
                                 src="{{ asset("img/icons/analytics.svg") }} "/></span>
                         <h5>Enhanced credibility</h5>
                         <p class="card__text">Build strong customer relationships with local numbers that resonate with your
@@ -148,7 +148,7 @@
                             and boosting conversion rates.</p>
                     </div>
                     <div class="benefits__card">
-                        <span class="span2"><img class="icon"
+                        <span class="span2"><img loading="lazy" class="icon"
                                 src="{{ asset("img/icons/Streamlined-Communication.svg") }} "
                                 alt="icon" /></span>
                         <h5>International reach</h5>
@@ -157,7 +157,7 @@
                             internationally while appearing local.</p>
                     </div>
                     <div class="benefits__card">
-                        <span class="span3"><img class="icon"
+                        <span class="span3"><img loading="lazy" class="icon"
                                 src="{{ asset("img/icons/Improved-Continuity.svg") }} "
                                 alt="icon" /></span>
                         <h5>Better personalization</h5>
@@ -178,7 +178,7 @@
             </div>
             <div class="avantages__cards">
                 <div class="avantages__card">
-                    <div class="card__image"><span class="span1"><img class="icon" src="img/avantages-icons/1.svg"
+                    <div class="card__image"><span class="span1"><img loading="lazy" class="icon" src="img/avantages-icons/1.svg"
                                 alt="icon" /></span></div>
                     <div class="card__text">
                         <h2>International Phone numbers</h2>
@@ -188,7 +188,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span2"><img class="icon" src="img/avantages-icons/2.svg"
+                        <span class="span2"><img loading="lazy" class="icon" src="img/avantages-icons/2.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -198,7 +198,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span3"><img class="icon" src="img/avantages-icons/3.svg"
+                        <span class="span3"><img loading="lazy" class="icon" src="img/avantages-icons/3.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -207,7 +207,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span4"><img class="icon" src="img/avantages-icons/4.svg"
+                        <span class="span4"><img loading="lazy" class="icon" src="img/avantages-icons/4.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -216,7 +216,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span5"><img class="icon" src="img/avantages-icons/5.svg"
+                        <span class="span5"><img loading="lazy" class="icon" src="img/avantages-icons/5.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -225,7 +225,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span6"><img class="icon" src="img/avantages-icons/6.svg"
+                        <span class="span6"><img loading="lazy" class="icon" src="img/avantages-icons/6.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -234,7 +234,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span7"><img class="icon" src="img/avantages-icons/7.svg"
+                        <span class="span7"><img loading="lazy" class="icon" src="img/avantages-icons/7.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -243,7 +243,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span8"><img class="icon" src="img/avantages-icons/8.svg"
+                        <span class="span8"><img loading="lazy" class="icon" src="img/avantages-icons/8.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -252,7 +252,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span9"><img class="icon" src="img/avantages-icons/9.svg"
+                        <span class="span9"><img loading="lazy" class="icon" src="img/avantages-icons/9.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -261,7 +261,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span10"><img class="icon" src="img/avantages-icons/10.svg"
+                        <span class="span10"><img loading="lazy" class="icon" src="img/avantages-icons/10.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -270,7 +270,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span11"><img class="icon" src="img/avantages-icons/11.svg"
+                        <span class="span11"><img loading="lazy" class="icon" src="img/avantages-icons/11.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -279,7 +279,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span12"><img class="icon" src="img/avantages-icons/12.svg"
+                        <span class="span12"><img loading="lazy" class="icon" src="img/avantages-icons/12.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -288,7 +288,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span13"><img class="icon" src="img/avantages-icons/13.svg"
+                        <span class="span13"><img loading="lazy" class="icon" src="img/avantages-icons/13.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -297,7 +297,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span14"><img class="icon" src="img/avantages-icons/14.svg"
+                        <span class="span14"><img loading="lazy" class="icon" src="img/avantages-icons/14.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -306,7 +306,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span15"><img class="icon" src="img/avantages-icons/15.svg"
+                        <span class="span15"><img loading="lazy" class="icon" src="img/avantages-icons/15.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -315,7 +315,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span16"><img class="icon" src="img/avantages-icons/16.svg"
+                        <span class="span16"><img loading="lazy" class="icon" src="img/avantages-icons/16.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -324,7 +324,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span17"><img class="icon" src="img/avantages-icons/17.svg"
+                        <span class="span17"><img loading="lazy" class="icon" src="img/avantages-icons/17.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -333,7 +333,7 @@
                 </div>
                 <div class="avantages__card">
                     <div class="card__image">
-                        <span class="span18"><img class="icon" src="img/avantages-icons/18.svg"
+                        <span class="span18"><img loading="lazy" class="icon" src="img/avantages-icons/18.svg"
                                 alt="icon" /></span>
                     </div>
                     <div class="card__text">
@@ -347,13 +347,13 @@
                 <h2>Hear From Our Customers</h2>
                 <div class="hearFromU__mainview">
                     <div class="hearFromU__content">
-                        <img src="{{ asset('img/icons/quot.svg') }}"
+                        <img loading="lazy" src="{{ asset('img/icons/quot.svg') }}"
                             alt="quote">
                         <p class="hearFromU__text">
                             HivoCall went an extra mile and suggested a perfect solution. As of now, all of our numbers are
                             clean and have the highest attestation score.</p>
                         <div class="hearFromU__footer">
-                            <img src="{{ asset('img/brands/brighterly-new.png') }}"
+                            <img loading="lazy" src="{{ asset('img/brands/brighterly-new.png') }}"
                                 alt="brand" class="footer__img">
                             <div class="footer__name">
                                 <p>Rostyslav Khanyk
@@ -363,7 +363,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img src="{{asset('img/SVG/portrait.png')}}"
+                        <img loading="lazy" src="{{asset('img/SVG/portrait.png')}}"
                             alt="person">
                     </div>
                 </div>

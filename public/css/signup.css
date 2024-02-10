@@ -87,16 +87,23 @@
 .signin-container>.left-section {
   flex: 1;
   margin-top: 45px;
+  margin-right: 30px;
 
 }
 
 .signin-container>.left-section .head {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.signin-container .left-section .head .logo {
+.signin-container>.left-section .head .a1 {
   display: flex;
+
+}
+
+.signin-container>.left-section .head h1 {
+  margin-left: -65px;
+
 }
 
 .signin-container .left-section .head .logo img {
@@ -118,7 +125,8 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin: 70px;
+  margin-left: 70px;
+  margin-top: 70px;
 }
 
 .signin-container .left-section .content p {
@@ -163,7 +171,11 @@
     text-align: center;
   }
 
-  .signin-container>.left-section .head p {
+ 
+}
+
+@media screen and (max-width: 550px) { 
+ .signin-container>.left-section .head p {
     display: none;
   }
 }

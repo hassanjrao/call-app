@@ -4,7 +4,7 @@
         <h3>Telephony</h3>
         <div class="blogGrid">
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>Virtual Business Phone System: What Is It And How It Works</h4>
@@ -15,7 +15,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -26,7 +26,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>Cold Transfer vs. Warm Transfer: 3 Minute Guide in Video Format</h4>
@@ -37,7 +37,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>What is a Business Phone Line? [Top 5 Providers]</h4>
@@ -48,7 +48,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>The Need For Work From Home Phone Solutions</h4>
@@ -59,7 +59,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>How To Setup VoIP? Requirements for VoIP Implementation</h4>
@@ -70,7 +70,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
 
                 <div class="body">
@@ -83,7 +83,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>What Is VoIP? How does it work – A Complete Guide</h4>
@@ -94,7 +94,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>Top 14 Cloud Hosted PBX Providers For Businesses In 2024</h4>
@@ -105,7 +105,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>A PBX Phone System To Revolutionize Your Business Communication</h4>

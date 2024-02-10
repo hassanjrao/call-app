@@ -17,23 +17,23 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/signup', function() {
+Route::get('/signup', function () {
     return view('signup');
 });
 
-Route::get('/auto-rotate', function() {
+Route::get('/auto-rotate', function () {
     return view('Product/autoRotate');
 });
 
-Route::get('/machine-detection', function() {
+Route::get('/machine-detection', function () {
     return view('Product/machine');
 });
 
-Route::get('/power-dialer', function() {
+Route::get('/power-dialer', function () {
     return view('Product/powerDialer');
 });
 
-Route::get('/sticky-agent', function() {
+Route::get('/sticky-agent', function () {
     return view('Product/stickyAgent');
 });
 
@@ -80,17 +80,60 @@ Route::get('/custom-crm-integration', function () {
     return view('Integration/CustomCRM');
 });
 Route::get('/salesforce-integration', function () {
-return view('Integration/SalesForce');
+    return view('Integration/SalesForce');
 });
 
 Route::get('/shopify-integration', function () {
-return view('Integration/Shopify');
+    return view('Integration/Shopify');
 });
 
 Route::get('/slack-integration', function () {
-return view('Integration/Slack');
+    return view('Integration/Slack');
 });
 
+Route::get('/zendesk-integration', function () {
+    return view('Integration/Zendesk');
+});
+
+Route::get('/piperdrive-integration', function () {
+    return view('Integration/Piperdrive');
+});
+
+Route::get('/nocrm-integration', function () {
+    return view('Integration/noCRM');
+});
+
+Route::get('/zoho-crm-integration', function () {
+    return view('Integration/Zoho');
+});
+
+Route::get('/zapier-integration', function () {
+    return view('Integration/Zapier');
+});
+
+Route::get('/hubspot-integration', function () {
+    return view('Integration/Hubspot');
+});
+
+Route::get('/activecampaign-integration', function () {
+    return view('Integration/Active');
+});
+
+Route::get('/microsoft-team-integration', function () {
+    return view('Integration/Teams');
+});
+
+Route::get('/intercom-integration', function () {
+    return view('Integration/Intercom');
+});
+
+Route::get('/freshdesk-integration', function () {
+    return view('Integration/Freshdesk');
+});
+
+Route::get('/outreach-integration', function () {
+    return view('Integration/outreach');
+});
 
 // End Integration
 

@@ -10,7 +10,7 @@
 
             <div class="card">
                 <div class="left">
-                    <img src="{{ asset('img/ebooks/1.png') }}" alt="left">
+                    <img loading="lazy" src="{{ asset('img/ebooks/1.png') }}" alt="left">
                 </div>
                 <div class="right">
                     <h3>
@@ -28,7 +28,7 @@
             </div>
             <div class="card">
                 <div class="left">
-                    <img src="{{ asset('img/ebooks/2.png') }}" alt="left">
+                    <img loading="lazy" src="{{ asset('img/ebooks/2.png') }}" alt="left">
                 </div>
                 <div class="right">
                     <h3>
@@ -45,7 +45,7 @@
             </div>
             <div class="card">
                 <div class="left">
-                    <img src="{{ asset('img/ebooks/3.png') }}" alt="left">
+                    <img loading="lazy" src="{{ asset('img/ebooks/3.png') }}" alt="left">
                 </div>
                 <div class="right">
                     <h3>
@@ -64,7 +64,7 @@
             </div>
             <div class="card">
                 <div class="left">
-                    <img src="{{ asset('img/ebooks/4.png') }}" alt="left">
+                    <img loading="lazy" src="{{ asset('img/ebooks/4.png') }}" alt="left">
                 </div>
                 <div class="right">
                     <h3>
@@ -82,7 +82,7 @@
             </div>
             <div class="card">
                 <div class="left">
-                    <img src="{{ asset('img/ebooks/5.png') }}" alt="left">
+                    <img loading="lazy" src="{{ asset('img/ebooks/5.png') }}" alt="left">
                 </div>
                 <div class="right">
                     <h3>
@@ -99,7 +99,7 @@
             </div>
             <div class="card">
                 <div class="left">
-                    <img src="{{ asset('img/ebooks/6.png') }}" alt="left">
+                    <img loading="lazy" src="{{ asset('img/ebooks/6.png') }}" alt="left">
                 </div>
                 <div class="right">
                     <h3>
@@ -116,7 +116,7 @@
             </div>
             <div class="card">
                 <div class="left">
-                    <img src="{{ asset('img/ebooks/7.png') }}" alt="left">
+                    <img loading="lazy" src="{{ asset('img/ebooks/7.png') }}" alt="left">
                 </div>
                 <div class="right">
                     <h3>
@@ -134,7 +134,7 @@
             </div>
             <div class="card">
                 <div class="left">
-                    <img src="{{ asset('img/ebooks/8.png') }}" alt="left">
+                    <img loading="lazy" src="{{ asset('img/ebooks/8.png') }}" alt="left">
                 </div>
                 <div class="right">
                     <h3>

@@ -3,7 +3,7 @@
     <div class="container powerDialer">
         <div class="hero-container">
             <div class="hero__title">
-                <img src="img/SVG/round_circles.svg"
+                <img loading="lazy" src="img/SVG/round_circles.svg"
                     alt="">
                 <h2>Business Phone System
                 </h2>
@@ -19,7 +19,7 @@
                 <button>Try ConnectVista For Free</button>
             </div>
             <div class="hero__image">
-                <img src="{{ asset('img/SVG/BgHero1.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/BgHero1.png') }}"
                     alt="hero" />
             </div>
         </div>
@@ -59,7 +59,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src="{{ asset("img/icons/phone-battery.svg") }}" alt=""></div>
+                    <div class="icon"> <img loading="lazy" src="{{ asset("img/icons/phone-battery.svg") }}" alt=""></div>
 
                     <h4>Service Mobility</h4>
                     <p>
@@ -67,7 +67,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="{{ asset("img/icons/versality_feature.svg") }} " alt=""></div>
+                    <div class="icon"><img loading="lazy" src="{{ asset("img/icons/versality_feature.svg") }} " alt=""></div>
 
                     <h4>
                         The Versatility of Features
@@ -79,7 +79,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="{{ asset("img/icons/Security.svg") }} " alt=""></div>
+                    <div class="icon"><img loading="lazy" src="{{ asset("img/icons/Security.svg") }} " alt=""></div>
 
                     <h4>
                         Simple Conference Calls
@@ -89,7 +89,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src="{{ asset("img/icons/client_interaction_bphone_nb.svg") }} " alt=""></div>
+                    <div class="icon"><img loading="lazy" src="{{ asset("img/icons/client_interaction_bphone_nb.svg") }} " alt=""></div>
 
                     <h4>
                         Efficient Client Interaction
@@ -101,7 +101,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src="{{ asset("img/icons/reliable_bphone_nb.svg") }} " alt=""></div>
+                    <div class="icon"> <img loading="lazy" src="{{ asset("img/icons/reliable_bphone_nb.svg") }} " alt=""></div>
 
                     <h4>Reliable</h4>
                     <p>
@@ -130,7 +130,7 @@
             </div>
 
             <div class="right">
-                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="freeTrial" />
             </div>
         </div>
@@ -139,7 +139,7 @@
             <h3>Modern Power Dialer Software Features</h3>
             <div class="featuresGrid">
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\1.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\1.jpg') }}" alt="cardTop" />
                     <h5>Call Monitoring</h5>
                     <p>
                         Call monitoring refers to the process of listening to a
@@ -148,7 +148,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\2.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\2.jpg') }}" alt="cardTop" />
                     <h5>Smart Switch</h5>
                     <p>
                         Multiple telephony providers before placing a call. You can now safely bid adieu to all your
@@ -157,7 +157,7 @@
                 </div>
 
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\3.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\3.jpg') }}" alt="cardTop" />
                     <h5>Call Transfer</h5>
                     <p>
                         The Call Transfer feature allows you to redirect a connected call from your phone number to a
@@ -165,7 +165,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\4.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\4.jpg') }}" alt="cardTop" />
                     <h5>Call Conference</h5>
                     <p>
                         It’s a feature that will enable you to add a third person to your two-way call and turn it into
@@ -173,14 +173,14 @@
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\5.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\5.jpg') }}" alt="cardTop" />
                     <h5>Call Queuing Software</h5>
                     <p>
                         A Call Queue places incoming call in a line when the agent is busy attending other customers.
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\6.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\6.jpg') }}" alt="cardTop" />
                     <h5>Call Barging</h5>
                     <p>
 
@@ -189,14 +189,14 @@
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\7.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\7.jpg') }}" alt="cardTop" />
                     <h5>Call Recording</h5>
                     <p>
                         Record call on each of your numbers to better monitor your performance as a team.
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\8.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\8.jpg') }}" alt="cardTop" />
                     <h5>Voice Mail</h5>
                     <p>
                         Receive voicemails by email in your inbox. Play them directly from your email.
@@ -205,14 +205,14 @@
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\9.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\9.jpg') }}" alt="cardTop" />
                     <h5>Call Monitoring</h5>
                     <p>
                         Track agents performance. Measure the % of missed calls, call load of each teammate, etc.
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\10.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\10.jpg') }}" alt="cardTop" />
                     <h5>Call Monitoring</h5>
                     <p>
                         On Hold Music from HivoCall is a great way to keep your callers happy and engaged while on hold
@@ -220,14 +220,14 @@
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\11.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\11.jpg') }}" alt="cardTop" />
                     <h5>Call Analytics</h5>
                     <p>
                         Track agents performance. Measure the % of missed calls, call load of each teammate, etc.
                     </p>
                 </div>
                 <div class="card">
-                    <img src="{{ asset('img\PowerDialer\12.jpg') }}" alt="cardTop" />
+                    <img loading="lazy" src="{{ asset('img\PowerDialer\12.jpg') }}" alt="cardTop" />
                     <h5>Call Hold Audio</h5>
                     <p>
                         On Hold Music from HivoCall is a great way to keep your callers happy and engaged while on hold

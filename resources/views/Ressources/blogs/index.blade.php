@@ -9,7 +9,7 @@
             </div>
             <div class="content">
                 <div class="left">
-                    <img src="{{ asset("img/webp/Top-Free-VoIP-Providers-for-Businesses_feature.webp") }} "
+                    <img loading="lazy" src="{{ asset("img/webp/Top-Free-VoIP-Providers-for-Businesses_feature.webp") }} "
                         alt="blog">
                     <a href="blog/general/free-voip-providers" class="title">Top 6 Free VoIP Providers for Businesses in
                         2024</a>
@@ -77,7 +77,7 @@
                     <a href="/blog/all-articles">See More Articles</a>
                 </div>
                 <div class="content">
-                    <div class="card"> <img
+                    <div class="card"> <img loading="lazy"
                         src="{{ asset("img/webp/Small-Business-Virtual-Phone-Systems.webp") }} "
                         alt="ImgArticle">
                         <div class="right">
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card"> <img
+                    <div class="card"> <img loading="lazy"
                         src="{{ asset("img/webp/Small-Business-Virtual-Phone-Systems.webp") }} "
                             alt="ImgArticle">
                         <div class="right">
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card"> <img
+                    <div class="card"> <img loading="lazy"
                         src="{{ asset("img/webp/Small-Business-Virtual-Phone-Systems.webp") }} "
                             alt="ImgArticle">
                         <div class="right">
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card"> <img
+                    <div class="card"> <img loading="lazy"
                         src="{{ asset("img/webp/Small-Business-Virtual-Phone-Systems.webp") }} "
                             alt="ImgArticle">
                         <div class="right">
@@ -240,7 +240,7 @@
                     <a href="/blog/all-articles">See More Articles</a>
                 </div>
                 <div class="content">
-                    <div class="card"> <img
+                    <div class="card"> <img loading="lazy"
                         src="{{ asset("img/webp/Small-Business-Virtual-Phone-Systems.webp") }} "
                             alt="ImgArticle">
                         <div class="right">
@@ -258,7 +258,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card"> <img
+                    <div class="card"> <img loading="lazy"
                         src="{{ asset("img/webp/Small-Business-Virtual-Phone-Systems.webp") }} "
                             alt="ImgArticle">
                         <div class="right">
@@ -276,7 +276,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card"> <img
+                    <div class="card"> <img loading="lazy"
                         src="{{ asset("img/webp/Small-Business-Virtual-Phone-Systems.webp") }} "
                             alt="ImgArticle">
                         <div class="right">
@@ -294,7 +294,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card"> <img
+                    <div class="card"> <img loading="lazy"
                         src="{{ asset("img/webp/Small-Business-Virtual-Phone-Systems.webp") }} "
                             alt="ImgArticle">
                         <div class="right">
@@ -397,7 +397,7 @@
             </div>
 
             <div class="offer">
-                <img src="img/SVG/logo.svg" alt="logo">
+                <img loading="lazy" src="img/SVG/logo.svg" alt="logo">
                 <h2 class="title">
                     Earn 20% Recurring Commission!
                 </h2>

@@ -4,7 +4,7 @@
         <h3>Business</h3>
         <div class="blogGrid">
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>Top 10 Best Small Business Virtual Phone System</h4>
@@ -15,7 +15,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>How to Get A Virtual Phone Number For Telegram in 2024?</h4>
@@ -26,7 +26,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>How to Get Virtual Number for WhatsApp</h4>
@@ -37,7 +37,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>What is CRM and Types of CRM Software</h4>
@@ -48,7 +48,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>All You Need To Know About Productivity Tools in 2024</h4>
@@ -59,7 +59,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>13 Best eCommerce Tools & How to Choose The Best One</h4>
@@ -70,7 +70,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
 
                 <div class="body">
@@ -82,7 +82,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>12 Best Sales Automation Software in 2024</h4>
@@ -93,7 +93,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>How to Choose a Small Business VoIP Phone Service?</h4>
@@ -104,7 +104,7 @@
 
             </div>
             <div class="card">
-                <img src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>9 Best Virtual Business Phone Number Apps In 2024</h4>

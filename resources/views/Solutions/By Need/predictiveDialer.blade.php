@@ -3,7 +3,7 @@
     <div class="container office">
         <div class="hero-container">
             <div class="hero__title">
-                <img src="img/icons/3points.svg"
+                <img loading="lazy" src="img/icons/3points.svg"
                     alt="">
                 <h2>
                     Predictive Dialer
@@ -20,7 +20,7 @@
                 <button>Try ConnectVista For Free</button>
             </div>
             <div class="hero__image">
-                <img src="{{ asset('img/SVG/BgHero1.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/BgHero1.png') }}"
                     alt="hero" />
             </div>
         </div>
@@ -57,7 +57,7 @@
             <div class="right">
 
                 <div class="card">
-                    <div class="icon"> <img src='{{ asset( "img/icons/Schedule-control-with-voice-broadcasting.svg") }}' alt=""></div>
+                    <div class="icon"> <img loading="lazy" src='{{ asset( "img/icons/Schedule-control-with-voice-broadcasting.svg") }}' alt=""></div>
 
                     <h4>
                         Maximized Agent Productivity
@@ -68,7 +68,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src='{{ asset( "img/icons/Text-to-speech-with-voice-broadcasting.svg") }}' alt=""></i></div>
+                    <div class="icon"><img loading="lazy" src='{{ asset( "img/icons/Text-to-speech-with-voice-broadcasting.svg") }}' alt=""></i></div>
 
                     <h4>
                         Optimized Call Connect Rate
@@ -78,7 +78,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"><img src='{{ asset( "img/icons/Saves-Time-with-amd.svg") }}' alt=""></div>
+                    <div class="icon"><img loading="lazy" src='{{ asset( "img/icons/Saves-Time-with-amd.svg") }}' alt=""></div>
 
                     <h4>
                         Reduced Idle Time
@@ -89,7 +89,7 @@
                     </p>
                 </div>
                 <div class="card">
-                    <div class="icon"> <img src='{{ asset( "img/icons/Improves-Communication-with-voice-broadcasting.svg") }}' alt=""></div>
+                    <div class="icon"> <img loading="lazy" src='{{ asset( "img/icons/Improves-Communication-with-voice-broadcasting.svg") }}' alt=""></div>
 
                     <h4>
                         Enhanced Lead Management
@@ -120,7 +120,7 @@
             </div>
 
             <div class="right">
-                <img src="{{ asset('img/SVG/business-phone-number.png') }}"
+                <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="freeTrial" />
             </div>
         </div>
