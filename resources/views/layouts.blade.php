@@ -105,10 +105,8 @@
                                 <ul class="content">
                                     <li><a href="/predictive-dialer">Predictive Dialer</a></li>
                                     <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
-                                    <li><a href="/support-contact-center">Sales & Support</a></li>
-                                    <li><a href="/office-phone-system">Office Phone System</a></li>
-                                    <li><a href="/call-center-software-solution/">Call center software</a></li>
-                                    <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
+                                    <li><a href="/call-barging-feature"></a>Call Barging</li>
+
 
 
                                 </ul>
@@ -133,7 +131,6 @@
                                     <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
                                     <li><a href="/predictive-dialer">Predictive Dialer</a></li>
                                     <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
-                                    <li><a href="/support-contact-center/">Sales & Support</a></li>
 
 
                                 </ul>
@@ -141,12 +138,10 @@
                             <div>
                                 <h3>By use Case</h3>
                                 <ul>
-                                    <li><a href="/predictive-dialer">Predictive Dialer</a></li>
-                                    <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
                                     <li><a href="/support-contact-center">Sales & Support</a></li>
-                                    <li><a href="/office-phone-system">Office Phone System</a></li>
-                                    <li><a href="/call-center-software-solution/">Call center software</a></li>
-                                    <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
+                                    <li><a href="/call-barging-feature">Call Barging</a></li>
+                                    <li><a href="/interactive-voice-response-ivr-system">Interactive Voice</a></li>
+                                    <li><a href="">Lead Generation</a></li>
 
 
                                 </ul>

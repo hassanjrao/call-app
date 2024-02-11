@@ -162,6 +162,14 @@ Route::get('/pay', function () {
     return view('pay');
 });
 
+Route::get('/call-barging-feature', function () {
+    return view('Solutions/By Use Case/CallBarging');
+});
+Route::get('/interactive-voice-response-ivr-system', function () {
+    return view('Solutions/By Use Case/IntractiveVoice');
+});
+
+
 
 Route::get('/business-phone-system', function () {
     return view('Product.businessPhoneSym');

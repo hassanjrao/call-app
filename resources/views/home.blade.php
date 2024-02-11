@@ -299,10 +299,12 @@
                     </div>
                 </div>
                 <div class="hearFromU__image">
-                    <img src="{{ asset('img/portrait.png') }}" alt="person">
+                    <img src="{{ asset('img/SVG/portrait.jpg') }}" alt="person">
                 </div>
             </div>
         </div>
+
+        
 
     </section>
 @endsection

@@ -3,7 +3,7 @@
     <div class="signin-container">
         <div class="right-section">
             <div class="hero__image">
-                <img loading="lazy" src="	{{ asset('img/SVG/portrait.png') }}"
+                <img loading="lazy" src="	{{ asset('img/SVG/portrait.jpg') }}"
                     alt="hero" />
             </div>
             <div class="hero__desc">

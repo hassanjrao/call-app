@@ -345,7 +345,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img loading="lazy" src="{{asset('img/SVG/portrait.png')}}"
+                        <img loading="lazy" src="{{asset('img/SVG/portrait.jpg')}}"
                             alt="person">
                     </div>
                 </div>
