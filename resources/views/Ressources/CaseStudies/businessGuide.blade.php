@@ -6,7 +6,7 @@
         </div>
         <div class="blogGrid">
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/10-Best-Call-Monitoring-Software-For-2023_fb-1024x538.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
@@ -15,7 +15,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "
+                <img loading="lazy" src="{{ asset("img/webp/10-Best-Call-Monitoring-Software-For-2023_fb-1024x538.webp") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>10 Best Virtual Phone Number Providers in Belgium</h4>
