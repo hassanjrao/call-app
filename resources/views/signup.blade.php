@@ -3,8 +3,7 @@
     <div class="signin-container">
         <div class="right-section">
             <div class="hero__image">
-                <img loading="lazy" src="	{{ asset('img/SVG/portrait.jpg') }}"
-                    alt="hero" />
+                <img loading="lazy" src="	{{ asset('img/SVG/portrait.png') }}" alt="hero" />
             </div>
             <div class="hero__desc">
                 <p>
@@ -24,14 +23,10 @@
                     <p>Trusted by 4000+ companies</p>
                 </div>
                 <div class="trusted-content">
-                    <img loading="lazy" src="{{ asset('img/companies/Amazon.svg') }}"
-                alt="trusted" /><img loading="lazy"
-                src="{{ asset('img/companies/oracle.svg') }}"
-                        alt="trusted" /><img loading="lazy"
-                        src="{{ asset('img/companies/turing.svg') }}"
-                        alt="trusted" />
-                    <img loading="lazy" src="{{ asset('img/companies/iresearch.svg') }}"
-                        alt="trusted" />
+                    <img loading="lazy" src="{{ asset('img/companies/Amazon.svg') }}" alt="trusted" /><img loading="lazy"
+                        src="{{ asset('img/companies/oracle.svg') }}" alt="trusted" /><img loading="lazy"
+                        src="{{ asset('img/companies/turing.svg') }}" alt="trusted" />
+                    <img loading="lazy" src="{{ asset('img/companies/iresearch.svg') }}" alt="trusted" />
 
                 </div>
             </div>
@@ -40,7 +35,8 @@
             <div class="head">
                 <div class="logo">
 
-                    <a href="/" class="a1"> <img loading="lazy" src='{{ asset('img/SVG/logoDark.svg') }}' alt="logo">
+                    <a href="/" class="a1"> <img loading="lazy" src='{{ asset('img/SVG/logoDark.svg') }}'
+                            alt="logo">
                         <h1>
                             HivoCall
                         </h1>

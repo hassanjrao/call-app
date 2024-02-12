@@ -27,7 +27,7 @@
 
 .signin-container>.right-section>.hero__image img {
   width: 288px;
-  height: 309px;
+  height: 100%;
 }
 
 .signin-container .right-section .hero__desc {
@@ -171,11 +171,11 @@
     text-align: center;
   }
 
- 
+
 }
 
-@media screen and (max-width: 550px) { 
- .signin-container>.left-section .head p {
+@media screen and (max-width: 550px) {
+  .signin-container>.left-section .head p {
     display: none;
   }
 }

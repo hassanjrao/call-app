@@ -235,9 +235,9 @@
 
     <section class="platform">
         <div class="heading">
-            <h3>CallHippo for Multiple Platforms
+            <h3>Hivocall for Multiple Platforms
             </h3>
-            <p>Stay connected no matter where you are. CallHippo is your constant companion, available on iOS, Android, as a
+            <p>Stay connected no matter where you are. Hivocall is your constant companion, available on iOS, Android, as a
                 WebApp, and Google Chrome Extension.
 
             </p>
@@ -248,27 +248,27 @@
                 <p>Available on</p>
                 <span>Web</span>
             </a>
-            <a href="/https://www.apple.com/app-store/hivocall" class="box">
+            <a href="https://www.apple.com/app-store/hivocall" class="box">
                 <img src="{{ asset('img/platform/MacOS_logo.svg') }}" alt="Mac">
                 <p>Mac</p>
                 <span>Desktop</span>
             </a>
-            <a href="/https://apps.microsoft.com/search?query=hivocall&hl=en-us&gl=US" class="box">
+            <a href="https://apps.microsoft.com/search?query=hivocall&hl=en-us&gl=US" class="box">
                 <img src="{{ asset('img/platform/windows.svg') }}" alt="windows">
                 <p>Windows</p>
                 <span>Desktop</span>
             </a>
-            <a href="/https://play.google.com/store/" class="box">
+            <a href="https://play.google.com/store/" class="box">
                 <img src="{{ asset('img/platform/android.png') }}" alt="android">
                 <p>Download on</p>
                 <span>Android</span>
             </a>
-            <a href="/https://www.apple.com/app-store/" class="box">
+            <a href="https://www.apple.com/app-store/" class="box">
                 <img src="{{ asset('img/platform/ios.png') }}" alt="Ios">
                 <p>Download</p>
                 <span>IOS</span>
             </a>
-            <a href="/https://chromewebstore.google.com/search/hivocall" class="box">
+            <a href="https://chromewebstore.google.com/search/hivocall" class="box">
                 <img src="{{ asset('img/platform/chrome.svg') }}" alt="web">
                 <p>Get extension on</p>
                 <span>chrome Store</span>
@@ -299,12 +299,122 @@
                     </div>
                 </div>
                 <div class="hearFromU__image">
-                    <img src="{{ asset('img/SVG/portrait.jpg') }}" alt="person">
+                    <img src="{{ asset('img/SVG/portrait.png') }}" alt="person">
                 </div>
             </div>
         </div>
 
-        
 
+
+    </section>
+
+
+    <section class="countries">
+        <div class="heading">
+            <h3>Get Internayional Phone Numbers</h3>
+        </div>
+
+        <div class="content">
+            <ul class="phone-numbers-list">
+                <li>
+                    <strong>Asia</strong>
+                    <ul>
+                        <li>Bahrain Phone Number</li>
+                        <li>Bangladesh Phone Number</li>
+                        <li>Cambodia Phone Number</li>
+                        <li>China Phone Number</li>
+                        <li>HongKong FlagHongKong Phone Number</li>
+                        <li>Indonesia Phone Number</li>
+                        <li>Israel Phone Number</li>
+                        <li>Japan Phone Number</li>
+                        <li>Myanmar Phone Number</li>
+                        <li>Malaysia Phone Number</li>
+                        <li>Pakistan Phone Number</li>
+                        <li>Philippines Phone Number</li>
+                        <li>Singapore FlagSingapore Phone Number</li>
+                        <li>Singapore Toll Free Number</li>
+                        <li>South Korea Phone Number</li>
+                        <li>Sri Lanka Phone Number</li>
+                        <li>Taiwan Phone Number</li>
+                        <li>Thailand Phone Number</li>
+                        <li>Turkey Phone Number</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Africa</strong>
+                    <ul>
+                        <li>Ghana Phone Number</li>
+                        <li>Uganda Phone Number</li>
+                        <li>South Africa Phone Number</li>
+                    </ul>
+                    <strong>Europe</strong>
+                    <ul>
+                        <li>Austria Phone Number</li>
+                        <li>Belgium Phone Number</li>
+                        <li>Bulgaria Phone Number</li>
+                        <li>Cyprus Phone Number</li>
+                        <li>Czech Republic Phone Number</li>
+                        <li>Denmark Phone Number</li>
+                        <li>Estonia Phone Number</li>
+                        <li>European Phone Number</li>
+                        <li>France Phone Number</li>
+                        <li>Germany FlagGermany Phone Number</li>
+                        <li>Greece Phone Number</li>
+                        <li>Hungary Phone Number</li>
+                    </ul>
+                    <ul>
+                        <li>Ireland Phone Number</li>
+                        <li>Italy Phone Number</li>
+                        <li>Latvia Phone Number</li>
+                        <li>Luxembourg Phone Number</li>
+                        <li>Malta Phone Number</li>
+                        <li>Mexico Phone Number</li>
+                        <li>Netherlands Phone Number</li>
+                        <li>Norway Phone Number</li>
+                        <li>Poland Phone Number</li>
+                        <li>Portugal Phone Number</li>
+                        <li>Romania Phone Number</li>
+                        <li>Russia Phone Number</li>
+                        <li>Serbia Phone Number</li>
+                        <li>Slovakia Phone Number</li>
+                        <li>Spain Phone Number</li>
+                        <li>Sweden Phone Number</li>
+                        <li>Switzerland Phone Number</li>
+                        <li>UK Phone Number</li>
+                        <li>UK Toll Free Number</li>
+                    </ul>
+
+                </li>
+
+                <li>
+                    <strong>North America</strong>
+                    <ul>
+                        <li>Belize Flag Belize Phone Number</li>
+                        <li>Canada Flag Canada Phone Number</li>
+                        <li>Canada Toll Free Number</li>
+                        <li>Costa Rica Phone Number</li>
+                        <li>Panama Phone Number</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Oceania</strong>
+                    <ul>
+                        <li>New Zealand Phone Number</li>
+                        <li>Australia Phone Number</li>
+                        <li>Australia Toll Free Number</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>South America</strong>
+                    <ul>
+                        <li>Argentina Phone Number</li>
+                        <li>Brazil Phone Number</li>
+                        <li>Chile Phone Number</li>
+                        <li>Colombia Phone Number</li>
+                        <li>Peru Phone Number</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </section>
 @endsection
