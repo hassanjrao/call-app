@@ -945,10 +945,14 @@ nav .logo img {
   display: flex;
   flex-direction: column;
   gap: var(--gap);
+  margin-bottom: 40px;
 }
 
 .countries .heading {
   text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+
 }
 
 .countries .phone-numbers-list {
@@ -1447,4 +1451,17 @@ nav .logo img {
   .platform .platformGrid {
     flex-wrap: wrap;
   }
+
+  .countries{
+    width:100%;
+
+  }
+  .phone-numbers-list {
+    display: block;
+  }
+}
+.phone-numbers-list ul>li{
+  /* border: solid black; */
+  margin: 7px 0;
+
 }
