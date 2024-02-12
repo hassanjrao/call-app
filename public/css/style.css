@@ -951,6 +951,15 @@ nav .logo img {
   text-align: center;
 }
 
+.countries .phone-numbers-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.countries .phone-numbers-list>li img {
+  width: 20px;
+  height: 15px;
+}
 
 
 

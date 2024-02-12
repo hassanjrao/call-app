@@ -4,7 +4,7 @@
         <h3>Callcenter</h3>
         <div class="blogGrid">
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/What-is-a-Hosted-Contact-Center-Benefits-1-980x392.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>What is a Hosted Contact Center? Benefits and Key Differences</h4>
@@ -15,7 +15,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/outbound_feature_im-980x392.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>Outbound Call Meaning</h4>
@@ -26,7 +26,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/Call-Center-CRM-Software-2022-Benefits-Features-Pricing.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>Call Center CRM – Complete Guide with Top Contact Center CRM Software</h4>
@@ -37,7 +37,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/What-Is-Call-Analytics-and-Why-Should-Marketers-Use-It-Fb.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>What is Call Center Knowledge Base Software?[How To Create]</h4>
@@ -48,7 +48,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/Proven-Ways-To-Tackle-An-Angry-Caller-In-A-Call-Center.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>How to Handle Angry Customer in Call Center? [12 Proven Ways]</h4>
@@ -59,7 +59,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/Guide-To-Start-A-Successful-Call-Center-In-The-Philippines.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>Guide To Start A Successful Call Center In The Philippines</h4>
@@ -70,7 +70,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/call-center-quality-monitoring-1024x538.webp") }} "    
                     alt="imgTop">
 
                 <div class="body">
@@ -82,7 +82,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/Best-Call-Center-KPIs-Metrics-To-Measure-Performance-2.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>25 Top Call Center KPIs & Agent Productivity Metrics</h4>
@@ -93,7 +93,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/What-If-The-Professor-From-Money-Heist-Answered-The-Phone-On-Your-Next-Call-To-A-Contact-Center-01.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>What If The Professor From Money Heist Answered The Phone On Your Next Call To A Contact Center?</h4>
@@ -104,7 +104,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/virtual-phone-number-providers-in-belgium.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/webp/What-Is-Average-Handle-Time-How-To-Reduce-AHT-In-A-Call-Center-Without-Sacrificing-CSAT.webp") }} "    
                     alt="imgTop">
                 <div class="body">
                     <h4>What Is Average Handle Time & How To Reduce It Without Sacrificing CSAT?</h4>

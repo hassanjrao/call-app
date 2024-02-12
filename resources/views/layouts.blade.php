@@ -33,24 +33,47 @@
                             <div class="top">
                                 <h3>Products</h3>
                                 <ul class="content">
-                                    <li><a href="#"> business Phone System</a></li>
-                                    <li><a href="#"> WhatsApp business</a></li>
-                                    <li><a href="#"> shared inbox</a></li>
+                                    <li><a href="/business-phone-system"> business Phone System</a></li>
+                                    {{-- <li><a href="#"> WhatsApp business</a></li>
+                                    <li><a href="#"> shared inbox</a></li> --}}
                                 </ul>
                             </div>
                             <div class="bottom">
                                 <h3>Features</h3>
                                 <ul class="content">
-                                    <li><a href="#">Power dialer</a></li>
-                                    <li><a href="#">Auto rotate</a></li>
-                                    <li><a href="#">Smart DID Routing</a></li>
-                                    <li><a href="#">Live Call Monitoring</a></li>
-                                    <li><a href="#"> SMS</a></li>
-                                    <li><a href="#">Powerful Reporting</a></li>
-                                    <li><a href="#">Automatic Machine Detection</a></li>
-                                    <li><a href="#">Sticky Agent </a></li>
-                                    <li><a href="#">Speed To Dial</a></li>
-                                    <li><a href="#">All Features </a></li>
+                                    <li><a href="/power-dialer">Power dialer</a></li>
+                                    <li><a href="/auto-rotate">Auto rotate</a></li>
+                                    <li><a href="/smart-did-routing">Smart DID Routing</a></li>
+                                    <li><a href="/call-monitoring">Live Call Monitoring</a></li>
+                                    <li><a href="/sms"> SMS</a></li>
+                                    <li><a href="/call-analytics">Powerful Reporting</a></li>
+                                    <li><a href="/machine-detection">Automatic Machine Detection</a></li>
+                                    <li><a href="/sticky-agent">Sticky Agent </a></li>
+                                    <li><a href="/speed-to-dial">Speed To Dial</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="dropdown__products">
+                                <h3>Products</h3>
+                                <ul>
+                                    <li><a href="/business-phone-system">business Phone System</a></li>
+                                    {{-- <li><a href="#">WhatsApp business</a></li>
+                                    <li><a href="#">shared inbox</a></li> --}}
+                                </ul>
+                            </div>
+                            <div class="dropdown__features">
+                                <h3>Features</h3>
+                                <ul class="features__grid">
+                                    <li><a href="/power-dialer">Power dialer</a></li>
+                                    <li><a href="/auto-rotate">Auto rotate</a></li>
+                                    <li><a href="/smart-did-routing">Smart DID Routing</a></li>
+                                    <li><a href="/call-monitoring">Live Call Monitoring</a></li>
+                                    <li><a href="/sms"> SMS</a></li>
+                                    <li><a href="/call-analytics">Powerful Reporting</a></li>
+                                    <li><a href="/machine-detection">Automatic Machine Detection</a></li>
+                                    <li><a href="/sticky-agent">Sticky Agent </a></li>
+                                    <li><a href="/speed-to-dial">Speed To Dial</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -115,14 +138,15 @@
                                     <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
                                     <li><a href="/predictive-dialer">Predictive Dialer</a></li>
                                     <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
-                                    <li><a href="/support-contact-center/">Sales & Support</a></li>
                             </div>
                             <div class="bottom">
                                 <h3>By use Case</h3>
                                 <ul class="content">
-                                    <li><a href="/predictive-dialer">Predictive Dialer</a></li>
-                                    <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
+                                    <li><a href="/support-contact-center">Sales & Support</a></li>
+                                    <li><a href="/call-barging-feature">Dialer</a></li>
+                                    <li><a href="/interactive-voice-response-ivr-system">Interactive Voice</a></li>
                                     <li><a href="/call-barging-feature"></a>Call Barging</li>
+
 
 
 
@@ -172,20 +196,20 @@
                                 <ul>
                                     <li><a href="/support-contact-center"><img
                                                 src="
-                                        {{ asset('img/nav-icons/solutions/sales_support.svg') }}"
+                                {{ asset('img/nav-icons/solutions/sales_support.svg') }}"
                                                 alt="icon">Sales & Support</a></li>
                                     <li><a href="/call-barging-feature"><img
                                                 src="
-                                        {{ asset('img/nav-icons/solutions/dialer.svg') }}"
+                                {{ asset('img/nav-icons/solutions/dialer.svg') }}"
                                                 alt="icon">Dialer</a></li>
                                     <li><a href="/interactive-voice-response-ivr-system"><img
                                                 src="
-                                        {{ asset('img/nav-icons/solutions/crm_automatio.svg') }}"
-                                                alt="icon">Phone-CRM Automation</a></li>
-                                    <li><a href=""><img
+                                {{ asset('img/nav-icons/solutions/office_phone.svg') }}"
+                                                alt="icon">Interactive Voice</a></li>
+                                    <li><a href="/call-barging-feature"><img
                                                 src="
-                                        {{ asset('img/nav-icons/solutions/lead_geanrate.svg') }}"
-                                                alt="icon">Lead Generation</a></li>
+                                {{ asset('img/nav-icons/solutions/lead_geanrate.svg') }}"
+                                                alt="icon">Call Barging</a></li>
 
 
                                 </ul>
@@ -449,7 +473,7 @@
                     <a href="/">
                         <h3>By Need</h3>
                     </a>
-                    <i class="fa-solid fa-caret-down"></i>
+                    <i class="fa- fasolid-caret-down"></i>
                 </li>
                 <li><a href="/office-phone-system">Office Phone System</a></li>
                 <li><a href="/call-center-software-solution">Call Center Software</a></li>
@@ -480,7 +504,7 @@
                     </a><i class="fa-solid fa-caret-down"></i>
                 </li>
                 <li><a href="/ebook">E-book </a></li>
-                <li><a href="//blog/category/call-center">Call Center</a></li>
+                <li><a href="/blog/category/call-center">Call Center</a></li>
                 <li><a href="/blog/category/business">Business</a></li>
                 <li><a href="/blog">Our Blog</a></li>
                 <li><a href="/blog/category/virtual-numbers">Virtual Phone Number</a></li>
@@ -509,7 +533,8 @@
                 <li style="color: #FFF1EA">Learn to Make More Calls:</li>
                 <li><a href="tel:+1 (406) 220-5458">+1 (406) 220-5458</a></li>
                 <li><a href="/">Contact Us</a></li>
-                <li><a href="/demo">Book A Demo</a></li>
+                <li><a href="/">Contact Us</a></li>
+                <li><a href="/schedule-a-demo">Book A Demo</a></li>
 
             </ul>
         </div>
