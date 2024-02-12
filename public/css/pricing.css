@@ -189,6 +189,7 @@ input:checked+.slider:before {
   align-items: center;
   border-bottom: 1px solid #ccc9;
   gap: var(--gap);
+  padding-block: 25px;
 }
 
 .pricing__bottom--wrapper .plan--wrapper .card .card-top>h4 {

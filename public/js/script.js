@@ -15,6 +15,16 @@ const choices = document.querySelectorAll(
   " .pricing__bottom--wrapper .option"
 );
 
+const footerToggle = document.querySelectorAll(".footer-main > ul")
+
+
+footerToggle.forEach((item) => {
+  item.addEventListener("click", () => {
+    item.classList.toggle("active")
+  })
+})
+
+
 const mobileMenuToggle = document.querySelectorAll("#mobileExpand");
 const mobileMenuContent = document.querySelectorAll(".mobile");
 

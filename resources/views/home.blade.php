@@ -235,9 +235,9 @@
 
     <section class="platform">
         <div class="heading">
-            <h3>CallHippo for Multiple Platforms
+            <h3>Hivocall for Multiple Platforms
             </h3>
-            <p>Stay connected no matter where you are. CallHippo is your constant companion, available on iOS, Android, as a
+            <p>Stay connected no matter where you are. Hivocall is your constant companion, available on iOS, Android, as a
                 WebApp, and Google Chrome Extension.
 
             </p>
@@ -248,27 +248,27 @@
                 <p>Available on</p>
                 <span>Web</span>
             </a>
-            <a href="/https://www.apple.com/app-store/hivocall" class="box">
+            <a href="https://www.apple.com/app-store/hivocall" class="box">
                 <img src="{{ asset('img/platform/MacOS_logo.svg') }}" alt="Mac">
                 <p>Mac</p>
                 <span>Desktop</span>
             </a>
-            <a href="/https://apps.microsoft.com/search?query=hivocall&hl=en-us&gl=US" class="box">
+            <a href="https://apps.microsoft.com/search?query=hivocall&hl=en-us&gl=US" class="box">
                 <img src="{{ asset('img/platform/windows.svg') }}" alt="windows">
                 <p>Windows</p>
                 <span>Desktop</span>
             </a>
-            <a href="/https://play.google.com/store/" class="box">
+            <a href="https://play.google.com/store/" class="box">
                 <img src="{{ asset('img/platform/android.png') }}" alt="android">
                 <p>Download on</p>
                 <span>Android</span>
             </a>
-            <a href="/https://www.apple.com/app-store/" class="box">
+            <a href="https://www.apple.com/app-store/" class="box">
                 <img src="{{ asset('img/platform/ios.png') }}" alt="Ios">
                 <p>Download</p>
                 <span>IOS</span>
             </a>
-            <a href="/https://chromewebstore.google.com/search/hivocall" class="box">
+            <a href="https://chromewebstore.google.com/search/hivocall" class="box">
                 <img src="{{ asset('img/platform/chrome.svg') }}" alt="web">
                 <p>Get extension on</p>
                 <span>chrome Store</span>
@@ -299,12 +299,125 @@
                     </div>
                 </div>
                 <div class="hearFromU__image">
-                    <img src="{{ asset('img/SVG/portrait.jpg') }}" alt="person">
+                    <img src="{{ asset('img/SVG/portrait.png') }}" alt="person">
                 </div>
             </div>
         </div>
 
-        
 
+
+    </section>
+
+
+    <section class="countries">
+        <div class="heading">
+            <h3>Get Internayional Phone Numbers</h3>
+        </div>
+
+        <div class="content">
+            <ul class="phone-numbers-list">
+                <li>
+                    <strong>Asia</strong>
+                    <ul>
+                        <li><img src="{{ asset('img/countries/Bahrain.svg') }}"> Bahrain Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Bangladesh.svg') }}"> Bangladesh Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Cambodia.svg') }}"> Cambodia Phone Number</li>
+                        <li><img src="{{ asset('img/countries/China.svg') }}"> China Phone Number</li>
+                        <li><img src="{{ asset('img/countries/HongKong.svg') }}"> HongKong FlagHongKong Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Indonesia.svg') }}"> Indonesia Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Israel.svg') }}"> Israel Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Japan.svg') }}"> Japan Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Myanmar.svg') }}"> Myanmar Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Malaysia.svg') }}"> Malaysia Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Pakistan.svg') }}"> Pakistan Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Philippines.svg') }}"> Philippines Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Singapore.svg') }}"> Singapore FlagSingapore Phone Number
+                        </li>
+                        <li><img src="{{ asset('img/countries/Singapore.svg') }}"> Singapore Toll Free Number</li>
+                        <li><img src="{{ asset('img/countries/South_Korea.svg') }}"> South Korea Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Sri_Lanka.svg') }}"> Sri Lanka Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Taiwan.svg') }}"> Taiwan Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Thailand.svg') }}"> Thailand Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Turkey.svg') }}"> Turkey Phone Number</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Africa</strong>
+                    <ul>
+                        <li><img src="{{ asset('img/countries/Ghana.svg') }}"> Ghana Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Uganda.svg') }}"> Uganda Phone Number</li>
+                        <li><img src="{{ asset('img/countries/South_Africa.svg') }}"> South Africa Phone Number</li>
+                    </ul>
+                    <strong>Europe</strong>
+                    <ul>
+                        <li><img src="{{ asset('img/countries/Austria.svg') }}"> Austria Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Belgium.svg') }}"> Belgium Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Bulgaria.svg') }}"> Bulgaria Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Cyprus.svg') }}"> Cyprus Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Czech_Republic.svg') }}"> Czech Republic Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Denmark.svg') }}"> Denmark Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Estonia.svg') }}"> Estonia Phone Number</li>
+                        <li><img src="{{ asset('img/countries/European.svg') }}"> European Phone Number</li>
+                        <li><img src="{{ asset('img/countries/France.svg') }}"> France Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Germany.svg') }}"> Germany FlagGermany Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Greece.svg') }}"> Greece Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Hungary.svg') }}"> Hungary Phone Number</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><img src="{{ asset('img/countries/Ireland.svg') }}"> Ireland Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Italy.svg') }}"> Italy Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Latvia.svg') }}"> Latvia Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Luxembourg.svg') }}"> Luxembourg Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Malta.svg') }}"> Malta Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Mexico.svg') }}"> Mexico Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Netherlands.svg') }}"> Netherlands Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Norway.svg') }}"> Norway Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Poland.svg') }}"> Poland Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Portugal.svg') }}"> Portugal Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Romania.svg') }}"> Romania Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Russia.svg') }}"> Russia Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Serbia.svg') }}"> Serbia Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Slovakia.svg') }}"> Slovakia Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Spain.svg') }}"> Spain Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Sweden.svg') }}"> Sweden Phone Number</li>
+                        <li><img src="{{ asset('img/countries/Switzerland.svg') }}"> Switzerland Phone Number</li>
+                        <li><img src="{{ asset('img/countries/UK.svg') }}"> UK Phone Number</li>
+                        <li><img src="{{ asset('img/countries/UK.svg') }}"> UK Toll Free Number</li>
+                    </ul>
+
+                </li>
+                <li>
+                    <ul>
+                        <li><strong>North America</strong></li>
+                        <ul>
+                            <li><img src="{{ asset('img/countries/Belize.svg') }}"> Belize Flag Belize Phone Number</li>
+                            <li><img src="{{ asset('img/countries/Canada.svg') }}"> Canada Flag Canada Phone Number</li>
+                            <li>Canada Toll Free Number</li>
+                            <li><img src="{{ asset('img/countries/Costa_Rica.svg') }}"> Costa Rica Phone Number</li>
+                            <li><img src="{{ asset('img/countries/Panama.svg') }}"> Panama Phone Number</li>
+                        </ul>
+                        <ul>
+                            <strong>Oceania</strong>
+                            <li><img src="{{ asset('img/countries/New_Zealand.svg') }}"> New Zealand Phone Number</li>
+                            <li><img src="{{ asset('img/countries/Australia.svg') }}"> Australia Phone Number</li>
+                            <li>Australia Toll Free Number</li>
+                        </ul>
+                        <strong>South America</strong>
+                        <ul>
+                            <li><img src="{{ asset('img/countries/Argentina.svg') }}"> Argentina Phone Number</li>
+                            <li><img src="{{ asset('img/countries/Brazil.svg') }}"> Brazil Phone Number</li>
+                            <li><img src="{{ asset('img/countries/Chile.svg') }}"> Chile Phone Number</li>
+                            <li><img src="{{ asset('img/countries/Colombia.svg') }}"> Colombia Phone Number</li>
+                            <li><img src="{{ asset('img/countries/Peru.svg') }}"> Peru Phone Number</li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>
+                </li>
+            </ul>
+
+        </div>
     </section>
 @endsection

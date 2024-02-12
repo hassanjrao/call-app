@@ -33,9 +33,9 @@
                             <div class="top">
                                 <h3>Products</h3>
                                 <ul class="content">
-                                    <li><a href="/business-phone-system">business Phone System</a></li>
-                                    {{-- <li><a href="#">WhatsApp business</a></li>
-                                    <li><a href="#">shared inbox</a></li> --}}
+                                    <li><a href="/business-phone-system"> business Phone System</a></li>
+                                    {{-- <li><a href="#"> WhatsApp business</a></li>
+                                    <li><a href="#"> shared inbox</a></li> --}}
                                 </ul>
                             </div>
                             <div class="bottom">
@@ -76,6 +76,47 @@
                                     <li><a href="/speed-to-dial">Speed To Dial</a></li>
                                 </ul>
                             </div>
+                        </div>
+                        <div class="dropdown">
+                            <div class="dropdown__products">
+                                <h3>Products</h3>
+                                <ul>
+                                    <li><a href="/business-phone-system"><img
+                                                src='{{ asset('img/nav-icons/products/BusinessPhoneSystem_icon.svg') }}'
+                                                alt="icon">business Phone System</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown__features">
+                                <h3>Features</h3>
+                                <ul class="features__grid">
+                                    <li><a href="/power-dialer"><img
+                                                src='{{ asset('img/nav-icons/products/power_dialer.svg') }}'
+                                                alt="icon">Power dialer</a></li>
+                                    <li><a href="/auto-rotate"><img
+                                                src='{{ asset('img/nav-icons/products/auto_mchn_detect.svg') }}'
+                                                alt="icon">Auto rotate</a></li>
+                                    <li><a href="/smart-did-routing"><img
+                                                src='{{ asset('img/nav-icons/products/smart_did.svg') }}'
+                                                alt="icon">Smart DID Routing</a></li>
+                                    <li><a href="/call-monitoring"><img
+                                                src='{{ asset('img/nav-icons/products/analytics.svg') }}'
+                                                alt="icon">Live Call Monitoring</a></li>
+                                    <li><a href="/sms"><img src='{{ asset('img/nav-icons/products/sms.svg') }}'
+                                                alt="icon"> SMS</a></li>
+                                    <li><a href="/call-analytics"><img
+                                                src='{{ asset('img/nav-icons/products/advance_analytics.svg') }}'
+                                                alt="icon">Powerful Reporting</a></li>
+                                    <li><a href="/machine-detection"><img
+                                                src='{{ asset('img/nav-icons/products/auto_mchn_detect.svg') }}'
+                                                alt="icon">Automatic Machine Detection</a></li>
+                                    <li><a href="/sticky-agent"><img
+                                                src='{{ asset('img/nav-icons/products/sticky_agent.svg') }}'
+                                                alt="icon">Sticky Agent </a></li>
+                                    <li><a href="/speed-to-dial"><img
+                                                src='{{ asset('img/nav-icons/products/dialpad.svg') }}'
+                                                alt="icon">Speed To Dial</a></li>
+                                </ul>
+                            </div>
                             <div class="span2">
                                 <p>
                                     <span>Let’s talk!</span> Explore our business calling
@@ -102,7 +143,7 @@
                                 <h3>By use Case</h3>
                                 <ul class="content">
                                     <li><a href="/support-contact-center">Sales & Support</a></li>
-                                    <li><a href="/call-barging-feature">Call Barging</a></li>
+                                    <li><a href="/call-barging-feature">Dialer</a></li>
                                     <li><a href="/interactive-voice-response-ivr-system">Interactive Voice</a></li>
                                     <li><a href="/call-barging-feature"></a>Call Barging</li>
 
@@ -126,11 +167,26 @@
                             <div>
                                 <h3>By Need</h3>
                                 <ul>
-                                    <li><a href="/office-phone-system">Office Phone System</a></li>
-                                    <li><a href="/call-center-software-solution/">Call center software</a></li>
-                                    <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
-                                    <li><a href="/predictive-dialer">Predictive Dialer</a></li>
-                                    <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
+                                    <li><a href="/office-phone-system"><img
+                                                src="
+                                        {{ asset('img/nav-icons/solutions/office_phone.svg') }}"
+                                                alt="icon">Office Phone System</a></li>
+                                    <li><a href="/call-center-software-solution/"><img
+                                                src="
+                                        {{ asset('img/nav-icons/solutions/call_center.svg') }}"
+                                                alt="icon">Call center software</a></li>
+                                    <li><a href="/voice-broadcasting"><img
+                                                src="
+                                        {{ asset('img/nav-icons/solutions/voice_broadcasting.svg') }}"
+                                                alt="icon">Voice Broadcasting</a></li>
+                                    <li><a href="/predictive-dialer"><img
+                                                src="
+                                        {{ asset('img/nav-icons/solutions/predictive-dialer-icon.svg') }}"
+                                                alt="icon">Predictive Dialer</a></li>
+                                    <li><a href="/virtual-phone-number"><img
+                                                src="
+                                        {{ asset('img/nav-icons/solutions/virtual_phone_system.svg') }}"
+                                                alt="icon">Virtual Phone Number</a></li>
 
 
                                 </ul>
@@ -138,10 +194,22 @@
                             <div>
                                 <h3>By use Case</h3>
                                 <ul>
-                                    <li><a href="/support-contact-center">Sales & Support</a></li>
-                                    <li><a href="/call-barging-feature">Call Barging</a></li>
-                                    <li><a href="/interactive-voice-response-ivr-system">Interactive Voice</a></li>
-                                    <li><a href="/call-barging-feature"></a>Call Barging</li>
+                                    <li><a href="/support-contact-center"><img
+                                                src="
+                                {{ asset('img/nav-icons/solutions/sales_support.svg') }}"
+                                                alt="icon">Sales & Support</a></li>
+                                    <li><a href="/call-barging-feature"><img
+                                                src="
+                                {{ asset('img/nav-icons/solutions/dialer.svg') }}"
+                                                alt="icon">Dialer</a></li>
+                                    <li><a href="/interactive-voice-response-ivr-system"><img
+                                                src="
+                                {{ asset('img/nav-icons/solutions/office_phone.svg') }}"
+                                                alt="icon">Interactive Voice</a></li>
+                                    <li><a href="/call-barging-feature"><img
+                                                src="
+                                {{ asset('img/nav-icons/solutions/lead_geanrate.svg') }}"
+                                                alt="icon">Call Barging</a></li>
 
 
                                 </ul>
@@ -149,11 +217,20 @@
                             <div>
                                 <h3>Industry</h3>
                                 <ul>
-                                    <li><a href="/voip-system-for-real-estate/">Real Estate</a></li>
+                                    <li><a href="/voip-system-for-real-estate/"><img
+                                                src="
+                                        {{ asset('img/nav-icons/solutions/real_estate.svg') }}"
+                                                alt="icon">Real Estate</a></li>
 
-                                    <li><a href="/call-centre-solution-for-software-and-technology/"> Software &
+                                    <li><a href="/call-centre-solution-for-software-and-technology/"><img
+                                                src="
+                                        {{ asset('img/nav-icons/solutions/software_technology.svg') }}"
+                                                alt="icon"> Software &
                                             Technology</a></li>
-                                    <li><a href="/voip-for-market-research/">Market Research</a></li>
+                                    <li><a href="/voip-for-market-research/"><img
+                                                src="
+                                        {{ asset('img/nav-icons/solutions/market_reserch_.svg') }}"
+                                                alt="icon">Market Research</a></li>
                                 </ul>
                             </div>
                             <div class="span2">
@@ -172,23 +249,68 @@
                             <div class="top">
                                 <h3>INTEGRATIONS</h3>
                                 <ul class="content">
-                                    <li><a href="/custom-crm-integration">Custom CRM</a></li>
-                                    <li><a href="/shopify-integration">Shopify</a></li>
-                                    <li><a href="/salesforce-integration">Salesforce</a></li>
-                                    <li><a href="/slack-integration">Slack</a></li>
+                                    <li><a href="/custom-crm-integration"> <img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/custom_crm.svg') }}"
+                                                alt=""> Custom CRM</a></li>
+                                    <li><a href="/shopify-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/shopify.svg') }}"
+                                                alt="">Shopify</a></li>
+                                    <li><a href="/salesforce-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/salesforce_blue.svg') }}"
+                                                alt="">Salesforce</a></li>
+                                    <li><a href="/slack-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/slack.svg') }}"
+                                                alt="">Slack</a></li>
 
 
-                                    <li><a href="/piperdrive-integration">Pipedrive</a></li>
-                                    <li><a href="/zoho-crm-integration">Zoho CRM</a></li>
-                                    <li><a href="/zapier-integration">Zapier</a></li>
-                                    <li><a href="/hubspot-integration">HubSpot</a></li>
-                                    <li><a href="/zendesk-integration">Zendesk</a></li>
-                                    <li><a href="/nocrm-integration">Nocrm</a></li>
-                                    <li><a href="/activecampaign-integration">ActiveCampaign</a></li>
-                                    <li><a href="/intercom-integration">Intercom</a></li>
-                                    <li><a href="/outreach-integration">Outreach</a></li>
-                                    <li><a href="/teams-integration">Microsoft Teams</a></li>
-                                    <li><a href="/freshdesk-integration">Freshdesk</a></li>
+                                    <li><a href="/piperdrive-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/pipedrive.svg') }}"
+                                                alt="">Pipedrive</a></li>
+                                    <li><a href="/zoho-crm-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/zohocrm.svg') }}"
+                                                alt="">Zoho CRM</a></li>
+                                    <li><a href="/zapier-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/zapier.svg') }}"
+                                                alt="">Zapier</a></li>
+                                    <li><a href="/hubspot-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/hubspot.svg') }}"
+                                                alt="">HubSpot</a></li>
+                                    <li><a href="/zendesk-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/zendesk.svg') }}"
+                                                alt="">Zendesk</a></li>
+                                    <li><a href="/nocrm-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/nocrm.svg') }}"
+                                                alt="">Nocrm</a></li>
+                                    <li><a href="/activecampaign-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/active_campaign.svg') }}"
+                                                alt="">ActiveCampaign</a></li>
+                                    <li><a href="/intercom-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/intercom.svg') }}"
+                                                alt="">Intercom</a></li>
+                                    <li><a href="/outreach-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/outreach_int_logo.svg') }}"
+                                                alt="">Outreach</a></li>
+                                    <li><a href="/teams-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/microsoft_teams.svg') }}"
+                                                alt="">Microsoft Teams</a></li>
+                                    <li><a href="/freshdesk-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/freshdesk.svg') }}"
+                                                alt="">Freshdesk</a></li>
                                 </ul>
                             </div>
 
@@ -197,23 +319,68 @@
                             <div>
                                 <h3>INTEGRATIONS</h3>
                                 <ul>
-                                    <li><a href="/custom-crm-integration">Custom CRM</a></li>
-                                    <li><a href="/shopify-integration">Shopify</a></li>
-                                    <li><a href="/salesforce-integration">Salesforce</a></li>
-                                    <li><a href="/slack-integration">Slack</a></li>
+                                    <li><a href="/custom-crm-integration"> <img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/custom_crm.svg') }}"
+                                                alt=""> Custom CRM</a></li>
+                                    <li><a href="/shopify-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/shopify.svg') }}"
+                                                alt="">Shopify</a></li>
+                                    <li><a href="/salesforce-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/salesforce_blue.svg') }}"
+                                                alt="">Salesforce</a></li>
+                                    <li><a href="/slack-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/slack.svg') }}"
+                                                alt="">Slack</a></li>
 
 
-                                    <li><a href="/piperdrive-integration">Pipedrive</a></li>
-                                    <li><a href="/zoho-crm-integration">Zoho CRM</a></li>
-                                    <li><a href="/zapier-integration">Zapier</a></li>
-                                    <li><a href="/hubspot-integration">HubSpot</a></li>
-                                    <li><a href="/zendesk-integration">Zendesk</a></li>
-                                    <li><a href="/nocrm-integration">Nocrm</a></li>
-                                    <li><a href="/activecampaign-integration">ActiveCampaign</a></li>
-                                    <li><a href="/intercom-integration">Intercom</a></li>
-                                    <li><a href="/outreach-integration">Outreach</a></li>
-                                    <li><a href="/microsoft-team-integration">Microsoft Teams</a></li>
-                                    <li><a href="/freshdesk-integration">Freshdesk</a></li>
+                                    <li><a href="/piperdrive-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/pipedrive.svg') }}"
+                                                alt="">Pipedrive</a></li>
+                                    <li><a href="/zoho-crm-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/zohocrm.svg') }}"
+                                                alt="">Zoho CRM</a></li>
+                                    <li><a href="/zapier-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/zapier.svg') }}"
+                                                alt="">Zapier</a></li>
+                                    <li><a href="/hubspot-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/hubspot.svg') }}"
+                                                alt="">HubSpot</a></li>
+                                    <li><a href="/zendesk-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/zendesk.svg') }}"
+                                                alt="">Zendesk</a></li>
+                                    <li><a href="/nocrm-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/nocrm.svg') }}"
+                                                alt="">Nocrm</a></li>
+                                    <li><a href="/activecampaign-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/active_campaign.svg') }}"
+                                                alt="">ActiveCampaign</a></li>
+                                    <li><a href="/intercom-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/intercom.svg') }}"
+                                                alt="">Intercom</a></li>
+                                    <li><a href="/outreach-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/outreach_int_logo.svg') }}"
+                                                alt="">Outreach</a></li>
+                                    <li><a href="/teams-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/microsoft_teams.svg') }}"
+                                                alt="">Microsoft Teams</a></li>
+                                    <li><a href="/freshdesk-integration"><img
+                                                src="
+                                        {{ asset('img/nav-icons/integrations/freshdesk.svg') }}"
+                                                alt="">Freshdesk</a></li>
                                 </ul>
                             </div>
 
@@ -355,7 +522,7 @@
                 <li><a href="/outreach-integration">Outreach</a></li>
                 <li><a href="/freshdesk-integration">Freshdesk</a></li>
                 <li><a href="/activecampaign-integration">ActiveCampaign</a></li>
-                
+
             </ul>
             <ul>
                 <li class="footer-heading">
