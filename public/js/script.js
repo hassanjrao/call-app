@@ -158,3 +158,4 @@ cardWrapper.addEventListener('mousemove', (e) => {
   const walk = x - startX;
   cardWrapper.scrollLeft = scrollLeft - walk;
 });
+
