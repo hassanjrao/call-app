@@ -57,30 +57,6 @@
                             <div class="dropdown__products">
                                 <h3>Products</h3>
                                 <ul>
-                                    <li><a href="/business-phone-system">business Phone System</a></li>
-                                    {{-- <li><a href="#">WhatsApp business</a></li>
-                                    <li><a href="#">shared inbox</a></li> --}}
-                                </ul>
-                            </div>
-                            <div class="dropdown__features">
-                                <h3>Features</h3>
-                                <ul class="features__grid">
-                                    <li><a href="/power-dialer">Power dialer</a></li>
-                                    <li><a href="/auto-rotate">Auto rotate</a></li>
-                                    <li><a href="/smart-did-routing">Smart DID Routing</a></li>
-                                    <li><a href="/call-monitoring">Live Call Monitoring</a></li>
-                                    <li><a href="/sms"> SMS</a></li>
-                                    <li><a href="/call-analytics">Powerful Reporting</a></li>
-                                    <li><a href="/machine-detection">Automatic Machine Detection</a></li>
-                                    <li><a href="/sticky-agent">Sticky Agent </a></li>
-                                    <li><a href="/speed-to-dial">Speed To Dial</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="dropdown">
-                            <div class="dropdown__products">
-                                <h3>Products</h3>
-                                <ul>
                                     <li><a href="/business-phone-system"><img
                                                 src='{{ asset('img/nav-icons/products/BusinessPhoneSystem_icon.svg') }}'
                                                 alt="icon">business Phone System</a></li>

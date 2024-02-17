@@ -966,7 +966,9 @@ nav .logo img {
 }
 
 
-
+.phone-numbers-list ul>li {
+  margin: 7px 0;
+}
 
 @media screen and (max-width: 1200px) {
   .container {
@@ -1452,16 +1454,19 @@ nav .logo img {
     flex-wrap: wrap;
   }
 
-  .countries{
-    width:100%;
+  .countries {
+    width: 100%;
 
   }
+
   .phone-numbers-list {
     display: block;
   }
-}
-.phone-numbers-list ul>li{
-  /* border: solid black; */
-  margin: 7px 0;
 
+
+  .countries .phone-numbers-list {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
 }
