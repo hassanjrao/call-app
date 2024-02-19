@@ -223,3 +223,8 @@ Route::get('/blog/category/virtual-numbers', function () {
 Route::fallback(function () {
     return view('errors.404');
 });
+
+// Footer
+Route::get("/about", function(){
+    return view('aboutUs');
+});
