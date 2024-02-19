@@ -323,3 +323,351 @@ input:checked+.slider:before {
   width: 215px;
   cursor: pointer;
 }
+
+.pricing #businessPhoneSystem {
+  display: none;
+}
+
+.pricing #voiceBroadcasting {
+  display: none;
+}
+
+.pricing #speechAnalytics {
+  display: none;
+}
+
+.pricing #callTracking {
+  display: none;
+}
+
+.pricing #businessPhoneSystem.active {
+  display: initial;
+}
+
+
+.pricing #speechAnalytics.active {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+}
+
+.pricing #speechAnalytics.active .speechWrapper {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.top {
+  display: grid;
+  grid-template-columns: 70% 25%;
+  padding-block: 35px;
+  gap: 5%;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.top>.left {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.top>.left>.title {
+  font-size: 3rem;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.top>.left>button {
+  padding: 10px 15px;
+  border-radius: 60rem;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.top>.left>p {
+  font-size: 1.2rem;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.top>.right {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.top>.right>.price {
+  font-size: 3rem;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.top>.right>.price>span {
+  font-size: 2rem;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.top>.right>.ben {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.middle {
+  display: flex;
+  gap: 15px;
+  padding-block: 15px;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.middle>.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.middle .card>i {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--primary-color);
+}
+
+.pricing #speechAnalytics.active .speechWrapper>.middle h4 {
+  font-size: 1.5rem;
+}
+
+.pricing #callTracking.active {
+  background: #fff;
+  width: 100%;
+  display: flex;
+}
+
+.pricing #callTracking.active .callTrackingWrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top {
+  display: flex;
+  flex-direction: column;
+  padding-block: 25px;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top>.title {
+  font-size: 2rem;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top h3 {
+  text-align: center;
+  padding-block: 25px;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top .plans {
+  display: flex;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top .plans .card {
+  border: solid 1px #ccc;
+  height: 600px;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top .plans .card .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top .plans .card .top>.first-p {
+  font-size: 2rem;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top .plans .card .top h3 {
+  font-size: 3.5rem;
+  padding: 0;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top .plans .card .top h3>span {
+  font-size: 1.5rem;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top .plans .card .top button {
+  padding: 10px 15px;
+  border-radius: 70rem;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .top .plans .card .top .last {
+  width: 70%;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .bottom {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pricing #callTracking.active .callTrackingWrapper span {
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
+}
+
+.pricing #callTracking.active .callTrackingWrapper>.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+
+.pricing #callTracking.active .callTrackingWrapper>.features>.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid #cccccca8;
+  border-radius: 15px;
+  box-shadow: rgba(206, 196, 196, 0.45) 0px 4px 24px 0px;
+}
+
+.pricing #callTracking.active .callTrackingWrapper>.features .card>i {
+  background-color: var(--secondary-color);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--primary-color);
+}
+
+
+.pricing #voiceBroadcasting.active {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+}
+
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top {
+  display: grid;
+  grid-template-columns: 70% 25%;
+  padding-block: 35px;
+  gap: 5%;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top>.left {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top>.left>.title {
+  font-size: 3rem;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top>.left>button {
+  padding: 10px 15px;
+  border-radius: 60rem;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top>.left>p {
+  font-size: 1.2rem;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top>.right {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top>.right>.price {
+  font-size: 3rem;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top>.right>.price>span {
+  font-size: 2rem;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top>.right>.ben {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.middle {
+  display: flex;
+  gap: 15px;
+  padding-block: 15px;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.middle>.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.middle i {
+  background-color: var(--secondary-color);
+  padding: 15px;
+  border-radius: 50%;
+  color: var(--primary-color);
+}
+
+.pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.middle h4 {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .pricing>.pricing__top {
+    padding: 0;
+  }
+
+  .pricing #speechAnalytics.active .speechWrapper,
+  .pricing #callTracking.active .callTrackingWrapper,
+  .pricing #voiceBroadcasting.active .voiceBroadcastingWrapper {
+    width: 100%;
+  }
+
+  .pricing #speechAnalytics.active .speechWrapper>.top,
+  .pricing #voiceBroadcasting.active .voiceBroadcastingWrapper>.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pricing #speechAnalytics.active .speechWrapper>.middle {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .pricing #callTracking.active .callTrackingWrapper>.top>.plans {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .pricing #callTracking.active .callTrackingWrapper .features {
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+  }
+}
