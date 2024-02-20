@@ -966,7 +966,9 @@ nav .logo img {
 }
 
 
-
+.phone-numbers-list ul>li {
+  margin: 7px 0;
+}
 
 @media screen and (max-width: 1200px) {
   .container {
@@ -1452,13 +1454,15 @@ nav .logo img {
     flex-wrap: wrap;
   }
 
-  .countries{
-    width:100%;
+  .countries {
+    width: 100%;
 
   }
+
   .phone-numbers-list {
     display: block;
   }
+<<<<<<< HEAD
   .left{
     text-align: center;
     margin: auto;
@@ -1592,3 +1596,13 @@ width: 100%;  }
 .card_1 {
   padding: 10px;
 }
+=======
+
+
+  .countries .phone-numbers-list {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+}
+>>>>>>> 8acdbca3e7ed86572f33aefc13ffd7d333dbcac7

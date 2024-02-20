@@ -18,6 +18,66 @@ const choices = document.querySelectorAll(
 const footerToggle = document.querySelectorAll(".footer-main > ul")
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  const currencySelects = document.querySelectorAll('select[name="currency"]');
+  const durationCheckbox = document.getElementById('duration');
+  const cards = document.querySelectorAll('.card');
+  const monthlyPrices = [0, 24, 38, 56, 0, 20, 30, 50]; // Monthly prices corresponding to each card
+  const yearlyPrices = [0, 19, 30, 45, 0, 16, 24, 40]; // Yearly prices corresponding to each card
+
+  currencySelects.forEach(function (select) {
+    select.addEventListener("change", function () {
+      const currency = this.value;
+      updatePrices(currency);
+    });
+  });
+
+  // Event listener for checkbox change
+  durationCheckbox.addEventListener('change', function () {
+    updatePrices();
+  });
+
+  // Function to update prices based on the selected currency and duration
+  function updatePrices(currency = 'USD') {
+    cards.forEach(function (card, index) {
+      const priceElement = card.querySelector('.card-top #basic-price-' + (index + 1));
+      const basePrice = durationCheckbox.checked ? yearlyPrices[index] : monthlyPrices[index];
+      let newPrice;
+
+      // Perform currency conversion here
+      switch (currency) {
+        case 'USD':
+          newPrice = basePrice;
+          break;
+        case 'EUR':
+          newPrice = basePrice * 0.85;
+          break;
+        case 'MAD':
+          newPrice = basePrice * 8.93;
+          break;
+        case 'GBP':
+          newPrice = basePrice * 0.73; // Conversion rate as of writing
+          break;
+        case 'AUD':
+          newPrice = basePrice * 1.34; // Conversion rate as of writing
+          break;
+          // Add more cases for other currencies as needed
+        default:
+          newPrice = basePrice;
+      }
+
+      // Round to the nearest integer
+      newPrice = Math.round(newPrice);
+
+      // Update the currency symbol and price content
+      priceElement.innerHTML = '<span>' + currency + '</span>' + newPrice;
+    });
+  }
+
+  // Initial update of prices based on the initial currency selection and checkbox state
+  updatePrices();
+});
+
 footerToggle.forEach((item) => {
   item.addEventListener("click", () => {
     item.classList.toggle("active")
@@ -60,19 +120,12 @@ questions.forEach((question) => {
     }
   });
 });
-priceOpts.forEach((item) => {
-  item.addEventListener("click", (e) => {
-    priceOpts.forEach((opt) => {
-      opt.classList.remove("active");
-    });
-    e.target.classList.add("active");
-  });
-});
+
 
 function topSlide(n) {
   const bgOffset = (WIDTH / priceOpts.length) * n;
   priceOptsContainer.style.setProperty("--bg-offsetTop", `${bgOffset}%`);
-  console.log("hello ");
+
 }
 
 function slideBg(n) {
@@ -158,4 +211,3 @@ cardWrapper.addEventListener('mousemove', (e) => {
   const walk = x - startX;
   cardWrapper.scrollLeft = scrollLeft - walk;
 });
-
