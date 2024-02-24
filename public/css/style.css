@@ -957,8 +957,9 @@ nav .logo img {
 
 .countries .phone-numbers-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
 }
+
 
 .countries .phone-numbers-list>li img {
   width: 20px;
@@ -969,6 +970,9 @@ nav .logo img {
 .phone-numbers-list ul>li {
   margin: 7px 0;
 }
+
+
+
 
 @media screen and (max-width: 1200px) {
   .container {
@@ -1436,7 +1440,6 @@ nav .logo img {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* padding: 10px; */
     height: 100%;
     align-items: center;
 
@@ -1462,55 +1465,67 @@ nav .logo img {
   .phone-numbers-list {
     display: block;
   }
-<<<<<<< HEAD
-  .left{
+
+  .left {
     text-align: center;
     margin: auto;
   }
-  .architects_body{
+
+  .architects_body {
     display: block;
   }
-  .architect_card{
-    display: block;
-width: 100%;  }
-.hero__items {
-  width: 100%;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
 
-.machine__container,
-.stickyAgent__container,
-.sms__container,
-.speed__container,
-.smartDid__container,
-.VoIP__container,
-.software__container,
-.callCenter__container,
-.realEstate__container,
-.support__container,
-.autoRotate__container {
-  width: 100%;
-}
+  .architect_card {
+    display: block;
+    width: 100%;
+  }
+
+  .hero__items {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .machine__container,
+  .stickyAgent__container,
+  .sms__container,
+  .speed__container,
+  .smartDid__container,
+  .VoIP__container,
+  .software__container,
+  .callCenter__container,
+  .realEstate__container,
+  .support__container,
+  .autoRotate__container {
+    width: 100%;
+  }
+
+  .countries .phone-numbers-list {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-.hero__items {
-  flex-direction: column;
-  align-items: center;
+  .hero__items {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__items>.hero__content {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .hero__items>.hero__content>.content {
+    width: 100%;
+  }
+
 }
 
-.hero__items > .hero__content {
-  padding-left: 0;
-  text-align: center;
-}
-
-.hero__items > .hero__content > .content {
-  width: 100%;
-}
-
-}
-.phone-numbers-list ul>li{
+.phone-numbers-list ul>li {
   /* border: solid black; */
   margin: 7px 0;
 
@@ -1538,21 +1553,26 @@ width: 100%;  }
 
 .architects_body {
   display: flex;
-  flex-wrap: wrap; /* Allow cards to wrap to the next line */
-  justify-content: center; /* Center the cards horizontally */
+  flex-wrap: wrap;
+  /* Allow cards to wrap to the next line */
+  justify-content: center;
+  /* Center the cards horizontally */
   padding: 10px;
   margin: auto;
   max-width: 1200px;
 }
 
 .architect_card {
-  flex-basis: 46%; /* Adjust card width to fit two cards in a row */
-  padding: 20px; /* Decrease padding to fit more cards in a row */
+  flex-basis: 46%;
+  /* Adjust card width to fit two cards in a row */
+  padding: 20px;
+  /* Decrease padding to fit more cards in a row */
   background: #FFFFFF;
   box-shadow: 0px 4px 24px rgba(206, 196, 196, 0.45);
   border-radius: 31px;
   text-align: center;
-  margin: 10px; /* Decrease margin between cards */
+  margin: 10px;
+  /* Decrease margin between cards */
 }
 
 .architect_card img {
@@ -1582,8 +1602,10 @@ width: 100%;  }
 }
 
 .card_1 img {
-  width: 100%; /* Adjust image width to fill the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  /* Adjust image width to fill the container */
+  height: auto;
+  /* Maintain aspect ratio */
   border-radius: 15px;
   border: solid 2.5px #FF1849;
   transition: transform 0.3s ease-in-out;
@@ -1596,13 +1618,3 @@ width: 100%;  }
 .card_1 {
   padding: 10px;
 }
-=======
-
-
-  .countries .phone-numbers-list {
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-  }
-}
->>>>>>> 8acdbca3e7ed86572f33aefc13ffd7d333dbcac7

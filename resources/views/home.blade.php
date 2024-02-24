@@ -319,104 +319,102 @@
                 <li>
                     <strong>Asia</strong>
                     <ul>
-                        <li><img src="{{ asset('img/countries/Bahrain.svg') }}"> Bahrain Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Bangladesh.svg') }}"> Bangladesh Phone Number</li>
-                        <li><img src="{{ asset('img/countries/iran.svg') }}"> Iran Phone Number</li>
-                        <li><img src="{{ asset('img/countries/vietnam.svg') }}"> Vietnam Phone Number</li>
-                        <li><img src="{{ asset('img/countries/tanzania.svg') }}"> Tanzania Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Indonesia.svg') }}"> Indonesia Phone Number</li>
-                        <li><img src="{{ asset('img/countries/ae.svg') }}"> Emarat Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Japan.svg') }}"> Japan Phone Number</li>
-                        <li><img src="{{ asset('img/countries/kazakhistan.svg') }}"> Kazakhistan Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Malaysia.svg') }}"> Malaysia Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Pakistan.svg') }}"> Pakistan Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Philippines.svg') }}"> Philippines Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Singapore.svg') }}"> Singapore Phone Number
-                        </li>
-                        <li><img src="{{ asset('img/countries/Singapore.svg') }}"> Singapore Toll Free Number</li>
-                        <li><img src="{{ asset('img/countries/korea.svg') }}"> South Korea Phone Number</li>
-                        <li><img src="{{ asset('img/countries/sirilanka.svg') }}"> Sri Lanka Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Taiwan.svg') }}"> Taiwan Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Thailand.svg') }}"> Thailand Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Turkey.svg') }}"> Turkey Phone Number</li>
+                        <li><span class="fi fi-bh"></span> Bahrain Phone Number</li>
+                        <li><span class="fi fi-bd"></span> Bangladesh Phone Number</li>
+                        <li><span class="fi fi-ir"></span> Iran Phone Number</li>
+                        <li><span class="fi fi-vn"></span> Vietnam Phone Number</li>
+                        <li><span class="fi fi-tz"></span> Tanzania Phone Number</li>
+                        <li><span class="fi fi-id"></span> Indonesia Phone Number</li>
+                        <li><span class="fi fi-ae"></span> Emarat Phone Number</li>
+                        <li><span class="fi fi-jp"></span> Japan Phone Number</li>
+                        <li><span class="fi fi-kz"></span> Kazakhistan Phone Number</li>
+                        <li><span class="fi fi-my"></span> Malaysia Phone Number</li>
+                        <li><span class="fi fi-pk"></span> Pakistan Phone Number</li>
+                        <li><span class="fi fi-ph"></span> Philippines Phone Number</li>
+                        <li><span class="fi fi-sg"></span> Singapore Phone Number</li>
+                        <li><span class="fi fi-sg"></span> Singapore Toll Free Number</li>
+                        <li><span class="fi fi-kr"></span> South Korea Phone Number</li>
+                        <li><span class="fi fi-lk"></span> Sri Lanka Phone Number</li>
+                        <li><span class="fi fi-tw"></span> Taiwan Phone Number</li>
+                        <li><span class="fi fi-th"></span> Thailand Phone Number</li>
+                        <li><span class="fi fi-tr"></span> Turkey Phone Number</li>
                     </ul>
                 </li>
                 <li>
                     <strong>Africa</strong>
                     <ul>
-                        <li><img src="{{ asset('img/countries/Ghana.svg') }}"> Ghana Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Uganda.svg') }}"> Uganda Phone Number</li>
-                        <li><img src="{{ asset('img/countries/southAfrica.svg') }}"> South Africa Phone Number</li>
+                        <li><span class="fi fi-gh"></span> Ghana Phone Number</li>
+                        <li><span class="fi fi-ug"></span> Uganda Phone Number</li>
+                        <li><span class="fi fi-za"></span> South Africa Phone Number</li>
                     </ul>
                     <strong>Europe</strong>
                     <ul>
-                        <li><img src="{{ asset('img/countries/Austria.svg') }}"> Austria Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Belgium.svg') }}"> Belgium Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Bulgaria.svg') }}"> Bulgaria Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Cyprus.svg') }}"> Cyprus Phone Number</li>
-                        <li><img src="{{ asset('img/countries/czech.svg') }}"> Czech Republic Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Denmark.svg') }}"> Denmark Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Estonia.svg') }}"> Estonia Phone Number</li>
-                        <li><img src="{{ asset('img/countries/albania.svg') }}"> Albania Phone Number</li>
-                        <li><img src="{{ asset('img/countries/France.svg') }}"> France Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Germany.svg') }}"> Germany Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Greece.svg') }}"> Greece Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Hungary.svg') }}"> Hungary Phone Number</li>
+                        <li><span class="fi fi-at"></span> Austria Phone Number</li>
+                        <li><span class="fi fi-be"></span> Belgium Phone Number</li>
+                        <li><span class="fi fi-bg"></span> Bulgaria Phone Number</li>
+                        <li><span class="fi fi-cy"></span> Cyprus Phone Number</li>
+                        <li><span class="fi fi-cz"></span> Czech Republic Phone Number</li>
+                        <li><span class="fi fi-dk"></span> Denmark Phone Number</li>
+                        <li><span class="fi fi-ee"></span> Estonia Phone Number</li>
+                        <li><span class="fi fi-al"></span> Albania Phone Number</li>
+                        <li><span class="fi fi-fr"></span> France Phone Number</li>
+                        <li><span class="fi fi-de"></span> Germany Phone Number</li>
+                        <li><span class="fi fi-gr"></span> Greece Phone Number</li>
+                        <li><span class="fi fi-hu"></span> Hungary Phone Number</li>
                     </ul>
                 </li>
                 <li>
                     <ul>
-                        <li><img src="{{ asset('img/countries/Ireland.svg') }}"> Ireland Phone Number</li>
-                        <li><img src="{{ asset('img/countries/italie.svg') }}"> Italy Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Latvia.svg') }}"> Latvia Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Luxembourg.svg') }}"> Luxembourg Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Malta.svg') }}"> Malta Phone Number</li>
-                        <li><img src="{{ asset('img/countries/wilz.svg') }}"> Wales Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Netherlands.svg') }}"> Netherlands Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Norway.svg') }}"> Norway Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Poland.svg') }}"> Poland Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Portugal.svg') }}"> Portugal Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Romania.svg') }}"> Romania Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Russia.svg') }}"> Russia Phone Number</li>
-                        <li><img src="{{ asset('img/countries/croitia.svg') }}"> Croitia Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Slovakia.svg') }}"> Slovakia Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Spain.svg') }}"> Spain Phone Number</li>
-                        <li><img src="{{ asset('img/countries/Sweden.svg') }}"> Sweden Phone Number</li>
-                        <li><img src="{{ asset('img/countries/finland.svg') }}"> Finland Phone Number</li>
-                        <li><img src="{{ asset('img/countries/UK.svg') }}"> UK Phone Number</li>
-                        <li><img src="{{ asset('img/countries/UK.svg') }}"> UK Toll Free Number</li>
+                        <li><span class="fi fi-ie"></span> Ireland Phone Number</li>
+                        <li><span class="fi fi-it"></span> Italy Phone Number</li>
+                        <li><span class="fi fi-lv"></span> Latvia Phone Number</li>
+                        <li><span class="fi fi-lu"></span> Luxembourg Phone Number</li>
+                        <li><span class="fi fi-mt"></span> Malta Phone Number</li>
+                        <li><span class="fi fi-wl"></span> Wales Phone Number</li>
+                        <li><span class="fi fi-nl"></span> Netherlands Phone Number</li>
+                        <li><span class="fi fi-no"></span> Norway Phone Number</li>
+                        <li><span class="fi fi-pl"></span> Poland Phone Number</li>
+                        <li><span class="fi fi-pt"></span> Portugal Phone Number</li>
+                        <li><span class="fi fi-ro"></span> Romania Phone Number</li>
+                        <li><span class="fi fi-ru"></span> Russia Phone Number</li>
+                        <li><span class="fi fi-hr"></span> Croitia Phone Number</li>
+                        <li><span class="fi fi-sk"></span> Slovakia Phone Number</li>
+                        <li><span class="fi fi-es"></span> Spain Phone Number</li>
+                        <li><span class="fi fi-se"></span> Sweden Phone Number</li>
+                        <li><span class="fi fi-fi"></span> Finland Phone Number</li>
+                        <li><span class="fi fi-gb"></span> UK Phone Number</li>
+                        <li><span class="fi fi-gb"></span> UK Toll Free Number</li>
                     </ul>
-
                 </li>
                 <li>
                     <ul>
                         <li><strong>North America</strong></li>
                         <ul>
-                            <li><img src="{{ asset('img/countries/cc.svg') }}"> Belize Flag Belize Phone Number</li>
-                            <li><img src="{{ asset('img/countries/Canada.svg') }}"> Canada Flag Canada Phone Number</li>
-                            <li><img src="{{ asset('img/countries/Canada.svg') }}">Canada Toll Free Number</li>
-                            <li><img src="{{ asset('img/countries/usa.svg') }}"> United State Of America Phone Number</li>
-                            <li><img src="{{ asset('img/countries/colombia.svg') }}"> Colombia Phone Number</li>
+                            <li><span class="fi fi-bz"></span> Belize Phone Number</li>
+                            <li><span class="fi fi-ca"></span> Canada Phone Number</li>
+                            <li><span class="fi fi-ca"></span> Canada Toll Free Number</li>
+                            <li><span class="fi fi-us"></span> United States Phone Number</li>
+                            <li><span class="fi fi-co"></span> Colombia Phone Number</li>
                         </ul>
                         <ul>
                             <strong>Oceania</strong>
-                            <li><img src="{{ asset('img/countries/netherlands.svg') }}"> NetherLands Phone Number</li>
-                            <li><img src="{{ asset('img/countries/australia.svg') }}"> Australia Phone Number</li>
-                            <li><img src="{{ asset('img/countries/australia.svg') }}">Australia Toll Free Number</li>
+                            <li><span class="fi fi-nl"></span> Netherlands Phone Number</li>
+                            <!-- This might be a mistake; AU for Australia -->
+                            <li><span class="fi fi-au"></span> Australia Phone Number</li>
+                            <li><span class="fi fi-au"></span> Australia Toll Free Number</li>
                         </ul>
                         <strong>South America</strong>
                         <ul>
-                            <li><img src="{{ asset('img/countries/argentina.svg') }}"> Argentina Phone Number</li>
-                            <li><img src="{{ asset('img/countries/brasil.svg') }}"> Brazil Phone Number</li>
-                            <li><img src="{{ asset('img/countries/chile.svg') }}"> Chile Phone Number</li>
-                            <li><img src="{{ asset('img/countries/colombia.svg') }}"> Colombia Phone Number</li>
-                            <li><img src="{{ asset('img/countries/urugwayy.svg') }}"> Uruguay Phone Number</li>
+                            <li><span class="fi fi-ar"></span> Argentina Phone Number</li>
+                            <li><span class="fi fi-br"></span> Brazil Phone Number</li>
+                            <li><span class="fi fi-cl"></span> Chile Phone Number</li>
+                            <li><span class="fi fi-co"></span> Colombia Phone Number</li>
+                            <li><span class="fi fi-uy"></span> Uruguay Phone Number</li>
                         </ul>
                     </ul>
                 </li>
-                <li>
-                </li>
             </ul>
+
 
         </div>
     </section>
