@@ -27,10 +27,6 @@
             <div class="pricing__bottom--wrapper">
 
                 <h3>Pricing</h3>
-                <div class="plan">
-                    <label id="opt1" onClick="slideBg(0)" class="active">Office Phone System</label>
-                    <label id="opt2" onClick="slideBg(1)">Call Center Solution</label>
-                </div>
 
                 <div class="option active">
                     <div class="slogan">
@@ -41,16 +37,7 @@
                     </div>
 
                     <div class="control-grp">
-                        <div class="currency">
-                            <label for="currency">Pay In Currency : </label>
-                            <select name="currency" id="currency">
-                                <option value="USD">USD</option>
-                                <option value="EUR">EUR</option>
-                                <option value="MAD">MAD</option>
-                                <option value="GBP">GBP</option>
-                                <option value="AUD">AUD</option>
-                            </select>
-                        </div>
+                        
 
                         <div class="duration">
                             <label for="duration">Monthly</label>
@@ -61,19 +48,9 @@
                             <label for="duration">Yearly</label>
                         </div>
 
-                        <div class="unlimited">
-                            <label for="unlimited">Unlimited Calling </label>
-                            <select name="currency" id="currency">
-                                <option value="USD">USD</option>
-                                <option value="EUR">EUR</option>
-                                <option value="MAD">MAD</option>
-                                <option value="GBP">GBP</option>
-                                <option value="AUD">AUD</option>
-                            </select>
-                        </div>
                     </div>
                     <div class="plan--wrapper">
-                        <div class="card" data-base-price="0">
+                        <div class="card">
                             <a href="/pay">
                                 <div class="card-top">
                                     <h4>Basic</h4>
@@ -96,7 +73,7 @@
                                 </div>
                         </div></a>
 
-                        <div class="card" data-base-price="24">
+                        <div class="card">
                             <a href="/pay">
                                 <div class="card-top">
                                     <h4>Starter</h4>
@@ -125,7 +102,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="card" data-base-price="38">
+                        <div class="card">
                             <a href="/pay">
                                 <div class="card-top">
                                     <h4>Professional</h4>
@@ -160,45 +137,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="card" data-base-price="56">
-                            <a href="/pay">
-                                <div class="card-top">
-                                    <h4>Ultimate</h4>
-                                    <h4 id="basic-price-4"><span>$</span>56</h4>
-                                    <p>Per user/Month</p>
-                                    <button>Sign Up Now</button>
-                                </div>
 
-                                <div class="card-bottom">
-                                    <p>Everything in Professional +</p>
-                                    <ul class="benefits">
-                                        <li><i class="fa-solid fa-check"></i>Unlimited calling minutes within US/CAD</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Blocking</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Cascading</li>
-                                        <li><i class="fa-solid fa-check"></i>Custom Greetings</li>
-                                        <li><i class="fa-solid fa-check"></i>Audit Logs</li>
-                                        <li><i class="fa-solid fa-check"></i>Webhook</li>
-                                        <li><i class="fa-solid fa-check"></i>Dedicated Account Manager</li>
-                                        <li><i class="fa-solid fa-check"></i>Personalized Onboarding</li>
-                                        <li><i class="fa-solid fa-check"></i>Phone Support</li>
-                                        <li><i class="fa-solid fa-check"></i>24*7 Support</li>
-                                        <li><i class="fa-solid fa-check"></i>Advanced Integrations</li>
-                                        <li><i class="fa-solid fa-check"></i>Custom Integrations</li>
-                                        <li><i class="fa-solid fa-check"></i>Annual Business Review</li>
-                                        <li><i class="fa-solid fa-check"></i>Auto Rotate</li>
-                                        <li><i class="fa-solid fa-check"></i>Multi-level IVR</li>
-                                        <li><i class="fa-solid fa-check"></i>Multiple Level Call Transfer</li>
-                                        <li><i class="fa-solid fa-check"></i>Conference Calling</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Barging</li>
-                                        <li><i class="fa-solid fa-check"></i>Single Sign On</li>
-                                        <li><i class="fa-solid fa-check"></i>DID Group</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Whisper</li>
-                                        <li><i class="fa-solid fa-check"></i>Compliance Call Recording</li>
-                                        <li><i class="fa-solid fa-check"></i>Embedded Dialer Integration</li>
-                                        <li><i class="fa-solid fa-check"></i>Smart DID Routing</li>
-                                    </ul>
-                                </div>
-                        </div>
                     </div></a>
                 </div>
 
@@ -451,7 +390,7 @@
                     </div>
                     <div class="right">
                         <h3 class="price">
-                            <span>$</span>125
+                            <span>$</span>56
                         </h3>
                         <p>Per user/Month</p>
                         <ul class="ben">
@@ -512,64 +451,38 @@
                     <div class="plans">
                         <div class="card">
                             <div class="top">
-                                <p class="first-p">Bronze</p>
-                                <h3><span>$</span>20</h3>
+                                <p class="first-p">Ultimate</p>
+                                <h3><span>$</span>56</h3>
                                 <p>Per user/Month</p>
                                 <button>Start Free Trial</button>
-                                <p class="last">Unlock Conversation Instantly: Just Scan, Connect & Chat
-                                </p>
                             </div>
-                            <ul class="bottom">
-                                <li>Multi-number Shared Inbox</li>
-                                <li>WhatsApp QR Scan</li>
-                                <li>Unlimited contact sync</li>
-                                <li>One-click WhatsApp CRM Integrations</li>
-                                <li>24*7 Support</li>
-                                <li>Chrome Extension</li>
-                            </ul>
-                        </div>
-                        <div class="card">
-                            <div class="top">
-                                <p class="first-p">Silver</p>
-                                <h3><span>$</span>35</h3>
-                                <p>Per user/Month</p>
-                                <button>Start Free Trial</button>
-                                <p class="last">"Seal the Deal!!" Build your business with Trust & Authentication”
-                                </p>
+                            <div class="bottom">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Unlimited calling minutes within US/CAD</li>
+                                    <li><i class="fa-solid fa-check"></i>Call Blocking</li>
+                                    <li><i class="fa-solid fa-check"></i>Call Cascading</li>
+                                    <li><i class="fa-solid fa-check"></i>Custom Greetings</li>
+                                    <li><i class="fa-solid fa-check"></i>Audit Logs</li>
+                                    <li><i class="fa-solid fa-check"></i>Webhook</li>
+                                    <li><i class="fa-solid fa-check"></i>24*7 Support</li>
+                                    <li><i class="fa-solid fa-check"></i>Dedicated Account Manager</li>
+                                    <li><i class="fa-solid fa-check"></i>Personalized Onboarding</li>
+                                </ul>
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Multiple Level Call Transfer</li>
+                                    <li><i class="fa-solid fa-check"></i>Conference Calling</li>
+                                    <li><i class="fa-solid fa-check"></i>Call Barging</li>
+                                    <li><i class="fa-solid fa-check"></i>Single Sign On</li>
+                                    <li><i class="fa-solid fa-check"></i>Auto Rotate</li>
+                                    <li><i class="fa-solid fa-check"></i>DID Group</li>
+                                    <li><i class="fa-solid fa-check"></i>Call Whisper</li>
+                                    <li><i class="fa-solid fa-check"></i>Compliance Call Recording</li>
+                                    <li><i class="fa-solid fa-check"></i>Embedded Dialer Integration</li>
+                                </ul>
+
                             </div>
-                            <ul class="bottom">
-                                <span>Everything in Bronze +
-                                </span>
-                                <li>Additional Privacy</li>
-                                <li>Verified Green tick Number</li>
-                                <li>Advanced CRM integration</li>
-                                <li>Automatic lead creation in CRM</li>
-                                <li>Quick Replies</li>
-                                <li>Assign Chat</li>
-                                <li>Analytics Report</li>
-                                <li>Canned Message</li>
-                            </ul>
                         </div>
-                        <div class="card">
-                            <div class="top">
-                                <p class="first-p">Gold</p>
-                                <h3><span>$</span>50</h3>
-                                <p>Per user/Month</p>
-                                <button>Start Free Trial</button>
-                                <p class="last">Customized Solution Design and Implementation Support
-                                </p>
-                            </div>
-                            <ul class="bottom">
-                                <span>Everything in Silver +</span>
-                                <li>Complimentary Price Adjustment</li>
-                                <li>Broadcast Messages</li>
-                                <li>Auto Reply</li>
-                                <li>Chat Support</li>
-                                <li>Drip</li>
-                                <li>ChatGPT Integration</li>
-                                <li>On-demand Features</li>
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
                 <div class="trial">

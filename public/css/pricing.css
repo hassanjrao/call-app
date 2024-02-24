@@ -108,7 +108,7 @@
 .pricing__bottom--wrapper .control-grp {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* SWITCH */
@@ -171,7 +171,7 @@ input:checked+.slider:before {
 .pricing__bottom--wrapper .plan--wrapper {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .pricing__bottom--wrapper .plan--wrapper .card {
@@ -463,13 +463,14 @@ input:checked+.slider:before {
   padding-block: 25px;
 }
 
-.pricing #callTracking.active .callTrackingWrapper .top .plans {
-  display: flex;
-}
+
 
 .pricing #callTracking.active .callTrackingWrapper .top .plans .card {
+  display: grid;
+  grid-template-columns: 30% 70%;
   border: solid 1px #ccc;
-  height: 600px;
+  height: 300px;
+  width: 100%;
 }
 
 .pricing #callTracking.active .callTrackingWrapper .top .plans .card .top {
@@ -478,8 +479,8 @@ input:checked+.slider:before {
   align-items: center;
   gap: 10px;
   padding: 25px;
-  text-align: center;
-  border-bottom: 1px solid #ccc;
+  justify-content: center;
+  border-right: 1px solid #ccc;
 }
 
 .pricing #callTracking.active .callTrackingWrapper .top .plans .card .top>.first-p {
@@ -507,8 +508,21 @@ input:checked+.slider:before {
 .pricing #callTracking.active .callTrackingWrapper .bottom {
   padding: 25px;
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  gap: 120px;
+  align-items: center;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .bottom ul {
+  margin-left: 30px;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .bottom ul>li>i {
+  margin-right: 10px;
+  color: #4caf50;
+}
+
+.pricing #callTracking.active .callTrackingWrapper .bottom ul>li {
+  margin-top: 7px;
 }
 
 .pricing #callTracking.active .callTrackingWrapper span {
