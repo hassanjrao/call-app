@@ -228,3 +228,10 @@ Route::fallback(function () {
 Route::get("/about", function(){
     return view('aboutUs');
 });
+
+
+// LOGIN
+
+Route::get("/login", function(){
+    return view('login');
+});
