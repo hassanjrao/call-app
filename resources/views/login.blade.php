@@ -1,7 +1,8 @@
 @extends('layouts')
 @section('content')
     <div class="loginContainer">
-        <form action="" class="form">
+        <form action="{{ route('login') }}" method="post" class="form">
+            @csrf
             <div class="formWrapper">
                 <div class="logo">
                     <img loading="lazy" src='{{ asset('img/SVG/logoDark.svg') }}' alt="logo">

@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\PlanController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +15,33 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+Route::middleware(['guest'])->group(function () {
+    Route::post('/login', [AuthController::class, 'login'])->name('login');
+    Route::get("/login", function(){
+        return view('login');
+    });
+});
+
+
+
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard.index'); // Assuming you have an index.blade.php file under dashboard directory
+    })->name('dashboard');
+    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+    Route::resource('users', UserController::class);
+    Route::resource('plans', PlanController::class);
+    Route::put('/user/profile/update', [UserController::class, 'updateProfile'])->name('users.updateProfile');
+    Route::get('/user/profile', [UserController::class, 'profileShow'])->name('user.profile');
+    Route::get('/user/profile/edit', [UserController::class, 'editProfile'])->name('profile.edit');
+
+});
+
+
+
+
 
 Route::get('/', function () {
     return view('home');
@@ -232,6 +262,3 @@ Route::get("/about", function(){
 
 // LOGIN
 
-Route::get("/login", function(){
-    return view('login');
-});

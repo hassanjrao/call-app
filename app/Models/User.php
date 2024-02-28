@@ -18,9 +18,15 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
+        'first_name',
+        "last_name",
         'email',
         'password',
+        "phone_number",
+        "payment_method_id",
+        "plan_id",
+        "role_id"
+     
     ];
 
     /**
@@ -42,4 +48,24 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
+
+    public function plan() {
+        return $this->belongsTo(Plan::class, 'plan_id');
+    }
+    
+
+    public function phoneNumbers()
+    {
+        return $this->hasMany(PhoneNumber::class);
+    }
+
+    public function paymentMethod()
+    {
+        return $this->belongsTo(PaymentMethod::class);
+    }
 }
