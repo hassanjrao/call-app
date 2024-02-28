@@ -22,11 +22,7 @@ class User extends Authenticatable
         "last_name",
         'email',
         'password',
-        "phone_number",
-        "payment_method_id",
-        "plan_id",
         "role_id"
-     
     ];
 
     /**
@@ -54,18 +50,13 @@ class User extends Authenticatable
         return $this->belongsTo(Role::class);
     }
 
-    public function plan() {
-        return $this->belongsTo(Plan::class, 'plan_id');
-    }
+  
     
 
-    public function phoneNumbers()
+    public function customer()
     {
-        return $this->hasMany(PhoneNumber::class);
+        return $this->hasOne(Customer::class);
     }
 
-    public function paymentMethod()
-    {
-        return $this->belongsTo(PaymentMethod::class);
-    }
+
 }

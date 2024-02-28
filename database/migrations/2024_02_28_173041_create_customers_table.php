@@ -11,14 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('phone_numbers', function (Blueprint $table) {
+        Schema::create('customers', function (Blueprint $table) {
             $table->id();
-            $table->string('number');
-            $table->foreignId('country_id')->constrained()->onDelete('cascade');
+            $table->string('country')->nullable(); // Assuming you want to store the country name
+            $table->string('number')->nullable();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
+            $table->foreignId('plan_id')->nullable()->constrained()->onDelete('set null');
+            $table->foreignId('payment_method_id')->nullable()->constrained()->onDelete('set null');
             $table->timestamps();
         });
-
+        
     }
 
     /**
@@ -26,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('phone_numbers');
+        Schema::dropIfExists('customers');
     }
 };

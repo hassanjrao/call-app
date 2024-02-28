@@ -29,13 +29,12 @@ class UserFactory extends Factory
         return [
             'first_name' => $this->faker->name,
             'last_name' => $this->faker->lastName,
-            'email' => $this->faker->unique()->safeEmail,
-            'phone_number' => $this->faker->phoneNumber,
-            'password' => bcrypt('admin'), // Use bcrypt or Hash::make
+            'email' => $this->faker->unique()->safeEmail, 
+            'password' => bcrypt('password'), 
             'remember_token' => Str::random(10),
-    'role_id' => $this->faker->numberBetween(1,2),
-            'plan_id' => $this->faker->numberBetween(1,3),
-            'payment_method_id' => $this->faker->numberBetween(1,2)
+            'role_id' => $this->faker->numberBetween(1,2),
+            
+           
         ];
     }
 

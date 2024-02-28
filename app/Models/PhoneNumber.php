@@ -9,9 +9,9 @@ class PhoneNumber extends Model
 {
     protected $fillable = ['number', 'isActive', 'user_id'];
 
-    public function user()
+    public function customer()
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(Customer::class);
     }
     use HasFactory;
 }

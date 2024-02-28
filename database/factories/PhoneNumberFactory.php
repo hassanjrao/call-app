@@ -17,9 +17,8 @@ class PhoneNumberFactory extends Factory
     public function definition(): array
     {
         return [
+            'customer_id' => \App\Models\Customer::factory(),
             'number' => $this->faker->phoneNumber,
-            'country_id' => $this->faker->numberBetween(1,3),
-            'user_id' => $this->faker->numberBetween(1,10),
         ];
     }
 }

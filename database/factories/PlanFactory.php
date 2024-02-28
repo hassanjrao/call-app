@@ -3,6 +3,8 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
+
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Plan>
@@ -17,9 +19,11 @@ class PlanFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => $this->faker->word,
-            'price' => $this->faker->randomFloat(2, 10, 100), // Example price between 10 and 100
-            'duration' => $this->faker->randomElement(['monthly', 'yearly']),
+            'name' => $this->faker->word,
+            'duration_months' => $this->faker->numberBetween(1, 12),
+            'price' => $this->faker->randomFloat(2, 10, 100),
+            'stripe_id' => Str::random(20),
+            'paypal_id' => Str::random(20),
         ];
     }
 }

@@ -8,10 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Plan extends Model
 {
 
-    protected $fillable = ['title', 'price', 'duration', 'user_id'];
+    protected $fillable = ['name', 'duration_months', 'price', 'stripe_id', 'paypal_id'];
 
-    public function users() {
-        return $this->hasMany(User::class, 'plan_id');
+    public function customers()
+    {
+        return $this->hasMany(Customer::class);
     }
     
     use HasFactory;

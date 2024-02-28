@@ -29,7 +29,7 @@
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                     <tr>
-                                        <th>Title</th>
+                                        <th>Name</th>
                                         <th>Price</th>
                                         <th>Duration</th>
                                         <th>Subscribers</th>
@@ -39,10 +39,10 @@
                                 <tbody>
                                     @foreach ($plans as $plan)
                                         <tr>
-                                            <td>{{ $plan->title }}</td>
+                                            <td>{{ $plan->name }}</td>
                                             <td>${{ number_format($plan->price, 2) }}</td>
                                             <td>{{ $plan->duration }}</td>
-                                            <td>{{ $plan->users->count() }}</td>
+                                            <td>{{ $plan->customers->count() }}</td>
                                             <td>
                                                 <a href="{{ route('plans.edit', $plan->id) }}"
                                                     class="btn btn-xs btn-primary">Edit</a>

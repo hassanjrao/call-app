@@ -17,7 +17,7 @@ class AuthController extends Controller
         if (Auth::attempt($credentials, $request->filled('remember'))) {
             $request->session()->regenerate();
 
-            return redirect()->intended('dashboard'); // Or wherever you want to redirect users after login
+            return redirect()->intended('dashboard'); 
         }
 
         return back()->withErrors([
@@ -32,6 +32,6 @@ class AuthController extends Controller
     $request->session()->invalidate(); // Invalidate the user's session.
     $request->session()->regenerateToken(); // Regenerate the CSRF token.
 
-    return redirect('/login'); // Redirect to login page or wherever you prefer.
+    return redirect('/login'); 
 }
 }

@@ -15,7 +15,7 @@ class UserController extends Controller
     // Display a listing of the users.
     public function index()
     {
-        $users = User::all();
+        $users = User::with(['role', 'customer.paymentMethod', 'customer.plan'])->get();
         return view('dashboard.users.index', compact('users'));
     }
 
@@ -23,31 +23,33 @@ class UserController extends Controller
     public function create()
     {
         $roles = Role::all();
+        $paymentMethods = PaymentMethod::all();
         $plans = Plan::all();
-        $paymentMethods  = PaymentMethod::all();
-         return view('dashboard.users.create', compact('roles',"paymentMethods","plans"));
+        
+        return view('dashboard.users.create', compact('roles', 'paymentMethods', 'plans'));
     }
 
     // Store a newly created user in storage.
     public function store(Request $request)
-    {
-        $validated = $request->validate([
-            'first_name' => 'required|string|max:255',
-            'last_name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:8',
-            'phone_number' => 'required|string|max:255',
-            'role_id' => 'required|integer',
-            'payment_method_id' => 'required|integer',
-            'plan_id' => 'required|integer',
-        ]);
+{
+    $validatedData = $request->validate([
+        'first_name' => 'required|string|max:255',
+        'last_name' => 'required|string|max:255',
+        'email' => 'required|string|email|max:255|unique:users',
+        'password' => 'required|string|min:8',
+        'number' => 'required|string|max:255',
+        'role_id' => 'required|integer|exists:roles,id',
+        'payment_method_id' => 'nullable|integer|exists:payment_methods,id',
+        'plan_id' => 'nullable|integer|exists:plans,id',
+    ]);
 
-        $validated['password'] = bcrypt($validated['password']);
+    $validatedData['password'] = Hash::make($validatedData['password']);
 
-        User::create($validated);
+    $user = User::create($validatedData);
 
-        return redirect()->route('users.index')->with('success', 'User created successfully.');
-    }
+    return redirect()->route('users.index')->with('success', 'User created successfully.');
+}
+
 
     // Display the specified user.
     public function show(User $user)
@@ -59,29 +61,36 @@ class UserController extends Controller
     public function edit(User $user)
     {
         $roles = Role::all();
-
-        return view('dashboard.users.edit', compact('user',"roles"));
+        $paymentMethods = PaymentMethod::all();
+        $plans = Plan::all();
+    
+        return view('dashboard.users.edit', compact('user', 'roles', 'paymentMethods', 'plans'));
     }
 
     // Update the specified user in storage.
     public function update(Request $request, User $user)
-    {
-        $validated = $request->validate([
-            'first_name' => 'required|string|max:255',
-            'last_name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users,email,' . $user->id,
-            'phone_number' => 'required|string|max:255',
-            'role_id' => 'required|integer',
-        ]);
+{
+    $validatedData = $request->validate([
+        'first_name' => 'required|string|max:255',
+        'last_name' => 'required|string|max:255',
+        'email' => 'required|string|email|max:255|unique:users,email,' . $user->id,
+        'phone_number' => 'required|string|max:255',
+        'role_id' => 'required|integer|exists:roles,id',
+        'payment_method_id' => 'nullable|integer|exists:payment_methods,id',
+        'plan_id' => 'nullable|integer|exists:plans,id',
+    ]);
 
-        if ($request->filled('password')) {
-            $validated['password'] = bcrypt($request->password);
-        }
-
-        $user->update($validated);
-
-        return redirect()->route('users.index')->with('success', 'User updated successfully.');
+    if ($request->filled('password')) {
+        $validatedData['password'] = Hash::make($request->password);
+    } else {
+        unset($validatedData['password']);
     }
+
+    $user->update($validatedData);
+
+    return redirect()->route('users.index')->with('success', 'User updated successfully.');
+}
+
     
 
     // Remove the specified user from storage.

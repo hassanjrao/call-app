@@ -13,12 +13,14 @@ return new class extends Migration
     {
         Schema::create('plans', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
-            $table->decimal('price', 8, 2);
-            $table->string('duration'); // Consider how you'll store this (days, months?)
-
+            $table->string('name');
+            $table->unsignedInteger('duration_months'); 
+            $table->decimal('price', 10, 2); 
+            $table->string('stripe_id')->nullable(); 
+            $table->string('paypal_id')->nullable(); 
             $table->timestamps();
         });
+        
 
     }
 

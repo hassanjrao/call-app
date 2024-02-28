@@ -33,6 +33,7 @@
                                         <th>Last Name</th>
                                         <th>Email</th>
                                         <th>Phone Number</th>
+                                        <th>country</th>
                                         <th>Role</th>
                                         <th>Payment Method</th>
                                         <th>Plan</th>
@@ -45,10 +46,12 @@
                                             <td>{{ $user->first_name }}</td>
                                             <td>{{ $user->last_name }}</td>
                                             <td>{{ $user->email }}</td>
-                                            <td>{{ $user->phone_number }}</td>
-                                            <td>{{ $user->role->roleName }}</td>
-                                            <td>{{ $user->paymentMethod->methodType }}</td>
-                                            <td>{{ $user->plan->title }}</td>
+                                            <td>{{ $user->customer->number ?? 'N/A' }}</td>
+                                            <td>{{ $user->customer->country ?? 'N/A' }}</td>
+                                            <!-- Assuming phone_number is now part of the customer -->
+                                            <td>{{ $user->role->roleName ?? 'N/A' }}</td>
+                                            <td>{{ $user->customer->paymentMethod->methodType ?? 'N/A' }}</td>
+                                            <td>{{ $user->customer->plan->name ?? 'N/A' }}</td>
                                             <td>
                                                 <a href="{{ route('users.show', $user->id) }}"
                                                     class="btn btn-xs btn-info">View</a>
