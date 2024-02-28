@@ -7,7 +7,7 @@
                 <p class="title">Call Centre Solution for Software & Technology</p>
                 <p class="content">Streamline your operations, delight customers, and boost sales with HivoCall’s advanced
                     call center software. Enjoy unparalleled efficiency with 99.5% uptime.</p>
-                <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
+                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
             </div>
 
 
@@ -81,7 +81,7 @@
                     <h2 class="exp__title">Foster Lasting Customer Relationships</h2>
                     <p class="exp__text">Stay ahead of the competition with HivoCall’s innovative call center solution for
                         software and technology designed to deliver unparalleled customer experiences.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -125,7 +125,7 @@
                         Experience the power of HivoCall's innovative Call Centre Solution designed to revolutionize how
                         you connect with your customers.
                     </p>
-                    <button>Start Free Trial</button>
+                    <button><a href="pay">Buy It Now</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -137,7 +137,7 @@
                     <h2 class="benefits__title">Benefits of Call Center Solution for IT Companies</h2>
                     <p class="benefits__text">Streamline your sales and customer support initiatives with the most advanced
                         call center solution for software and technology companies.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
@@ -364,7 +364,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img loading="lazy" src="{{asset('img/SVG/portrait.jpg')}}"
+                        <img loading="lazy" src="{{asset('img/SVG/portrait.png')}}"
                             alt="person">
                     </div>
                 </div>

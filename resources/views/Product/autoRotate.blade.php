@@ -9,7 +9,7 @@
                     different
                     number each time and avoid spam markings. Boost connection rates by customizing the total call limit per
                     day!</p>
-                <div class="hero__btn"> <button>Try HivoCall For Free</button></div>
+                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
             </div>
 
 
@@ -71,7 +71,7 @@
                     <h2 class="exp__title">Deliver Top-Notch Experience</h2>
                     <p class="exp__text">Change numbers automatically from the HivoCall dialer to avoid being marked in the
                         list of spammers. Boost credibility and improve business ROI instantly!</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -115,7 +115,7 @@
                     <p class="desc">
                         From buying a number to setting up the auto-rotate feature, all it takes is 3 minutes!
                     </p>
-                    <button>Start Free Trial</button>
+                    <button><a href="pay">Buy It Now</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -130,7 +130,7 @@
                         Enhances privacy, prevents spam markings, and present a fresh and legitimate appearance to
                         recipients.
                         Optimize your communication efficiency today.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
@@ -354,7 +354,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img loading="lazy" src="{{ asset('img/SVG/portrait.jpg') }}" alt="person">
+                        <img loading="lazy" src="{{ asset('img/SVG/portrait.png') }}" alt="person">
                     </div>
                 </div>
             </div>

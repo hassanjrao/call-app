@@ -7,7 +7,7 @@
                 <p class="title">VoIP for Real Estate</p>
                 <p class="content">With CallHippo’s advanced features, get access to the industry’s best phone system.
                     Elevate your customer service and attract more prospects with 99.5% uptime.</p>
-                <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
+                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
             </div>
 
 
@@ -78,7 +78,7 @@
                     <h2 class="exp__title">Power up your reach</h2>
                     <p class="exp__text">With innovative features, the CallHippo real estate phone system helps venture
                         beyond geographical boundaries and close more deals in a short time.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -124,7 +124,7 @@
                         Configure the CallHippo phone system within 3 minutes and connect with your prospects quickly. Go
                         live in minutes.
                     </p>
-                    <button>Start Free Trial</button>
+                    <button><a href="pay">Buy It Now</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -134,7 +134,7 @@
             <div class="benefits__container">
                 <div class="benefits__header">
                     <h2 class="benefits__title">Benefits Of Real Estate Call Center Software</h2>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
@@ -363,7 +363,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img loading="lazy" src="{{asset('img/SVG/portrait.jpg')}}"
+                        <img loading="lazy" src="{{asset('img/SVG/portrait.png')}}"
                             alt="person">
                     </div>
                 </div>

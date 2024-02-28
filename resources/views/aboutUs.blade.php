@@ -9,7 +9,7 @@
                     The ultimate solution you have been looking for to expand your reach andstreamline your calling process. Effortlessly tap into new markets,retain customers, and drive revenue.
 
                 </p>
-                <div class="hero__btn" style="margin: 25px" > <button style="margin: auto;">Try ConnectVista For Free</button></div>
+                <div class="hero__btn" style="margin: 25px" > <button style="margin: auto;"><a href="pay">Buy It Now</a></button></div>
             </div>
         </section>
         <section class="trusted-container">
@@ -124,7 +124,7 @@
                         From buying a number to making the first call, all it takes is 3 minutes to set up your virtual
                         phone system.
                     </p>
-                    <button>Start Free Trial</button>
+                    <button><a href="pay">Buy It Now</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />

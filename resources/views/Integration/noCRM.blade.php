@@ -20,7 +20,7 @@
             <form class="right">
                 <h3>Get Started</h3>
                 <input type="text">
-                <button>start free trial</button>
+                <button><a href="/login">Sign In</a></button>
                 <span>or</span>
                 <p>By signing up, you agree to our Terms & Privacy Policy</p>
             </form>
@@ -93,7 +93,7 @@
 
             </h3>
 
-            <button>Schedule a DEMO</button>
+            <button<a href="/pay">Buy It Now</a></button>
         </div>
 
 
@@ -144,7 +144,7 @@
                         <p>Zapier Integration allows you to have all your call activity in one place. Integrate
                             HivoCall
                             with Zapier to call your prospects and sync all your calling activities from CRM itself.</p>
-                        <button>Read more</button>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -155,7 +155,7 @@
                         <h3>HubSpot</h3>
                         <p> HubSpot Integration allows you to have all your call activity in one place. Integrate HivoCall
                             with HubSpot to call your prospects and sync all your calling activities from CRM itself.</p>
-                        <button>Read more</button>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -166,7 +166,7 @@
                         <h3> Groove</h3>
                         <p> Groove Integration allows you to have all your call activity in one place. Integrate CallHippo
                             with Groove to call your prospects and sync all your calling activities from CRM itself.</p>
-                        <button>Read more</button>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -178,7 +178,7 @@
                         <p> Intercom’s Integration allows you to have all your call activity in one place. Integrate
                             HivoCall with Intercom to call your prospects and sync all your calling activities from CRM
                             itself.</p>
-                        <button>Read more</button>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -189,7 +189,7 @@
                         <h3> Slack</h3>
                         <p> Slack Integration allows you to have all your call activity in one place. Integrate HivoCall
                             with Slack to call your prospects and sync all your calling activities.</p>
-                        <button>Read more</button>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -200,7 +200,7 @@
                         <h3> Zendesk</h3>
                         <p> Zendesk Integration allows you to have all your call activity in one place. Integrate HivoCall
                             with Zendesk to call your prospects and sync all your calling activities from CRM itself.</p>
-                        <button>Read more</button>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -211,7 +211,7 @@
                         <h3> Freshdesk</h3>
                         <p> Freshdesk Integration allows you to have all your call activity in one place. Integrate HivoCall
                             with Freshdesk to call your prospects and sync all your calling activities from CRM itself.</p>
-                        <button>Read more</button>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -223,7 +223,7 @@
                         <p> Pipedrive’s Integration allows you to have all your call activity in one place. Integrate
                             HivoCall with Pipedrive to call your prospects and sync all your calling activities from CRM
                             itself.</p>
-                        <button>Read more</button>
+                        
                     </div>
                 </div>
                 <div class="card">
@@ -235,7 +235,7 @@
                         <p> Zoho’s CRM Plus Integration allows you to have all your call activity in one place. Integrate
                             HivoCall with Zoho to call your prospects and sync all your calling activities from CRM itself.
                         </p>
-                        <button>Read more</button>
+                        
                     </div>
                 </div>
             </div>

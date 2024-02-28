@@ -7,7 +7,7 @@
                 <p class="title">Boost Engagement with Business SMS</p>
                 <p class="content">Connect with customers through SMS effortlessly. Streamline communication, increase
                     response rates, and build stronger customer relationships.</p>
-                <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
+                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
             </div>
 
 
@@ -79,7 +79,7 @@
                     <p class="exp__text">HivoCall’s built-in SMS capability allows you to connect with customers
                         seamlessly, utilizing their preferred communication channel. Here’s why you should utilize this
                         feature.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -122,7 +122,7 @@
                     <p class="desc">
                         Personalize every interaction by reaching out to customers through their preferred channel - SMS.
                     </p>
-                    <button>Start Free Trial</button>
+                    <button><a href="pay">Buy It Now</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -134,7 +134,7 @@
                     <h2 class="benefits__title">Benefits of Business SMS</h2>
                     <p class="benefits__text">HivoCall’s SMS feature is a reliable and powerful method for unmatched
                         success when it comes to revolutionizing the customer experience. This is how it will help you.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
@@ -360,7 +360,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img loading="lazy" src="{{asset('img/SVG/portrait.jpg')}}"
+                        <img loading="lazy" src="{{asset('img/SVG/portrait.png')}}"
                             alt="person">
                     </div>
                 </div>

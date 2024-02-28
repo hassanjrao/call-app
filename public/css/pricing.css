@@ -211,12 +211,15 @@ input:checked+.slider:before {
   font-size: 13px;
 }
 
+.pricing__bottom--wrapper .plan--wrapper .card .card-top>button > a {
+  color: #fff;
+}
+
 .pricing__bottom--wrapper .plan--wrapper .card .card-top>button,
-.trial button {
+.trial button  {
   width: 200px;
   height: 45px;
   background-color: var(--primary-color);
-  color: #fff;
   font-size: 1rem;
   text-transform: uppercase;
   border: 1px solid transparent;

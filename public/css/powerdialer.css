@@ -188,10 +188,14 @@
     padding: 15px 25px;
     width: max-content;
     cursor: pointer;
-    color: #fff;
     background-color: var(--primary-color);
     border: 1px solid transparent;
     border-radius: 5px;
+}
+
+.freeTrial .left button> a {
+    color: #fff;
+
 }
 
 .featuresContainer {

@@ -57,6 +57,10 @@
     height: 38px;
 }
 
+.integration .hero .right button a {
+    color: #fff;
+}
+
 .integration .hero .right span {
     text-transform: uppercase;
     z-index: 2;

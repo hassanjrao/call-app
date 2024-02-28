@@ -4,8 +4,7 @@
         <div class="main">
             <div class="heading">
                 <h3>Featured Article</h3>
-                <a href="/blog/all-articles">
-                    All Articles</a>
+               
             </div>
             <div class="content">
                 <div class="left">
@@ -19,7 +18,7 @@
                         cost saving of 40-90% by opting to use VoIP...
                     </p>
                     <div class="bottom">
-                        <a href="log/general/free-voip-providers" class="readMore">Read More</a>
+                        
                         <p class="date">
                             Feb 5, 2024
 
@@ -74,7 +73,7 @@
             <div class="section ">
                 <div class="heading">
                     <h4>Business</h4>
-                    <a href="/blog/all-articles">See More Articles</a>
+                    
                 </div>
                 <div class="content">
                     <div class="card"> <img loading="lazy"
@@ -157,7 +156,7 @@
             <div class="section">
                 <div class="heading">
                     <h4>Call Center</h4>
-                    <a href="/blog/all-articles">See More Articles</a>
+                    
                 </div>
                 <div class="content">
                     <div class="card">
@@ -194,7 +193,7 @@
                     </div> <a href="/ebook" class="span2">
                         <div class="content">
                             <h3>Buyer's Guide For Call Center Software</h3>
-                            <button>Download eBook</button>
+                            
                         </div>
 
                     </a>
@@ -237,7 +236,7 @@
             <div class="section ">
                 <div class="heading">
                     <h4>Virtual Number</h4>
-                    <a href="/blog/all-articles">See More Articles</a>
+                    
                 </div>
                 <div class="content">
                     <div class="card"> <img loading="lazy"
@@ -319,7 +318,7 @@
             <div class="section">
                 <div class="heading">
                     <h4>Call Center</h4>
-                    <a href="/blog/all-articles">See More Articles</a>
+                   
                 </div>
                 <div class="content">
                     <div class="card">
@@ -356,7 +355,7 @@
                     </div> <a href="/ebook" class="span2">
                         <div class="content">
                             <h3>How Can VoIP Integrations improve your sales performance?</h3>
-                            <button>Download eBook</button>
+                            
                         </div>
 
                     </a>
@@ -405,7 +404,7 @@
                     Join the HivoCall Affiliate Program and turn your network into profits.
                 </p>
                 <button>
-                    Become An Affiliate Now
+                    <a href="/login">Sign In</a>
                 </button>
             </div>
         </section>
