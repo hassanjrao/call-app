@@ -7,7 +7,7 @@
                 <p class="title">Call Center Software</p>
                 <p class="content">With CallHippo’s advance call center software, Get access to the Industry’s leading and
                     most flexible software. Enjoy unparalleled efficiency with 99.5% uptime.</p>
-                <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
+                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
             </div>
 
 
@@ -78,7 +78,7 @@
                     <p class="exp__text">CallHippo call center software can be set up quickly, allowing for seamless
                         collaboration
                         and monitoring from anywhere, at any time.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -124,7 +124,7 @@
                         From buying a number to making the first call, all it takes is 3 minutes to set up your virtual
                         phone system.
                     </p>
-                    <button>Start Free Trial</button>
+                    <button><a href="pay">Buy It Now</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -136,7 +136,7 @@
                     <h2 class="benefits__title">Benefits Of Cloud Based Call Center Software</h2>
                     <p class="benefits__text">CallHippo’s robust and feature-rich voip call center software is the perfect
                         solution for all your business communication needs.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
@@ -363,7 +363,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img loading="lazy" src="{{asset('img/SVG/portrait.jpg')}}"
+                        <img loading="lazy" src="{{asset('img/SVG/portrait.png')}}"
                             alt="person">
                     </div>
                 </div>

@@ -21,9 +21,7 @@
                         an effective way to do so is the struggle. In this eBook, we highlight the intricacies of cold
                         emails, along with some useful examples, to help you ace the outbound reach.
                     </p>
-                    <button>
-                        Download
-                    </button>
+                    
                 </div>
             </div>
             <div class="card">
@@ -38,9 +36,7 @@
                         Can selling be taught, or is it something that you are born with? The truth is that all highly
                         successful sales reps have something working in their favor.
                     </p>
-                    <button>
-                        Download
-                    </button>
+                    
                 </div>
             </div>
             <div class="card">
@@ -57,9 +53,7 @@
                         modern firms are investing in call center software for smoother communication and better overall
                         control.
                     </p>
-                    <button>
-                        Download
-                    </button>
+                    
                 </div>
             </div>
             <div class="card">
@@ -75,9 +69,7 @@
                         adapted to the new normal with technology. But how will companies sell? Read on the ebook to find
                         out about the new ways salespeople can acclimate themselves during these times.
                     </p>
-                    <button>
-                        Download
-                    </button>
+                    
                 </div>
             </div>
             <div class="card">
@@ -92,9 +84,7 @@
                         These days, customers are the cornerstone of any business and thus should always be a top priority.
                         Happy customers can help companies build credibility and bring in more business. That is why you
                         must focus more on elevating your customer service and delivering a positive experience.</p>
-                    <button>
-                        Download
-                    </button>
+                    
                 </div>
             </div>
             <div class="card">
@@ -109,9 +99,7 @@
                         Sales is all about communication. Instead of losing sales or frustrating customers, deploying the
                         right business phone system can empower your sales team to beat the cutting-edge competition.
                     </p>
-                    <button>
-                        Download
-                    </button>
+                    
                 </div>
             </div>
             <div class="card">
@@ -127,9 +115,7 @@
                         time and efforts. Streamlining the recruitment process can be detrimental for a company – be it the
                         money or efficiency.
                     </p>
-                    <button>
-                        Download
-                    </button>
+                    
                 </div>
             </div>
             <div class="card">
@@ -145,9 +131,7 @@
                         sales call is still just as important to businesses. No matter what the industry, a good sales call
                         can get things going in the right direction.
                     </p>
-                    <button>
-                        Download
-                    </button>
+                    
                 </div>
             </div>
         </div>

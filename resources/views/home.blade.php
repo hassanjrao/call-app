@@ -18,7 +18,7 @@
             </p>
         </div>
         <div class="hero__btn">
-            <button> <a href="signup">Try HivoCall For Free</a> </button>
+            <button> <a href="pay">Buy It Now</a> </button>
         </div>
         <div class="hero__image">
             <img loading="lazy" src="{{ asset('img/SVG/BgHero1.png') }}" alt="hero" />
@@ -186,7 +186,7 @@
                     Leverage advanced features to build a strong brand presence and
                     boost revenue.
                 </p>
-                <button><a href="/schedule-a-demo">Schedule a Demo</a></button>
+                <button><a href="/pay">Buy It Now</a></button>
             </div>
             <div class="pack">
                 <h4>For Support Teams</h4>
@@ -195,7 +195,7 @@
                     flash. Utilize Smart Call Forwarding to stay connected at any
                     time.
                 </p>
-                <button> <a href="/schedule-a-demo">Talk to Our Team</a> </button>
+                <button> <a href="/pay">Buy It Now</a> </button>
             </div>
             <div class="pack">
                 <h4>For Call Centers/BPO</h4>
@@ -203,7 +203,7 @@
                     Level up your processes and connect with more prospects using IVR.
                     Be available round-the-clock with our robust features.
                 </p>
-                <button> <a href="/schedule-a-demo"> Schedule a Demo</a></button>
+                <button> <a href="/pay">Buy It Now</a></button>
             </div>
         </div>
     </div>
@@ -227,7 +227,7 @@
                     <span>→</span>
                     <p><span class="number">4</span>Track Calls</p>
                 </div>
-                <button><a href="/signup">Start Free Trial</a></button>
+                <button><a href="/pay">Buy It Now</a></button>
             </div>
             <img src="{{ asset('img/SVG/business-phone-number.png') }}" alt="Mobile" />
         </div>

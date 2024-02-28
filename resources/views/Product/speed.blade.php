@@ -7,7 +7,7 @@
                 <p class="title">Speed To Dial</p>
                 <p class="content">Measure how quickly a call connects, ensuring fast communication. Reach time-critical
                     leads at lightning-fast speed with HivoCall! Empower teams to reach prospects efficiently.</p>
-                <div class="hero__btn"> <button>Try ConnectVista For Free</button></div>
+                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
             </div>
 
 
@@ -77,7 +77,7 @@
                     <h2 class="exp__title">Deliver Top-Notch Experience</h2>
                     <p class="exp__text">Make automated outgoing calls from the HivoCall dialer to a list of numbers
                         uploaded under a specific campaign from any CRM.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -122,7 +122,7 @@
                     <p class="desc">
                         From buying a number to setting up the speed to dial feature, all it takes is 3 minutes!
                     </p>
-                    <button>Start Free Trial</button>
+                    <button><a href="pay">Buy It Now</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -135,7 +135,7 @@
                     <p class="benefits__text">HivoCall’s speed to dial feature enhances communication efficiency, making it
                         an ideal solution for diverse business requirements. With speed to dial, you can streamline call
                         processes, saving time and improving productivity.</p>
-                    <div class="hero__btn"> <button>Start Free Trial</button></div>
+                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
@@ -361,7 +361,7 @@
                         </div>
                     </div>
                     <div class="hearFromU__image">
-                        <img loading="lazy" src="{{asset('img/SVG/portrait.jpg')}}"
+                        <img loading="lazy" src="{{asset('img/SVG/portrait.png')}}"
                             alt="person">
                     </div>
                 </div>

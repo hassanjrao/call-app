@@ -16,7 +16,7 @@
                 </p>
             </div>
             <div class="hero__btn">
-                <button>Try ConnectVista For Free</button>
+                <button><a href="pay">Buy It Now</a></button>
             </div>
             <div class="hero__image">
                 <img loading="lazy" src="{{ asset('img/SVG/BgHero1.png') }}"
@@ -144,7 +144,7 @@
                     <li><i class="fa-solid fa-circle-check" style="color: #63E6BE;"></i>Start Calling</li>
                     <li><i class="fa-solid fa-circle-check" style="color: #63E6BE;"></i>Track Calls</li>
                 </ul>
-                <button>Start Free Trial</button>
+                <button><a href="pay">Buy It Now</a>Start Free Trial</button>
             </div>
 
             <div class="right">
@@ -158,10 +158,7 @@
         <div class="pricing__bottom--wrapper">
 
             <h3>Pricing</h3>
-            <div class="plan">
-                <label id="opt1" onClick="slideBg(0)" class="active">Office Phone System</label>
-                <label id="opt2" onClick="slideBg(1)">Call Center Solution</label>
-            </div>
+            
 
             <div class="option active">
                 <div class="slogan">
@@ -176,7 +173,7 @@
                             <h4>Basic</h4>
                             <h4><span>$</span>0</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
+                            <button><a href="pay">Buy It Now</a></button>
                         </div>
 
                         <div class="card-bottom">
@@ -197,7 +194,7 @@
                             <h4>Starter</h4>
                             <h4><span>$</span>18</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
+                            <button><a href="pay">Buy It Now</a></button>
                         </div>
 
                         <div class="card-bottom">
@@ -224,7 +221,7 @@
                             <h4>Professional</h4>
                             <h4><span>$</span>30</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
+                            <button><a href="pay">Buy It Now</a></button>
                         </div>
 
                         <div class="card-bottom">
@@ -252,44 +249,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-top">
-                            <h4>Ultimate</h4>
-                            <h4><span>$</span>42</h4>
-                            <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
-                        </div>
-
-                        <div class="card-bottom">
-                            <p>Everything in Professional +</p>
-                            <ul class="benefits">
-                                <li><i class="fa-solid fa-check"></i>Unlimited calling minutes within US/CAD</li>
-                                <li><i class="fa-solid fa-check"></i>Call Blocking</li>
-                                <li><i class="fa-solid fa-check"></i>Call Cascading</li>
-                                <li><i class="fa-solid fa-check"></i>Custom Greetings</li>
-                                <li><i class="fa-solid fa-check"></i>Audit Logs</li>
-                                <li><i class="fa-solid fa-check"></i>Webhook</li>
-                                <li><i class="fa-solid fa-check"></i>Dedicated Account Manager</li>
-                                <li><i class="fa-solid fa-check"></i>Personalized Onboarding</li>
-                                <li><i class="fa-solid fa-check"></i>Phone Support</li>
-                                <li><i class="fa-solid fa-check"></i>24*7 Support</li>
-                                <li><i class="fa-solid fa-check"></i>Advanced Integrations</li>
-                                <li><i class="fa-solid fa-check"></i>Custom Integrations</li>
-                                <li><i class="fa-solid fa-check"></i>Annual Business Review</li>
-                                <li><i class="fa-solid fa-check"></i>Auto Rotate</li>
-                                <li><i class="fa-solid fa-check"></i>Multi-level IVR</li>
-                                <li><i class="fa-solid fa-check"></i>Multiple Level Call Transfer</li>
-                                <li><i class="fa-solid fa-check"></i>Conference Calling</li>
-                                <li><i class="fa-solid fa-check"></i>Call Barging</li>
-                                <li><i class="fa-solid fa-check"></i>Single Sign On</li>
-                                <li><i class="fa-solid fa-check"></i>DID Group</li>
-                                <li><i class="fa-solid fa-check"></i>Call Whisper</li>
-                                <li><i class="fa-solid fa-check"></i>Compliance Call Recording</li>
-                                <li><i class="fa-solid fa-check"></i>Embedded Dialer Integration</li>
-                                <li><i class="fa-solid fa-check"></i>Smart DID Routing</li>
-                            </ul>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
 
@@ -307,7 +267,7 @@
                             <h4>Basic</h4>
                             <h4><span>$</span>0</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
+                            <button><a href="pay">Buy It Now</a></button>
                         </div>
 
                         <div class="card-bottom">
@@ -335,7 +295,7 @@
                             <h4>Starter</h4>
                             <h4><span>$</span>16</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
+                            <button><a href="pay">Buy It Now</a></button>
                         </div>
 
                         <div class="card-bottom">
@@ -366,7 +326,7 @@
                             <h4>Professional</h4>
                             <h4><span>$</span>24</h4>
                             <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
+                            <button><a href="pay">Buy It Now</a></button>
                         </div>
 
                         <div class="card-bottom">
@@ -395,60 +355,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-top">
-                            <h4>Ultimate</h4>
-                            <h4><span>$</span>40</h4>
-                            <p>Per user/Month</p>
-                            <button>Sign Up Now</button>
-                        </div>
-
-                        <div class="card-bottom">
-                            <p>Everything in Professional +</p>
-                            <ul class="benefits">
-                                <li><i class="fa-solid fa-check"></i>Power Dialer</li>
-                                <li><i class="fa-solid fa-check"></i>Predictive Dialer
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Speed to Dial
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Voice Broadcasting
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Multi-level IVR
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Multiple Level Call Transfer
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Conference Calling
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Call Barging
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Route to External Number
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Forward to Multiple Device </li>
-                                <li><i class="fa-solid fa-check"></i>Single Sign On </li>
-                                <li><i class="fa-solid fa-check"></i>DID Group
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Call Whisper
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Intelligent Reports/Analytics
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Reports via Email
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Automatic Machine Detection
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Compliance Call Recording
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Google Drive, AWS S3 Integration
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Embedded Dialer Integration
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Smart DID Routing
-                                </li>
-                                <li><i class="fa-solid fa-check"></i>Auto Rotate
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
 

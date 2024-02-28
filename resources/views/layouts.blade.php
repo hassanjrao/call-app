@@ -99,7 +99,7 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <a href="/schedule-a-demo">book a demo today</a>
+                                <a href="/pay">Buy It Now</a>
                             </div>
                         </div>
 
@@ -215,7 +215,7 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <a href="/schedule-a-demo">book a demo today</a>
+                                <a href="/pay">Buy It Now</a>
                             </div>
                         </div>
                     </li>
@@ -366,7 +366,7 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <a href="/schedule-a-demo">book a demo today</a>
+                                <a href="/pay">Buy It Now</a>
                             </footer>
                         </div>
                     </li>
@@ -423,14 +423,14 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <a href="/schedule-a-demo">book a demo today</a>
+                                <a href="/pay">Buy It Now</a>
                             </footer>
                         </div>
                     </li>
                 </ul>
                 <div class="nav-btn">
-                    <a class="btn-demo" href="/schedule-a-demo">book a demo</a>
-                    <a href="/signup" class="btn-trial">start free trial</a>
+                    <a class="btn-demo" href="/login">Sign In</a>
+                    <a href="/pay" class="btn-trial">Buy It Now</a>
                 </div>
             </div>
 
@@ -509,9 +509,7 @@
                 </li>
                 <li style="color: #FFF1EA">Learn to Make More Calls:</li>
                 <li><a href="tel:+1 (406) 220-5458">+1 (406) 220-5458</a></li>
-                <li><a href="mailto:support@hivocall.com">support@hivocall.com</a></li>
-                <li><a href="/about">Contact Us</a></li>
-                <li><a href="/schedule-a-demo">Book A Demo</a></li>
+                <li><a href="/about">About Us</a></li>
 
             </ul>
         </div>
