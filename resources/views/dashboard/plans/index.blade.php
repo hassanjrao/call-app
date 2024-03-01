@@ -41,7 +41,7 @@
                                         <tr>
                                             <td>{{ $plan->name }}</td>
                                             <td>${{ number_format($plan->price, 2) }}</td>
-                                            <td>{{ $plan->duration }}</td>
+                                            <td>{{ $plan->duration_months }} month</td>
                                             <td>{{ $plan->customers->count() }}</td>
                                             <td>
                                                 <a href="{{ route('plans.edit', $plan->id) }}"

@@ -22,9 +22,9 @@ class PlanController extends Controller
     {
 
         $validated = $request->validate([
-            'title' => 'required|string|max:255',
+            'name' => 'required|string|max:255',
             'price' => 'required|numeric',
-            'duration' => 'required|string|max:255',
+            'duration_months' => 'required|string|max:255',
         ]);
 
         Plan::create($validated);
@@ -47,7 +47,7 @@ class PlanController extends Controller
         $request->validate([
             'title' => 'required|string|max:255',
             'price' => 'required|numeric',
-            'duration' => 'required|string|max:255',
+            'duration_months' => 'required|string|max:255',
         ]);
 
         $plan->update($request->all());

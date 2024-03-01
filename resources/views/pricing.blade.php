@@ -27,7 +27,6 @@
             <div class="pricing__bottom--wrapper">
 
                 <h3>Pricing</h3>
-
                 <div class="option active">
                     <div class="slogan">
                         <h3>
@@ -37,7 +36,7 @@
                     </div>
 
                     <div class="control-grp">
-                        
+
 
                         <div class="duration">
                             <label for="duration">Monthly</label>
@@ -50,298 +49,78 @@
 
                     </div>
                     <div class="plan--wrapper">
-                        <div class="card">
-                            <a href="/pay">
-                                <div class="card-top">
-                                    <h4>Basic</h4>
-                                    <h4 id="basic-price-1"><span>$</span>0</h4>
-                                    <p>Per user/Month</p>
-                                    <button>Sign Up Now</button>
-                                </div>
+                        @foreach ($plans as $plan)
+                            <div class="card">
+                                <a href="{{ route('checkout', $plan->id) }}">
+                                    <div class="card-top">
+                                        <h4>{{ $plan->name }}</h4>
+                                        <h4><span>Є</span>{{ $plan->price }}</h4>
+                                        <p>Per user/Month</p>
+                                        <button>Get A Plan</button>
+                                    </div>
+                                    <div class="card-bottom">
 
-                                <div class="card-bottom">
-                                    <p class="last">Unlimited Users (Pay only for numbers)</p>
-                                    <ul class="benefits">
-                                        <li><i class="fa-solid fa-check"></i>Click To Dial</li>
-                                        <li><i class="fa-solid fa-check"></i>Global Connect</li>
-                                        <li><i class="fa-solid fa-check"></i>Teams</li>
-                                        <li><i class="fa-solid fa-check"></i>Voicemail</li>
-                                        <li><i class="fa-solid fa-check"></i>SMS/Text messages</li>
-                                        <li><i class="fa-solid fa-check"></i>Smart Switch</li>
-                                        <li><i class="fa-solid fa-check"></i>Last Called By</li>
-                                    </ul>
-                                </div>
-                        </div></a>
+                                        @if ($plan->name == 'Standard')
+                                            <p class="last">Unlimited Users (Pay only for numbers)</p>
+                                        @elseif ($plan->name == 'Premium')
+                                            <p>Everything in Standard +</p>
+                                        @elseif ($plan->name == 'Legend')
+                                            <p>Everything in Premium +</p>
+                                        @endif
 
-                        <div class="card">
-                            <a href="/pay">
-                                <div class="card-top">
-                                    <h4>Starter</h4>
-                                    <h4 id="basic-price-2"><span>$</span>24</h4>
-                                    <p>Per user/Month</p>
-                                    <button>Sign Up Now</button>
-                                </div>
+                                        <ul class="benefits">
 
-                                <div class="card-bottom">
-                                    <p>Everything in Basic +
-                                    </p>
-                                    <ul class="benefits">
-                                        <li><i class="fa-solid fa-check"></i>1000 calling minutes within US/CAD</li>
-                                        <li><i class="fa-solid fa-check"></i>1 Standard Number Free</li>
-                                        <li><i class="fa-solid fa-check"></i>Multi Lingual IVR</li>
-                                        <li><i class="fa-solid fa-check"></i>2FA</li>
-                                        <li><i class="fa-solid fa-check"></i>User Working Hours</li>
-                                        <li><i class="fa-solid fa-check"></i>Business Hours</li>
-                                        <li><i class="fa-solid fa-check"></i>Ring All Devices</li>
-                                        <li><i class="fa-solid fa-check"></i>1-year Call Records</li>
-                                        <li><i class="fa-solid fa-check"></i>Basic Report Analytics</li>
-                                        <li><i class="fa-solid fa-check"></i>Forward-to-device</li>
-                                        <li><i class="fa-solid fa-check"></i>Shared Inbox</li>
-                                        <li><i class="fa-solid fa-check"></i>Feedback for Calls</li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card">
-                            <a href="/pay">
-                                <div class="card-top">
-                                    <h4>Professional</h4>
-                                    <h4 id="basic-price-3"><span>$</span>38</h4>
-                                    <p>Per user/Month</p>
-                                    <button>Sign Up Now</button>
-                                </div>
+                                            @if ($plan->name == 'Standard')
+                                                <li><i class="fa-solid fa-check"></i>Click To Dial</li>
+                                                <li><i class="fa-solid fa-check"></i>Global Connect</li>
+                                                <li><i class="fa-solid fa-check"></i>Teams</li>
+                                                <li><i class="fa-solid fa-check"></i>Voicemail</li>
+                                                <li><i class="fa-solid fa-check"></i>SMS/Text messages</li>
+                                                <li><i class="fa-solid fa-check"></i>Smart Switch</li>
+                                                <li><i class="fa-solid fa-check"></i>Last Called By</li>
+                                            @elseif ($plan->name == 'Premium')
+                                                <li><i class="fa-solid fa-check"></i>1000 calling minutes within US/CAD</li>
+                                                <li><i class="fa-solid fa-check"></i>1 Standard Number Free</li>
+                                                <li><i class="fa-solid fa-check"></i>Multi Lingual IVR</li>
+                                                <li><i class="fa-solid fa-check"></i>2FA</li>
+                                                <li><i class="fa-solid fa-check"></i>User Working Hours</li>
+                                                <li><i class="fa-solid fa-check"></i>Business Hours</li>
+                                                <li><i class="fa-solid fa-check"></i>Ring All Devices</li>
+                                                <li><i class="fa-solid fa-check"></i>1-year Call Records</li>
+                                                <li><i class="fa-solid fa-check"></i>Basic Report Analytics</li>
+                                                <li><i class="fa-solid fa-check"></i>Forward-to-device</li>
+                                                <li><i class="fa-solid fa-check"></i>Shared Inbox</li>
+                                                <li><i class="fa-solid fa-check"></i>Feedback for Calls</li>
+                                            @elseif ($plan->name == 'Legend')
+                                                <li><i class="fa-solid fa-check"></i>Unlimited calling minutes within US/CAD
+                                                </li>
+                                                <li><i class="fa-solid fa-check"></i>Call Recordings</li>
+                                                <li><i class="fa-solid fa-check"></i>Intelligent Reports/Analytics</li>
+                                                <li><i class="fa-solid fa-check"></i>Country Blocking</li>
+                                                <li><i class="fa-solid fa-check"></i>Call Tagging</li>
+                                                <li><i class="fa-solid fa-check"></i>Email notification for Voicemail</li>
+                                                <li><i class="fa-solid fa-check"></i>Reports Via Email</li>
+                                                <li><i class="fa-solid fa-check"></i>Call Notes & Ratings</li>
+                                                <li><i class="fa-solid fa-check"></i>Lifetime Call Records</li>
+                                                <li><i class="fa-solid fa-check"></i>Advance Report Analytics</li>
+                                                <li><i class="fa-solid fa-check"></i>Role based access control</li>
+                                                <li><i class="fa-solid fa-check"></i>IVR</li>
+                                                <li><i class="fa-solid fa-check"></i>Live Call</li>
+                                                <li><i class="fa-solid fa-check"></i>Call Reminder</li>
+                                                <li><i class="fa-solid fa-check"></i>After Call Work</li>
+                                                <li><i class="fa-solid fa-check"></i>Holiday Routing</li>
+                                                <li><i class="fa-solid fa-check"></i>Gamification</li>
+                                                <li><i class="fa-solid fa-check"></i>Pause-Resume Recording</li>
+                                            @endif
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        @endforeach
 
-                                <div class="card-bottom">
-                                    <p>Everything in Starter +
-                                    </p>
-                                    <ul class="benefits">
-                                        <li><i class="fa-solid fa-check"></i>Unlimited calling minutes within US/CAD</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Recordings</li>
-                                        <li><i class="fa-solid fa-check"></i>Intelligent Reports/Analytics</li>
-                                        <li><i class="fa-solid fa-check"></i>Country Blocking</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Tagging</li>
-                                        <li><i class="fa-solid fa-check"></i>Email notification for Voicemail</li>
-                                        <li><i class="fa-solid fa-check"></i>Reports Via Email</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Notes & Ratings</li>
-                                        <li><i class="fa-solid fa-check"></i>Lifetime Call Records</li>
-                                        <li><i class="fa-solid fa-check"></i>Advance Report Analytics</li>
-                                        <li><i class="fa-solid fa-check"></i>Role based access control</li>
-                                        <li><i class="fa-solid fa-check"></i>IVR</li>
-                                        <li><i class="fa-solid fa-check"></i>Live Call</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Reminder</li>
-                                        <li><i class="fa-solid fa-check"></i>After Call Work</li>
-                                        <li><i class="fa-solid fa-check"></i>Holiday Routing</li>
-                                        <li><i class="fa-solid fa-check"></i>Gamification</li>
-                                        <li><i class="fa-solid fa-check"></i>Pause-Resume Recording</li>
-                                    </ul>
-                                </div>
-                            </a>
-                        </div>
 
                     </div></a>
                 </div>
-
-
-                <div class="option">
-                    <div class="slogan">
-                        <h3>
-                            Ideal for Bulk Calling for Sales, Support and Call Center Teams
-
-                        </h3>
-                    </div>
-
-                    <div class="control-grp">
-                        <div class="currency">
-                            <label for="currency">Pay In Currency : </label>
-                            <select name="currency" id="currency">
-                                <option value="USD">USD</option>
-                                <option value="EUR">EUR</option>
-                                <option value="MAD">MAD</option>
-                                <option value="GBP">GBP</option>
-                                <option value="AUD">AUD</option>
-                            </select>
-                        </div>
-
-                        <div class="duration">
-                            <label for="duration">Monthly</label>
-                            <label class="switch">
-                                <input type="checkbox" name="duration" id="duration">
-                                <span class="slider"></span>
-                            </label>
-                            <label for="duration">Yearly</label>
-                        </div>
-
-                        <div class="unlimited">
-                            <label for="unlimited">Unlimited Calling </label>
-                            <select name="currency" id="currency">
-                                <option value="USD">USD</option>
-                                <option value="EUR">EUR</option>
-                                <option value="MAD">MAD</option>
-                                <option value="GBP">GBP</option>
-                                <option value="AUD">AUD</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="plan--wrapper">
-                        <div class="card" data-base-price="0">
-                            <a href="/pay">
-                                <div class="card-top">
-                                    <h4>Basic</h4>
-                                    <h4 id="basic-price-5"><span>$</span>0</h4>
-                                    <p>Per user/Month</p>
-                                    <button>Sign Up Now</button>
-                                </div>
-
-                                <div class="card-bottom">
-                                    <p>Unlimited Users (Pay only for numbers)</p>
-                                    <ul class="benefits">
-                                        <li><i class="fa-solid fa-check"></i>Click To Dial</li>
-                                        <li><i class="fa-solid fa-check"></i>Global Connect</li>
-                                        <li><i class="fa-solid fa-check"></i>Teams</li>
-                                        <li><i class="fa-solid fa-check"></i>Voicemail</li>
-                                        <li><i class="fa-solid fa-check"></i>SMS</li>
-                                        <li><i class="fa-solid fa-check"></i>MMS</li>
-                                        <li><i class="fa-solid fa-check"></i>Smart Switch</li>
-                                        <li><i class="fa-solid fa-check"></i>Last Called By</li>
-                                        <li><i class="fa-solid fa-check"></i>Forward-to-device </li>
-                                    </ul>
-
-
-
-
-                                    </ul>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card" data-base-price="20">
-                            <a href="/pay">
-                                <div class="card-top">
-                                    <h4>Starter</h4>
-                                    <h4 id="basic-price-6"><span>$</span>20</h4>
-                                    <p>Per user/Month</p>
-                                    <button>Sign Up Now</button>
-                                </div>
-
-                                <div class="card-bottom">
-                                    <p>Everything in Basic +
-                                    </p>
-                                    <ul class="benefits">
-                                        <li><i class="fa-solid fa-check"></i>Free Number</li>
-                                        <li><i class="fa-solid fa-check"></i>Voicemail</li>
-                                        <li><i class="fa-solid fa-check"></i>Shared Inbox
-                                        </li>
-                                        <li><i class="fa-solid fa-check"></i>Skill Based Call Routing
-                                        </li>
-                                        <li><i class="fa-solid fa-check"></i>Webhook</li>
-                                        <li><i class="fa-solid fa-check"></i>Paid Call Recording </li>
-                                        <li><i class="fa-solid fa-check"></i>Target Vs Achievement
-                                        </li>
-                                        <li><i class="fa-solid fa-check"></i>Campaign Management</li>
-
-
-
-
-
-                                    </ul>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card" data-base-price="30">
-                            <a href="/pay">
-                                <div class="card-top">
-                                    <h4>Professional</h4>
-                                    <h4 id="basic-price-7"><span>$</span>30</h4>
-                                    <p>Per user/Month</p>
-                                    <button>Sign Up Now</button>
-                                </div>
-
-                                <div class="card-bottom">
-                                    <p>Everything in Starter +
-                                    </p>
-                                    <ul class="benefits">
-                                        <li><i class="fa-solid fa-check"></i>Role based access control</li>
-                                        <li><i class="fa-solid fa-check"></i>Free Call Recording
-                                        </li>
-                                        <li><i class="fa-solid fa-check"></i>IVR</li>
-                                        <li><i class="fa-solid fa-check"></i>Live Call</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Queuing</li>
-                                        <li><i class="fa-solid fa-check"></i>User Working Hours</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Reminder</li>
-                                        <li><i class="fa-solid fa-check"></i>After Call Work</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Cascading</li>
-                                        <li><i class="fa-solid fa-check"></i>Holiday Routing
-                                        </li>
-                                        <li><i class="fa-solid fa-check"></i>Feedback for Calls
-                                        </li>
-                                        <li><i class="fa-solid fa-check"></i>IVR</li>
-                                        <li><i class="fa-solid fa-check"></i>Call Reminder</li>
-                                        <li><i class="fa-solid fa-check"></i>Holiday Routing</li>
-                                        <li><i class="fa-solid fa-check"></i>Gamification</li>
-                                        <li><i class="fa-solid fa-check"></i>Pause-Resume Recording</li>
-                                    </ul>
-                                </div>
-                        </div>
-                        <div class="card" data-base-price="50">
-                            <div class="card-top">
-                                <h4>Ultimate</h4>
-                                <h4 id="basic-price-8"><span>$</span>50</h4>
-                                <p>Per user/Month</p>
-                                <button>Sign Up Now</button>
-                            </div>
-
-                            <div class="card-bottom">
-                                <p>Everything in Professional +</p>
-                                <ul class="benefits">
-                                    <li><i class="fa-solid fa-check"></i>Power Dialer</li>
-                                    <li><i class="fa-solid fa-check"></i>Predictive Dialer
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Speed to Dial
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Voice Broadcasting
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Multi-level IVR
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Multiple Level Call Transfer
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Conference Calling
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Call Barging
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Route to External Number
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Forward to Multiple Device </li>
-                                    <li><i class="fa-solid fa-check"></i>Single Sign On </li>
-                                    <li><i class="fa-solid fa-check"></i>DID Group
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Call Whisper
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Intelligent Reports/Analytics
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Reports via Email
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Automatic Machine Detection
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Compliance Call Recording
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Google Drive, AWS S3 Integration
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Embedded Dialer Integration
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Smart DID Routing
-                                    </li>
-                                    <li><i class="fa-solid fa-check"></i>Auto Rotate
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div></a>
-                </div>
-
-
-
-
-
             </div>
 
 

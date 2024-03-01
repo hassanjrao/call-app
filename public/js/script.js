@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const monthlyPrices = [0, 24, 38, 56, 0, 20, 30, 50]; // Monthly prices corresponding to each card
   const yearlyPrices = [0, 19, 30, 45, 0, 16, 24, 40]; // Yearly prices corresponding to each card
 
-  
+
 
   // Event listener for checkbox change
   durationCheckbox.addEventListener('change', function () {
@@ -36,9 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
     cards.forEach(function (card, index) {
       const priceElement = card.querySelector('.card-top #basic-price-' + (index + 1));
       const basePrice = durationCheckbox.checked ? yearlyPrices[index] : monthlyPrices[index];
-     
 
-     
+
+
 
       // Update the currency symbol and price content
       priceElement.innerHTML = '<span>' + '$' + '</span>' + basePrice;

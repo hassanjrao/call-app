@@ -22,20 +22,21 @@
                 @csrf
                 <div class="card-body">
                     <div class="form-group">
-                        <label for="title">Title</label>
-                        <input type="text" class="form-control @error('title') is-invalid @enderror" id="title"
-                            name="title" placeholder="Enter plan title" value="{{ old('title') }}" required>
-                        @error('title')
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control @error('name') is-invalid @enderror" id="name"
+                            name="name" placeholder="Enter plan name" value="{{ old('name') }}" required>
+                        @error('name')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
                             </span>
                         @enderror
                     </div>
                     <div class="form-group">
-                        <label for="duration">Duration</label>
-                        <input class="form-control @error('duration') is-invalid @enderror" id="duration" name="duration"
-                            placeholder="Enter plan duration" required>{{ old('duration') }}</input>
-                        @error('duration')
+                        <label for="duration_months">Duration</label>
+                        <input class="form-control @error('duration_months') is-invalid @enderror" id="duration_months"
+                            name="duration_months" placeholder="Enter plan duration"
+                            required>{{ old('duration_months') }}</input>
+                        @error('duration_months')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>
                             </span>

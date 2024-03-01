@@ -145,61 +145,49 @@
 </style>
 
 <body>
-<div class="checkout-container" action="">
-    <div class="order-summary">
-        <h3>Order Summary</h3>
-        <p class="pack">{{ $plan->name }} x 1 <span>€{{ $plan->price }}</span></p>
-        <p class="total">Total <span>€{{ $plan->price }}</span></p>
-    </div>
-    <form class="billing-info" action="{{ route('payment') }}" method="POST">
-        @csrf
-        <input type="hidden" name="plan_id" value="{{ $plan->id }}">
-        @if($errors->any())
-            <div style="color: red; padding: 10px; margin-bottom: 20px; border: 1px solid red;">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
+    <div class="checkout-container" action="">
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <p class="pack">{{ $plan->name }} x 1 <span>€{{ $plan->price }}</span></p>
+            <p class="total">Total <span>€{{ $plan->price }}</span></p>
+        </div>
+        <form class="billing-info" action="{{ route('payment') }}" method="POST">
+            @csrf
+            <div class="logo">
+                <img src="{{ asset('img/SVG/logoDark.svg') }}" alt="logo">
+                <h3>HivoCall</h3>
             </div>
-        @endif
-        <div class="logo">
-            <img src="{{ asset('img/SVG/logoDark.svg') }}" alt="logo">
-            <h3>HivoCall</h3>
-        </div>
-        <div class="input-fields">
-            <label for="first_name">Name <span>*</span></label>
-            <input name="first_name" type="text" id="first_name" placeholder="Your First Name">
-        </div>
-        <div class="input-fields">
-            <label for="last_name">Name <span>*</span></label>
-            <input name="last_name" type="text" id="last_name" placeholder="Your Last Name">
-        </div>
-        <div class="input-fields">
-            <label for="email">Email <span>*</span></label>
-            <input name="email" type="email" id="email" placeholder="your@email.com" required>
-        </div>
-        <div class="input-fields">
-            <label for="phone">Phone <span>*</span></label>
-            <input name="phone" type="tel" id="phone" placeholder="Your Phone Number" required>
-        </div>
-        <div class="payment-methods">
-            <label><input type="radio" name="payment" value="paypal"><img src="{{ asset('img/SVG/paypal.png') }}" alt="" srcset=""> <ion-icon name="chevron-forward-outline"></ion-icon></label>
-            <label><input type="radio" name="payment" value="creditcard" checked> <ion-icon name="card-outline" class="credit-card "></ion-icon> Credit Card
-                <ion-icon name="chevron-forward-outline"></ion-icon>
-            </label>
-        </div>
+            <div class="input-fields">
+                <label for="name">Name <span>*</span></label>
+                <input type="text" id="name" placeholder="Your Full Name">
+            </div>
+            <div class="input-fields">
+                <label for="email">Email <span>*</span></label>
+                <input type="email" id="email" placeholder="your@email.com" required>
+            </div>
+            <div class="input-fields">
+                <label for="phone">Phone <span>*</span></label>
+                <input type="tel" id="phone" placeholder="Your Phone Number" required>
+            </div>
+            <div class="payment-methods">
+                <label><input type="radio" name="payment" value="paypal"><img src="{{ asset('img/SVG/paypal.png') }}"
+                        alt="" srcset=""> <ion-icon name="chevron-forward-outline"></ion-icon></label>
+                <label><input type="radio" name="payment" value="creditcard" checked> <ion-icon name="card-outline"
+                        class="credit-card "></ion-icon> Credit Card
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </label>
+            </div>
 
-        <button>
-            Procced to Checkout
-        </button>
+            <button>
+                Procced to Checkout
+            </button>
 
-        <p class="secure">
-            <ion-icon name="lock-closed-outline"></ion-icon></i> this is a secure encrypted payment
-        </p>
-    </form>
-</div>
-<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+            <p class="secure">
+                <ion-icon name="lock-closed-outline"></ion-icon></i> this is a secure encrypted payment
+            </p>
+        </form>
+    </div>
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
 </body>
 
 </html>

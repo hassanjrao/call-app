@@ -1,8 +1,10 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\PlanController;
 use App\Http\Controllers\UserController;
+use App\Models\Plan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -68,7 +70,8 @@ Route::get('/sticky-agent', function () {
 });
 
 Route::get('/pricing', function () {
-    return view('pricing');
+    $plans = Plan::all();
+    return view('pricing',compact("plans"));
 });
 
 Route::get('/speed-to-dial', function () {
@@ -188,9 +191,9 @@ Route::get('/virtual-phone-number', function () {
     return view('Solutions/By Need/virtualPhoneNumber');
 });
 
-Route::get('/pay', function () {
-    return view('pay');
-});
+// Route::get('/pay', function () {
+//     return view('pay');
+// });
 
 Route::get('/call-barging-feature', function () {
     return view('Solutions/By Use Case/CallBarging');
@@ -260,5 +263,15 @@ Route::get("/about", function(){
 });
 
 
-// LOGIN
+// Payment
 
+Route::get('/checkout/{planId}',[PaymentController::class, 'showPaymentForm'])->name('checkout');
+
+
+
+
+
+
+Route::post('payment', [PaymentController::class, 'payment'])->name('payment');
+Route::get('cancel',[PaymentController::class, 'cancel'])->name('payment.cancel');
+Route::get('payment/success', [PaymentController::class, 'success'])->name('payment.success');
