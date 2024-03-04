@@ -115,6 +115,7 @@
                                     <li><a href="/voice-broadcasting">Voice Broadcasting</a></li>
                                     <li><a href="/predictive-dialer">Predictive Dialer</a></li>
                                     <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
+                                </ul>
                             </div>
                             <div class="bottom">
                                 <h3>By use Case</h3>
@@ -528,7 +529,7 @@
 
     <script>
         function toggleAccordion() {
-            var accordionContent = document.getElementById("accordionContent");
+            let accordionContent = document.getElementById("accordionContent");
             if (accordionContent.style.display === "block") {
                 accordionContent.style.display = "none";
             } else {

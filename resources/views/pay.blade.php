@@ -145,7 +145,7 @@
 </style>
 
 <body>
-<div class="checkout-container" action="">
+<div class="checkout-container" >
     <div class="order-summary">
         <h3>Order Summary</h3>
         <p class="pack">{{ $plan->name }} x 1 <span>€{{ $plan->price }}</span></p>
@@ -184,14 +184,14 @@
             <input name="phone" type="tel" id="phone" placeholder="Your Phone Number" required>
         </div>
         <div class="payment-methods">
-            <label><input type="radio" name="payment" value="paypal"><img src="{{ asset('img/SVG/paypal.png') }}" alt="" srcset=""> <ion-icon name="chevron-forward-outline"></ion-icon></label>
-            <label><input type="radio" name="payment" value="creditcard" checked> <ion-icon name="card-outline" class="credit-card "></ion-icon> Credit Card
+            <label><input type="radio" name="payment_method" value="paypal"><img src="{{ asset('img/SVG/paypal.png') }}" alt="" srcset=""> <ion-icon name="chevron-forward-outline"></ion-icon></label>
+            <label><input type="radio" name="payment_method" value="stripe" checked> <ion-icon name="card-outline" class="credit-card "></ion-icon> Credit Card
                 <ion-icon name="chevron-forward-outline"></ion-icon>
             </label>
         </div>
 
         <button>
-            Procced to Checkout
+            Proceed to Checkout
         </button>
 
         <p class="secure">
