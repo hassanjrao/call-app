@@ -272,8 +272,10 @@ Route::get('/checkout/{planId}',[PaymentController::class, 'showPaymentForm'])->
 
 
 
-Route::post('payment', [PaymentController::class, 'payment'])->name('payment');
+Route::post('payment', [PaymentController::class, 'processPayment'])->name('payment');
 Route::get('cancel',[PaymentController::class, 'cancel'])->name('payment.cancel');
-Route::get('/thank-you', [PaymentController::class, 'success'])->name('payment.success');
+Route::get('/thank-you', [PaymentController::class, 'thankYou'])->name('thankYou');
+Route::post('/success', [PaymentController::class, 'success'])->name('payment.success');
 
-Route::get('/thank-you', [PaymentController::class, 'successStripe'])->name('success.stripe');
+
+//Route::get('/thank-you', [PaymentController::class, 'successStripe'])->name('success.stripe');

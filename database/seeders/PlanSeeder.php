@@ -12,6 +12,9 @@ class PlanSeeder extends Seeder
      */
     public function run()
     {
-        Plan::factory()->count(3)->create(); // Creates 5 plans
+//        Plan::factory()->count(3)->create(); // Creates 5 plans
+        Plan::create(['name' => 'Standard']);
+        Plan::create(['name' => 'Premium']);
+        Plan::create(['name' => 'Legend']);
     }
 }
