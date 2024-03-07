@@ -8,7 +8,7 @@
                 <p class="content">With HivoCall’s inbound contact center, your support team can provide exceptional
                     customer experiences. Our cloud-based solution seamlessly integrates with your preferred CRM and
                     Helpdesk, enabling 24/7 support from any location and device.</p>
-                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
             </div>
 
 
@@ -81,7 +81,7 @@
                     <p class="exp__text">Reduce customer wait times and enhance customer satisfaction, transform first-call
                         resolution from a goal
                         to a reality with HivoCall’s smart call routing feature</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -134,7 +134,7 @@
                         <span>→</span>
                         <p><span class="number">4</span>Track Calls</p>
                     </div>
-                    <button><a href="pay">Buy It Now</a></button>
+                    <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -147,7 +147,7 @@
                     <p class="benefits__text">Our platform enables you to easily send bulk SMS and Whatsapp messages,
                         allowing you to roll out
                         discounts to thousands of customers in seconds.</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
 
             </div>

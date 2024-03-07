@@ -9,7 +9,8 @@
                     different
                     number each time and avoid spam markings. Boost connection rates by customizing the total call limit per
                     day!</p>
-                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
+</div>
             </div>
 
 
@@ -71,7 +72,8 @@
                     <h2 class="exp__title">Deliver Top-Notch Experience</h2>
                     <p class="exp__text">Change numbers automatically from the HivoCall dialer to avoid being marked in the
                         list of spammers. Boost credibility and improve business ROI instantly!</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
+</button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -115,7 +117,8 @@
                     <p class="desc">
                         From buying a number to setting up the auto-rotate feature, all it takes is 3 minutes!
                     </p>
-                    <button><a href="pay">Buy It Now</a></button>
+                    <button><button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
+</button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -130,7 +133,8 @@
                         Enhances privacy, prevents spam markings, and present a fresh and legitimate appearance to
                         recipients.
                         Optimize your communication efficiency today.</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
+</button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">

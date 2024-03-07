@@ -4,7 +4,7 @@
         <h3>Business</h3>
         <div class="blogGrid">
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/10-Best-Call-Monitoring-Software-For-2023_fb-1024x538.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/ebooks/cover.png") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>Top 10 Best Small Business Virtual Phone System</h4>
@@ -15,7 +15,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/How-to-Get-A-Virtual-Phone-Number-For-Telegram-Account.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/ebooks/cover.png") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>How to Get A Virtual Phone Number For Telegram in 2024?</h4>
@@ -26,7 +26,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/How-to-Get-A-Virtual-Phone-Number-For-Telegram-Account.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/ebooks/cover.png") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>How to Get Virtual Number for WhatsApp</h4>
@@ -37,7 +37,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/Call-Center-CRM-Software-2022-Benefits-Features-Pricing.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/ebooks/cover.png") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>What is CRM and Types of CRM Software</h4>
@@ -48,7 +48,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/All-You-Need-To-Know-About-Productivity-Tools.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/ebooks/cover.png") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>All You Need To Know About Productivity Tools in 2024</h4>
@@ -59,7 +59,7 @@
 
             </div>
             <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/10-Best-Call-Monitoring-Software-For-2023_fb-1024x538.webp") }} "    
+                <img loading="lazy" src="{{ asset("img/ebooks/cover.png") }} "
                     alt="imgTop">
                 <div class="body">
                     <h4>13 Best eCommerce Tools & How to Choose The Best One</h4>
@@ -69,51 +69,7 @@
                 </div>
 
             </div>
-            <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/Call-Center-CRM-Software-2022-Benefits-Features-Pricing.webp") }} "    
-                    alt="imgTop">
-
-                <div class="body">
-                    <h4>11 Best CRM for Sales Reps In 2024</h4>
-                    <p>by Paras Kela | Dec 29, 2021 | business
-
-                        Sales teams are the driving force behind business growth as they forge vital...</p>
-                </div>
-
-            </div>
-            <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/call-center-quality-monitoring-1024x538.webp") }} "    
-                    alt="imgTop">
-                <div class="body">
-                    <h4>12 Best Sales Automation Software in 2024</h4>
-                    <p>by Rohit Rajpal | Dec 27, 2021 | business
-
-                        Sales Automation Software Automation is no longer the future - it’s the...</p>
-                </div>
-
-            </div>
-            <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/How-to-Choose-a-Small-Business-VoIP-Phone-Service1.webp") }} "    
-                    alt="imgTop">
-                <div class="body">
-                    <h4>How to Choose a Small Business VoIP Phone Service?</h4>
-                    <p>by Rohit Rajpal | Jul 16, 2021 | business
-
-                        Even in the digital age, most people (62%) prefer calling a business for...</p>
-                </div>
-
-            </div>
-            <div class="card">
-                <img loading="lazy" src="{{ asset("img/webp/9-Best-Virtual-Business-Phone-Number-Apps-In-2021.webp") }} "    
-                    alt="imgTop">
-                <div class="body">
-                    <h4>9 Best Virtual Business Phone Number Apps In 2024</h4>
-                    <p>by Nikita Agarwal | Jun 30, 2021 | business
-
-                        With the whole world in lockdown for over a year now, the office and home...</p>
-                </div>
-
-            </div>
+           
         </div>
     </div>
 @endsection

@@ -21,7 +21,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware(['guest'])->group(function () {
     Route::post('/login', [AuthController::class, 'login'])->name('login');
     Route::get("/login", function(){
-        return view('login');
+        $firstPlanId =  Plan::all()->first()->id;
+
+        return view('login', compact("firstPlanId"));
     });
 });
 
@@ -46,149 +48,113 @@ Route::middleware(['auth'])->group(function () {
 
 
 Route::get('/', function () {
-    return view('home');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('home', compact("firstPlanId"));
 });
 
-Route::get('/signup', function () {
-    return view('signup');
-});
+
 
 Route::get('/auto-rotate', function () {
-    return view('Product/autoRotate');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Product/autoRotate', compact("firstPlanId"));
 });
 
 Route::get('/machine-detection', function () {
-    return view('Product/machine');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Product/machine', compact("firstPlanId"));
 });
 
 Route::get('/power-dialer', function () {
-    return view('Product/powerDialer');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    return view('Product/powerDialer',compact("plans", "firstPlanId"));
 });
 
 Route::get('/sticky-agent', function () {
-    return view('Product/stickyAgent');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Product/stickyAgent', compact("firstPlanId"));
 });
 
 Route::get('/pricing', function () {
     $plans = Plan::all();
-    return view('pricing',compact("plans"));
+    $firstPlanId = $plans->first()->id;
+    $lastPlan = $plans->last();
+    return view('pricing',compact("plans", "firstPlanId", "lastPlan"));
 });
 
 Route::get('/speed-to-dial', function () {
-    return view('Product/speed');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Product/speed', compact("firstPlanId")) ;
 });
 
 Route::get('/smart-did-routing', function () {
-    return view('Product/smartDid');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Product/smartDid', compact("firstPlanId"));
 });
 
 Route::get('/sms', function () {
-    return view('Product/sms');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Product/sms', compact("firstPlanId"));
 });
 
 Route::get('/voip-for-market-research', function () {
-    return view('Solutions/industry/VoIPMarket');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Solutions/industry/VoIPMarket', compact("firstPlanId"));
 });
 
 Route::get('/call-centre-solution-for-software-and-technology', function () {
-    return view('Solutions/industry/software');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Solutions/industry/software', compact("firstPlanId"));
 });
 
 Route::get('/call-center-software-solution', function () {
-    return view('Solutions/By Need/callCenter');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Solutions/By Need/callCenter', compact("firstPlanId"));
 });
 
 Route::get('/voip-system-for-real-estate', function () {
-    return view('Solutions/industry/realEstate');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Solutions/industry/realEstate', compact("firstPlanId"));
 });
 
 
 Route::get('/support-contact-center', function () {
-    return view('Solutions/By Use Case/support');
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Solutions/By Use Case/support', compact("firstPlanId"));
 });
 
-// Integration
-
-Route::get('/custom-crm-integration', function () {
-    return view('Integration/CustomCRM');
-});
-Route::get('/salesforce-integration', function () {
-    return view('Integration/SalesForce');
-});
-
-Route::get('/shopify-integration', function () {
-    return view('Integration/Shopify');
-});
-
-Route::get('/slack-integration', function () {
-    return view('Integration/Slack');
-});
-
-Route::get('/zendesk-integration', function () {
-    return view('Integration/Zendesk');
-});
-
-Route::get('/piperdrive-integration', function () {
-    return view('Integration/Piperdrive');
-});
-
-Route::get('/nocrm-integration', function () {
-    return view('Integration/noCRM');
-});
-
-Route::get('/zoho-crm-integration', function () {
-    return view('Integration/Zoho');
-});
-
-Route::get('/zapier-integration', function () {
-    return view('Integration/Zapier');
-});
-
-Route::get('/hubspot-integration', function () {
-    return view('Integration/Hubspot');
-});
-
-Route::get('/activecampaign-integration', function () {
-    return view('Integration/Active');
-});
-
-Route::get('/microsoft-team-integration', function () {
-    return view('Integration/Teams');
-});
-
-Route::get('/intercom-integration', function () {
-    return view('Integration/Intercom');
-});
-
-Route::get('/freshdesk-integration', function () {
-    return view('Integration/Freshdesk');
-});
-
-Route::get('/outreach-integration', function () {
-    return view('Integration/outreach');
-});
-
-// End Integration
 
 
 Route::get('/office-phone-system', function () {
-    return view('Solutions/By Need/office');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    return view('Solutions/By Need/office',compact("plans", "firstPlanId")) ;
 });
 
 Route::get('/voice-broadcasting', function () {
-    return view('Solutions/By Need/voiceBroadcasting');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    return view('Solutions/By Need/voiceBroadcasting',compact("plans","firstPlanId"));
 });
 Route::get('/call-analytics', function () {
-    return view('Product\callAnalytics');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    return view('Product\callAnalytics',compact("plans","firstPlanId"));
 });
 Route::get('/call-monitoring', function () {
-    return view('Product\callMonitoring');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    return view('Product\callMonitoring',compact("plans"));
 });
 Route::get('/predictive-dialer', function () {
-    return view('Solutions/By Need/predictiveDialer');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    return view('Solutions/By Need/predictiveDialer',compact("firstPlanId","plans"));
 });
 Route::get('/virtual-phone-number', function () {
-    return view('Solutions/By Need/virtualPhoneNumber');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    return view('Solutions/By Need/virtualPhoneNumber',compact("firstPlanId","plans"));
 });
 
 // Route::get('/pay', function () {
@@ -196,23 +162,29 @@ Route::get('/virtual-phone-number', function () {
 // });
 
 Route::get('/call-barging-feature', function () {
-    return view('Solutions/By Use Case/CallBarging');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    
+    return view('Solutions/By Use Case/CallBarging', compact("firstPlanId", "plans"));
 });
+
 Route::get('/interactive-voice-response-ivr-system', function () {
-    return view('Solutions/By Use Case/IntractiveVoice');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    return view('Solutions/By Use Case/IntractiveVoice',compact("firstPlanId","plans"));
 });
 
 
 
 Route::get('/business-phone-system', function () {
-    return view('Product.businessPhoneSym');
+    $plans = Plan::all();
+    $firstPlanId = $plans->first()->id;
+    return view('Product.businessPhoneSym',compact("firstPlanId","plans")); 
 });
 
 
 
-Route::get('/schedule-a-demo', function () {
-    return view('demo');
-});
+
 
 
 // Ressources
@@ -220,32 +192,46 @@ Route::get('/schedule-a-demo', function () {
 // ----------------- Case Studies -----------------------
 
 Route::get('/ebook', function () {
-    return view('Ressources.CaseStudies.ebook');
+    $firstPlanId =  Plan::all()->first()->id;
+
+    return view('Ressources.CaseStudies.ebook', compact("firstPlanId"));
 });
 
 Route::get('/blog/business-guide', function () {
-    return view('Ressources.CaseStudies.businessGuide');
+    $firstPlanId =  Plan::all()->first()->id;
+
+    return view('Ressources.CaseStudies.businessGuide', compact("firstPlanId"));
 });
 
 
 // ----------------- Blogs -----------------------
 
 Route::get('/blog', function () {
-    return view('Ressources.blogs.index');
+    $firstPlanId =  Plan::all()->first()->id;
+
+    return view('Ressources.blogs.index', compact("firstPlanId"));
 });
 
 
 Route::get('/blog/category/business', function () {
-    return view('Ressources.blogs.business');
+    $firstPlanId =  Plan::all()->first()->id;
+
+    return view('Ressources.blogs.business', compact("firstPlanId"));
 });
 Route::get('/blog/category/call-center', function () {
-    return view('Ressources.blogs.callCenter');
+    $firstPlanId =  Plan::all()->first()->id;
+
+    return view('Ressources.blogs.callCenter', compact("firstPlanId"));
 });
 Route::get('/blog/category/telephony', function () {
-    return view('Ressources.blogs.telephony');
+    $firstPlanId =  Plan::all()->first()->id;
+
+    return view('Ressources.blogs.telephony', compact("firstPlanId"));
 });
 Route::get('/blog/category/virtual-numbers', function () {
-    return view('Ressources.blogs.virtualNumbers');
+    $firstPlanId =  Plan::all()->first()->id;
+
+    return view('Ressources.blogs.virtualNumbers', compact("firstPlanId"));
 });
 
 
@@ -254,12 +240,16 @@ Route::get('/blog/category/virtual-numbers', function () {
 
 // Errors 
 Route::fallback(function () {
-    return view('errors.404');
+    $firstPlanId =  Plan::all()->first()->id;
+
+    return view('errors.404', compact("firstPlanId"));
 });
 
 // Footer
 Route::get("/about", function(){
-    return view('aboutUs');
+    $firstPlanId =  Plan::all()->first()->id;
+
+    return view('aboutUs', compact("firstPlanId"));
 });
 
 

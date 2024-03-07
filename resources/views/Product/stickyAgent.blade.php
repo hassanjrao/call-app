@@ -7,7 +7,7 @@
                 <p class="title">Sticky Agent</p>
                 <p class="content">Connect customers to the same agent automatically. Eliminate wasted time re-explaining
                     issues and increase loyalty while reducing lead mismanagement.</p>
-                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
             </div>
 
 
@@ -82,7 +82,7 @@
                     <p class="exp__text">HivoCall’s sticky agent feature allows you to connect callers with agents who know
                         their past interactions, enabling them to personalize their service and solve issues quickly. Here’s
                         why you should invest in the sticky agent feature.</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -127,7 +127,7 @@
                         Personalize every interaction by automatically routing customers to agents who have helped them
                         before.
                     </p>
-                    <button><a href="pay">Buy It Now</a></button>
+                    <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -139,7 +139,7 @@
                     <h2 class="benefits__title">Benefits of Sticky Agent</h2>
                     <p class="benefits__text">When it comes to transforming customer experience, the sticky agent is your
                         secret weapon for unparalleled success. Here’s how you can benefit from it.</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">

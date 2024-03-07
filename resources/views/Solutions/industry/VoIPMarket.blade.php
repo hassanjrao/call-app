@@ -6,7 +6,7 @@
 
                 <p class="title">VoIP For Market Research</p>
                 <p class="content">Revolunitize market research with VoIP! Tap the power of seamless and cost-effective communication with CallHippo’s VoIP technology. Raise the bar to enhance research, connect effortlessly, and gather insights like never before!</p>
-                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
             </div>
 
 
@@ -69,7 +69,7 @@
                 <div class="exp__header">
                     <h2 class="exp__title">Deliver Top-Notch Experience</h2>
                     <p class="exp__text">Use VoIP for market research to streamline your research process. Transcend geographical limitations, establish a local presence with the right research, and gain useful insights.</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -107,7 +107,7 @@
                     <p class="desc">
                         From buying a number to setting up the application, all it takes is 3 minutes!
                     </p>
-                    <button><a href="pay">Buy It Now</a></button>
+                    <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -118,7 +118,7 @@
                 <div class="benefits__header">
                     <h2 class="benefits__title">Benefits of VoIP for Market Research</h2>
                     <p class="benefits__text">HivoCall’s VoIP for market research empowers cost-effective global communication, scalability, and advanced analytics. Enhance outreach, streamline data management, and optimize resources for insightful, efficient research campaigns.</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
