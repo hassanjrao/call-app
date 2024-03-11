@@ -233,9 +233,31 @@ Route::get('/blog/category/virtual-numbers', function () {
 
     return view('Ressources.blogs.virtualNumbers', compact("firstPlanId"));
 });
+Route::get("/business/scale", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.business.ScaleBussiness', compact("firstPlanId"));
+});
+Route::get("/business/best-small-business", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.business.best-small-business', compact("firstPlanId"));
+});
+Route::get("/business/virtual-phone-number-for-telegram", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.business.virtual-phone-number-for-telegram', compact("firstPlanId"));
+});
 
-
-
+Route::get("/business/virtual-number-for-whatsapp", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.business.virtual-number-for-whatsapp', compact("firstPlanId"));
+});
+Route::get("/business/what-is-crm-and-types-of-crm-software", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.business.what-is-crm-and-types-of-crm-software', compact("firstPlanId"));
+});
+Route::get("/business/productivity-tools", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.business.productivity-tools', compact("firstPlanId"));
+});
 
 
 // Errors 
@@ -248,7 +270,6 @@ Route::fallback(function () {
 // Footer
 Route::get("/about", function(){
     $firstPlanId =  Plan::all()->first()->id;
-
     return view('aboutUs', compact("firstPlanId"));
 });
 
