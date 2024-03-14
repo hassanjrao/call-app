@@ -257,6 +257,39 @@ Route::get("/business/what-is-crm-and-types-of-crm-software", function(){
 Route::get("/business/productivity-tools", function(){
     $firstPlanId =  Plan::all()->first()->id;
     return view('Ressources.business.productivity-tools', compact("firstPlanId"));
+
+});
+
+// Telephony
+Route::get("/telephony/global-phone-number", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.telephony.global-phone-number', compact("firstPlanId"));
+
+});
+Route::get("/telephony/business-phone-line", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.telephony.business-phone-line', compact("firstPlanId"));
+
+});
+Route::get("/telephony/difference-between-warm-transfer-and-cold-transfer", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.telephony.difference-between-warm-transfer-and-cold-transfer', compact("firstPlanId"));
+
+});
+Route::get("/telephony/virtual-business-phone-system", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.telephony.virtual-business-phone-system', compact("firstPlanId"));
+
+});
+Route::get("/telephony/voip-implementation", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.telephony.voip-implementation', compact("firstPlanId"));
+
+});
+Route::get("/telephony/work-from-home-phone-solutions", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.telephony.work-from-home-phone-solutions', compact("firstPlanId"));
+
 });
 
 

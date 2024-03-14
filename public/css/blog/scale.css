@@ -50,3 +50,18 @@
     color: black;
     font-size: 20px;
 }
+.options-lo {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center align the list items */
+  }
+
+  /* Style list items */
+  .chose-li {
+    margin-bottom: 15pxpx;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: inline-block;
+}
