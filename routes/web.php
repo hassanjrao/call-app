@@ -76,6 +76,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('phone/sms',[PhoneNumberController::class, 'send'])->name('sms');
         Route::post('/phone/fetch-numbers', [PhoneNumberController::class, 'fetchAvailableNumbers'])->name('phone.fetch-numbers');
         Route::post('/phone/send-message', [PhoneNumberController::class, 'sendMessage'])->name('phone.send-message');
+        Route::get('billing',[\App\Http\Controllers\CustomerController::class,'billing'])->name('billing');
 
     });
 
@@ -372,7 +373,7 @@ Route::get('cancel',[PaymentController::class, 'cancel'])->name('payment.cancel'
 Route::get('/thank-you', [PaymentController::class, 'thankYou'])->name('thankYou');
 Route::post('/success', [PaymentController::class, 'success'])->name('payment.success');
 
-<<<<<<< HEAD
+
 
 Route::post('/payment/stripe/{planId}', [PaymentController::class, 'stripePost'])->name('payment.stripe');
 Route::post('/payment/stripe/handle', [PaymentController::class, 'handleStripePayment'])->name('payment.stripe.handle');
@@ -381,10 +382,4 @@ Route::post('/payment/stripe/handle', [PaymentController::class, 'handleStripePa
 //Route::get('/thank-you', [PaymentController::class, 'successStripe'])->name('success.stripe');
 
 
-//Role User
 
-
-Route::get('/user/billing',[PaymentController::class, 'showPaymentForm'])->name('billing');
-=======
-Route::get('/thank-you', [PaymentController::class, 'successStripe'])->name('success.stripe');
->>>>>>> 468c46f0e8ea032a719c44532eb6354cda921327
