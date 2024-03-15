@@ -28,7 +28,7 @@
                     <span class="or">OR</span>
 
                     <span class="signUp">
-                        Don't have an account?<a href="signup">Sign Up</a>
+                        Don't have an account?<a href="/checkout/{{ $firstPlanId }}">Sign Up</a>
                     </span>
                 </div>
             </div>

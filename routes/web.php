@@ -193,7 +193,7 @@ Route::get('/call-analytics', function () {
 Route::get('/call-monitoring', function () {
     $plans = Plan::all();
     $firstPlanId = $plans->first()->id;
-    return view('Product\callMonitoring',compact("plans"));
+    return view('Product\callMonitoring',compact("plans", "firstPlanId"));
 });
 Route::get('/predictive-dialer', function () {
     $plans = Plan::all();
@@ -230,7 +230,6 @@ Route::get('/business-phone-system', function () {
     $firstPlanId = $plans->first()->id;
     return view('Product.businessPhoneSym',compact("firstPlanId","plans")); 
 });
-
 
 
 
@@ -342,6 +341,9 @@ Route::get("/telephony/work-from-home-phone-solutions", function(){
 });
 
 
+
+
+
 // Errors 
 Route::fallback(function () {
     $firstPlanId =  Plan::all()->first()->id;
@@ -375,6 +377,7 @@ Route::get("/acceptable-use", function(){
     return view('Legal.Acceptable', compact("firstPlanId"));
 });
 
+
 // Payment
 
 Route::get('/checkout/{planId}',[PaymentController::class, 'showPaymentForm'])->name('checkout');
@@ -386,7 +389,6 @@ Route::get('cancel',[PaymentController::class, 'cancel'])->name('payment.cancel'
 Route::get('/thank-you', [PaymentController::class, 'thankYou'])->name('thankYou');
 Route::post('/success', [PaymentController::class, 'success'])->name('payment.success');
 
-<<<<<<< HEAD
 
 Route::post('/payment/stripe/{planId}', [PaymentController::class, 'stripePost'])->name('payment.stripe');
 Route::post('/payment/stripe/handle', [PaymentController::class, 'handleStripePayment'])->name('payment.stripe.handle');
@@ -399,6 +401,3 @@ Route::post('/payment/stripe/handle', [PaymentController::class, 'handleStripePa
 
 
 Route::get('/user/billing',[PaymentController::class, 'showPaymentForm'])->name('billing');
-=======
-Route::get('/thank-you', [PaymentController::class, 'successStripe'])->name('success.stripe');
->>>>>>> 468c46f0e8ea032a719c44532eb6354cda921327
