@@ -52,6 +52,26 @@
                             </span>
                         @enderror
                     </div>
+                    <div class="form-group">
+                        <label for="stripe_id">Stripe ID</label>
+                        <input type="text" class="form-control @error('stripe_id') is-invalid @enderror" id="stripe_id"
+                            name="stripe_id" placeholder="Enter stripe_ide" value="{{ old('stripe_id') }}" required>
+                        @error('stripe_id')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                    <div class="form-group">
+                        <label for="paypal_id">Paypal ID</label>
+                        <input type="text" class="form-control @error('paypal_id') is-invalid @enderror" id="paypal_id"
+                            name="paypal_id" placeholder="Enter paypal_id" value="{{ old('paypal_id') }}" required>
+                        @error('paypal_id')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
                     <!-- Add any additional fields specific to plans here, e.g., duration -->
                 </div>
                 <!-- /.card-body -->

@@ -22,10 +22,12 @@ class NewUserWelcome extends Mailable
 
     public function build()
     {
-        return $this->view('emails.newUserWelcome')
+        return $this->subject('Welcome to HivoCall! Your Account is Ready')
+            ->view('emails.newUserWelcome')
             ->with([
                 'email' => $this->user->email,
                 'password' => $this->password
             ]);
     }
+
 }

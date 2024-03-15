@@ -22,28 +22,7 @@ class PaymentController extends Controller
 
     {
 
-        if ($request->input('payment_method') === 'stripe') {
-            Stripe::setApiKey(env("STRIPE_SECRET"));
 
-            try {
-                $paymentIntent = PaymentIntent::create([
-                    'amount' => $request->input('amount'), // The amount in cents
-                    'currency' => 'eur',
-                    'description' => 'Your Product Description or Invoice Description',
-                    'payment_method' => $request->input('stripeToken'),
-                    'confirm' => true, // Confirm the payment at the same time
-                ]);
-
-                // Payment was successful
-                // Process user registration and order details here as you did for PayPal
-                // Make sure to check the paymentIntent status if needed
-
-            } catch (ApiErrorException $e) {
-                // Handle error
-                // Log the error and return an appropriate response to the user
-                return response()->json(['error' => $e->getMessage()], 400);
-            }
-        }else{
             $data = json_decode($request->getContent(), true);
             $paymentMethod = PaymentMethod::where('methodType', 'paypal')->first();
             $password = Str::random(10);
@@ -76,12 +55,59 @@ class PaymentController extends Controller
 
             // After successful payment, redirect to the thank-you page with user details
 
-        }
-
         // This method should be called by the PayPal SDK's onApprove function
         return redirect()->route('thankYou');
- // Consider how you want to handle password visibility/security
+        // Consider how you want to handle password visibility/security
     }
+
+
+    public function stripePost(Request $request, $planId)
+    {
+        $plan = Plan::findOrFail($planId); // Make sure you pass the plan ID to this method
+
+        $stripe = new \Stripe\StripeClient(env('STRIPE_SECRET'));
+        $paymentIntent = $stripe->paymentIntents->create([
+            'amount' => $plan->price * 100, // Convert to cents
+            'currency' => 'eur',
+            'payment_method_types' => ['card','link'],
+        ]);
+
+        // Store plan and payment data in session for use after payment confirmation
+        $request->session()->put('paymentData', [
+            'plan_id' => $plan->id,
+            // Any other data you need
+        ]);
+
+        return [
+            'clientSecret' => $paymentIntent->client_secret,
+        ];
+    }
+
+
+
+    public function handleStripePayment(Request $request)
+    {
+        $stripe = new \Stripe\StripeClient(env('STRIPE_SECRET'));
+        $paymentIntentId = $request->payment_intent;
+
+        try {
+            $paymentIntent = $stripe->paymentIntents->retrieve($paymentIntentId);
+
+            if ($paymentIntent->status == 'succeeded') {
+                // Assuming session contains plan_id and any other necessary info
+
+                // Redirect to thank you page
+                return redirect()->route('thankYou');
+            } else {
+                // Handle failed payment
+                return redirect()->route('paymentFailed'); // Ensure you have a route and view for handling failures
+            }
+        } catch (\Exception $e) {
+            // Handle error
+            return redirect()->route('paymentError')->with('error', $e->getMessage()); // Ensure you have a route and view for handling errors
+        }
+    }
+
 
     public function thankYou()
     {

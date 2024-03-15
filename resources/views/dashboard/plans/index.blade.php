@@ -33,6 +33,8 @@
                                         <th>Price</th>
                                         <th>Duration</th>
                                         <th>Subscribers</th>
+                                        <th>Strip ID</th>
+                                        <th>Paypal ID</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -43,6 +45,8 @@
                                             <td>${{ number_format($plan->price, 2) }}</td>
                                             <td>{{ $plan->duration_months }} month</td>
                                             <td>{{ $plan->customers->count() }}</td>
+                                            <td>{{ $plan->stripe_id }}</td>
+                                            <td>{{ $plan->paypal_id }}</td>
                                             <td>
                                                 <a href="{{ route('plans.edit', $plan->id) }}"
                                                     class="btn btn-xs btn-primary">Edit</a>

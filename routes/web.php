@@ -2,9 +2,11 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\PhoneNumberController;
 use App\Http\Controllers\PlanController;
 use App\Http\Controllers\UserController;
 use App\Models\Plan;
+use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,19 +30,66 @@ Route::middleware(['guest'])->group(function () {
 
 
 
+//Route::middleware(['auth'])->group(function () {
+//
+//
+//
+//    //Admin
+//
+//    Route::resource('users', UserController::class);
+//    Route::resource('plans', PlanController::class);
+//
+//
+//    //Both
+//    Route::put('/user/profile/update', [UserController::class, 'updateProfile'])->name('users.updateProfile');
+//    Route::get('/user/profile', [UserController::class, 'profileShow'])->name('user.profile');
+//    Route::get('/user/profile/edit', [UserController::class, 'editProfile'])->name('profile.edit');
+//    Route::get('/dashboard', function () {
+//        $newOrdersCount = User::count(); // Assuming you have an Order model
+//        $bounceRate = 53; // This would come from your analytics tool or database
+//        $userRegistrationsCount = User::count();
+//
+//        return view('dashboard.index', compact('newOrdersCount', 'bounceRate', 'userRegistrationsCount')); // Assuming you have an sms.blade.php file under dashboard directory
+//    })->name('dashboard');
+//    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+//
+//    //Customer
+//    Route::resource('phone', PhoneNumberController::class);
+//    Route::post('/phone/fetch-numbers', [PhoneNumberController::class, 'fetchAvailableNumbers'])->name('phone.fetch-numbers');
+//    Route::resource('billing', PhoneNumberController::class);
+//
+//});
+
 Route::middleware(['auth'])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard.index'); // Assuming you have an index.blade.php file under dashboard directory
-    })->name('dashboard');
-    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
-    Route::resource('users', UserController::class);
-    Route::resource('plans', PlanController::class);
+
+    // Admin Routes
+    Route::middleware(['admin'])->group(function () {
+        Route::resource('users', UserController::class);
+        Route::resource('plans', PlanController::class);
+    });
+
+    // Customer Routes
+    Route::middleware(['customer'])->group(function () {
+        Route::resource('phone', PhoneNumberController::class);
+        Route::get('phone/sms',[PhoneNumberController::class, 'send'])->name('sms');
+        Route::post('/phone/fetch-numbers', [PhoneNumberController::class, 'fetchAvailableNumbers'])->name('phone.fetch-numbers');
+        Route::post('/phone/send-message', [PhoneNumberController::class, 'sendMessage'])->name('phone.send-message');
+
+    });
+
+    // Routes for Both Admin and Customer
     Route::put('/user/profile/update', [UserController::class, 'updateProfile'])->name('users.updateProfile');
     Route::get('/user/profile', [UserController::class, 'profileShow'])->name('user.profile');
     Route::get('/user/profile/edit', [UserController::class, 'editProfile'])->name('profile.edit');
+    Route::get('/dashboard', function () {
+        $newOrdersCount = User::count();
+        $bounceRate = 53;
+        $userRegistrationsCount = User::count();
 
+        return view('dashboard.index', compact('newOrdersCount', 'bounceRate', 'userRegistrationsCount')); // Assuming you have an sms.blade.php file under dashboard directory
+    })->name('dashboard');
+    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });
-
 
 
 
@@ -269,13 +318,20 @@ Route::get('/checkout/{planId}',[PaymentController::class, 'showPaymentForm'])->
 
 
 
-
-
-
 Route::post('payment', [PaymentController::class, 'processPayment'])->name('payment');
 Route::get('cancel',[PaymentController::class, 'cancel'])->name('payment.cancel');
 Route::get('/thank-you', [PaymentController::class, 'thankYou'])->name('thankYou');
 Route::post('/success', [PaymentController::class, 'success'])->name('payment.success');
 
 
+Route::post('/payment/stripe/{planId}', [PaymentController::class, 'stripePost'])->name('payment.stripe');
+Route::post('/payment/stripe/handle', [PaymentController::class, 'handleStripePayment'])->name('payment.stripe.handle');
+
+
 //Route::get('/thank-you', [PaymentController::class, 'successStripe'])->name('success.stripe');
+
+
+//Role User
+
+
+Route::get('/user/billing',[PaymentController::class, 'showPaymentForm'])->name('billing');
