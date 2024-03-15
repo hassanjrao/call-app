@@ -25,6 +25,8 @@ class PlanController extends Controller
             'name' => 'required|string|max:255',
             'price' => 'required|numeric',
             'duration_months' => 'required|string|max:255',
+            'stripe_id' => 'required',
+            'paypal_id' => 'required',
         ]);
 
         Plan::create($validated);
@@ -44,16 +46,19 @@ class PlanController extends Controller
 
     public function update(Request $request, Plan $plan)
     {
-        $request->validate([
-            'title' => 'required|string|max:255',
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:255',
             'price' => 'required|numeric',
             'duration_months' => 'required|string|max:255',
+            'stripe_id' => 'required|string|max:255',
+            'paypal_id' => 'required|string|max:255',
         ]);
 
-        $plan->update($request->all());
+        $plan->update($validatedData);
 
         return redirect()->route('plans.index')->with('success', 'Plan updated successfully.');
     }
+
 
     public function destroy(Plan $plan)
     {
