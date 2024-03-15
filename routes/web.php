@@ -311,6 +311,20 @@ Route::get("/terms", function(){
     return view('Legal.Terms', compact("firstPlanId"));
 });
 
+Route::get("/refund-policy", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Legal.Refund', compact("firstPlanId"));
+});
+
+Route::get("/privacy-policy", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Legal.Privacy', compact("firstPlanId"));
+});
+
+Route::get("/acceptable-use", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Legal.Acceptable', compact("firstPlanId"));
+});
 
 // Payment
 
