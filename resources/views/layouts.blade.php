@@ -99,7 +99,7 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <a href="/pay">Buy It Now</a>
+                                <a href="/checkout/{{ $firstPlanId }}">Get A Plan</a>
                             </div>
                         </div>
 
@@ -216,161 +216,12 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <a href="/pay">Buy It Now</a>
+                                <a href="/checkout/{{ $firstPlanId }}">Get A Plan</a>
                             </div>
                         </div>
                     </li>
                     <li><a href="/pricing">Pricing</a></li>
-                    <li class="expand">
-                        <a id="mobileExpand">Integration <i class="fa-solid fa-chevron-down"></i></a>
-                        <div class="mobile">
-                            <div class="top">
-                                <h3>INTEGRATIONS</h3>
-                                <ul class="content">
-                                    <li><a href="/custom-crm-integration"> <img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/custom_crm.svg') }}"
-                                                alt=""> Custom CRM</a></li>
-                                    <li><a href="/shopify-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/shopify.svg') }}"
-                                                alt="">Shopify</a></li>
-                                    <li><a href="/salesforce-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/salesforce_blue.svg') }}"
-                                                alt="">Salesforce</a></li>
-                                    <li><a href="/slack-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/slack.svg') }}"
-                                                alt="">Slack</a></li>
-
-
-                                    <li><a href="/piperdrive-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/pipedrive.svg') }}"
-                                                alt="">Pipedrive</a></li>
-                                    <li><a href="/zoho-crm-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/zohocrm.svg') }}"
-                                                alt="">Zoho CRM</a></li>
-                                    <li><a href="/zapier-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/zapier.svg') }}"
-                                                alt="">Zapier</a></li>
-                                    <li><a href="/hubspot-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/hubspot.svg') }}"
-                                                alt="">HubSpot</a></li>
-                                    <li><a href="/zendesk-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/zendesk.svg') }}"
-                                                alt="">Zendesk</a></li>
-                                    <li><a href="/nocrm-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/nocrm.svg') }}"
-                                                alt="">Nocrm</a></li>
-                                    <li><a href="/activecampaign-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/active_campaign.svg') }}"
-                                                alt="">ActiveCampaign</a></li>
-                                    <li><a href="/intercom-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/intercom.svg') }}"
-                                                alt="">Intercom</a></li>
-                                    <li><a href="/outreach-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/outreach_int_logo.svg') }}"
-                                                alt="">Outreach</a></li>
-                                    <li><a href="/microsoft-team-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/microsoft_teams.svg') }}"
-                                                alt="">Microsoft Teams</a></li>
-                                    <li><a href="/freshdesk-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/freshdesk.svg') }}"
-                                                alt="">Freshdesk</a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <div class="dropdown dropdown__3">
-                            <div>
-                                <h3>INTEGRATIONS</h3>
-                                <ul>
-                                    <li><a href="/custom-crm-integration"> <img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/custom_crm.svg') }}"
-                                                alt=""> Custom CRM</a></li>
-                                    <li><a href="/shopify-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/shopify.svg') }}"
-                                                alt="">Shopify</a></li>
-                                    <li><a href="/salesforce-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/salesforce_blue.svg') }}"
-                                                alt="">Salesforce</a></li>
-                                    <li><a href="/slack-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/slack.svg') }}"
-                                                alt="">Slack</a></li>
-
-
-                                    <li><a href="/piperdrive-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/pipedrive.svg') }}"
-                                                alt="">Pipedrive</a></li>
-                                    <li><a href="/zoho-crm-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/zohocrm.svg') }}"
-                                                alt="">Zoho CRM</a></li>
-                                    <li><a href="/zapier-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/zapier.svg') }}"
-                                                alt="">Zapier</a></li>
-                                    <li><a href="/hubspot-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/hubspot.svg') }}"
-                                                alt="">HubSpot</a></li>
-                                    <li><a href="/zendesk-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/zendesk.svg') }}"
-                                                alt="">Zendesk</a></li>
-                                    <li><a href="/nocrm-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/nocrm.svg') }}"
-                                                alt="">Nocrm</a></li>
-                                    <li><a href="/activecampaign-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/active_campaign.svg') }}"
-                                                alt="">ActiveCampaign</a></li>
-                                    <li><a href="/intercom-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/intercom.svg') }}"
-                                                alt="">Intercom</a></li>
-                                    <li><a href="/outreach-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/outreach_int_logo.svg') }}"
-                                                alt="">Outreach</a></li>
-                                    <li><a href="/microsoft-team-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/microsoft_teams.svg') }}"
-                                                alt="">Microsoft Teams</a></li>
-                                    <li><a href="/freshdesk-integration"><img
-                                                src="
-                                        {{ asset('img/nav-icons/integrations/freshdesk.svg') }}"
-                                                alt="">Freshdesk</a></li>
-                                </ul>
-                            </div>
-
-                            <footer class="span2">
-                                <p>
-                                    <span>Let’s talk!</span> Explore our business calling
-                                    software
-                                </p>
-                                <a href="/pay">Buy It Now</a>
-                            </footer>
-                        </div>
-                    </li>
+                    
                     <li class="expand">
                         <a id="mobileExpand">Ressources <i class="fa-solid fa-chevron-down"></i></a>
                         <div class="mobile">
@@ -392,7 +243,7 @@
                                     <li><a href="/blog/category/call-center">Call Center</a></li>
                                     {{-- <li><a href="#">Virtual Numbers</a></li> --}}
                                     <li><a href="/blog/category/telephony">Telephony</a></li>
-                                    <li><a href="/blog">Discover Our Blog</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -415,7 +266,7 @@
                                     <li><a href="/blog/category/call-center">Call Center</a></li>
                                     {{-- <li><a href="#">Virtual Numbers</a></li> --}}
                                     <li><a href="/blog/category/telephony">Telephony</a></li>
-                                    <li><a href="/blog">Discover Our Blog</a></li>
+                                    
                                 </ul>
                             </div>
 
@@ -424,14 +275,14 @@
                                     <span>Let’s talk!</span> Explore our business calling
                                     software
                                 </p>
-                                <a href="/pay">Buy It Now</a>
+                                <a href="/checkout/{{ $firstPlanId }}">Get A Plan</a>
                             </footer>
                         </div>
                     </li>
                 </ul>
                 <div class="nav-btn">
                     <a class="btn-demo" href="/login">Sign In</a>
-                    <a href="/pay" class="btn-trial">Buy It Now</a>
+                    <a href="/checkout/{{ $firstPlanId }}" class="btn-trial">Get A Plan</a>
                 </div>
             </div>
 
@@ -490,17 +341,13 @@
             <ul>
                 <li class="footer-heading">
                     <a href="/">
-                        <h3>Integration</h3>
+                        <h3>Legal</h3>
                     </a><i class="fa-solid fa-caret-down"></i>
                 </li>
-                <li><a href="/custom-crm-integration">Custom CRM</a></li>
-                <li><a href="/slack-integration">Slack</a></li>
-                <li><a href="/microsoft-team-integration">Microsoft Teams</a></li>
-                <li><a href="/shopify-integration">Shopify</a></li>
-                <li><a href="/outreach-integration">Outreach</a></li>
-                <li><a href="/freshdesk-integration">Freshdesk</a></li>
-                <li><a href="/activecampaign-integration">ActiveCampaign</a></li>
-
+                <li style="color: #FFF1EA" ><a href="/refund-policy">Refund Policy</a></li>
+                <li><a href="/terms">Terms Of Use</a></li>
+                <li><a href="/acceptable-use">Acceptable Use</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
             </ul>
             <ul>
                 <li class="footer-heading">
@@ -513,6 +360,7 @@
                 <li><a href="/about">About Us</a></li>
 
             </ul>
+            
         </div>
         <div class="copyright">
             <p>
@@ -526,7 +374,32 @@
             </div>
         </div>
     </footer>
+    <div id="cookieConsentContainer" class="cookie-consent-container">
+        <p>This website uses cookies to ensure you get the best experience on our website.</p>
+        <button id="acceptCookies">Accept</button>
+        <button id="refuseCookies">Refuse</button>
+    </div>
 
+    <style>
+        .cookie-consent-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.cookie-consent-container p {
+    margin: 10px 0;
+}
+
+.cookie-consent-container button {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+    </style>
     <script>
         function toggleAccordion() {
             let accordionContent = document.getElementById("accordionContent");
@@ -536,6 +409,24 @@
                 accordionContent.style.display = "block";
             }
         }
+
+        document.addEventListener('DOMContentLoaded', function () {
+    var consentContainer = document.getElementById('cookieConsentContainer');
+    var acceptButton = document.getElementById('acceptCookies');
+    var refuseButton = document.getElementById('refuseCookies');
+
+    acceptButton.addEventListener('click', function() {
+        consentContainer.style.display = 'none';
+        // Here, you would also set cookies as the user has accepted.
+    });
+
+    refuseButton.addEventListener('click', function() {
+        consentContainer.style.display = 'none';
+        // Optionally, handle the refusal of cookies, such as disabling non-essential cookies.
+    });
+
+    // Optionally, check if the user has already made a choice and hide the banner accordingly.
+}); 
     </script>
 </body>
 

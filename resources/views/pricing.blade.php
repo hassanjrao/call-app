@@ -34,32 +34,20 @@
                             Calling
                         </h3>
                     </div>
-
-                    <div class="control-grp">
-
-
-                        <div class="duration">
-                            <label for="duration">Monthly</label>
-                            <label class="switch">
-                                <input type="checkbox" name="duration" id="duration">
-                                <span class="slider"></span>
-                            </label>
-                            <label for="duration">Yearly</label>
-                        </div>
-
-                    </div>
+    
+                    
                     <div class="plan--wrapper">
                         @foreach ($plans as $plan)
                             <div class="card">
                                 <a href="{{ route('checkout', $plan->id) }}">
                                     <div class="card-top">
                                         <h4>{{ $plan->name }}</h4>
-                                        <h4><span>Є</span>{{ $plan->price }}</h4>
+                                        <h4><span>$</span>{{ $plan->price }}</h4>
                                         <p>Per user/Month</p>
-                                        <button>Get A Plan</button>
+                                        <button>Get Plan</button>
                                     </div>
                                     <div class="card-bottom">
-
+    
                                         @if ($plan->name == 'Standard')
                                             <p class="last">Unlimited Users (Pay only for numbers)</p>
                                         @elseif ($plan->name == 'Premium')
@@ -67,9 +55,9 @@
                                         @elseif ($plan->name == 'Legend')
                                             <p>Everything in Premium +</p>
                                         @endif
-
+    
                                         <ul class="benefits">
-
+    
                                             @if ($plan->name == 'Standard')
                                                 <li><i class="fa-solid fa-check"></i>Click To Dial</li>
                                                 <li><i class="fa-solid fa-check"></i>Global Connect</li>
@@ -117,8 +105,8 @@
                                 </a>
                             </div>
                         @endforeach
-
-
+    
+    
                     </div></a>
                 </div>
             </div>
@@ -128,7 +116,6 @@
                 <h3>A Flexible Phone System With Robust Features To Streamline Your Calling Process
                 </h3>
 
-                <button>10 Days Free trial</button>
             </div>
 
 
@@ -161,7 +148,6 @@
                 <div class="top">
                     <div class="left">
                         <h3 class="title">Empower Your Calls: Unleash the Power of Predictive Dialer</h3>
-                        <button>Contact Us</button>
                         <p>
                             A predictive dialer is an automated system that efficiently places outbound calls from a list of
                             phone numbers.
@@ -169,17 +155,20 @@
                     </div>
                     <div class="right">
                         <h3 class="price">
-                            <span>$</span>56
+                            <span>$</span>{{ $lastPlan->price }}
                         </h3>
                         <p>Per user/Month</p>
                         <ul class="ben">
-                            <li>Unlimited Calling within US/CAD</li>
-                            <li>99.99% Automatic Machine Detection Accuracy</li>
-                            <li>Smart DID Routing</li>
-                            <li>Queue Calls</li>
-                            <li>Auto Pacing Dial Ratio</li>
-                            <li>Controlled Multiple Call Attempts</li>
-                            <li>Time zone Dialing</li>
+                            <li><i class="fa-solid fa-check"></i>Unlimited calling minutes within US/CAD
+                            </li>
+                            <li><i class="fa-solid fa-check"></i>Call Recordings</li>
+                            <li><i class="fa-solid fa-check"></i>Intelligent Reports/Analytics</li>
+                            <li><i class="fa-solid fa-check"></i>Country Blocking</li>
+                            <li><i class="fa-solid fa-check"></i>Call Tagging</li>
+                            <li><i class="fa-solid fa-check"></i>Email notification for Voicemail</li>
+                            <li><i class="fa-solid fa-check"></i>Reports Via Email</li>
+                            <li><i class="fa-solid fa-check"></i>Call Notes & Ratings</li>
+                            <li><i class="fa-solid fa-check"></i>Lifetime Call Records</li>
                         </ul>
                     </div>
                 </div>
@@ -217,7 +206,6 @@
                     </h3>
                     <p>Efficiently engage a sizable audience simultaneously through the predictive dialer's capabilities.
                     </p>
-                    <button>Request A Demo</button>
                 </div>
             </div>
         </div>
@@ -229,12 +217,13 @@
                     </h3>
                     <div class="plans">
                         <div class="card">
+                            <a href="{{ route('checkout', $plan->id) }}">
                             <div class="top">
-                                <p class="first-p">Ultimate</p>
-                                <h3><span>$</span>56</h3>
+                                <p class="first-p">{{ $lastPlan->name }}</p>
+                                <h3><span>$</span>{{ $lastPlan->price }}</h3>
                                 <p>Per user/Month</p>
-                                <button>Start Free Trial</button>
-                            </div>
+                                <button>Get Plan</button>
+                                </div></a>
                             <div class="bottom">
                                 <ul>
                                     <li><i class="fa-solid fa-check"></i>Unlimited calling minutes within US/CAD</li>
@@ -260,6 +249,7 @@
                                 </ul>
 
                             </div>
+                            
                         </div>
 
                     </div>
@@ -269,7 +259,6 @@
                     </h3>
                     <p>CallHippo empowers teams to engage in personalized, scalable customer conversations via WhatsApp.
                     </p>
-                    <button>Start Free Trial</button>
                 </div>
                 <div class="features">
                     <div class="card">
@@ -408,7 +397,6 @@
 
 
                     </p>
-                    <button>Request A Demo</button>
                 </div>
 
 
@@ -423,7 +411,6 @@
                         <h4>
                             WhatsApp Business presents a suite of benefits for businesses
                         </h4>
-                        <button>Contact Us</button>
                         <p>
                             This specialized app offers features for enhanced customer engagement, streamlined messaging,
                             and effective management of business communications.
@@ -431,16 +418,17 @@
                     </div>
                     <div class="right">
                         <h3 class="price">
-                            <span>$</span>15
+                            <span>$</span>{{ $plans->first()->price }}
                         </h3>
                         <p>Per user/Month</p>
                         <ul class="ben">
-                            <i>Expansive Customer Reach</i>
-                            <i>Enhanced Communication</i>
-                            <i>Deeper Customer Insights</i>
-                            <i>Round-the-Clock Availability</i>
-                            <i>Heightened Success Rates</i>
-                            <i>Refined Communication Channel</i>
+                            <li><i class="fa-solid fa-check"></i>Click To Dial</li>
+                                                <li><i class="fa-solid fa-check"></i>Global Connect</li>
+                                                <li><i class="fa-solid fa-check"></i>Teams</li>
+                                                <li><i class="fa-solid fa-check"></i>Voicemail</li>
+                                                <li><i class="fa-solid fa-check"></i>SMS/Text messages</li>
+                                                <li><i class="fa-solid fa-check"></i>Smart Switch</li>
+                                                <li><i class="fa-solid fa-check"></i>Last Called By</li>
                         </ul>
                     </div>
                 </div>
@@ -451,7 +439,6 @@
                     <p>WhatsApp Business introduces a powerful communication platform designed for businesses,
                         enabling direct and efficient interaction with customers
                     </p>
-                    <button>View Pricing</button>
                 </div>
                 <div class="trial">
                     <h3>Features
@@ -459,7 +446,6 @@
                     <p>Engage with customers directly, providing quick support and responses Create a professional profile
                         to showcase your business information.
                     </p>
-                    <button>Contact us</button>
                 </div>
                 <div class="middle">
                     <div class="card">
@@ -502,7 +488,6 @@
 
 
                     </p>
-                    <button>Contact us</button>
                 </div>
                 <div class="middle">
                     <div class="card">

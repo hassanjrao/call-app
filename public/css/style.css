@@ -9,6 +9,8 @@
 @import url("demo/index.css");
 @import url("pay.css");
 @import url("login.css");
+@import url("legal.css");
+@import url("blog/scale.css");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -1225,10 +1227,10 @@ nav .logo img {
     flex-direction: column;
   }
 
-  .autoRotate__container .hero__items,
-  .autoRotate__container .whyCall__container,
-  .autoRotate__container .exp__container,
-  .autoRotate__container .exp__container>.exp__header>.exp__text,
+  .hero__items,
+  .whyCall__container,
+  .exp__container,
+   .exp__container>.exp__header>.exp__text,
   .setup-container .setup-wrapper .setup-content h5,
   .setup-container .setup-wrapper .setup-content .desc,
   .benefits__container,

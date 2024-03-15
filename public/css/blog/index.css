@@ -245,7 +245,9 @@
     font-size: 1.3rem;
 }
 
-
+.blogGrid .card .body h4> a:hover {
+    color: var(--primary-color);
+}
 .blogCat .heading {
     width: 1200px;
     margin: auto;

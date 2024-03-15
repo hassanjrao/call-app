@@ -8,7 +8,7 @@
                 <p class="content">Effortlessly distinguish between live answers and answering machines. Optimize your
                     calling strategy and ensure your agents spend more time engaging with customers and less time leaving
                     voicemails.</p>
-                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
             </div>
 
 
@@ -83,7 +83,7 @@
                     <p class="exp__text">Maximize your calling efforts by eliminating wasted time on voicemails. CallHippo’s
                         Answering Machine Detection ensures your agents connect with live leads, enhancing productivity and
                         increasing the likelihood of successful conversations.</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -124,7 +124,7 @@
                     <p class="desc">
                         Empower your team with insights for efficient calling campaigns & lead management.
                     </p>
-                    <button><a href="pay">Buy It Now</a></button>
+                    <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -136,7 +136,7 @@
                     <h2 class="benefits__title">Benefits of Answering Machine Detection</h2>
                     <p class="benefits__text">Unleash the power of precise call handling with Answering Machine Detection.
                         Here’s how you can leverage the power of Answering Machine Detection.</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">

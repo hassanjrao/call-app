@@ -7,7 +7,7 @@
                 <p class="title">Smart DID Routing™</p>
                 <p class="content">Boost call response rates on international calls with Smart DID Routing™. Leverage our
                     intelligent algorithm to automatically direct calls through local numbers.</p>
-                <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
             </div>
 
 
@@ -81,7 +81,7 @@
                     <p class="exp__text">Say goodbye to ignored calls and unanswered phones. Smart DID routing™ optimizes
                         your caller ID so users see a local number. Engage more prospects by making your business more
                         accessible. Here’s why to use our Smart DID Routing™</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -124,7 +124,7 @@
                         Ensure issue resolution on the first call by instantly routing customers to agents with the ideal
                         expertise.
                     </p>
-                    <button><a href="pay">Buy It Now</a></button>
+                    <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -136,7 +136,7 @@
                     <h2 class="benefits__title">Benefits of Smart DID Routing™</h2>
                     <p class="benefits__text">Displaying local numbers builds trust and demonstrates you understand each
                         market. Local presence dialer makes your business seem more legitimate everywhere.</p>
-                    <div class="hero__btn"> <button><a href="pay">Buy It Now</a></button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">
