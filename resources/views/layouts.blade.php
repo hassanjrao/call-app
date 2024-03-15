@@ -338,7 +338,17 @@
                 <li><a href="/blog">Our Blog</a></li>
                 <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
             </ul>
-            
+            <ul>
+                <li class="footer-heading">
+                    <a href="/">
+                        <h3>Legal</h3>
+                    </a><i class="fa-solid fa-caret-down"></i>
+                </li>
+                <li style="color: #FFF1EA" ><a href="/refund-policy">Refund Policy</a></li>
+                <li><a href="/terms">Terms Of Use</a></li>
+                <li><a href="/acceptable-use">Acceptable Use</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+            </ul>
             <ul>
                 <li class="footer-heading">
                     <a href="/">
@@ -350,6 +360,7 @@
                 <li><a href="/about">About Us</a></li>
 
             </ul>
+            
         </div>
         <div class="copyright">
             <p>

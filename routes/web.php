@@ -306,6 +306,11 @@ Route::get("/about", function(){
     return view('aboutUs', compact("firstPlanId"));
 });
 
+Route::get("/terms", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Legal.Terms', compact("firstPlanId"));
+});
+
 
 // Payment
 
