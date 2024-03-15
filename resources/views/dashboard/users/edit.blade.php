@@ -40,7 +40,7 @@
                     <div class="form-group">
                         <label for="phoneNumber">Phone Number</label>
                         <input type="text" class="form-control" id="phoneNumber" name="phone_number"
-                            value="{{ $user->phone_number }}">
+                            value="{{ $user->customer->number }}">
                     </div>
                     <div class="form-group">
                         <label for="role">Role</label>

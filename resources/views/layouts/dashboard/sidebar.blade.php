@@ -23,6 +23,7 @@
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                 data-accordion="false">
+                @if( Auth::user()->role->roleName  == "admin")
                 <li class="nav-item">
                     <a href="/dashboard" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -35,12 +36,34 @@
                         <p>Users</p>
                     </a>
                 </li>
+                    <li class="nav-item">
+                        <a href="{{ route('plans.index') }}" class="nav-link">
+                            <i class="nav-icon fas fa-file-alt"></i>
+                            <p>Plans</p>
+                        </a>
+                    </li>
+                @endif
+                @if( Auth::user()->role->roleName  == "customer")
                 <li class="nav-item">
-                    <a href="{{ route('plans.index') }}" class="nav-link">
-                        <i class="nav-icon fas fa-file-alt"></i>
-                        <p>Plans</p>
+                    <a href="/dashboard" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>Dashboard</p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="{{ route('phone.index') }}" class="nav-link">
+                        <i class="nav-icon fas fa-phone-alt""></i>
+                        <p>Phone Numbers</p>
+                    </a>
+                </li>
+                    <li class="nav-item">
+                        <a href="{{ route('billing') }}" class="nav-link">
+                            <i class="nav-icon fas fa-file-invoice"></i>
+                            <p>Billing</p>
+                        </a>
+                    </li>
+                @endif
+
                 <!-- Additional Sidebar Items Here -->
                 <!-- Optionally, you can add more sections according to your application's needs -->
                 <li class="nav-header">ACCOUNT SETTINGS</li>

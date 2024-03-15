@@ -24,10 +24,12 @@
                             <th>Email</th>
                             <td>{{ Auth::user()->email }}</td>
                         </tr>
+                        @if( Auth::user()->role->roleName  == "customer")
                         <tr>
                             <th>Phone Number</th>
-                            <td>{{ Auth::user()->phone_number }}</td>
+                            <td>{{ Auth::user()->customer->number }}</td>
                         </tr>
+                        @endif
                         <!-- Add more attributes as needed -->
                     </tbody>
                 </table>

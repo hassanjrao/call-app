@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="hero-container">
-        <div class="title">
+        <div class="blog-title">
             <h2>
                 How to Get A Virtual Phone Number For WhatsApp?
             </h2>

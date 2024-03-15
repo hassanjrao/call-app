@@ -2,19 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Customer;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 
-class CustomerController extends Controller
+class TwillioController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function billing()
+    public function index()
     {
-        $user = Auth::user();
-        return view('dashboard.customers.billing',compact('user'));
+        //
     }
 
     /**
@@ -36,7 +33,7 @@ class CustomerController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Customer $customer)
+    public function show(string $id)
     {
         //
     }
@@ -44,7 +41,7 @@ class CustomerController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Customer $customer)
+    public function edit(string $id)
     {
         //
     }
@@ -52,7 +49,7 @@ class CustomerController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Customer $customer)
+    public function update(Request $request, string $id)
     {
         //
     }
@@ -60,7 +57,7 @@ class CustomerController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Customer $customer)
+    public function destroy(string $id)
     {
         //
     }

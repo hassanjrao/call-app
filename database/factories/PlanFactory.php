@@ -19,7 +19,7 @@ class PlanFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => $this->faker->word,
+            'name' => $this->faker->randomElement(['admin', 'user']),
             'duration_months' => $this->faker->numberBetween(1, 12),
             'price' => $this->faker->randomFloat(2, 10, 100),
             'stripe_id' => Str::random(20),
