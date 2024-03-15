@@ -292,6 +292,45 @@ Route::get("/telephony/work-from-home-phone-solutions", function(){
 
 });
 
+// call center
+Route::get("/call_center/call-center-crm-software", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.call center.call-center-crm-software', compact("firstPlanId"));
+
+});
+
+Route::get("/call_center/hosted-contact-center", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.call center.hosted-contact-center', compact("firstPlanId"));
+
+});
+
+Route::get("/call_center/how-to-handle-angry-customer-in-call-center", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.call center.how-to-handle-angry-customer-in-call-center', compact("firstPlanId"));
+
+});
+
+Route::get("/call_center/knowledge-base-software-for-call-centers", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.call center.knowledge-base-software-for-call-centers', compact("firstPlanId"));
+
+});
+
+Route::get("/call_center/understanding-outbound-call", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.call center.understanding-outbound-call', compact("firstPlanId"));
+
+});
+
+Route::get("/call_center/voip-for-call-center", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Ressources.call center.voip-for-call-center', compact("firstPlanId"));
+
+});
+
+
+
 
 // Errors 
 Route::fallback(function () {
