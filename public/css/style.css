@@ -719,7 +719,19 @@ nav .logo img {
 .nav-items .nav-item .expand:hover>.dropdown {
   opacity: 1;
   visibility: visible;
+}
+
+
+.nav-items .nav-item .expand:hover>.dropdown__2 {
+  opacity: 1;
+  visibility: visible;
   margin-top: 10px;
+}
+
+.nav-items .nav-item .expand:hover>.dropdown__4 {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 30px;
 }
 
 .dropdown::before {
@@ -729,7 +741,7 @@ nav .logo img {
   background-color: #fff;
   position: absolute;
   top: 0;
-  left: 27%;
+  left: 48%;
   transform: rotate(45deg) translate(-50%, -10%);
 }
 
@@ -924,7 +936,7 @@ nav .logo img {
 }
 
 .dropdown__2::before {
-  left: 35%;
+  left: 57%;
 }
 
 .dropdown__3::before {
@@ -932,7 +944,7 @@ nav .logo img {
 }
 
 .dropdown__4::before {
-  left: 65%;
+  left: 82%;
 }
 
 .dropdown__4 {

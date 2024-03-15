@@ -37,3 +37,10 @@
     color: #242222;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1200px) {
+    .terms__content {
+      width: 100%;
+      padding: 15px;
+    }
+}

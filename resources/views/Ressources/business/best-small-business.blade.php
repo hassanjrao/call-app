@@ -1,7 +1,7 @@
 @extends('layouts')
 @section('content')
     <div class="hero-container">
-        <div class="title">
+        <div class="blog-title">
             <h2>Top 10 Best Small Business Virtual Phone System</h2>
         </div>
         <div class="hero__desc">

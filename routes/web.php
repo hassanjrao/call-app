@@ -194,7 +194,7 @@ Route::get('/call-analytics', function () {
 Route::get('/call-monitoring', function () {
     $plans = Plan::all();
     $firstPlanId = $plans->first()->id;
-    return view('Product\callMonitoring',compact("plans"));
+    return view('Product\callMonitoring',compact("plans", "firstPlanId"));
 });
 Route::get('/predictive-dialer', function () {
     $plans = Plan::all();
@@ -231,7 +231,6 @@ Route::get('/business-phone-system', function () {
     $firstPlanId = $plans->first()->id;
     return view('Product.businessPhoneSym',compact("firstPlanId","plans")); 
 });
-
 
 
 
@@ -343,6 +342,9 @@ Route::get("/telephony/work-from-home-phone-solutions", function(){
 });
 
 
+
+
+
 // Errors 
 Route::fallback(function () {
     $firstPlanId =  Plan::all()->first()->id;
@@ -361,6 +363,21 @@ Route::get("/terms", function(){
     return view('Legal.Terms', compact("firstPlanId"));
 });
 
+Route::get("/refund-policy", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Legal.Refund', compact("firstPlanId"));
+});
+
+Route::get("/privacy-policy", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Legal.Privacy', compact("firstPlanId"));
+});
+
+Route::get("/acceptable-use", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('Legal.Acceptable', compact("firstPlanId"));
+});
+
 
 // Payment
 
@@ -372,6 +389,7 @@ Route::post('payment', [PaymentController::class, 'processPayment'])->name('paym
 Route::get('cancel',[PaymentController::class, 'cancel'])->name('payment.cancel');
 Route::get('/thank-you', [PaymentController::class, 'thankYou'])->name('thankYou');
 Route::post('/success', [PaymentController::class, 'success'])->name('payment.success');
+
 
 
 
