@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="hero-container">
-        <div class="title">
+        <div class="blog-title">
             <h2>The Need For Work From Home Phone Solutions</h2>
         </div>
         <div class="hero__desc">
@@ -28,11 +28,11 @@
             Work from home phone solutions offer various benefits, including:
         </p>
         <ul>
-            <li>Flexibility: Employees can make and receive calls from anywhere with an internet connection, allowing for greater flexibility and mobility.</li>
-            <li>Cost Savings: Work from home phone solutions are often more cost-effective than traditional phone systems, as they eliminate the need for physical infrastructure and maintenance.</li>
-            <li>Scalability: These solutions can easily scale to accommodate growing businesses and fluctuating call volumes without requiring significant investments or upgrades.</li>
-            <li>Integration: Many work from home phone solutions integrate seamlessly with other communication tools and software, such as email, CRM systems, and collaboration platforms.</li>
-            <li>Features: They offer a wide range of features and functionalities, including call forwarding, voicemail, auto-attendant, conference calling, and more, to enhance productivity and efficiency.</li>
+            <li><strong>Flexibility:</strong> Employees can make and receive calls from anywhere with an internet connection, allowing for greater flexibility and mobility.</li>
+            <li><strong>Cost Savings:</strong> Work from home phone solutions are often more cost-effective than traditional phone systems, as they eliminate the need for physical infrastructure and maintenance.</li>
+            <li><strong>Scalability:</strong> These solutions can easily scale to accommodate growing businesses and fluctuating call volumes without requiring significant investments or upgrades.</li>
+            <li><strong>Integration:</strong> Many work from home phone solutions integrate seamlessly with other communication tools and software, such as email, CRM systems, and collaboration platforms.</li>
+            <li><strong>Features:</strong> They offer a wide range of features and functionalities, including call forwarding, voicemail, auto-attendant, conference calling, and more, to enhance productivity and efficiency.</li>
         </ul>
         <p class="instruction-end">
             Overall, work from home phone solutions empower remote workers to stay connected, productive, and engaged, regardless of their location.

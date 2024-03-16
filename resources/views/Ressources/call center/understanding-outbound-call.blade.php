@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="hero-container">
-        <div class="title">
+        <div class="blog-title">
             <h2>Outbound Call Meaning</h2>
         </div>
         <div class="hero__desc">
@@ -18,7 +18,7 @@
         </div>
     </div>
     <div class="blog-content">
-        <h3>Outbound Call Meaning</h3>
+        <h5>Outbound Call Meaning</h5>
         <p>
             An outbound call, also known as an outgoing call, refers to a telephone call initiated by a caller or agent to reach out to a recipient. Unlike inbound calls, which are received by the recipient, outbound calls are made by the caller with the intention of communicating with someone else.
         </p>

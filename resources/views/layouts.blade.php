@@ -230,7 +230,7 @@
                                 <ul class="content">
                                     <li><a href="/ebook">E-Books & Guides</a></li>
                                     {{-- <li><a href="#">Knowledge Base</a></li> --}}
-                                    <li><a href="/blog/business-guide">Business Guide</a></li>
+                                    <li><a href="/call-queuing-system/">Call Queuing</a></li>
                                     <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
                                     {{-- <li><a href="#">Call Center Guide</a></li>
                                     <li><a href="#">Customer Reviews</a></li> --}}
@@ -253,7 +253,7 @@
                                 <ul>
                                     <li><a href="/ebook">E-Books & Guides</a></li>
                                     {{-- <li><a href="#">Knowledge Base</a></li> --}}
-                                    <li><a href="/blog/business-guide">Business Guide</a></li>
+                                    <li><a href="/call-queuing-system/">Call Queuing</a></li>
                                     <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
                                     {{-- <li><a href="#">Call Center Guide</a></li>
                                     <li><a href="#">Customer Reviews</a></li> --}}
@@ -364,8 +364,7 @@
         </div>
         <div class="copyright">
             <p>
-                COPYRIGHT © 2023 - HIVOCALL STATUS DPA AUP SMS POLICY PRIVACY POLICY
-                TERMS & CONDITIONS SITEMAP
+                COPYRIGHT © 2024 - HIVOCALL 
             </p>
             <div class="socials">
                 <i class="fa-brands fa-facebook"></i>
@@ -374,7 +373,7 @@
             </div>
         </div>
     </footer>
-    <div id="cookieConsentContainer" class="cookie-consent-container">
+    <div id="cookieConsentContainer" class="cookie-consent-container"  style="display: none;">
         <p>This website uses cookies to ensure you get the best experience on our website.</p>
         <button id="acceptCookies">Accept</button>
         <button id="refuseCookies">Refuse</button>
@@ -401,33 +400,31 @@
 }
     </style>
     <script>
-        function toggleAccordion() {
-            let accordionContent = document.getElementById("accordionContent");
-            if (accordionContent.style.display === "block") {
-                accordionContent.style.display = "none";
-            } else {
-                accordionContent.style.display = "block";
-            }
-        }
-
         document.addEventListener('DOMContentLoaded', function () {
-    var consentContainer = document.getElementById('cookieConsentContainer');
-    var acceptButton = document.getElementById('acceptCookies');
-    var refuseButton = document.getElementById('refuseCookies');
-
-    acceptButton.addEventListener('click', function() {
-        consentContainer.style.display = 'none';
-        // Here, you would also set cookies as the user has accepted.
-    });
-
-    refuseButton.addEventListener('click', function() {
-        consentContainer.style.display = 'none';
-        // Optionally, handle the refusal of cookies, such as disabling non-essential cookies.
-    });
-
-    // Optionally, check if the user has already made a choice and hide the banner accordingly.
-}); 
+            var consentContainer = document.getElementById('cookieConsentContainer');
+            var acceptButton = document.getElementById('acceptCookies');
+            var refuseButton = document.getElementById('refuseCookies');
+    
+            // Check if the user has already seen the cookie consent section
+            var hasSeenCookieConsent = localStorage.getItem('hasSeenCookieConsent');
+            if (!hasSeenCookieConsent) {
+                consentContainer.style.display = 'block';
+            }
+    
+            acceptButton.addEventListener('click', function() {
+                consentContainer.style.display = 'none';
+                localStorage.setItem('hasSeenCookieConsent', 'true');
+                // Here, you would also set cookies as the user has accepted.
+            });
+    
+            refuseButton.addEventListener('click', function() {
+                consentContainer.style.display = 'none';
+                localStorage.setItem('hasSeenCookieConsent', 'true');
+                // Optionally, handle the refusal of cookies, such as disabling non-essential cookies.
+            });
+        });
     </script>
+    
 </body>
 
 </html>

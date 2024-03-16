@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="hero-container">
-        <div class="title">
+        <div class="blog-title">
             <h2>What is a Business Phone Line? [Top 5 Providers]</h2>
         </div>
         <div class="hero__desc">

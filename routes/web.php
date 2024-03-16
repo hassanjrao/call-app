@@ -246,6 +246,13 @@ Route::get('/ebook', function () {
     return view('Ressources.CaseStudies.ebook', compact("firstPlanId"));
 });
 
+
+Route::get('/call-queuing-system', function () {
+    $firstPlanId =  Plan::all()->first()->id;
+    $plans = Plan::all();
+    return view('Ressources.CaseStudies.CallQueuing', compact("plans","firstPlanId"));
+});
+
 Route::get('/blog/business-guide', function () {
     $firstPlanId =  Plan::all()->first()->id;
 

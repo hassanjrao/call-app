@@ -1,7 +1,7 @@
 @extends('layouts')
 @section('content')
     <div class="hero-container">
-        <div class="title">
+        <div class="blog-title">
             <h2>How to Scale a Business in 2024 | 5 Strategies to Make Your Business Scalable</h2>
         </div>
         <div class="hero__desc">

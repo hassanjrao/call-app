@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="hero-container">
-        <div class="title">
+        <div class="blog-title">
             <h2>What is a Hosted Contact Center? Benefits and Key Differences</h2>
         </div>
         <div class="hero__desc">
@@ -28,11 +28,11 @@
             Key features and benefits of hosted contact centers include:
         </p>
         <ul>
-            <li>Scalability: Hosted contact centers can easily scale up or down based on call volume and business needs, allowing organizations to efficiently manage peak periods and seasonal fluctuations.</li>
-            <li>Cost-Effectiveness: With no upfront hardware costs and predictable subscription-based pricing models, hosted contact centers offer cost-effective solutions for businesses of all sizes.</li>
-            <li>Flexibility: Hosted contact centers enable remote work and support omnichannel communication, allowing agents to interact with customers via voice, email, chat, social media, and SMS from anywhere with an internet connection.</li>
-            <li>Reliability: Cloud-based infrastructure ensures high availability and reliability, with built-in redundancy and failover capabilities to minimize downtime and ensure uninterrupted customer service.</li>
-            <li>Integration: Hosted contact centers easily integrate with CRM systems, helpdesk software, and other business applications, enabling seamless data exchange and providing agents with a comprehensive view of customer interactions and history.</li>
+            <li><strong>Scalability:</strong> Hosted contact centers can easily scale up or down based on call volume and business needs, allowing organizations to efficiently manage peak periods and seasonal fluctuations.</li>
+            <li><strong>Cost-Effectiveness:</strong> With no upfront hardware costs and predictable subscription-based pricing models, hosted contact centers offer cost-effective solutions for businesses of all sizes.</li>
+            <li><strong>Flexibility:</strong> Hosted contact centers enable remote work and support omnichannel communication, allowing agents to interact with customers via voice, email, chat, social media, and SMS from anywhere with an internet connection.</li>
+            <li><strong>Reliability:</strong> Cloud-based infrastructure ensures high availability and reliability, with built-in redundancy and failover capabilities to minimize downtime and ensure uninterrupted customer service.</li>
+            <li><strong>Integration:</strong> Hosted contact centers easily integrate with CRM systems, helpdesk software, and other business applications, enabling seamless data exchange and providing agents with a comprehensive view of customer interactions and history.</li>
         </ul>
         <p class="instruction-end">
             By leveraging a hosted contact center solution, businesses can enhance customer experience, improve agent productivity, and drive operational efficiency while reducing costs and eliminating the complexity of managing on-premises infrastructure.

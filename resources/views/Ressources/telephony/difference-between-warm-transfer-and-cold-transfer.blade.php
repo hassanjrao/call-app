@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="hero-container">
-        <div class="title">
+        <div class="blog-title">
             <h2>Cold Transfer vs. Warm Transfer: 3 Minute Guide in Video Format</h2>
         </div>
         <div class="hero__desc">

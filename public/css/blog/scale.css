@@ -20,6 +20,13 @@
 
 }
 
+.blog-content >.last {
+    font-size: 1.45rem;
+    color: #012635;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
 .blog-content h5 {
     font-size: 1.45rem;
     color: #012635;
@@ -42,7 +49,7 @@
     color: #211f22;
 }
 
-.blog-content ul li {
+.blog-content ul li , .blog-content p{
     font-size: 1.1rem;
     line-height: 1.6;
     padding-left: 20px;
