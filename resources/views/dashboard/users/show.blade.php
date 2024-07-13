@@ -30,15 +30,15 @@
                             <td>{{ $user->customer->number }}</td>
                         </tr>
                         <tr>
-                            <th>Phone Number</th>
+                            <th>Country</th>
                             <td>{{ $user->customer->country }}</td>
                         </tr>
                         <tr>
-                            <th>Phone Number</th>
+                            <th>Plan</th>
                             <td>{{ $user->customer->plan->name }}</td>
                         </tr>
                         <tr>
-                            <th>Phone Number</th>
+                            <th>Payment Method</th>
                             <td>{{ $user->customer->paymentMethod->methodType}}</td>
                         </tr>
                     @endif

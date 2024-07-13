@@ -700,12 +700,13 @@ nav .logo img {
   gap: 10px;
 }
 
-.footer-container .copyright .socials i {
+.footer-container .copyright .socials > a {
   font-size: 1.5rem;
   cursor: pointer;
+  color: #ccc9;
 }
 
-.footer-container .copyright .socials i:hover {
+.footer-container .copyright .socials> a> i:hover {
   color: var(--primary-color);
 }
 
@@ -835,6 +836,7 @@ nav .logo img {
 .dropdown>.dropdown__features {
   background-color: var(--secondary-color);
   border-radius: 18px;
+  z-index:999;
 }
 
 .dropdown>div>h3 {

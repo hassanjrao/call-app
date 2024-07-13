@@ -7,6 +7,7 @@ use App\Models\{Customer, PaymentMethod, Plan, Role, User};
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\{DB, Hash, Mail, Session};
 use Illuminate\Support\Str;
+use Stevebauman\Location\Facades\Location;
 
 
 class PaymentController extends Controller
@@ -18,53 +19,70 @@ class PaymentController extends Controller
     }
 
 
-    public function processPayment(Request $request)
+   public function processPayment(Request $request)
+{
+    $data = json_decode($request->getContent(), true);
+    $names = explode(' ', $data['name'], 2);
+    $firstName = $names[0]  ? $names[0] : 'N\A';
+    $lastName = isset($names[1]) ? $names[1] : 'N\A';
+    $phone = isset($data['phone']) ? $data['phone'] : 'N\A';
+    $UserIP = $request->ip();
 
-    {
-
-
-            $data = json_decode($request->getContent(), true);
-            $paymentMethod = PaymentMethod::where('methodType', 'paypal')->first();
-            $password = Str::random(10);
-            // Assuming you receive user details and plan id in the request
-            $user = User::create([
-                'first_name' => $data['first_name'], // You need to ensure these are passed correctly
-                'last_name' => $data['last_name'],
-                'email' => $data['email'],
-                'password' => $password, // Consider generating a random password or asking the user to set it
-                'role_id' => Role::where('roleName', 'customer')->first()->id,
-            ]);
-
-            // Generate or define the password here
-            $user->password = Hash::make($password);
-
-// Send welcome email with password
-
-
-            // Optionally create a customer record
-            Customer::create([
-                'user_id' => $user->id,
-                'country' => "Morocco", // Assume country is obtained and stored in session
-                'number' => $data['phone'],
-                'plan_id' =>$data['plan_id'],
-                'payment_method_id' => $paymentMethod->id,
-                // Add other necessary fields
-            ]);
-            Mail::to($user->email)->send(new NewUserWelcome($user, $password));
-            // Implement the logic to handle payment confirmation and storing payment details
-
-            // After successful payment, redirect to the thank-you page with user details
-
-        // This method should be called by the PayPal SDK's onApprove function
-        return redirect()->route('thankYou');
-        // Consider how you want to handle password visibility/security
+    $country = "France"; // Default to France if no location data is found
+    $position = Location::get($UserIP);
+    
+    if (is_object($position) && isset($position->countryName)) {
+        $country = $position->countryName;
+    } else {
+        // Log error or handle the case where position is not as expected
+        \Log::error("Failed to retrieve location data for IP: $UserIP");
     }
+
+    $paymentMethod = PaymentMethod::where('methodType', 'paypal')->first();
+    $password = Str::random(10);
+    
+    $user = User::create([
+        'first_name' => $firstName,
+        'last_name' => $lastName,
+        'email' => $data['email'],
+        'password' => $password, 
+        'role_id' => Role::where('roleName', 'customer')->first()->id,
+    ]);
+
+    $user->password = Hash::make($password);
+
+    Customer::create([
+        'user_id' => $user->id,
+        'country' => $country, 
+        'number' => $phone,
+        'plan_id' => $data['plan_id'],
+        'payment_method_id' => $paymentMethod->id,
+    ]);
+
+    Mail::to($user->email)->send(new NewUserWelcome($user, $password));
+    
+    $emailData = [
+        'name' => $data['name'],
+        'email' => $data['email'],
+        'phone' => $phone,
+        'additionalData' => $data,
+        'price' => $data['price'],
+        'planName' => $data['planName'],
+    ];
+
+    $sub = "Pack " . $data['planName']; 
+    $emails = ['brahimalouanii441@gmail.com', 'hamzabrahim0852@gmail.com']; 
+    Mail::send('emails.orderConfirmation', $emailData, function ($message) use ($emails, $sub) {
+        $message->to($emails)->subject($sub);
+    });
+
+    return redirect()->route('thankYou');
+}
 
 
     public function stripePost(Request $request, $planId)
     {
-        $plan = Plan::findOrFail($planId); // Make sure you pass the plan ID to this method
-
+        $plan = Plan::findOrFail($planId); 
         $stripe = new \Stripe\StripeClient(env('STRIPE_SECRET'));
         $paymentIntent = $stripe->paymentIntents->create([
             'amount' => $plan->price * 100, // Convert to cents
@@ -75,7 +93,7 @@ class PaymentController extends Controller
         // Store plan and payment data in session for use after payment confirmation
         $request->session()->put('paymentData', [
             'plan_id' => $plan->id,
-            // Any other data you need
+           
         ]);
 
         return [
@@ -94,9 +112,9 @@ class PaymentController extends Controller
             $paymentIntent = $stripe->paymentIntents->retrieve($paymentIntentId);
 
             if ($paymentIntent->status == 'succeeded') {
-                // Assuming session contains plan_id and any other necessary info
+               
 
-                // Redirect to thank you page
+                
                 return redirect()->route('thankYou');
             } else {
                 // Handle failed payment

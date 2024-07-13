@@ -37,10 +37,7 @@ class UserController extends Controller
         'last_name' => 'required|string|max:255',
         'email' => 'required|string|email|max:255|unique:users',
         'password' => 'required|string|min:8',
-        'number' => 'required|string|max:255',
         'role_id' => 'required|integer|exists:roles,id',
-        'payment_method_id' => 'nullable|integer|exists:payment_methods,id',
-        'plan_id' => 'nullable|integer|exists:plans,id',
     ]);
 
     $validatedData['password'] = Hash::make($validatedData['password']);

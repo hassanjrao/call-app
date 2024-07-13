@@ -5,6 +5,7 @@ use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\PhoneNumberController;
 use App\Http\Controllers\PlanController;
 use App\Http\Controllers\UserController;
+use App\Models\Customer;
 use App\Models\Plan;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
@@ -32,35 +33,6 @@ Route::middleware(['guest'])->group(function () {
 
 
 
-//Route::middleware(['auth'])->group(function () {
-//
-//
-//
-//    //Admin
-//
-//    Route::resource('users', UserController::class);
-//    Route::resource('plans', PlanController::class);
-//
-//
-//    //Both
-//    Route::put('/user/profile/update', [UserController::class, 'updateProfile'])->name('users.updateProfile');
-//    Route::get('/user/profile', [UserController::class, 'profileShow'])->name('user.profile');
-//    Route::get('/user/profile/edit', [UserController::class, 'editProfile'])->name('profile.edit');
-//    Route::get('/dashboard', function () {
-//        $newOrdersCount = User::count(); // Assuming you have an Order model
-//        $bounceRate = 53; // This would come from your analytics tool or database
-//        $userRegistrationsCount = User::count();
-//
-//        return view('dashboard.index', compact('newOrdersCount', 'bounceRate', 'userRegistrationsCount')); // Assuming you have an sms.blade.php file under dashboard directory
-//    })->name('dashboard');
-//    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
-//
-//    //Customer
-//    Route::resource('phone', PhoneNumberController::class);
-//    Route::post('/phone/fetch-numbers', [PhoneNumberController::class, 'fetchAvailableNumbers'])->name('phone.fetch-numbers');
-//    Route::resource('billing', PhoneNumberController::class);
-//
-//});
 
 Route::middleware(['auth'])->group(function () {
 
@@ -85,7 +57,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/user/profile', [UserController::class, 'profileShow'])->name('user.profile');
     Route::get('/user/profile/edit', [UserController::class, 'editProfile'])->name('profile.edit');
     Route::get('/dashboard', function () {
-        $newOrdersCount = User::count();
+        $newOrdersCount = Customer::count();
         $bounceRate = 53;
         $userRegistrationsCount = User::count();
 
@@ -189,12 +161,12 @@ Route::get('/voice-broadcasting', function () {
 Route::get('/call-analytics', function () {
     $plans = Plan::all();
     $firstPlanId = $plans->first()->id;
-    return view('Product\callAnalytics',compact("plans","firstPlanId"));
+    return view('Product.callAnalytics',compact("plans","firstPlanId"));
 });
 Route::get('/call-monitoring', function () {
     $plans = Plan::all();
     $firstPlanId = $plans->first()->id;
-    return view('Product\callMonitoring',compact("plans", "firstPlanId"));
+    return view('Product.callMonitoring',compact("plans", "firstPlanId"));
 });
 Route::get('/predictive-dialer', function () {
     $plans = Plan::all();
@@ -404,6 +376,12 @@ Route::get("/about", function(){
     return view('aboutUs', compact("firstPlanId"));
 });
 
+Route::get("/why-choose-us", function(){
+    $firstPlanId =  Plan::all()->first()->id;
+    return view('whyChooseUs', compact("firstPlanId"));
+});
+
+
 Route::get("/terms", function(){
     $firstPlanId =  Plan::all()->first()->id;
     return view('Legal.Terms', compact("firstPlanId"));
@@ -444,6 +422,5 @@ Route::post('/payment/stripe/handle', [PaymentController::class, 'handleStripePa
 
 
 //Route::get('/thank-you', [PaymentController::class, 'successStripe'])->name('success.stripe');
-
 
 

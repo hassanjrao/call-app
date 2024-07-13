@@ -320,7 +320,7 @@
                 </li>
                 <li><a href="/call-monitoring">Call Monitoring</a></li>
                 <li><a href="/voip-for-market-research">Market Research</a></li>
-                <li><a href="/sol">Virtual Phone Number</a></li>
+                <li><a href="/virtual-phone-number">Virtual Phone Number</a></li>
                 <li><a href="/power-dialer">Power Dialer</a></li>
                 <li><a href="/support-contact-center">Sales & Support</a></li>
                 <li><a href="/call-centre-solution-for-software-and-technology">Software & Technology</a></li>
@@ -358,6 +358,8 @@
                 <li style="color: #FFF1EA">Learn to Make More Calls:</li>
                 <li><a href="tel:+1 (406) 220-5458">+1 (406) 220-5458</a></li>
                 <li><a href="/about">About Us</a></li>
+                <li><a href="/why-choose-us">Why Choose Us</a></li>
+
 
             </ul>
             
@@ -367,9 +369,8 @@
                 COPYRIGHT © 2024 - HIVOCALL 
             </p>
             <div class="socials">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.facebook.com/people/Hivocall-LLC/61556888513691/" target="_black"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/hivocall/" target="_black"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
     </footer>

@@ -41,14 +41,12 @@
                                         <td>{{ $phoneNumber->number }}</td>
                                         <td>USA</td>
                                         <td>
-                                            <a href="{{ route('users.show', $phoneNumber->id) }}"
+                                            <a href="{{ route('phone.edit', $phoneNumber->id) }}"
                                                class="btn btn-xs btn-info">View</a>
-                                            <a href="{{ route('users.edit', $phoneNumber->id) }}"
-                                               class="btn btn-xs btn-primary">Edit</a>
                                             <button type="button" class="btn btn-xs btn-danger"
                                                     onclick="confirmDelete({{ $phoneNumber->id }})">Delete</button>
                                             <form id="delete-form-{{ $phoneNumber->id }}"
-                                                  action="{{ route('users.destroy', $phoneNumber->id) }}" method="POST"
+                                                  action="{{ route('phone.destroy', $phoneNumber->id) }}" method="POST"
                                                   style="display: none;">
                                                 @csrf
                                                 @method('DELETE')

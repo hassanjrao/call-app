@@ -12,6 +12,7 @@
         "laravel/tinker": "^2.8",
         "paypal/rest-api-sdk-php": "^1.6",
         "srmklive/paypal": "~1.0",
+        "stevebauman/location": "^7.2",
         "stripe/stripe-php": "^13.13",
         "twilio/sdk": "^7.16"
     },

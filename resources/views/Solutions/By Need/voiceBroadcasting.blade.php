@@ -133,7 +133,7 @@
 
         <div class="freeTrial">
             <div class="left">
-                <h3>Start your <span>Free Trial</span> today</h3>
+                <h3>Get Your  <span>Plan</span>  Today!</h3>
                 <p>
                     From number buying to inviting your users to making your first call,
                     all it takes to set up your virtual phone system is 3 minutes.
@@ -281,33 +281,6 @@
                 </div>
             </div>
         </div>
-        <div class="related__posts">
-            <div class="related__head">
-                <h2>Related Post
-                </h2>
-            </div>
-            <div class="related__body">
-                <div class="post">
-                    <img loading="lazy" decoding="async"
-                        src="src='{{ asset( "img/webp/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.webp") }}'
-                        alt="Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential" height="180"
-                        width="343">
-                    <a href="#" target="_blank"
-                        rel="noopener" data-wpel-link="internal">
-                        <h3>Reasons Why Voice Broadcasting Solution For Customer Surveys Is Essential</h3>
-                    </a>
-                </div>
-                <div class="post">
-                    <img loading="lazy" decoding="async"
-                    src='{{ asset( "img/webp/9-Reasons-Why-Voice-Broadcasting-Solution-For-Customer-Surveys-Is-Essential-FB.webp") }}'
-                        alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
-                    <a href="#"
-                        target="_blank" rel="noopener" data-wpel-link="internal">
-                        <h3>How Your Business Can Benefit From Voice Broadcasting?</h3>
-                    </a>
-                </div>
-            </div>
-
-        </div>
+        
     </div>
 @endsection

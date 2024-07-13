@@ -18,26 +18,6 @@
                     alt="support">
             </div>
         </section>
-        <section class="trusted-container">
-            <div class="trusted-heading">
-                <p>Trusted by 4000+ companies</p>
-            </div>
-            <div class="trusted-content">
-                <img loading="lazy" src="{{ asset('img/companies/Amazon.svg') }}"
-                    alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/brighchamps.svg') }}"
-                    alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/oracle.svg') }}"
-                    alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/turing.svg') }}" alt="trusted" />
-                <img loading="lazy" src="{{ asset('img/companies/valuelabs.svg') }}"
-                    alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/iresearch.svg') }}"
-                    alt="trusted" />
-                <img loading="lazy" src="{{ asset('img/companies/intellipaat_logo.svg') }}"
-                    alt="trusted" />
-            </div>
-        </section>
         <section class="whyCall__container">
             <div class="why__header">
                 <h2 class="why__title">Why HivoCall?</h2>

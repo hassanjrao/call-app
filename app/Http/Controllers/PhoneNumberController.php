@@ -156,9 +156,10 @@ class PhoneNumberController extends Controller
 
 
     // Show the form for editing the specified resource
-    public function edit(PhoneNumber $phoneNumber)
+     public function edit($id)
     {
-        // Return view to edit a specific phone number if needed
+        $number = PhoneNumber::find($id);
+        return view('dashboard.customers.show',compact('number'));
     }
 
     // Update the specified resource in storage

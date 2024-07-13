@@ -22,7 +22,7 @@ class NewUserWelcome extends Mailable
 
     public function build()
     {
-        return $this->subject('Welcome to HivoCall! Your Account is Ready')
+        return $this->subject('Payment Successful')
             ->view('emails.newUserWelcome')
             ->with([
                 'email' => $this->user->email,

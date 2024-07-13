@@ -14,7 +14,7 @@ body {
     height: 100vh;
     background-color: #F3F4F6;
     width: 100vw;
-    overflow: auto;
+       overflow-x: hidden;
 }
 
 .checkout-container {
@@ -22,6 +22,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .checkout-container>.billing-info {
@@ -51,7 +52,7 @@ body {
     width: 75%;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 
 .input-fields span {
@@ -148,7 +149,23 @@ ion-icon {
     gap: 15px;
     padding-block: 35px;
     padding-left: 25%;
-    padding-right: 25px
+    padding-right: 25px;
+}
+
+.order-summary > .head{
+    display: flex;
+}
+
+.overview{
+    display: none;
+}
+
+.overview.active{
+    display: block;
+}
+
+#toggleSummary{
+    cursor: pointer;
 }
 
 .order-summary p {
@@ -236,4 +253,26 @@ input:focus {
 .stripe-btn:disabled {
     opacity: 0.5;
     cursor: default;
+}
+
+@media screen and (max-width: 1200px) {
+    .checkout-container{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .order-summary{
+        padding: 25px;
+    }
+
+    .checkout-container>.billing-info{
+        width: 100%;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .input-fields,.payment-methods,.paypal-button-container{
+        width: 90%;
+    }
+
 }

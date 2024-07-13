@@ -1,130 +1,95 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>Welcome to HivoCall</title>
-    <style type="text/css">
-        @import url(https://fonts.googleapis.com/css?family=Nunito);
-        img {
-            max-width: 600px;
-            outline: none;
-            text-decoration: none;
-            -ms-interpolation-mode: bicubic;
-        }
-        html{
-            margin: 0;
-            padding:0;
-        }
-        a {
-            text-decoration: none;
-            border: 0;
-            outline: none;
-            color: #bbbbbb;
-        }
-        a img {
-            border: none;
-        }
-        td, h1, h2, h3  {
-            font-family: Helvetica, Arial, sans-serif;
-            font-weight: 400;
-        }
-        td {
-            text-align: center;
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Payment Successful</title>
+    <style>
+        /* CSS Styles */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
         body {
-            -webkit-font-smoothing:antialiased;
-            -webkit-text-size-adjust:none;
-            width: 100%;
-            height: 100%;
-            color: #666;
-            background: #fff;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 50px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header img {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            color: #FF1849;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666666;
             font-size: 16px;
-            height: 100vh;
-            width: 100%;
-            padding: 0px;
-            margin: 0px;
+            margin-top: 0;
         }
-        table {
-            border-collapse: collapse !important;
+
+        .content p {
+            color: #333333;
+            line-height: 1.6;
+            margin-bottom: 30px;
         }
-        .headline {
-            color: #444;
-            font-size: 36px;
+
+        .cta {
+            display: inline-block;
+            background-color: #FF1849;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
         }
-        .force-full-width {
-            width: 100% !important;
+
+        .cta:hover {
+            background-color: #FF1849;
         }
     </style>
 </head>
-<body bgcolor="#fff" style="padding:20px; margin:0; display:block; background:#ffffff;">
-<table align="center" cellpadding="0" cellspacing="0" height="100%" width="100%">
-    <tbody>
-    <tr>
-        <td align="center" bgcolor="#fff" valign="top" width="100%">
-            <center>
-                <table cellpadding="0" cellspacing="0" class="w320" style="margin: 0 auto;" width="600">
-                    <tbody>
-                    <tr>
-                        <td align="center" valign="top">
-                            <table bgcolor="#fff" cellpadding="0" cellspacing="0" style="margin: 0 auto; width: 100%; margin-top: 100px;">
-                                <tbody>
-                                <tr>
-                                    <td>
-                                        <img alt="logo" height="155" src="{{ asset('img/SVG/logoDark.svg') }}" width="155">
-                                    </td>
-                                </tr>
-                                <tr><td class="headline">Welcome to HivoCall!</td></tr>
-                                <tr>
-                                    <td>
-                                        <center>
-                                            <table cellpadding="0" cellspacing="0" style="margin: 0 auto;" width="75%">
-                                                <tbody>
-                                                <tr>
-                                                    <td style="color:#444; font-weight: 400;"><br><br>
-                                                        Congratulations on joining HivoCall, the most reliable VoIP service for businesses and professionals. <br><br>
-                                                        Here are your login credentials:
-                                                        <br>
-                                                        <span style="font-weight:bold;">Email:</span><span> {{ $email }}</span>
-                                                        <br>
-                                                        <span style="font-weight:bold;">Password:</span><span> {{ $password }}</span>
-                                                        <br><br>
-                                                    </td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </center>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <div>
-                                            <a style="background-color:#FF1849;border-radius:4px;color:#fff;display:inline-block;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:normal;line-height:50px;text-align:center;text-decoration:none;width:350px;" href="https://www.hivocall.com/dashboard">Access Your Dashboard</a>
-                                        </div>
-                                        <br>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                            <table bgcolor="#fff" cellpadding="0" cellspacing="0" class="force-full-width">
-                                <tbody>
-                                <tr>
-                                    <td style="color:#444;">
-                                        <p>The password was auto-generated, feel free to change it
-                                            <a href="https://www.hivocall.com/login" style="text-decoration: underline;">here</a>.
-                                        </p>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
-            </center>
-        </td>
-    </tr>
-    </tbody>
-</table>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fa-solid fa-check" style="color: #FF1849; font-size: 6rem;"></i>
+            <h1>Payment Successful</h1>
+            <p>Thank you for your payment!</p>
+        </div>
+        <div class="content">
+            <p>Dear [Client Name],</p>
+            <p>We're delighted to confirm that your payment has been processed successfully. We appreciate your trust in
+                our services and look forward to continuing our collaboration.</p>
+            <p>We will be in touch with you soon to provide the necessary credentials. If you have any further questions
+                or concerns, please don't hesitate to reach out to us.</p>
+        </div>
+    </div>
 </body>
+
 </html>

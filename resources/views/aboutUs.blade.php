@@ -2,7 +2,7 @@
 @section('content')
     <div class="callCenter__container">
         <section class="hero__items">
-            <div class="hero__content" style="text-align: center">
+            <div class="hero__content" style="text-align: center; padding-top: 5rem; padding-bottom : 5rem">
 
                 <p class="title">Conquer Global Markets With Us</p>
                 <p class="content" style="margin: auto">
@@ -12,70 +12,7 @@
                 <div class="hero__btn" style="margin: 25px" > <button style="margin: auto;"><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button></div>
             </div>
         </section>
-        <section class="trusted-container">
-            <div class="trusted-heading">
-                <p>Trusted by 4000+ companies</p>
-            </div>
-            <div class="trusted-content">
-                <img loading="lazy" src="{{ asset('img/companies/Amazon.svg') }}"
-                    alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/brighchamps.svg') }}"
-                    alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/oracle.svg') }}"
-                    alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/turing.svg') }}" alt="trusted" />
-                <img loading="lazy" src="{{ asset('img/companies/valuelabs.svg') }}"
-                    alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/iresearch.svg') }}"
-                    alt="trusted" />
-                <img loading="lazy" src="{{ asset('img/companies/intellipaat_logo.svg') }}"
-                    alt="trusted" />
-            </div>
-        </section>
-        <section class="architects__container" style="margin-top: 25px">
-           <div class="architects_header">
-            <h3>
-                The Architects Of HivoCall
-            </h3>
-            <p>
-                The visionary minds who pioneered the next generation of business communication.
-            </p>
-           </div>
-           <div class="architects_body">
-           
-            <div class="architect_card">
-                <img src="{{ asset("img/Professional/JONATHAN-800-scaled.jpg") }}" alt="">
-                <h4>Alice Bob</h4>
-                <p class="architechPosition">
-                    Founder & CEO
-                </p>
-                <p>
-                    Alice Bob is a young and dynamic entrepreneur known for his visionary leadership and passion for creating innovative solutions. He is the CEO and founder of Appitsimple SoftwareSuggest, and HivoCall– three highly successful ventures with over $20 million combined annual revenue.
-                </p>
-            </div>
-            <div class="architect_card">
-                <img src="{{ asset("img/Professional/headshot-ai-71-113.jpg") }}" alt="">
-                <h4>Sophia Brown</h4>
-                <p class="architechPosition">
-                    Co-Founder
-                </p>
-                <p>
-                    Sophia Brown is a visionary co-founder and the driving force behind HivoCall. With over a decade of industry experience and a CA degree from The Institute of Chartered Accountants of India, she brings a wealth of knowledge, expertise, and a deep understanding of finance and business intricacies to her role.
-                </p>
-            </div>
-            <div class="architect_card">
-                <img src="{{ asset("img/Professional/20210810_SLP0072-Edit.jpg") }}" alt="">
-                <h4>Emma Smith</h4>
-                <p class="architechPosition">
-                    Head of Technology
-                </p>
-                <p>
-                    Emma Smith is a seasoned technology professional with over 10 years of experience in the industry. As the Head of Technology at HivoCall, he oversees the development of the company's innovative products and ensures that they meet the highest standards of quality and customer satisfaction.
-                </p>
-            </div>
-            
-           </div>
-        </section>
+        
         
         <div class="benefitsGrid" style="margin-top: 20px">
             <div class="left">

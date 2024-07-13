@@ -117,7 +117,7 @@
 
         <div class="freeTrial">
             <div class="left">
-                <h3>Start your <span>Free Trial</span> today</h3>
+                <h3>Get Your  <span>Plan</span>  Today!</h3>
                 <p>
                     From number buying to inviting your users to making your first call,
                     all it takes to set up your virtual phone system is 3 minutes.

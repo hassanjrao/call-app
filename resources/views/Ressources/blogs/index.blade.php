@@ -8,7 +8,7 @@
             </div>
             <div class="content">
                 <div class="left">
-                    <img loading="lazy" src="{{ asset("img/webp/Top-Free-VoIP-Providers-for-Businesses_feature.webp") }} "
+                    <img loading="lazy" src="{{ asset("/img/ebooks/cover.png") }} "
                         alt="blog">
                     <a href="blog/general/free-voip-providers" class="title">Top 6 Free VoIP Providers for Businesses in
                         2024</a>

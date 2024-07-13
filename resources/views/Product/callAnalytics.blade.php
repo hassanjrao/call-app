@@ -103,7 +103,8 @@
 
         <div class="freeTrial">
             <div class="left">
-                <h3>Start your <span>Free Trial</span> today</h3>
+                <h3>
+Get Your  <span>Plan</span>  Today!</h3>
                 <p>
                     From number buying to inviting your users to making your first call,
                     all it takes to set up your virtual phone system is 3 minutes.
@@ -356,22 +357,6 @@
                 </div>
             </div>
         </div>
-        <div class="related__posts">
-            <div class="related__head">
-              <h2>Related Post
-              </h2>
-            </div>
-            <div class="related__body">
-              <div class="post">
-                <img loading="lazy" decoding="async" loading="lazy" src="{{ asset("img/webp/What-Is-Call-Analytics-and-Why-Should-Marketers-Use-It-Fb.webp") }} " alt="What Is Call Analytics and Why Should Marketers Use It?" height="180" width="343">                
-                <a href="#" rel="noopener" data-wpel-link="internal"><h3>What Is Call Analytics and Why Should Marketers Use It?</h3> </a>
-              </div>
-              <div class="post">
-                <img loading="lazy" decoding="async" src="{{ asset("img/webp/How-Your-Business-Can-Benefit-From-Voice-Broadcasting-FB.webp") }} " alt="How Your Business Can Benefit From Voice Broadcasting?" height="180" width="343">
-                <a href="#"><h3>How Your Business Can Benefit From Voice Broadcasting?</h3> </a>
-              </div>
-            </div>
-            
-          </div>
+        
     </div>
 @endsection

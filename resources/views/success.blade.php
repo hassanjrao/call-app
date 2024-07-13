@@ -67,8 +67,6 @@
 <div class="container">
     <h3><span>Thank</span> You!</h3>
     <p>Your payment was successful:</p>
-
-    <a href="{{ route('login') }}" class="btn btn-primary">Login</a>
 </div>
 </body>
 

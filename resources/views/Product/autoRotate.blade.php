@@ -19,20 +19,7 @@
                 <img loading="lazy" src="{{ asset('img/heros/Auto-rotate.png') }}" alt="auto-rotate">
             </div>
         </section>
-        <section class="trusted-container">
-            <div class="trusted-heading">
-                <p>Trusted by 4000+ companies</p>
-            </div>
-            <div class="trusted-content">
-                <img loading="lazy" src="{{ asset('img/companies/Amazon.svg') }}" alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/brighchamps.svg') }}" alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/oracle.svg') }}" alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/turing.svg') }}" alt="trusted" />
-                <img loading="lazy" src="{{ asset('img/companies/valuelabs.svg') }}" alt="trusted" /><img loading="lazy"
-                    src="{{ asset('img/companies/iresearch.svg') }}" alt="trusted" />
-                <img loading="lazy" src="{{ asset('img/companies/intellipaat_logo.svg') }}" alt="trusted" />
-            </div>
-        </section>
+        
         <section class="whyCall__container">
             <div class="why__header">
                 <h2 class="why__title">Why HivoCall?</h2>
@@ -72,8 +59,8 @@
                     <h2 class="exp__title">Deliver Top-Notch Experience</h2>
                     <p class="exp__text">Change numbers automatically from the HivoCall dialer to avoid being marked in the
                         list of spammers. Boost credibility and improve business ROI instantly!</p>
-                    <div class="hero__btn"> <button><button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
-</button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
+</div>
                 </div>
                 <div class="exp__cards">
                     <div class="exp__card">
@@ -117,8 +104,8 @@
                     <p class="desc">
                         From buying a number to setting up the auto-rotate feature, all it takes is 3 minutes!
                     </p>
-                    <button><button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
-</button>
+                    <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
+
                 </div>
                 <img loading="lazy" src="{{ asset('img/SVG/business-phone-number.png') }}"
                     alt="Mobile" />
@@ -133,8 +120,8 @@
                         Enhances privacy, prevents spam markings, and present a fresh and legitimate appearance to
                         recipients.
                         Optimize your communication efficiency today.</p>
-                    <div class="hero__btn"> <button><button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
-</button></div>
+                    <div class="hero__btn"> <button><a href="/checkout/{{ $firstPlanId }}">Get A Plan</a></button>
+</div>
                 </div>
                 <div class="benefits__cards">
                     <div class="benefits__card">

@@ -104,7 +104,7 @@
 
         <div class="freeTrial">
             <div class="left">
-                <h3>Start your <span>Free Trial</span> today</h3>
+                <h3>Get Your  <span>Plan</span>  Today!</h3>
                 <p>
                     From number buying to inviting your users to making your first call,
                     all it takes to set up your virtual phone system is 3 minutes.
@@ -340,27 +340,6 @@
                 
             </div>
         </div>
-        <div class="related__posts">
-            <div class="related__head">
-              <h2>Related Post
-              </h2>
-            </div>
-            <div class="related__body">
-              <div class="post">
-                <img loading="lazy" decoding="async" loading="lazy" src="{{ asset("img/webp/10-Best-Call-Monitoring-Software-For-2023_fb-1024x538.webp") }} "" alt="Best Call Monitoring Software For 2023" height="180" width="343">                
-                <a href="#" rel="noopener" data-wpel-link="internal"><h3>Call Center Monitoring: Best Practices &amp; 5 Providers</h3></a>
-              </div>
-              <div class="post">
-                <img loading="lazy" decoding="async" loading="lazy" src="{{ asset("img/webp/call-center-quality-monitoring-1024x538.webp") }} " Center Monitoring" height="180" width="343">
-                <a href="#"><h3>Call Center Monitoring: Best Practices &amp; 5 Providers</h3> </a>
-              </div>
-              <div class="post">
-                <img loading="lazy" decoding="async" loading="lazy" src="{{ asset("img/webp/Tips-to-Improve-Your-Call-Quality-Monitoring_FB.webp") }} " alt="Ways to Improve Your Call Quality Monitoring Process
-                " height="180" width="343">
-                <a href="#"><h3>Ways to Improve Your Call Quality Monitoring Process</h3></a>
-              </div>
-            </div>
-            
-          </div>
+        
     </div>
 @endsection
