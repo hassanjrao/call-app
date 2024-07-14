@@ -144,7 +144,7 @@ class StripeController extends Controller
 
                 $sub = "Pack " . $plan->name;
                 // $emails = ['brahimalouanii441@gmail.com', 'hamzabrahim0852@gmail.com'];
-                $emails=['hassanjrao@gmail.com'];
+                $emails=['hassanjrao@gmail.com','brahimalouanii441@gmail.com'];
                 Mail::send('emails.orderConfirmation', $emailData, function ($message) use ($emails, $sub) {
                     $message->to($emails)->subject($sub);
                 });
