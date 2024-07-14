@@ -83,7 +83,7 @@
             <p>Thank you for your payment!</p>
         </div>
         <div class="content">
-            <p>Dear [Client Name],</p>
+            <p>Dear {{ $name }},</p>
             <p>We're delighted to confirm that your payment has been processed successfully. We appreciate your trust in
                 our services and look forward to continuing our collaboration.</p>
             <p>We will be in touch with you soon to provide the necessary credentials. If you have any further questions

@@ -25,6 +25,7 @@ class NewUserWelcome extends Mailable
         return $this->subject('Payment Successful')
             ->view('emails.newUserWelcome')
             ->with([
+                'name'=> $this->user->first_name . ' ' . $this->user->last_name,
                 'email' => $this->user->email,
                 'password' => $this->password
             ]);

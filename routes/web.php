@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\PhoneNumberController;
 use App\Http\Controllers\PlanController;
+use App\Http\Controllers\StripeController;
 use App\Http\Controllers\UserController;
 use App\Models\Customer;
 use App\Models\Plan;
@@ -420,6 +421,10 @@ Route::post('/success', [PaymentController::class, 'success'])->name('payment.su
 Route::post('/payment/stripe/{planId}', [PaymentController::class, 'stripePost'])->name('payment.stripe');
 Route::post('/payment/stripe/handle', [PaymentController::class, 'handleStripePayment'])->name('payment.stripe.handle');
 
+
+Route::post('stripe/create-user', [StripeController::class, 'createUser'])->name('stripe.create-user');
+
+Route::post('stripe/subscription', [StripeController::class, 'subscription'])->name('stripe.subscription');
 
 //Route::get('/thank-you', [PaymentController::class, 'successStripe'])->name('success.stripe');
 
