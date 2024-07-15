@@ -251,7 +251,7 @@
                     // iconColor: '#c4f0ff',
                     fontWeight: '500',
                     fontFamily: 'Roboto, Open Sans, Segoe UI, sans-serif',
-                    fontSize: '18px',
+                    fontSize: '15px',
                     padding: '20px 22px',
                     fontSmoothing: 'antialiased',
                     border: '1px solid #e0e0e0',
