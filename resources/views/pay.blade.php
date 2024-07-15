@@ -43,7 +43,7 @@
                 <ion-icon id="toggleSummary" name="chevron-down-outline"></ion-icon>
             </div>
 
-            <div class="overview active">
+            <div class="overview">
                 <p class="pack">{{ $plan->name }} x 1 <span>€{{ $plan->price }}</span></p>
                 <p class="total">Total <span>€{{ $plan->price }}</span></p>
             </div>
