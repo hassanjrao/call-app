@@ -245,7 +245,9 @@
 
         const elements = stripe.elements()
 
+        // no zip code in element
         const cardElement = elements.create('card', {
+            hidePostalCode: true,
             style: {
                 base: {
                     // iconColor: '#c4f0ff',
@@ -258,12 +260,14 @@
                     width: '100%',
 
                 },
-                // invalid: {
-                // iconColor: '#FFC7EE',
-                // color: '#FFC7EE',
-                // },
+                invalid: {
+                iconColor: '#FFC7EE',
+                color: '#FFC7EE',
+                },
             }
         })
+
+
 
         cardElement.mount('#payment-element')
         var form = document.getElementById('payment-form')
