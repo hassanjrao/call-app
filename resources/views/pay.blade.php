@@ -82,7 +82,7 @@
 
             <!-- Stripe Payment Form -->
 
-            <div class="row">
+            <div class="row w-100">
 
                 <div class="col-lg-8">
                     <div class="card">
