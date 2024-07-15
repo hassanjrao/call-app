@@ -90,7 +90,7 @@
                             <h3>Pay with Stripe</h3>
                         </div>
                         <div class="card-body">
-                            <div id="stripe-payment-form" style=" width: 75%">
+                            <div id="stripe-payment-form" style=" width: 100%">
                                 <div id="payment-message" class="alert alert-info" style="display: none;"></div>
                                 <form action="{{ route('stripe.subscription') }}" method="post" id="payment-form">
                                     @csrf
