@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\NewUserWelcome;
 use App\Models\{Customer, PaymentMethod, Plan, Role, User};
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\{DB, Hash, Mail, Session};
+use Illuminate\Support\Facades\{DB, Hash, Log, Mail, Session};
 use Illuminate\Support\Str;
 use Stevebauman\Location\Facades\Location;
 
@@ -127,8 +127,42 @@ class PaymentController extends Controller
     }
 
 
-    public function thankYou()
+    public function thankYou(Request $request)
     {
+        $user=User::find($request->user_id);
+
+        $userPassword = session('user_password');
+
+        $plan = Plan::find($request->plan_id);
+
+        Mail::to($user->email)->send(new NewUserWelcome($user, $userPassword));
+
+
+        try {
+            $emailData = [
+                'name' => $user->first_name . ' ' . $user->last_name,
+                'email' => $user->email,
+                'phone' => $user->customer ? $user->customer->number : 'N\A',
+                'additionalData' => [],
+                'price' => $plan->price,
+                'planName' => $plan->name,
+            ];
+
+            $sub = "Pack " . $plan->name;
+            // $emails = ['brahimalouanii441@gmail.com', 'hamzabrahim0852@gmail.com'];
+            $emails = ['hassanjrao@gmail.com', 'brahimalouanii441@gmail.com'];
+            Mail::send('emails.orderConfirmation', $emailData, function ($message) use ($emails, $sub) {
+                $message->to($emails)->subject($sub);
+            });
+        } catch (\Exception $e) {
+            Log::error('StripeController@subscribeSuccess: ', [
+                'message' => $e->getMessage(),
+                'line' => $e->getLine(),
+                'file' => $e->getFile(),
+                'stack' => $e->getTraceAsString(),
+            ]);
+        }
+
         // Retrieve user details from session and display them
         return view('success');
     }

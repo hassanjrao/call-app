@@ -8,6 +8,7 @@ use App\Mail\NewUserWelcome;
 use App\Models\{Customer, PaymentMethod, Plan, Role, User};
 use Illuminate\Support\Facades\{DB, Hash, Mail, Session};
 use Illuminate\Support\Str;
+use Laravel\Cashier\Exceptions\IncompletePayment;
 use Stevebauman\Location\Facades\Location;
 use Stripe\SetupIntent;
 use Stripe\Stripe;
@@ -83,7 +84,10 @@ class StripeController extends Controller
                     'website' => config('app.url'),
                     'user_id' => $user->id,
                 ],
+
             ]);
+
+
 
 
             return response()->json([
@@ -118,50 +122,32 @@ class StripeController extends Controller
 
             $plan = Plan::findorfail($request->plan_id);
 
-            $subscription = $user->newSubscription(
-                $plan->id,
-                $plan->stripe_id,
-            )
-                ->create($request->token,[
-                    'email' => $user->email,
-                    'name' => $user->first_name . ' ' . $user->last_name,
-                ]);
-
-
-            $user->save();
-
+            
             $userPassword = session('user_password');
-
-            Mail::to($user->email)->send(new NewUserWelcome($user, $userPassword));
 
 
             try {
-                $emailData = [
-                    'name' => $user->first_name . ' ' . $user->last_name,
-                    'email' => $user->email,
-                    'phone' => $user->customer ? $user->customer->number : 'N\A',
-                    'additionalData' => [],
-                    'price' => $plan->price,
-                    'planName' => $plan->name,
-                ];
 
-                $sub = "Pack " . $plan->name;
-                // $emails = ['brahimalouanii441@gmail.com', 'hamzabrahim0852@gmail.com'];
-                $emails=['hassanjrao@gmail.com','brahimalouanii441@gmail.com'];
-                Mail::send('emails.orderConfirmation', $emailData, function ($message) use ($emails, $sub) {
-                    $message->to($emails)->subject($sub);
-                });
-            } catch (\Exception $e) {
-                Log::error('StripeController@subscribeSuccess: ', [
-                    'message' => $e->getMessage(),
-                    'line' => $e->getLine(),
-                    'file' => $e->getFile(),
-                    'stack' => $e->getTraceAsString(),
-                ]);
+                $subscription = $user->newSubscription(
+                    $plan->id,
+                    $plan->stripe_id,
+                )
+                    ->create($request->token, [
+                        'email' => $user->email,
+                        'name' => $user->first_name . ' ' . $user->last_name,
+                    ]);
+            } catch (IncompletePayment $exception) {
+                return redirect()->route(
+                    'cashier.payment',
+                    [$exception->payment->id, 'redirect' => route('thankYou',['user_id' => $user->id,'plan_id' => $plan->id])]
+                );
             }
 
 
-            return redirect()->route('thankYou');
+
+
+
+            return redirect()->route('thankYou', ['user_id' => $user->id, 'plan_id' => $plan->id]);
         } catch (\Exception $e) {
             Log::error("StripeController@subscription: ", [
                 'message' => $e->getMessage(),
