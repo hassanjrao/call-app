@@ -36,8 +36,8 @@
         }
     </style>
 
-    <div class="checkout-container">
-        <div class="order-summary">
+    <div class="container mt-5">
+        {{-- <div class="order-summary">
             <div class="head">
                 <h3>Order Summary</h3>
                 <ion-icon id="toggleSummary" name="chevron-down-outline"></ion-icon>
@@ -47,86 +47,118 @@
                 <p class="pack">{{ $plan->name }} x 1 <span>€{{ $plan->price }}</span></p>
                 <p class="total">Total <span>€{{ $plan->price }}</span></p>
             </div>
-        </div>
-        <div class="billing-info">
-            @csrf
-            <input type="hidden" name="plan_id" id="plan_id" value="{{ $plan->id }}">
-            @if ($errors->any())
-                <div style="color: red; padding: 10px; margin-bottom: 20px; border: 1px solid red;">
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
-            @endif
-            <div class="input-fields">
-                <label for="name">Name </label>
-                <input name="name" type="text" id="name" placeholder="Your Full Name">
-                <span id="name-error" style="color: red; display: none;">Please enter both your first and last
-                    names.</span>
-            </div>
-            <div class="input-fields">
-                <label for="email">Email <span>*</span></label>
-                <input name="email" type="email" id="email" placeholder="your@email.com" required>
-                <span id="email-error" style="color: red; display: none;">Please enter both your first and last
-                    names.</span>
-            </div>
-            <div class="input-fields">
-                <label for="phone">Phone </label>
-                <input name="phone" type="tel" id="phone" placeholder="Your Phone Number">
-                <span id="phone-error" style="color: red; display: none;">Please enter both your first and last
-                    names.</span>
-            </div>
+        </div> --}}
 
+        <div class="row mt-5 justify-content-center">
 
-            <!-- Stripe Payment Form -->
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Contact Info</h3>
+                    </div>
+                    <div class="card-body">
+                        <input type="hidden" name="plan_id" id="plan_id" value="{{ $plan->id }}">
+                        @if ($errors->any())
+                            <div style="color: red; padding: 10px; margin-bottom: 20px; border: 1px solid red;">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
 
-            <div class="row w-100">
-
-                <div class="col-lg-8">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>Pay with Stripe</h3>
-                        </div>
-                        <div class="card-body">
-                            <div id="stripe-payment-form" style=" width: 100%">
-                                <div id="payment-message" class="alert alert-info" style="display: none;"></div>
-                                <form action="{{ route('stripe.subscription') }}" method="post" id="payment-form">
-                                    @csrf
-                                    <input type="hidden" name="plan_id" id="plan_id" value="{{ $plan->id }}">
-                                    <div id="payment-element"></div>
-                                    <button type="submit" id="submitBtn" class="btn">
-                                        <button class="stripe-btn" id="stripe-btn" style="background: black">Pay now</button>
-                                        {{-- <span id="spinner" style="display: none;">Processing...</span> --}}
-                                    </button>
-                                </form>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="input-fields">
+                                    <label for="name">Name </label>
+                                    <input name="name" type="text" id="name" placeholder="Your Full Name">
+                                    <span id="name-error" style="color: red; display: none;">Please enter both your
+                                        first
+                                        and last
+                                        names.</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-fields">
+                                    <label for="email">Email <span>*</span></label>
+                                    <input name="email" type="email" id="email" placeholder="your@email.com"
+                                        required>
+                                    <span id="email-error" style="color: red; display: none;">Please enter both your
+                                        first
+                                        and last
+                                        names.</span>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="input-fields">
+                                    <label for="phone">Phone </label>
+                                    <input name="phone" type="tel" id="phone" placeholder="Your Phone Number">
+                                    <span id="phone-error" style="color: red; display: none;">Please enter both your
+                                        first
+                                        and last
+                                        names.</span>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+            </div>
+            <!-- Stripe Payment Form -->
 
-                {{-- <div class="col-lg-6">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>Pay with Paypal</h3>
-                        </div>
-                        <div class="card-body d-flex justify-content-center">
-                            <!-- PayPal Button Container -->
-                            <div id="paypal-button-container" style=" width: 75%;"></div>
 
-                            <p class="secure">
-                                <ion-icon name="lock-closed-outline"></ion-icon></i> this is a secure encrypted payment
-                            </p>
+            <div class="col-lg-8 mt-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Pay with Credit Card</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="stripe-payment-form" style=" width: 100%">
+                            <div id="payment-message" class="alert alert-info" style="display: none;"></div>
+                            <form action="{{ route('stripe.subscription') }}" method="post" id="payment-form">
+                                @csrf
+                                <input type="hidden" name="plan_id" id="plan_id" value="{{ $plan->id }}">
+                                <div class="input-fields mb-3">
+                                    <label for="name">Name On Card </label>
+                                    <input name="nameOnCard" type="text" id="nameOnCard" placeholder="Name On Card">
+                                    <span id="name-card-error" style="color: red; display: none;">Please Enter Your Name On Card </span>
+                                </div>
+                                <div id="payment-element"></div>
+                                
+                                <button type="submit" id="submitBtn" class="btn">
+                                    <button class="stripe-btn" id="stripe-btn" style="background: black">Pay
+                                        now</button>
+                                    {{-- <span id="spinner" style="display: none;">Processing...</span> --}}
+                                </button>
+                            </form>
                         </div>
                     </div>
-                </div> --}}
-
+                </div>
             </div>
 
+            {{-- <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Pay with Paypal</h3>
+                                </div>
+                                <div class="card-body d-flex justify-content-center">
+                                    <!-- PayPal Button Container -->
+                                    <div id="paypal-button-container" style=" width: 75%;"></div>
+        
+                                    <p class="secure">
+                                        <ion-icon name="lock-closed-outline"></ion-icon></i> this is a secure encrypted payment
+                                    </p>
+                                </div>
+                            </div>
+                        </div> --}}
 
 
         </div>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
@@ -157,6 +189,16 @@
                 isValid = false;
             } else {
                 document.getElementById('email-error').style.display = 'none';
+            }
+
+            var nameOnCard = document.getElementById('nameOnCard').value;
+
+            if (!nameOnCard) {
+                document.getElementById('name-card-error').style.display = 'block'; // Show error message
+                document.getElementById('name-card-error').innerText = 'Please enter your name on card.';
+                isValid = false;
+            } else {
+                document.getElementById('name-card-error').style.display = 'none';
             }
 
             return isValid; // Return the overall form validity
@@ -219,13 +261,13 @@
                 // document.querySelector("#submitBtn").disabled = true;
                 // document.querySelector("#spinner").style.display = "inline";
                 // document.querySelector("#stripe-btn").style.display = "none";
-                
+
                 document.querySelector("#stripe-btn").innerHTML = "Processing...";
                 document.querySelector("#stripe-btn").style.backgroundColor = "gray";
-                
+
                 // disable button
                 document.querySelector("#stripe-btn").disabled = true;
-                
+
             } else {
                 // document.querySelector("#submitBtn").disabled = false;
                 // document.querySelector("#spinner").style.display = "none";
@@ -261,8 +303,8 @@
 
                 },
                 invalid: {
-                iconColor: '#FFC7EE',
-                color: '#FFC7EE',
+                    iconColor: '#FFC7EE',
+                    color: '#FFC7EE',
                 },
             }
         })
@@ -335,7 +377,7 @@
                     payment_method: {
                         card: cardElement,
                         billing_details: {
-                            // name: cardHolderName.value
+                            name: document.getElementById('nameOnCard').value
                         }
                     }
                 })
