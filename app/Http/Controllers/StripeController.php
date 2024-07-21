@@ -122,7 +122,10 @@ class StripeController extends Controller
                 $plan->id,
                 $plan->stripe_id,
             )
-                ->create($request->token);
+                ->create($request->token,[
+                    'email' => $user->email,
+                    'name' => $user->first_name . ' ' . $user->last_name,
+                ]);
 
 
             $user->save();
