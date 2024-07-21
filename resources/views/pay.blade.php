@@ -54,7 +54,7 @@
             <div class="col-lg-8">
                 <div class="card">
                     <div class="card-header">
-                        <h3>Contact Info</h3>
+                        <h5>Contact Info</h5>
                     </div>
                     <div class="card-body">
                         <input type="hidden" name="plan_id" id="plan_id" value="{{ $plan->id }}">
@@ -114,7 +114,7 @@
             <div class="col-lg-8 mt-4">
                 <div class="card">
                     <div class="card-header">
-                        <h3>Pay with Credit Card</h3>
+                        <h5>Pay with Credit Card</h5>
                     </div>
                     <div class="card-body">
                         <div id="stripe-payment-form" style=" width: 100%">
