@@ -5,6 +5,7 @@ use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\PhoneNumberController;
 use App\Http\Controllers\PlanController;
 use App\Http\Controllers\StripeController;
+use App\Http\Controllers\StripePaymentController;
 use App\Http\Controllers\UserController;
 use App\Models\Customer;
 use App\Models\Plan;
@@ -428,4 +429,8 @@ Route::post('stripe/subscription', [StripeController::class, 'subscription'])->n
 
 //Route::get('/thank-you', [PaymentController::class, 'successStripe'])->name('success.stripe');
 
+
+
+Route::post('stripe-payment/intent', [StripePaymentController::class, 'getIntent'])->name('stripePayment.getIntent');
+Route::post('stripe-payment/subscribe', [StripePaymentController::class, 'subscribe'])->name('stripePayment.subscribe');
 

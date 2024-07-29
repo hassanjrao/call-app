@@ -15,7 +15,26 @@ class PaymentController extends Controller
     public function showPaymentForm($planId)
     {
         $plan = Plan::findOrFail($planId);
-        return view('pay', compact('plan'));
+
+        $user=User::create([
+            'first_name' => 'N\A',
+            'last_name' => 'N\A',
+            'email'=>rand(10,1000).'@gmail.com',
+            'password' => Hash::make('password'),
+            'is_temp' => true,
+            'role_id'=>2
+        ]);
+
+        $intent= $user->createSetupIntent([
+            'metadata' => [
+                'plan_id' => $plan->id,
+                'website' => config('app.url'),
+                'user_id' => $user->id,
+            ],
+        ]);
+
+
+        return view('pay_new', compact('plan', 'intent','user'));
     }
 
 
