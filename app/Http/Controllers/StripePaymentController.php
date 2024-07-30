@@ -35,6 +35,7 @@ class StripePaymentController extends Controller
 
         session(['user_password' => $password]);
 
+
         $user->update([
             'first_name' => $firstName,
             'last_name' => $lastName,
@@ -45,6 +46,8 @@ class StripePaymentController extends Controller
 
         $plan = Plan::find($request->plan_id);
 
+        session(['user_id' => $user->id]);
+        session(['plan_id' => $plan->id]);
 
 
 
@@ -84,7 +87,7 @@ class StripePaymentController extends Controller
         } catch (IncompletePayment $exception) {
             return redirect()->route(
                 'cashier.payment',
-                [$exception->payment->id, 'redirect' => route('thankYou', ['user_id' => $user->id, 'plan_id' => $plan->id])]
+                [$exception->payment->id]
             );
         }
 

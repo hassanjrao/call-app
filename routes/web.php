@@ -73,6 +73,13 @@ Route::middleware(['auth'])->group(function () {
 
 Route::get('/', function () {
     $firstPlanId =  Plan::all()->first()->id;
+
+    if(isset($_GET['success']) && $_GET['success']=='true'){
+        $userId=session('user_id');
+        $planId=session('plan_id');
+        return redirect()->route('thankYou', ['user_id' => $userId, 'plan_id' => $planId]);
+    }
+
     return view('home', compact("firstPlanId"));
 });
 

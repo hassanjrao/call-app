@@ -68,7 +68,7 @@
         }
 
         #payment-message {
-            color: rgb(105, 115, 134);
+            color: red;
             font-size: 16px;
             line-height: 20px;
             padding-top: 12px;
