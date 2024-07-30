@@ -14,6 +14,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
+    <style>
+        /* if mobile screen */
+        @media only screen and (max-width: 800px) {
+           #paymentFormDiv {
+                margin-top: 20px;
+            }
+        }
+    </style>
+
 
 
 </head>
@@ -184,10 +193,10 @@
     <div class="container mt-5">
 
 
-        <form id="payment-form" method="POST" action="{{ route('stripePayment.subscribe') }}">
+        <form id="payment-form" method="POST" action="{{ route('stripePayment.subscribe') }}" class="w-100 d-flex justify-content-center">
             @csrf
 
-            <div class="row mt-5 justify-content-center">
+            <div class="row mt-5 justify-content-center w-100">
 
                 <div class="col-lg-4">
                     <div class="card-form">
@@ -225,7 +234,7 @@
                     <!-- Stripe Payment Form -->
                 </div>
 
-                <div class="col-lg-8 card-form">
+                <div class="col-lg-8 card-form" id="paymentFormDiv">
                     <div id="payment-element">
                         <!--Stripe.js injects the Payment Element-->
                     </div>
