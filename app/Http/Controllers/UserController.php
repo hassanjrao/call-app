@@ -15,7 +15,9 @@ class UserController extends Controller
     // Display a listing of the users.
     public function index()
     {
-        $users = User::with(['role', 'customer.paymentMethod', 'customer.plan'])->get();
+        $users = User::with(['role', 'customer.paymentMethod', 'customer.plan'])
+        ->where('is_temp', 0)
+        ->get();
         return view('dashboard.users.index', compact('users'));
     }
 
