@@ -150,6 +150,10 @@ class PaymentController extends Controller
     {
         $user=User::find($request->user_id);
 
+        if(!$user){
+            $user=User::find(session('user_id'));
+        }
+
         $userPassword = session('user_password');
 
         $plan = Plan::find($request->plan_id);
