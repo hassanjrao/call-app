@@ -21,6 +21,10 @@
                 margin-top: 20px;
             }
         }
+
+        .TermsText{
+            display: none;
+        }
     </style>
 
 
