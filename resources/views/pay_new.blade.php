@@ -291,9 +291,7 @@
 
             const paymentElementOptions = {
                 layout: "tabs",
-                business: {
-                    'name': "{{ config('app.name') }}",
-                },
+                
             };
 
             const paymentElement = elements.create("payment", paymentElementOptions);
