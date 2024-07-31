@@ -19,7 +19,7 @@ class PaymentController extends Controller
         $user=User::create([
             'first_name' => 'N\A',
             'last_name' => 'N\A',
-            'email'=>rand(10,1000).'@gmail.com',
+            'email'=>rand(10,1000).time().'@gmail.com',
             'password' => Hash::make('password'),
             'is_temp' => true,
             'role_id'=>2
