@@ -21,10 +21,6 @@
                 margin-top: 20px;
             }
         }
-
-        .TermsText{
-            display: none;
-        }
     </style>
 
 
@@ -295,7 +291,18 @@
 
             const paymentElementOptions = {
                 layout: "tabs",
-                
+                terms: {
+                    card: 'never',
+                    applePay: 'never',
+                    googlePay: 'never',
+                    auBecsDebit: 'never',
+                    cashapp: 'never',
+                    ideal: 'never',
+                    paypal: 'never',
+                    sepaDebit: 'never',
+                    sofort: 'never',
+                    usBankAccount: 'never',
+                }
             };
 
             const paymentElement = elements.create("payment", paymentElementOptions);
