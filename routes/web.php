@@ -10,7 +10,10 @@ use App\Http\Controllers\UserController;
 use App\Models\Customer;
 use App\Models\Plan;
 use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
+use Stripe\Webhook;
 
 /*
 |--------------------------------------------------------------------------
@@ -441,3 +444,47 @@ Route::post('stripe/subscription', [StripeController::class, 'subscription'])->n
 Route::post('stripe-payment/intent', [StripePaymentController::class, 'getIntent'])->name('stripePayment.getIntent');
 Route::post('stripe-payment/subscribe', [StripePaymentController::class, 'subscribe'])->name('stripePayment.subscribe');
 
+
+
+Route::post('/stripe/webhook', function (Request $request) {
+    $payload = $request->getContent();
+    $sig_header = $request->header('Stripe-Signature');
+    $endpoint_secret = env('STRIPE_WEBHOOK_SECRET');
+
+    try {
+        $event = Webhook::constructEvent(
+            $payload, $sig_header, $endpoint_secret
+        );
+    } catch (\UnexpectedValueException $e) {
+        // Invalid payload
+        return response()->json(['error' => 'Invalid payload'], 400);
+    } catch (\Stripe\Exception\SignatureVerificationException $e) {
+        // Invalid signature
+        return response()->json(['error' => 'Invalid signature'], 400);
+    }
+
+    Log::info('Webhook received! ' . $event);
+
+    dd($event);
+
+    // Handle the event
+    switch ($event->type) {
+        case 'setup_intent.succeeded':
+            $paymentIntent = $event->data->object; // contains a StripePaymentIntent
+            // Then define and call a method to handle the successful payment intent.
+            // handlePaymentIntentSucceeded($paymentIntent);
+            return redirect()->route('thankYou', ['success' => 'true']);
+            break;
+        case 'setup_intent.payment_failed':
+            $paymentIntent = $event->data->object; // contains a StripePaymentIntent
+            // Then define and call a method to handle the failed payment intent.
+            // handlePaymentIntentPaymentFailed($paymentIntent);
+            return abort(400, 'Payment Failed');
+            break;
+        // ... handle other event types
+        default:
+            echo 'Received unknown event type ' . $event->type;
+    }
+
+    return response()->json(['status' => 'success']);
+});
