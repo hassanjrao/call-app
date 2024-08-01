@@ -223,7 +223,7 @@
                                     class="form-control" required>
                             </div>
                             <div class="col-lg-12">
-                                <label for="phone" style="font-size: smaller">Téléphone*</label>
+                                <label for="phone" style="font-size: smaller">Phone*</label>
                                 <input name="phone" type="tel" id="phone" placeholder="Numéro de téléphone"
                                     class="form-control" required>
                             </div>
