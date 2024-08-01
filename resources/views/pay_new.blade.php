@@ -81,7 +81,7 @@
 
         /* Buttons and links */
         button {
-            background: #5469d4;
+            background: #ff1849;
             font-family: Arial, sans-serif;
             color: #ffffff;
             border-radius: 4px;
