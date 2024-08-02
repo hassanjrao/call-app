@@ -198,6 +198,16 @@
 
             <div class="row mt-5 justify-content-center w-100">
 
+                <div class="col-lg-12">
+                    {{-- session error alert--}}
+                    @if (session('error'))
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            {{ session('error') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    @endif
+                </div>
+
                 <div class="col-lg-4">
                     <div class="card-form">
                         <input type="hidden" name="plan_id" id="plan_id" value="{{ $plan->id }}">
