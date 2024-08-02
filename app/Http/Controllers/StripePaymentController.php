@@ -27,7 +27,6 @@ class StripePaymentController extends Controller
 
                 $user->update([
                     'email' => $request->email,
-                    'stripe_id'=>null,
                 ]);
             }
 
