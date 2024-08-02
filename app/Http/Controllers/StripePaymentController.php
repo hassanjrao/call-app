@@ -73,7 +73,7 @@ class StripePaymentController extends Controller
             'country' => $country,
             'number' => $request->phone,
             'plan_id' => $request->plan_id,
-            'payment_method_id' => $plan->id,
+            'payment_method_id' =1,
         ]);
 
 
