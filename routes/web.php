@@ -446,44 +446,48 @@ Route::post('stripe-payment/subscribe', [StripePaymentController::class, 'subscr
 
 
 
-// Route::post('/stripe/webhook', function (Request $request) {
-//     $payload = $request->getContent();
-//     $sig_header = $request->header('Stripe-Signature');
-//     $endpoint_secret = env('STRIPE_WEBHOOK_SECRET');
+Route::get('/stripe/webhook', function (Request $request) {
+    $payload = $request->getContent();
+    $sig_header = $request->header('Stripe-Signature');
+    $endpoint_secret = env('STRIPE_WEBHOOK_SECRET');
 
-//     try {
-//         $event = Webhook::constructEvent(
-//             $payload, $sig_header, $endpoint_secret
-//         );
-//     } catch (\UnexpectedValueException $e) {
-//         // Invalid payload
-//         return response()->json(['error' => 'Invalid payload'], 400);
-//     } catch (\Stripe\Exception\SignatureVerificationException $e) {
-//         // Invalid signature
-//         return response()->json(['error' => 'Invalid signature'], 400);
-//     }
+    try {
+        $event = Webhook::constructEvent(
+            $payload, $sig_header, $endpoint_secret
+        );
+    } catch (\UnexpectedValueException $e) {
+        // Invalid payload
+        return response()->json(['error' => 'Invalid payload'], 400);
+    } catch (\Stripe\Exception\SignatureVerificationException $e) {
+        // Invalid signature
+        return response()->json(['error' => 'Invalid signature'], 400);
+    }
 
-//     Log::info('Webhook received! ' . $event);
+    Log::info('Webhook received! ' . $event);
 
 
-//     // Handle the event
-//     switch ($event->type) {
-//         case 'setup_intent.succeeded':
-//             $paymentIntent = $event->data->object; // contains a StripePaymentIntent
-//             // Then define and call a method to handle the successful payment intent.
-//             // handlePaymentIntentSucceeded($paymentIntent);
-//             return redirect()->route('thankYou', ['success' => 'true']);
-//             break;
-//         case 'setup_intent.payment_failed':
-//             $paymentIntent = $event->data->object; // contains a StripePaymentIntent
-//             // Then define and call a method to handle the failed payment intent.
-//             // handlePaymentIntentPaymentFailed($paymentIntent);
-//             return abort(400, 'Payment Failed');
-//             break;
-//         // ... handle other event types
-//         default:
-//             echo 'Received unknown event type ' . $event->type;
-//     }
+    // Handle the event
+    switch ($event->type) {
+        case 'setup_intent.succeeded':
+            $paymentIntent = $event->data->object; // contains a StripePaymentIntent
+            // Then define and call a method to handle the successful payment intent.
+            // handlePaymentIntentSucceeded($paymentIntent);
+            Log::info('setup_intent.succeeded', $event);
+            return redirect()->route('thankYou', ['success' => 'true']);
 
-//     return response()->json(['status' => 'success']);
-// });
+            break;
+        case 'setup_intent.payment_failed':
+            $paymentIntent = $event->data->object; // contains a StripePaymentIntent
+            // Then define and call a method to handle the failed payment intent.
+            // handlePaymentIntentPaymentFailed($paymentIntent);
+            Log::info('setup_intent.payment_failed', $event);
+            return abort(400, 'Payment Failed');
+            break;
+        // ... handle other event types
+        default:
+        Log::info('default', $event);
+            echo 'Received unknown event type ' . $event->type;
+    }
+
+    return response()->json(['status' => 'success']);
+});
