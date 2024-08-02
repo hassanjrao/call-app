@@ -16,6 +16,8 @@ class StripePaymentController extends Controller
     public function subscribe(Request $request)
     {
 
+        Log::info('StripePaymentController@subscribe', ['request' => $request->all()]);
+
 
         $user = User::where('email', $request->email)->first();
 
