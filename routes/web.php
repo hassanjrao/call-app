@@ -451,15 +451,34 @@ Route::get('/stripe/webhook', function (Request $request) {
     $sig_header = $request->header('Stripe-Signature');
     $endpoint_secret = env('STRIPE_WEBHOOK_SECRET');
 
+    Log::info('Webhook received! ',[
+        'payload' => $payload,
+        'sig_header' => $sig_header,
+        'endpoint_secret' => $endpoint_secret
+    ]);
+
     try {
         $event = Webhook::constructEvent(
             $payload, $sig_header, $endpoint_secret
         );
+
+        Log::info('Webhook received event! ',[
+            'event' => $event
+        ]);
+
     } catch (\UnexpectedValueException $e) {
         // Invalid payload
+        Log::error('Invalid payload',[
+            'error' => $e->getMessage(),
+            'trace' => $e->getTraceAsString()
+        ]);
         return response()->json(['error' => 'Invalid payload'], 400);
     } catch (\Stripe\Exception\SignatureVerificationException $e) {
         // Invalid signature
+        Log::error('Invalid signature',[
+            'error' => $e->getMessage(),
+            'trace' => $e->getTraceAsString()
+        ]);
         return response()->json(['error' => 'Invalid signature'], 400);
     }
 
