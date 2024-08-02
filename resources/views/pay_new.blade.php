@@ -214,7 +214,7 @@
                         <div class="row">
                             <div class="col-lg-12 mb-4">
                                 <label for="name" style="font-size: smaller">Full Name</label>
-                                <input name="name" type="text" id="name" placeholder=" Nom Complet"
+                                <input name="name" type="text" id="name" placeholder="Nom Complet"
                                     class="form-control">
                             </div>
                             <div class="col-lg-12 mb-4">
