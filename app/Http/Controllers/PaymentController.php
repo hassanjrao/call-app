@@ -16,16 +16,16 @@ class PaymentController extends Controller
     {
         $plan = Plan::findOrFail($planId);
 
-        $user=User::create([
+        $user = User::create([
             'first_name' => 'N\A',
             'last_name' => 'N\A',
-            'email'=>rand(10,1000).time().'@gmail.com',
+            'email' => rand(10, 1000) . time() . '@gmail.com',
             'password' => Hash::make('password'),
             'is_temp' => true,
-            'role_id'=>2
+            'role_id' => 2
         ]);
 
-        $intent= $user->createSetupIntent([
+        $intent = $user->createSetupIntent([
             'metadata' => [
                 'plan_id' => $plan->id,
                 'website' => config('app.url'),
@@ -34,7 +34,7 @@ class PaymentController extends Controller
         ]);
 
 
-        return view('pay_new', compact('plan', 'intent','user'));
+        return view('pay_new', compact('plan', 'intent', 'user'));
     }
 
 
@@ -148,24 +148,25 @@ class PaymentController extends Controller
 
     public function thankYou(Request $request)
     {
-        $user=User::find($request->user_id);
-
-        if(!$user){
-            $user=User::find(session('user_id'));
-        }
-
-        $userPassword = session('user_password');
-
-        $plan = Plan::find($request->plan_id);
-
-        if(!$plan){
-            $plan = Plan::find(session('plan_id'));
-        }
-
-        Mail::to($user->email)->send(new NewUserWelcome($user, $userPassword));
-
 
         try {
+            $user = User::find($request->user_id);
+
+            if (!$user) {
+                $user = User::find(session('user_id'));
+            }
+
+            $userPassword = session('user_password');
+
+            $plan = Plan::find($request->plan_id);
+
+            if (!$plan) {
+                $plan = Plan::find(session('plan_id'));
+            }
+
+            Mail::to($user->email)->send(new NewUserWelcome($user, $userPassword));
+
+
             $emailData = [
                 'name' => $user->first_name . ' ' . $user->last_name,
                 'email' => $user->email,
