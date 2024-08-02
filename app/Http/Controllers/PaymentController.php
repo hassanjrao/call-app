@@ -158,6 +158,10 @@ class PaymentController extends Controller
 
         $plan = Plan::find($request->plan_id);
 
+        if(!$plan){
+            $plan = Plan::find(session('plan_id'));
+        }
+
         Mail::to($user->email)->send(new NewUserWelcome($user, $userPassword));
 
 

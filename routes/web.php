@@ -505,7 +505,7 @@ Route::get('/stripe/webhook', function (Request $request) {
         // ... handle other event types
         default:
         Log::info('default', $event);
-            echo 'Received unknown event type ' . $event->type;
+        return abort(400, 'Payment Failed');
     }
 
     return response()->json(['status' => 'success']);
