@@ -213,7 +213,7 @@
 
                         <div class="row">
                             <div class="col-lg-12 mb-4">
-                                <label for="name" style="font-size: smaller">Full Name*</label>
+                                <label for="name" style="font-size: smaller">Full Name</label>
                                 <input name="name" type="text" id="name" placeholder=" Nom Complet"
                                     class="form-control">
                             </div>
@@ -223,7 +223,7 @@
                                     class="form-control" required>
                             </div>
                             <div class="col-lg-12">
-                                <label for="phone" style="font-size: smaller">Phone*</label>
+                                <label for="phone" style="font-size: smaller">Phone</label>
                                 <input name="phone" type="tel" id="phone" placeholder="Numéro de téléphone"
                                     class="form-control">
                             </div>
