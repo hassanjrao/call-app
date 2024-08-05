@@ -9,6 +9,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Laravel\Cashier\Exceptions\IncompletePayment;
 use Stevebauman\Location\Facades\Location;
+use Stripe\Stripe;
+use Stripe\Subscription;
 
 class StripePaymentController extends Controller
 {
@@ -83,10 +85,33 @@ class StripePaymentController extends Controller
 
             try {
 
-                $user->newSubscription('cashier', $plan->stripe_id)->create($request->paymentMethod, [
+                Stripe::setApiKey(env('STRIPE_SECRET'));
+
+                $subscription =  $user->newSubscription('cashier', $plan->stripe_id)->create($request->paymentMethod, [
                     'email' => $user->email,
                     'name' => $user->first_name . ' ' . $user->last_name,
+                    'metadata' => [
+                        'plan_id' => $plan->id,
+                        'website' => config('app.url'),
+                        'user_id' => $user->id,
+                    ],
                 ]);
+
+                try {
+                    // Retrieve the subscription and add metadata
+                    $stripeSubscription = Subscription::retrieve($subscription->stripe_id);
+                    $stripeSubscription->metadata = [
+                        'plan_id' => $plan->id,
+                        'website' => config('app.url'),
+                        'user_id' => $user->id,
+                    ];
+                    $stripeSubscription->save();
+                } catch (\Exception $e) {
+                    Log::error('StripePaymentController@stripeSubscription', [
+                        'error' => $e->getMessage(),
+                        'trace' => $e->getTraceAsString(),
+                    ]);
+                }
             } catch (IncompletePayment $exception) {
                 return redirect()->route(
                     'cashier.payment',
