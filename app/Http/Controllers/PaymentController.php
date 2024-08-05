@@ -31,6 +31,7 @@ class PaymentController extends Controller
                 'website' => config('app.url'),
                 'user_id' => $user->id,
             ],
+            'payment_method_types' => ['card'],
         ]);
 
 
